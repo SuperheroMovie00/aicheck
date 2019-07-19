@@ -121,7 +121,12 @@ public class TrafficStatisticsSchedule {
 						message.setAction(MessageTypeEnum.DELETE.getValue());
 						String tudomessage=todoPush.getMessage();
 						tudomessage=tudomessage.replace(":-1",":"+todoPush.getId());
+						System.out.println("删除同步开始******");
 						channel.writeAndFlush(new TextWebSocketFrame(tudomessage));
+						System.out.println("删除同步发送完成******");
+						todoPush.setMessage(tudomessage);
+						todoPush.setSend_time(new Date());             //更新todopush的发送时间
+						todoPushService.save(todoPush);
 					}
 					if (todoPush.getType()==3){
 
@@ -138,7 +143,11 @@ public class TrafficStatisticsSchedule {
 						message.setObject(customerVO);
 						message.setId(todoPush.getId()); // 将传输的id推送过去
 						String str = JSON.toJSONString(message);
+						System.out.println("新增同步开始******");
 						channel.writeAndFlush(new TextWebSocketFrame(str));
+						System.out.println("新增同步结束******");
+						todoPush.setSend_time(new Date());             //更新todopush的发送时间
+						todoPushService.save(todoPush);
 					}
 
 

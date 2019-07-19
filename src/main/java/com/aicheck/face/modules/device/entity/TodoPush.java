@@ -41,9 +41,18 @@ public class TodoPush implements Serializable {
     private String result;
     
     private Date result_time;
- 
+    private Date send_time;
 
-	public Date getResult_time() {
+
+    public Date getSend_time() {
+        return send_time;
+    }
+
+    public void setSend_time(Date send_time) {
+        this.send_time = send_time;
+    }
+
+    public Date getResult_time() {
 		return result_time;
 	}
 

@@ -114,6 +114,12 @@ public class DeviceServiceImpl implements DeviceService {
     }
 
     @Override
+    public List<Device> findAllByRegisterTypeonlybox() {
+        return deviceRepository.findAllByRegisterTypeonlybox();
+    }
+
+
+    @Override
     public List<Device> findByNotGroupDevice() {
 
         return deviceRepository.findByNotGroupDevice();

@@ -157,7 +157,8 @@ public class CustomerPushBoxUtils {
 		TodoPushService todoPushService = (TodoPushService) SpringContextUtils.getBean("todoPushService");
 		DeviceService deviceService = (DeviceService) SpringContextUtils.getBean("deviceService");
 
-		List<Device> deviceList = deviceService.findAllByRegisterType(); // 获取注册方式为空的设备
+		//List<Device> deviceList = deviceService.findAllByRegisterType(); // 获取注册方式为空的设备
+		List<Device> deviceList = deviceService.findAllByRegisterTypeonlybox(); // 获取注册方式为空的设备
 		List<String> ipList = deviceList.stream().map(Device::getIpAddress).collect(Collectors.toList());
 		
 		if(type.equals("delete")){

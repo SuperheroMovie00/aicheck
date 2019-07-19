@@ -20,7 +20,7 @@ public interface DeviceRepository extends JpaRepository<Device,Integer>,JpaSpeci
 
     Device findByMacAddress(String macAddress);
 
-    @Query(value="select *from device where mac_address=?1",nativeQuery = true)
+    @Query(value="select * from device where mac_address=?1 limit 1",nativeQuery = true)
     Device findByMacAddresser(String macAddress);
 
     
@@ -38,6 +38,9 @@ public interface DeviceRepository extends JpaRepository<Device,Integer>,JpaSpeci
     
     @Query(value = "select * from device where register_type is null or register_type = ''",nativeQuery = true)
     List<Device> findAllByRegisterType();
+
+    @Query(value = "select * from device where platform='box' and register_type is null or register_type = '' ",nativeQuery = true)
+    List<Device> findAllByRegisterTypeonlybox();
     
 
     

@@ -28,6 +28,8 @@ public interface DeviceService extends BaseService<Device,Integer> {
 
     List<Device> findAllByRegisterType();
 
+    List<Device> findAllByRegisterTypeonlybox();
+
     List<Device> findByNotGroupDevice();
     
     List<Device> findAllByforplatform(String platform);
