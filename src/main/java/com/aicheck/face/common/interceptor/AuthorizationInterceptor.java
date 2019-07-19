@@ -9,6 +9,7 @@ import com.aicheck.face.common.utils.ApiUtil;
 import com.aicheck.face.common.utils.MD5Util;
 import com.aicheck.face.modules.device.entity.Device;
 import com.aicheck.face.modules.device.service.DeviceService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
@@ -25,6 +26,7 @@ import javax.servlet.http.HttpServletResponse;
  * @Date: Created in 4:09 PM 2019/1/22
  */
 @Component
+@Slf4j
 public class AuthorizationInterceptor extends HandlerInterceptorAdapter {
 
     @Autowired
@@ -108,7 +110,6 @@ public class AuthorizationInterceptor extends HandlerInterceptorAdapter {
             String signature = MD5Util.getMD5(signString);
 
             System.out.println("加密之后的sign=>" + signature.toUpperCase());
-
 
             if (!signature.equals(sign)) {
                 throw new FaceException("签名错误", 400);

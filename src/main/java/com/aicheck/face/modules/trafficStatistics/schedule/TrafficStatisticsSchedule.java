@@ -130,7 +130,25 @@ public class TrafficStatisticsSchedule {
 					}
 					if (todoPush.getType()==3){
 
+						Customer cus = customerservice.findById(todoPush.getDataId());
+						CustomerVO customerVO = new CustomerVO();
+						BeanUtils.copyProperties(cus, customerVO);
+						JSONObject jsonObject = JSONObject.fromObject(cus.getUserModelValue());
+						UserModel stu = (UserModel) JSONObject.toBean(jsonObject, UserModel.class);
+						customerVO.setUserModel(stu);
 
+						message.setAction(MessageTypeEnum.SAVE.getValue());
+						message.setObject(customerVO);
+						message.setId(todoPush.getId()); // 将传输的id推送过去
+						String str = JSON.toJSONString(message);
+						System.out.println("新增同步开始******");
+						channel.writeAndFlush(new TextWebSocketFrame(str));
+						System.out.println("新增同步结束******");
+						todoPush.setSend_time(new Date());             //更新todopush的发送时间
+						todoPushService.save(todoPush);
+					}
+
+					if (todoPush.getType()==2){
 
 						Customer cus = customerservice.findById(todoPush.getDataId());
 						CustomerVO customerVO = new CustomerVO();
@@ -149,6 +167,8 @@ public class TrafficStatisticsSchedule {
 						todoPush.setSend_time(new Date());             //更新todopush的发送时间
 						todoPushService.save(todoPush);
 					}
+
+
 
 
 					log.info("待发送消息 id :{} ,发送成功", todoPush.getId(), ip);

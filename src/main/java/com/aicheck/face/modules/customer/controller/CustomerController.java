@@ -206,6 +206,10 @@ public class CustomerController {
 	public R checkfaceresult(@RequestBody @Valid requstss todoid) throws InterruptedException {
 		Map<String, String> cMap = new HashMap<String, String>();
 		TodoPush todoPush = todoPushservice.findById(todoid.getTodoid());
+		if (todoPush == null) {
+			return R.error();
+		}
+
 		int status = todoPush.getStatus();
 		R r = new R();
 		/**
@@ -216,7 +220,7 @@ public class CustomerController {
 			r = R.ok(cMap);
 		} else if (status == 1) {
 
-			if (todoPush.getResult().equals("fail")) {
+			if (todoPush.getResult().equals("noface")) {
 				cMap.put("result", "1");
 				r = R.ok(cMap);
 			} else {
@@ -231,7 +235,9 @@ public class CustomerController {
 	}
 
 	@PostMapping("/checkface")
-	public R check(HttpServletRequest request, @RequestBody String features) throws InterruptedException {
+	public R check(HttpServletRequest request, @RequestBody String features)  {
+		TodoPushService todopushservice = (TodoPushService) SpringContextUtils.getBean("todoPushService");
+
 
 		TodoPush todoPush = new TodoPush();
 		todoPush.setType(3);
@@ -239,8 +245,15 @@ public class CustomerController {
 		todoPush.setMessage(features);
 		todoPush.setCreateTime(new Date());
 		todoPush.setDeviceId(request.getHeader("mac"));
+		TodoPush todoPushdb = todopushservice.save(todoPush);
 
-		TodoPush todoPushdb = todoPushservice.save(todoPush);
+
+		if(todoPushdb!=null){
+			log.info("todopusth新增成功=>");
+		}else{
+			log.info("todopusth新增失败=>");
+			return R.error();
+		}
 
 		Integer id = todoPushdb.getId();
 
@@ -353,7 +366,14 @@ public class CustomerController {
 		String code = customerService.findByMaxCode();
 		// 将以上取出的member_id值赋值到新的会员中member_id字段
 		customer.setMemberId(PrimaryGenerate.getInstance().generaterNextNumber(code));
+
 		Customer customerrequest = customerService.save(customer);
+
+		if(customerrequest!=null){
+			log.info("新增会员数据=》"+customer);
+			System.out.println(customer);
+			return R.error("创建会员失败");
+		}
 
 		// 添加标签关系
 		Integer[] ids = customerForm.getTagIds();
@@ -379,7 +399,9 @@ public class CustomerController {
 		/**
 		 * 直接写入tudu_push
 		 */
+		log.info("写入到同步程序开始**********");
 		CustomerPushBoxUtils.nettyPusher(MessageTypeEnum.SAVE.getValue(), customerVO);
+		log.info("写入到同步程序成功**********");
 
 		/*
 		 * List<Device> devices=deviceService.findAll();
@@ -480,6 +502,7 @@ public class CustomerController {
 			idList.add(ids);
 			customerService.delete(ids);
 			CustomerPushBoxUtils.nettyPush(MessageTypeEnum.DELETE.getValue(), idList.toArray(new Integer[idList.size()]));
+			System.out.println("用户删除成功");
 			return R.ok("删除成功");
 		} catch (Exception e) {
 			return R.error(1, "失败");

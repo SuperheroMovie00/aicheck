@@ -42,8 +42,9 @@ public class CustomerPushBoxUtils {
 
 	public static void nettyPusher(String type, CustomerVO object) {
 		Message message = new Message();
-		message.setAction(type); // 成功失败
-		message.setObject(object); // 类型
+		message.setAction(type);
+		message.setObject(object);
+		message.setId(-1);
 		String str = JSON.toJSONString(message);
 		pusher(str, type,object.getId());
 	}
@@ -159,6 +160,11 @@ public class CustomerPushBoxUtils {
 
 		//List<Device> deviceList = deviceService.findAllByRegisterType(); // 获取注册方式为空的设备
 		List<Device> deviceList = deviceService.findAllByRegisterTypeonlybox(); // 获取注册方式为空的设备
+		if(deviceList!=null){
+			System.out.println("deviceList取出成功");
+		}else{
+			System.out.println("deviceList取失败");
+		}
 		List<String> ipList = deviceList.stream().map(Device::getIpAddress).collect(Collectors.toList());
 		
 		if(type.equals("delete")){
@@ -190,8 +196,12 @@ public class CustomerPushBoxUtils {
 				todoPushList.add(todoPush);
 			});
 
-			todoPushService.save(todoPushList);
-
+					List<TodoPush> todoPush= todoPushService.save(todoPushList);
+					if(todoPush!=null){
+						System.out.println("todoPush新增成功");
+					}else{
+						System.out.println("todoPush新增失败ABCD");
+					}
 		}
 	}
 

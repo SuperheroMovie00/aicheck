@@ -329,6 +329,7 @@ public class NettyServerHandler extends SimpleChannelInboundHandler<Object> {
 			socketreturn stu = (socketreturn) JSONObject.toBean(jsonObject, socketreturn.class);
 			if(stu!=  null){
 				System.out.println("socket消息转化对象为******"+stu.toString());
+
 			}
 			System.out.println("socket消息返回有效******");
 			TodoPush todoPush = todopushservice.findById(stu.getId());
@@ -385,7 +386,7 @@ public class NettyServerHandler extends SimpleChannelInboundHandler<Object> {
 			todopush.setResult(sr.getUserId());
 		}
 		if (sr.getStatus().equals("fail")) {
-			todopush.setResult("fail");
+			todopush.setResult("noface");
 		}
 		todopushservice.update(todopush);
 	}
@@ -397,7 +398,7 @@ public class NettyServerHandler extends SimpleChannelInboundHandler<Object> {
 		todopush.setStatus(1);
 		todopush.setResult_time(new Date());
 		if (sr.getStatus().equals("success")) {
-			todopush.setResult(sr.getUserId());
+			todopush.setResult("success");
 		}
 		if (sr.getStatus().equals("fail")) {
 			todopush.setResult("fail");
@@ -410,7 +411,7 @@ public class NettyServerHandler extends SimpleChannelInboundHandler<Object> {
 		todopush.setResult_time(new Date());
 		if (sr.getStatus().equals("success")) {
 			todopush.setStatus(1);
-			todopush.setResult("ok");
+			todopush.setResult("success");
 		}else {
 			todopush.setStatus(2);
 			todopush.setResult("fail");

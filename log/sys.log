@@ -2796,3 +2796,324 @@ Content-Length: 0
 2019-07-19 15:05:10,007 INFO (TrafficStatisticsSchedule.java:108)- 连接设备 -> D8:9B:3B:E6:DE:32
 2019-07-19 15:05:20,006 INFO (TrafficStatisticsSchedule.java:108)- 连接设备 -> D8:9B:3B:E6:DE:32
 2019-07-19 15:05:30,007 INFO (TrafficStatisticsSchedule.java:108)- 连接设备 -> D8:9B:3B:E6:DE:32
+2019-07-19 16:02:39,442 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on LAPTOP-3J4GOKGI with PID 4972 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-07-19 16:02:39,446 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-07-19 16:02:51,708 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on LAPTOP-3J4GOKGI with PID 8600 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-07-19 16:02:51,711 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-07-19 16:25:32,588 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on LAPTOP-3J4GOKGI with PID 13672 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-07-19 16:25:32,593 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-07-19 16:25:38,241 INFO (StartupInfoLogger.java:59)- Started FaceApplication in 6.122 seconds (JVM running for 7.708)
+2019-07-19 16:27:26,629 INFO (CustomerController.java:645)- 图片上传成功——————————> http://192.168.1.99:9090/yy-face/images/a71950179b80b5e1abe08e29f552097c.png
+2019-07-19 16:27:26,738 INFO (CustomerController.java:382)- 写入到同步程序开始
+2019-07-19 16:28:37,579 INFO (CustomerController.java:384)- 写入到同步程序成功
+2019-07-19 16:34:01,335 INFO (CustomerController.java:645)- 图片上传成功——————————> http://192.168.1.99:9090/yy-face/images/205f8fe0b97a22d73e732edfb021e609.png
+2019-07-19 16:34:01,404 INFO (CustomerController.java:382)- 写入到同步程序开始
+2019-07-19 16:36:23,671 INFO (CustomerController.java:384)- 写入到同步程序成功
+2019-07-19 16:37:44,734 INFO (CustomerController.java:645)- 图片上传成功——————————> http://192.168.1.99:9090/yy-face/images/639b4a9a3441fd8603f145b9b80065ee.png
+2019-07-19 16:42:55,171 INFO (CustomerController.java:382)- 写入到同步程序开始
+2019-07-19 16:42:57,907 INFO (CustomerController.java:384)- 写入到同步程序成功
+2019-07-19 17:17:10,631 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on LAPTOP-3J4GOKGI with PID 2472 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-07-19 17:17:10,636 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-07-19 17:17:20,768 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on LAPTOP-3J4GOKGI with PID 8360 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-07-19 17:17:20,771 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-07-19 17:17:26,218 INFO (StartupInfoLogger.java:59)- Started FaceApplication in 5.898 seconds (JVM running for 7.326)
+2019-07-19 17:18:15,505 INFO (NettyServerHandler.java:58)- 【handlerAdded】id====> d6a99a34
+2019-07-19 17:18:15,506 INFO (NettyServerHandler.java:59)- 【handlerAdded】remoteAddress====> /192.168.0.227:52664
+2019-07-19 17:18:15,510 INFO (NettyServerHandler.java:99)- 【channelActive】=====> [id: 0xd6a99a34, /192.168.0.227:52664 => /192.168.0.251:9800]
+2019-07-19 17:18:15,522 INFO (NettyServerHandler.java:161)- messageReceived -> DefaultFullHttpRequest, decodeResult: success)
+GET /yy-face/v1/customer?currentPage=1&pageSize=1000 HTTP/1.1
+Charset: UTF-8
+Content-Type: application/json
+nonce: 1563527897352
+mac: D8:9B:3B:E6:DE:32
+platform: mobile
+timestamp: 1563527897352
+token: 297e325a66f62bae0166f631b0b20002
+sign: 72F8561BF9BF85701150F279FD7965DD
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 9; JAT-AL00 Build/HONORJAT-AL00)
+Host: 192.168.0.251:9800
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 0
+2019-07-19 17:18:15,529 INFO (NettyServerHandler.java:73)- 【handlerRemoved】====> d6a99a34
+2019-07-19 17:18:27,988 INFO (NettyServerHandler.java:58)- 【handlerAdded】id====> bca97d89
+2019-07-19 17:18:27,991 INFO (NettyServerHandler.java:59)- 【handlerAdded】remoteAddress====> /192.168.0.227:52666
+2019-07-19 17:18:27,993 INFO (NettyServerHandler.java:99)- 【channelActive】=====> [id: 0xbca97d89, /192.168.0.227:52666 => /192.168.0.251:9800]
+2019-07-19 17:18:27,995 INFO (NettyServerHandler.java:161)- messageReceived -> DefaultFullHttpRequest, decodeResult: success)
+GET /yy-face/v1/customer?currentPage=1&pageSize=1000 HTTP/1.1
+Charset: UTF-8
+Content-Type: application/json
+nonce: 1563527910005
+mac: D8:9B:3B:E6:DE:32
+platform: mobile
+timestamp: 1563527910005
+token: 297e325a66f62bae0166f631b0b20002
+sign: C34EB515B76E97255B0BDD26578F0CFD
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 9; JAT-AL00 Build/HONORJAT-AL00)
+Host: 192.168.0.251:9800
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 0
+2019-07-19 17:18:27,997 INFO (NettyServerHandler.java:73)- 【handlerRemoved】====> bca97d89
+2019-07-19 17:18:34,207 INFO (NettyServerHandler.java:58)- 【handlerAdded】id====> ab59d016
+2019-07-19 17:18:34,209 INFO (NettyServerHandler.java:59)- 【handlerAdded】remoteAddress====> /192.168.0.227:52668
+2019-07-19 17:18:34,210 INFO (NettyServerHandler.java:99)- 【channelActive】=====> [id: 0xab59d016, /192.168.0.227:52668 => /192.168.0.251:9800]
+2019-07-19 17:18:34,212 INFO (NettyServerHandler.java:161)- messageReceived -> DefaultFullHttpRequest, decodeResult: success)
+GET /yy-face/v1/customer?currentPage=1&pageSize=1000 HTTP/1.1
+Charset: UTF-8
+Content-Type: application/json
+nonce: 1563527916182
+mac: D8:9B:3B:E6:DE:32
+platform: mobile
+timestamp: 1563527916182
+token: 297e325a66f62bae0166f631b0b20002
+sign: 1A504C6E42928B90E0CC38C20555B0A6
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 9; JAT-AL00 Build/HONORJAT-AL00)
+Host: 192.168.0.251:9800
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 0
+2019-07-19 17:18:34,215 INFO (NettyServerHandler.java:73)- 【handlerRemoved】====> ab59d016
+2019-07-19 17:18:39,624 INFO (NettyServerHandler.java:58)- 【handlerAdded】id====> dfa78988
+2019-07-19 17:18:39,625 INFO (NettyServerHandler.java:59)- 【handlerAdded】remoteAddress====> /192.168.0.227:52670
+2019-07-19 17:18:39,626 INFO (NettyServerHandler.java:99)- 【channelActive】=====> [id: 0xdfa78988, /192.168.0.227:52670 => /192.168.0.251:9800]
+2019-07-19 17:18:39,627 INFO (NettyServerHandler.java:161)- messageReceived -> DefaultFullHttpRequest, decodeResult: success)
+GET /yy-face/v1/customer?currentPage=1&pageSize=1000 HTTP/1.1
+Charset: UTF-8
+Content-Type: application/json
+nonce: 1563527921626
+mac: D8:9B:3B:E6:DE:32
+platform: mobile
+timestamp: 1563527921626
+token: 297e325a66f62bae0166f631b0b20002
+sign: 464EBDD0C96BA5FE07F9DE9341D693DF
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 9; JAT-AL00 Build/HONORJAT-AL00)
+Host: 192.168.0.251:9800
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 0
+2019-07-19 17:18:39,628 INFO (NettyServerHandler.java:73)- 【handlerRemoved】====> dfa78988
+2019-07-19 17:18:58,204 INFO (NettyServerHandler.java:58)- 【handlerAdded】id====> 80e8b90f
+2019-07-19 17:18:58,206 INFO (NettyServerHandler.java:59)- 【handlerAdded】remoteAddress====> /192.168.0.227:52672
+2019-07-19 17:18:58,207 INFO (NettyServerHandler.java:99)- 【channelActive】=====> [id: 0x80e8b90f, /192.168.0.227:52672 => /192.168.0.251:9800]
+2019-07-19 17:18:58,209 INFO (NettyServerHandler.java:161)- messageReceived -> DefaultFullHttpRequest, decodeResult: success)
+GET /yy-face/v1/customer?currentPage=1&pageSize=1000 HTTP/1.1
+Charset: UTF-8
+Content-Type: application/json
+nonce: 1563527940189
+mac: D8:9B:3B:E6:DE:32
+platform: mobile
+timestamp: 1563527940189
+token: 297e325a66f62bae0166f631b0b20002
+sign: CB376F8C8C74E2F120E360094A6C14BD
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 9; JAT-AL00 Build/HONORJAT-AL00)
+Host: 192.168.0.251:9800
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 0
+2019-07-19 17:18:58,211 INFO (NettyServerHandler.java:73)- 【handlerRemoved】====> 80e8b90f
+2019-07-19 17:19:27,012 INFO (NettyServerHandler.java:58)- 【handlerAdded】id====> e3e1ede3
+2019-07-19 17:19:27,014 INFO (NettyServerHandler.java:59)- 【handlerAdded】remoteAddress====> /192.168.0.227:52674
+2019-07-19 17:19:27,015 INFO (NettyServerHandler.java:99)- 【channelActive】=====> [id: 0xe3e1ede3, /192.168.0.227:52674 => /192.168.0.251:9800]
+2019-07-19 17:19:27,017 INFO (NettyServerHandler.java:161)- messageReceived -> DefaultFullHttpRequest, decodeResult: success)
+GET /yy-face/v1/customer?currentPage=1&pageSize=1000 HTTP/1.1
+Charset: UTF-8
+Content-Type: application/json
+nonce: 1563527969014
+mac: D8:9B:3B:E6:DE:32
+platform: mobile
+timestamp: 1563527969014
+token: 297e325a66f62bae0166f631b0b20002
+sign: 4215CEA2590FD4571235CAF8D0B0A5E2
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 9; JAT-AL00 Build/HONORJAT-AL00)
+Host: 192.168.0.251:9800
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 0
+2019-07-19 17:19:27,033 INFO (NettyServerHandler.java:73)- 【handlerRemoved】====> e3e1ede3
+2019-07-19 17:19:42,002 INFO (NettyServerHandler.java:58)- 【handlerAdded】id====> c3669878
+2019-07-19 17:19:42,004 INFO (NettyServerHandler.java:59)- 【handlerAdded】remoteAddress====> /192.168.0.227:52676
+2019-07-19 17:19:42,005 INFO (NettyServerHandler.java:99)- 【channelActive】=====> [id: 0xc3669878, /192.168.0.227:52676 => /192.168.0.251:9800]
+2019-07-19 17:19:42,007 INFO (NettyServerHandler.java:161)- messageReceived -> DefaultFullHttpRequest, decodeResult: success)
+GET /yy-face/v1/customer?currentPage=1&pageSize=1000 HTTP/1.1
+Charset: UTF-8
+Content-Type: application/json
+nonce: 1563527983989
+mac: D8:9B:3B:E6:DE:32
+platform: mobile
+timestamp: 1563527983989
+token: 297e325a66f62bae0166f631b0b20002
+sign: 9C869465C085A24E2BEDC57817385F71
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 9; JAT-AL00 Build/HONORJAT-AL00)
+Host: 192.168.0.251:9800
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 0
+2019-07-19 17:19:42,009 INFO (NettyServerHandler.java:73)- 【handlerRemoved】====> c3669878
+2019-07-19 17:19:49,752 INFO (NettyServerHandler.java:58)- 【handlerAdded】id====> 4b0c1284
+2019-07-19 17:19:49,753 INFO (NettyServerHandler.java:59)- 【handlerAdded】remoteAddress====> /192.168.0.227:52678
+2019-07-19 17:19:49,755 INFO (NettyServerHandler.java:99)- 【channelActive】=====> [id: 0x4b0c1284, /192.168.0.227:52678 => /192.168.0.251:9800]
+2019-07-19 17:19:49,757 INFO (NettyServerHandler.java:161)- messageReceived -> DefaultFullHttpRequest, decodeResult: success)
+GET /yy-face/v1/customer?currentPage=1&pageSize=1000 HTTP/1.1
+Charset: UTF-8
+Content-Type: application/json
+nonce: 1563527991753
+mac: D8:9B:3B:E6:DE:32
+platform: mobile
+timestamp: 1563527991753
+token: 297e325a66f62bae0166f631b0b20002
+sign: F95EB64F6B627D2AEA33223E1E4B6EB2
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 9; JAT-AL00 Build/HONORJAT-AL00)
+Host: 192.168.0.251:9800
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 0
+2019-07-19 17:19:49,760 INFO (NettyServerHandler.java:73)- 【handlerRemoved】====> 4b0c1284
+2019-07-19 17:22:20,787 INFO (NettyServerHandler.java:58)- 【handlerAdded】id====> 0bf968f3
+2019-07-19 17:22:20,789 INFO (NettyServerHandler.java:59)- 【handlerAdded】remoteAddress====> /192.168.0.227:52682
+2019-07-19 17:22:20,790 INFO (NettyServerHandler.java:99)- 【channelActive】=====> [id: 0x0bf968f3, /192.168.0.227:52682 => /192.168.0.251:9800]
+2019-07-19 17:22:20,791 INFO (NettyServerHandler.java:161)- messageReceived -> DefaultFullHttpRequest, decodeResult: success)
+GET /yy-face/v1/customer?currentPage=1&pageSize=1000 HTTP/1.1
+Charset: UTF-8
+Content-Type: application/json
+nonce: 1563528142795
+mac: D8:9B:3B:E6:DE:32
+platform: mobile
+timestamp: 1563528142795
+token: 297e325a66f62bae0166f631b0b20002
+sign: EC98E360890EAED2B306FBEB7BC084E8
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 9; JAT-AL00 Build/HONORJAT-AL00)
+Host: 192.168.0.251:9800
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 0
+2019-07-19 17:22:20,793 INFO (NettyServerHandler.java:73)- 【handlerRemoved】====> 0bf968f3
+2019-07-19 17:22:36,822 INFO (NettyServerHandler.java:58)- 【handlerAdded】id====> 34c8d97f
+2019-07-19 17:22:36,823 INFO (NettyServerHandler.java:59)- 【handlerAdded】remoteAddress====> /192.168.0.227:52684
+2019-07-19 17:22:36,825 INFO (NettyServerHandler.java:99)- 【channelActive】=====> [id: 0x34c8d97f, /192.168.0.227:52684 => /192.168.0.251:9800]
+2019-07-19 17:22:36,826 INFO (NettyServerHandler.java:161)- messageReceived -> DefaultFullHttpRequest, decodeResult: success)
+GET /yy-face/v1/customer?currentPage=1&pageSize=1000 HTTP/1.1
+Charset: UTF-8
+Content-Type: application/json
+nonce: 1563528158810
+mac: D8:9B:3B:E6:DE:32
+platform: mobile
+timestamp: 1563528158810
+token: 297e325a66f62bae0166f631b0b20002
+sign: 015D39BE8A927271EE2E55388229AD68
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 9; JAT-AL00 Build/HONORJAT-AL00)
+Host: 192.168.0.251:9800
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 0
+2019-07-19 17:22:36,829 INFO (NettyServerHandler.java:73)- 【handlerRemoved】====> 34c8d97f
+2019-07-19 17:24:21,278 INFO (NettyServerHandler.java:58)- 【handlerAdded】id====> 5459d0b1
+2019-07-19 17:24:21,280 INFO (NettyServerHandler.java:59)- 【handlerAdded】remoteAddress====> /192.168.0.227:52686
+2019-07-19 17:24:21,280 INFO (NettyServerHandler.java:99)- 【channelActive】=====> [id: 0x5459d0b1, /192.168.0.227:52686 => /192.168.0.251:9800]
+2019-07-19 17:24:21,282 INFO (NettyServerHandler.java:161)- messageReceived -> DefaultFullHttpRequest, decodeResult: success)
+GET /yy-face/v1/customer?currentPage=1&pageSize=1000 HTTP/1.1
+Charset: UTF-8
+Content-Type: application/json
+nonce: 1563528263283
+mac: D8:9B:3B:E6:DE:32
+platform: mobile
+timestamp: 1563528263283
+token: 297e325a66f62bae0166f631b0b20002
+sign: 476EE86BF26FD2D87DF2C6D30CE879E6
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 9; JAT-AL00 Build/HONORJAT-AL00)
+Host: 192.168.0.251:9800
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 0
+2019-07-19 17:24:21,285 INFO (NettyServerHandler.java:73)- 【handlerRemoved】====> 5459d0b1
+2019-07-19 17:24:49,269 INFO (NettyServerHandler.java:58)- 【handlerAdded】id====> 47dd7b12
+2019-07-19 17:24:49,271 INFO (NettyServerHandler.java:59)- 【handlerAdded】remoteAddress====> /192.168.0.227:52688
+2019-07-19 17:24:49,272 INFO (NettyServerHandler.java:99)- 【channelActive】=====> [id: 0x47dd7b12, /192.168.0.227:52688 => /192.168.0.251:9800]
+2019-07-19 17:24:49,274 INFO (NettyServerHandler.java:161)- messageReceived -> DefaultFullHttpRequest, decodeResult: success)
+GET /yy-face/v1/customer?currentPage=1&pageSize=1000 HTTP/1.1
+Charset: UTF-8
+Content-Type: application/json
+nonce: 1563528291258
+mac: D8:9B:3B:E6:DE:32
+platform: mobile
+timestamp: 1563528291258
+token: 297e325a66f62bae0166f631b0b20002
+sign: 5214B8156FD784544ECA6868B0F59D03
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 9; JAT-AL00 Build/HONORJAT-AL00)
+Host: 192.168.0.251:9800
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 0
+2019-07-19 17:24:49,277 INFO (NettyServerHandler.java:73)- 【handlerRemoved】====> 47dd7b12
+2019-07-19 17:24:56,734 INFO (NettyServerHandler.java:58)- 【handlerAdded】id====> e239b6ee
+2019-07-19 17:24:56,736 INFO (NettyServerHandler.java:59)- 【handlerAdded】remoteAddress====> /192.168.0.227:52690
+2019-07-19 17:24:56,736 INFO (NettyServerHandler.java:99)- 【channelActive】=====> [id: 0xe239b6ee, /192.168.0.227:52690 => /192.168.0.251:9800]
+2019-07-19 17:24:56,738 INFO (NettyServerHandler.java:161)- messageReceived -> DefaultFullHttpRequest, decodeResult: success)
+GET /yy-face/v1/customer?currentPage=1&pageSize=1000 HTTP/1.1
+Charset: UTF-8
+Content-Type: application/json
+nonce: 1563528298723
+mac: D8:9B:3B:E6:DE:32
+platform: mobile
+timestamp: 1563528298723
+token: 297e325a66f62bae0166f631b0b20002
+sign: 9BB66B86427F14A5583519560B6B2D01
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 9; JAT-AL00 Build/HONORJAT-AL00)
+Host: 192.168.0.251:9800
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 0
+2019-07-19 17:24:56,740 INFO (NettyServerHandler.java:73)- 【handlerRemoved】====> e239b6ee
+2019-07-19 17:25:12,965 INFO (NettyServerHandler.java:58)- 【handlerAdded】id====> ce11a3b7
+2019-07-19 17:25:12,967 INFO (NettyServerHandler.java:59)- 【handlerAdded】remoteAddress====> /192.168.0.227:52692
+2019-07-19 17:25:12,968 INFO (NettyServerHandler.java:99)- 【channelActive】=====> [id: 0xce11a3b7, /192.168.0.227:52692 => /192.168.0.251:9800]
+2019-07-19 17:25:12,969 INFO (NettyServerHandler.java:161)- messageReceived -> DefaultFullHttpRequest, decodeResult: success)
+GET /yy-face/v1/levels HTTP/1.1
+Charset: UTF-8
+Content-Type: application/json
+nonce: 1563528314960
+mac: D8:9B:3B:E6:DE:32
+platform: mobile
+timestamp: 1563528314960
+token: 297e325a66f62bae0166f631b0b20002
+sign: 085DC29CEBED5DAA7092CDD5ECFADCA7
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 9; JAT-AL00 Build/HONORJAT-AL00)
+Host: 192.168.0.251:9800
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 0
+2019-07-19 17:25:12,972 INFO (NettyServerHandler.java:73)- 【handlerRemoved】====> ce11a3b7
+2019-07-19 17:25:12,994 INFO (NettyServerHandler.java:58)- 【handlerAdded】id====> 912ada74
+2019-07-19 17:25:12,995 INFO (NettyServerHandler.java:59)- 【handlerAdded】remoteAddress====> /192.168.0.227:52694
+2019-07-19 17:25:12,996 INFO (NettyServerHandler.java:99)- 【channelActive】=====> [id: 0x912ada74, /192.168.0.227:52694 => /192.168.0.251:9800]
+2019-07-19 17:25:12,997 INFO (NettyServerHandler.java:161)- messageReceived -> DefaultFullHttpRequest, decodeResult: success)
+GET /yy-face/v1/tags HTTP/1.1
+Charset: UTF-8
+Content-Type: application/json
+nonce: 1563528315022
+mac: D8:9B:3B:E6:DE:32
+platform: mobile
+timestamp: 1563528315022
+token: 297e325a66f62bae0166f631b0b20002
+sign: 42DE5E8875C0A0300B1B843B5EDDB482
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 9; JAT-AL00 Build/HONORJAT-AL00)
+Host: 192.168.0.251:9800
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 0
+2019-07-19 17:25:12,999 INFO (NettyServerHandler.java:73)- 【handlerRemoved】====> 912ada74
+2019-07-19 18:19:41,860 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on LAPTOP-3J4GOKGI with PID 13044 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-07-19 18:19:41,864 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-07-19 18:19:47,432 INFO (StartupInfoLogger.java:59)- Started FaceApplication in 6.025 seconds (JVM running for 7.472)
+2019-07-19 18:21:08,734 INFO (CustomerController.java:237)- checkface收到=>{"features":[1.5667478,-1.0012517,-0.62573856,-0.6241989,-0.11301756,-0.62759817,0.2775824,2.3193183,-0.42043555,-1.1759933,0.26522493,0.63777924,0.14825535,0.2342596,1.144155,0.26707697,-1.2159843,-1.4341278,0.3722006,1.3787107,1.4743052,1.2482953,0.42541313,-1.254641,-1.190321,1.9296389,1.3719363,-0.033913136,0.10123968,-0.88932806,-1.8575585,-1.2337984,1.2456238,2.126465,1.6232951,0.16539192,-3.1553528,1.4156251,0.31161678,-0.30484772,0.9193665,0.4314854,0.7617627,0.114159286,-0.76533616,-0.32841206,-0.70566964,0.27496663,1.5708499,1.6180634,0.29922915,-0.11517334,-0.54068685,1.864196,1.9061153,0.3763206,-0.31978178,-0.4091878,0.4354003,0.80220056,-0.568699,-1.6929631,-0.23090106,-0.42398453,-0.5604378,-0.49107552,0.8412037,-0.97132695,-0.9051529,2.0146523,-1.8185239,-0.79026705,0.63451266,1.41202,0.44351405,-0.02233696,-0.7723818,1.0743096,0.41318035,1.0572948,1.0611081,-0.38619316,-0.33596516,0.25015545,-0.40205204,-1.7323456,-2.7170575,-2.5808086,0.064224094,1.3847327,0.505371,0.001758635,-1.3388004,-0.020857722,-0.640491,0.65601593,-0.6757379,-0.53279734,0.21208274,0.8852586,-1.3039744,-2.4717581,-0.75543165,1.3609649,-0.64302576,-0.87561643,-0.8646482,-0.68099827,-0.124399185,0.1205852,-0.4226451,-0.43627483,1.2604809,-0.60744643,2.2964017,-0.11842972,-0.63476825,-0.84917355,0.9957582,-2.4366732,-0.9812529,0.95777214,-0.74028885,1.6005597,-0.28289616,-0.12927009,0.05684831,0.9566746,-1.6731399,-0.33335137,-0.85662293,-0.74711835,-0.28070462,0.37616444,0.42442894,0.84786564,-0.63155305,2.2317154,-0.5905483,1.3668412,0.79061425,-1.3460013,0.9505577,2.0516088,-0.22356617,0.10012895,-0.5270756,-1.5453106,0.76548445,1.1063604,1.6159064,-0.8314543,-1.7550019,-1.1749859,1.0955892,2.0111027,-1.4935393,0.41654325,-1.2942505,-0.542953,2.6652012,-1.2486651,-0.6187744,-0.8981829,-1.8606853,-0.59520864,0.82772034,-1.0891085,0.5126078,2.4324484,-0.00349617,-0.72622937,1.1072397,0.29646254,1.0120198,-0.47603834,-0.19743586,-0.69962573,-0.30792278,-1.0645769,1.9914076,1.382315,0.73745155,0.62957036,0.07909703,2.3975163,0.6077715,0.59891677,-1.089242,0.5753577,-0.41213417,1.5873076,0.33821535,-1.544472,-0.6692645,0.78154707,0.32622385,-0.5547061,0.27105713,-1.5967424,-2.7032752,-2.4350655,0.91504884,-0.44366896,0.36846554,-0.5998771,-1.1505175,-2.3157542,0.84132624,-0.72783,0.09994888,-1.2623539,0.40079975,0.93540204,1.1472507,0.69994473,-0.8966291,3.494841,0.18260098,-0.26523256,-0.220644,1.8814964,0.72387564,-1.4067696,0.016971588,-0.5075994,-1.1742116,1.3681672,1.8162899,-0.02006936,2.2402887,0.96578753,-0.30982685,0.79662883,-0.48395205,-0.43982846,1.3547021,-1.0399435,0.4282568,-2.0307863,1.9200542,-0.9615936,-0.18380857,-0.10864103,-0.5013974,1.5775893,0.1444875,0.9499918,-0.19627553,-0.060771585,-1.2659545,-0.3368168,-1.9159769,0.55095387,0.7151456,1.4619014,-2.5808342,-1.9877298,-1.0166336,-0.080166616,-1.6396395,-0.22558272,0.32818738,-0.6236635,-0.6856128,-0.91388786,-0.7553109,0.109990835,-0.029686451,0.5502537,2.1846638,0.13698077,0.14897355,0.4676937,-0.59320265,-0.5150495,-0.035774708,-2.0044432,0.1856364,0.11469233,-0.44543612,-1.052156,-1.7699964,-0.62478673,-0.03994429,-1.4779229,-0.17318201,-0.26120615,-0.07328465,-0.8204888,-1.9032753,-0.05227095,0.41341162,0.6639292,0.76661825,-0.13585567,-0.43793595,-2.3368785,-0.8775432,1.1099045,0.5317577,0.25255978,1.7790215,0.62757003,2.22288,-0.4379202,-0.7790069,0.6993824,0.30104065,1.6439359,-1.8998685,-0.33297968,-0.5513883,0.1377587,-0.28777933,-1.0461476,-1.434269,0.86722565,-0.60304964,0.51057565,-1.5679902,1.7751734,0.96563286,-0.58506835,-1.6041737,-1.4935876,-1.2825904,-0.62734103,-0.9987631,1.1980937,-0.751155,-0.9418926,0.31397057,1.4019425,-0.91941106,-0.16329193,-0.72174776,-1.461615,0.4240951,0.6012752,1.1487714,-0.32048988,2.013145,-0.6933961,-1.4927541,1.8547963,0.076789975,0.27090764,-0.8641871,1.0381408,-0.4620998,-1.0915283,0.43830225,-1.1275446,-1.4600456,-1.0753417,0.08910632,-1.0623902,0.6404352,1.7848839,0.3323131,-2.1293755,0.0035022497,0.8242684,-1.7054853,-0.88245916,0.09610009,-2.094397,-0.4474368,0.6735407,-0.52906716,-1.4206975,-0.18102264,0.6307887,-0.9483483,-2.0500846,1.6032282,-0.7429098,-0.6922395,-1.634729,-0.016573668,-1.8060402,1.4221077,0.5703509,-1.1493857,-0.34999537,0.28752625,-0.34680188,0.8758657,1.4057393,0.03169298,-0.9706092,0.410877,0.97952783,-0.89482087,0.1649316,1.3241594,-0.35167885,0.78022456,0.6660063,1.9258025,1.212606,-1.0211627,1.0087669,-0.065626144,-0.9260705,-0.016607046,-0.37920856,1.3379197,0.14549744,0.7222643,0.8068885,-0.12035313,1.3966308,0.88784033,-0.43541655,-1.3110998,0.2222724,0.42989588,0.25777793,-0.77499104,-1.783006,0.63994145,-0.20846683,0.34414208,-0.492791,-2.079106,1.3204641,2.0116663,-1.5559362,-1.893003,1.6107303,-2.1841774,-0.08633363,0.2115345,0.15430838,-0.6126784,-1.3725582,-0.8640932,0.765436,1.3157423,0.068433285,-0.33900106,-2.0941641,-0.14447522,0.6580938,0.26032794,-0.043773174,0.31370652,-1.2237797,1.0374556,1.4061645,0.06385112,-0.7998841,-0.69114995,-0.50573653,0.063633874,-0.52113104,-0.95592403,1.3859088,-1.6146289,0.25136545,0.863914,-0.91165686,1.4129968,-0.023756504,-1.0895743,0.2845726,0.283342,-1.8850566,2.0084605,0.1081295,0.31741595,0.6586895,0.9829302,-1.1478014,0.9848058,1.9542286,-1.2437308,1.7919,0.01301527,1.4184499,-0.6762425,1.6393666,0.541439,-1.186713,0.600644,-1.6554358,-0.24161005,-0.95537174,-0.60403466,0.8183024,2.5927942,0.5226628,-0.62683725,-2.4850526,-0.5654649,0.17042327,-0.17978,0.18133444,0.2398169,-0.71424484,2.126502,-0.36316413,0.49362478,0.24909496,-0.043415666,-1.1476831,0.24325192,3.0122428,-2.062139,-1.4522655]}
+2019-07-19 18:21:08,736 INFO (CustomerController.java:239)- 哈哈哈哈哈哈1
+2019-07-19 18:21:08,737 INFO (CustomerController.java:241)- 哈哈哈哈哈哈2
+2019-07-19 18:21:08,737 INFO (CustomerController.java:243)- 哈哈哈哈哈哈3
+2019-07-19 18:21:08,738 INFO (CustomerController.java:245)- 哈哈哈哈哈哈4
+2019-07-19 18:21:08,738 INFO (CustomerController.java:247)- 哈哈哈哈哈哈5
+2019-07-19 18:21:08,739 INFO (CustomerController.java:249)- 哈哈哈哈哈哈6
+2019-07-19 18:21:08,760 INFO (CustomerController.java:252)- 哈哈哈哈哈哈7
+2019-07-19 18:21:08,761 INFO (CustomerController.java:255)- todopusth新增成功=>
+2019-07-19 18:21:33,810 INFO (CustomerController.java:660)- 图片上传成功——————————> http://192.168.1.99:9090/yy-face/images/4abfb918ce2e81e0bd560f560fa272bd.png
+2019-07-19 18:21:33,966 INFO (CustomerController.java:397)- 写入到同步程序开始**********
+2019-07-19 18:21:33,985 INFO (CustomerController.java:399)- 写入到同步程序成功**********
