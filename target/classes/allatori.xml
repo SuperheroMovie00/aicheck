@@ -1,0 +1,39 @@
+<config>
+    <input>
+        <jar in="face-0.0.1-SNAPSHOT.jar" out="face-0.0.1-SNAPSHOT-obfuscated.jar"/>
+    </input>
+
+    <keep-names>
+        <class access="protected+">
+            <field access="protected+"/>
+            <method access="protected+"/>
+            <method template="public+ *(*)" parameters="keep"/>
+        </class>
+    </keep-names>
+
+    <property name="log-file" value="log.xml"/>
+
+    <ignore-classes>
+        <class template="class *springframework*" />
+        <class template="class *shardingjdbc*" />
+        <class template="class *jni*" />
+        <class template="class *alibaba*"/>
+        <class template="class *persistence*"/>
+
+        <class template="class com.aicheck.face.modules.customer.repository.*"/>
+        <class template="class com.aicheck.face.modules.identifyRecord.repository.*"/>
+        <class template="class com.aicheck.face.modules.product.repository.*"/>
+        <class template="class com.aicheck.face.modules.salesDetail.repository.*"/>
+        <class template="class com.aicheck.face.modules.salesRecord.repository.*"/>
+        <class template="class com.aicheck.face.modules.statistical.repository.*"/>
+        <class template="class com.aicheck.face.modules.tags.repository.*"/>
+        <class template="class com.aicheck.face.modules.trafficStatistics.repository.*"/>
+
+        <class template="class com.aicheck.face.config.*"/>
+
+        <class template="class com.aicheck.face.modules.**.entity.*"/>
+
+
+    </ignore-classes>
+
+</config>

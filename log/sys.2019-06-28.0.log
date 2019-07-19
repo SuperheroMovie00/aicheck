@@ -1,0 +1,28 @@
+2019-06-28 16:56:05,156 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on LAPTOP-3J4GOKGI with PID 12192 (C:\Users\Super\Desktop\yiyuan-face-master\target\classes started by Super in C:\Users\Super\Desktop\yiyuan-face-master)
+2019-06-28 16:56:05,160 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-06-28 16:56:13,061 INFO (StartupInfoLogger.java:59)- Started FaceApplication in 8.322 seconds (JVM running for 9.158)
+2019-06-28 17:25:22,715 INFO (StartupInfoLogger.java:50)- Starting FaceApplicationTests on LAPTOP-3J4GOKGI with PID 10376 (started by Super in C:\Users\Super\Desktop\yiyuan-face-master)
+2019-06-28 17:25:22,717 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-06-28 17:25:32,259 INFO (StartupInfoLogger.java:59)- Started FaceApplicationTests in 9.834 seconds (JVM running for 11.01)
+2019-06-28 18:14:51,425 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on LAPTOP-3J4GOKGI with PID 13020 (C:\Users\Super\Desktop\yiyuan-face-master\target\classes started by Super in C:\Users\Super\Desktop\yiyuan-face-master)
+2019-06-28 18:14:51,434 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-06-28 18:14:59,630 INFO (StartupInfoLogger.java:59)- Started FaceApplication in 8.754 seconds (JVM running for 9.697)
+2019-06-28 18:19:06,911 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on LAPTOP-3J4GOKGI with PID 10616 (C:\Users\Super\Desktop\yiyuan-face-master\target\classes started by Super in C:\Users\Super\Desktop\yiyuan-face-master)
+2019-06-28 18:19:06,916 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-06-28 18:19:15,229 INFO (StartupInfoLogger.java:59)- Started FaceApplication in 8.748 seconds (JVM running for 9.567)
+2019-06-28 18:24:13,791 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on LAPTOP-3J4GOKGI with PID 7348 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-06-28 18:24:13,795 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-06-28 18:24:21,862 INFO (StartupInfoLogger.java:59)- Started FaceApplication in 8.48 seconds (JVM running for 9.246)
+2019-06-28 18:40:13,822 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on LAPTOP-3J4GOKGI with PID 10312 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-06-28 18:40:13,826 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-06-28 18:40:21,616 INFO (StartupInfoLogger.java:59)- Started FaceApplication in 8.176 seconds (JVM running for 8.933)
+2019-06-28 19:36:35,865 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on LAPTOP-3J4GOKGI with PID 17560 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-06-28 19:36:35,871 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-06-28 19:36:43,769 INFO (StartupInfoLogger.java:59)- Started FaceApplication in 8.322 seconds (JVM running for 9.028)
+2019-06-28 19:42:30,562 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on LAPTOP-3J4GOKGI with PID 18956 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-06-28 19:42:30,565 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-06-28 19:42:38,452 INFO (StartupInfoLogger.java:59)- Started FaceApplication in 8.301 seconds (JVM running for 8.993)
+2019-06-28 19:46:52,647 INFO (CustomerController.java:629)- 开始上传图片
+2019-06-28 19:46:52,657 INFO (CustomerController.java:659)- 图片上传成功——————————> http://192.168.255.1:8090/yy-face/visitors/55bae811eea1ef9038a124045aeed68b.png
+2019-06-28 19:47:00,959 INFO (CustomerController.java:629)- 开始上传图片
+2019-06-28 19:47:00,964 INFO (CustomerController.java:659)- 图片上传成功——————————> http://192.168.255.1:8090/yy-face/visitors/d767ba648cd172ee80f0e834b073c33e.png
