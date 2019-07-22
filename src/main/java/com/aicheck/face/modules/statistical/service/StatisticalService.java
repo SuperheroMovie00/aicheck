@@ -31,12 +31,15 @@ public interface StatisticalService {
 
     List<Map<String,Object>> statisticalOldPassengerFlowByMonth(Date startTime, Date endTime);
 
+    List<Map<String,Object>> statisticalOldPassengerFlowByMonthER(Date startTime, Date endTime);
 
     List<Map<String,Object>> statisticalNewPassengerFlowByDay(Date startTime, Date endTime);
 
     List<Map<String,Object>> statisticalNewPassengerFlowByWeek(Date startTime, Date endTime);
 
     List<Map<String,Object>> statisticalNewPassengerFlowByMonth(Date startTime, Date endTime);
+
+    List<Map<String,Object>> statisticalNewPassengerFlowByMonthER(Date startTime, Date endTime);
 
     Map<String,Object> statisticalPassengerFlowCount(Date date);
 

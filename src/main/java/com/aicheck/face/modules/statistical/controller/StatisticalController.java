@@ -276,7 +276,7 @@ public class StatisticalController {
         String da=year+"-"+date;
         System.out.println(da);
         SimpleDateFormat formatter2 = new SimpleDateFormat( "yyyy-MM-dd");
-        Date dat3 = formatter.parse(da);
+        Date dat3 = formatter2.parse(da);
         calendar.setTime(dat3);
 
 
@@ -305,8 +305,8 @@ public class StatisticalController {
         List<String> newCounts = maps.stream().map(map -> map.get("count").toString()).collect(Collectors.toList());
 
         Map<String,Object> map = new HashMap<>();
-        map.put("old",monthConvert(BeanUtils.CollStringToIntegerLst(oldDays),BeanUtils.CollStringToIntegerLst(oldCounts)));
-        map.put("new",monthConvert(BeanUtils.CollStringToIntegerLst(newDays),BeanUtils.CollStringToIntegerLst(newCounts)));
+        map.put("old",newmonthConvert(BeanUtils.CollStringToIntegerLst(oldDays),BeanUtils.CollStringToIntegerLst(oldCounts),dat3));
+        map.put("new",newmonthConvert(BeanUtils.CollStringToIntegerLst(newDays),BeanUtils.CollStringToIntegerLst(newCounts),dat3));
 
         return R.ok(map);
     }
@@ -380,15 +380,17 @@ public class StatisticalController {
         calendar.add(Calendar.YEAR,1);
         Date nextMonth = calendar.getTime();
 
-        List<Map<String,Object>> objects = statisticalService.statisticalOldPassengerFlowByMonth(currentMonth,nextMonth);
 
-        List<Map<String,Object>> maps = statisticalService.statisticalNewPassengerFlowByMonth(currentMonth,nextMonth);
+        List<Map<String,Object>> objects = statisticalService.statisticalOldPassengerFlowByMonthER(currentMonth,nextMonth);
 
-        List<String> oldDays = objects.stream().map(map -> map.get("day").toString()).collect(Collectors.toList());
+        List<Map<String,Object>> maps = statisticalService.statisticalNewPassengerFlowByMonthER(currentMonth,nextMonth);
+
+
+        List<String> oldDays = objects.stream().map(map -> map.get("mon").toString()).collect(Collectors.toList());
 
         List<String> oldCounts = objects.stream().map(map -> map.get("count").toString()).collect(Collectors.toList());
 
-        List<String> newDays = maps.stream().map(map -> map.get("day").toString()).collect(Collectors.toList());
+        List<String> newDays = maps.stream().map(map -> map.get("mon").toString()).collect(Collectors.toList());
 
         List<String> newCounts = maps.stream().map(map -> map.get("count").toString()).collect(Collectors.toList());
 
@@ -399,11 +401,56 @@ public class StatisticalController {
         return R.ok(map);
     }
 
+
+
+    @GetMapping("/newyear")
+    public R newyearStatistical() {
+        Calendar calendar = Calendar.getInstance();
+
+
+        calendar.setTime(new Date());
+        calendar.set(Calendar.SECOND,0);
+        calendar.set(Calendar.MINUTE,0);
+        calendar.set(Calendar.HOUR_OF_DAY, 0);
+
+        calendar.set(Calendar.DAY_OF_YEAR,1);
+        calendar.set(Calendar.YEAR,-1);
+        Date currentMonth = calendar.getTime();
+
+        calendar.add(Calendar.YEAR,1);
+        Date nextMonth = calendar.getTime();
+
+
+        List<Map<String,Object>> objects = statisticalService.statisticalOldPassengerFlowByMonthER(currentMonth,nextMonth);
+
+        List<Map<String,Object>> maps = statisticalService.statisticalNewPassengerFlowByMonthER(currentMonth,nextMonth);
+
+
+        List<String> oldDays = objects.stream().map(map -> map.get("mon").toString()).collect(Collectors.toList());
+
+        List<String> oldCounts = objects.stream().map(map -> map.get("count").toString()).collect(Collectors.toList());
+
+        List<String> newDays = maps.stream().map(map -> map.get("mon").toString()).collect(Collectors.toList());
+
+        List<String> newCounts = maps.stream().map(map -> map.get("count").toString()).collect(Collectors.toList());
+
+        Map<String,Object> map = new HashMap<>();
+        map.put("old",yearConvert(BeanUtils.CollStringToIntegerLst(oldDays),BeanUtils.CollStringToIntegerLst(oldCounts)));
+        map.put("new",yearConvert(BeanUtils.CollStringToIntegerLst(newDays),BeanUtils.CollStringToIntegerLst(newCounts)));
+
+        return R.ok(map);
+    }
+
+
+
+
     public Map<String,Object> yearConvert(List<Integer> days,List<Integer> counts) {
         Calendar rightNow = Calendar.getInstance();
         rightNow.setTime(new Date());
 
-        int dayNumber = rightNow.getActualMinimum(Calendar.DAY_OF_YEAR);
+//        int dayNumber = rightNow.getActualMaximum(Calendar.WEEK_OF_YEAR);
+        int dayNumber=12;
+
 //      int dayNumber = rightNow.getActualMaximum(Calendar.DAY_OF_YEAR);
         List<Integer> dayList = new ArrayList<>();
         List<Integer> countList = new ArrayList<>();
@@ -417,7 +464,6 @@ public class StatisticalController {
                 dayList.add(i);
                 countList.add(0);
             }
-
         }
         Map<String,Object> map = new HashMap<>();
         map.put("times",dayList);

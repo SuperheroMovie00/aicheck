@@ -164,4 +164,11 @@ public class DeviceServiceImpl implements DeviceService {
 		// TODO Auto-generated method stub
 		return deviceRepository.finddeviceforplatformandmacaddress(platform,macaddress);
 	}
+
+    @Override
+    public Device findAllByformacaddress(String mac_address) {
+        return deviceRepository.findAllByformacaddress(mac_address);
+    }
+
+
 }

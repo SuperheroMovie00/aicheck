@@ -50,8 +50,11 @@ public interface DeviceRepository extends JpaRepository<Device,Integer>,JpaSpeci
     
     @Query(value = "select * from device where ip_address=?1",nativeQuery = true)
     Device findAllByforipaddress(String ip_address);
-    
-    
+
+    @Query(value = "select * from device where mac_address=?1",nativeQuery = true)
+    Device findAllByformacaddress(String mac_address);
+
+
     @Query(value = "select * from device where platform='box' and is_relevance=0 and ip_address<>?1",nativeQuery = true)
     List<Device> deviceRepository(String deviceip);
     

@@ -100,11 +100,15 @@ public class TrafficStatisticsSchedule {
 			System.out.println("有设备进行同步操作");
 			String ip;
 			ip = channel.remoteAddress().toString();
+
+			System.out.println("ipipiipipipipipipip"+ip);
+
 			DeviceService deviceService = (DeviceService) SpringContextUtils.getBean("deviceService");
+//			Device device = deviceService.findAllByformacaddress(ip);
 			Device device = deviceService.findAllByforipaddress(ip);
-			/*if (device == null) {
+			if (device == null) {
 				return;
-			}*/
+			}
 			String s = device.getMacAddress();
 
 			TodoPushService todoPushService = (TodoPushService) SpringContextUtils.getBean("todoPushService");
@@ -119,7 +123,6 @@ public class TrafficStatisticsSchedule {
 
 					// 将user_model_value字符串类型的转成UserModel对象类型
 
-
 					if(todoPush.getType()==4){
 						message.setAction(MessageTypeEnum.DELETE.getValue());
 						String tudomessage=todoPush.getMessage();
@@ -131,7 +134,7 @@ public class TrafficStatisticsSchedule {
 						todoPush.setSend_time(new Date());             //更新todopush的发送时间
 						todoPushService.save(todoPush);
 					}
-					if (todoPush.getType()==3){
+					if (todoPush.getType()==3 && todoPush.getDataId()!=null){  //类型为3 并且data_id不为空
 
 						Customer cus = customerservice.findById(todoPush.getDataId());
 						CustomerVO customerVO = new CustomerVO();
@@ -170,7 +173,6 @@ public class TrafficStatisticsSchedule {
 						todoPush.setSend_time(new Date());             //更新todopush的发送时间
 						todoPushService.save(todoPush);
 					}
-
 
 
 

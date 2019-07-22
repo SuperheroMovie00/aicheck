@@ -20,7 +20,6 @@ com\aicheck\face\modules\trafficStatistics\repository\TrafficStatisticsRepositor
 com\aicheck\face\modules\tags\service\CustomerTagsService.class
 com\aicheck\face\modules\nettyPush\GlobalUser.class
 com\aicheck\face\modules\product\entity\ProductForm.class
-com\aicheck\face\test.class
 com\aicheck\face\modules\quartz\entity\JobDetails.class
 com\aicheck\face\modules\nettyPush\socketreturn.class
 com\aicheck\face\vo\R.class

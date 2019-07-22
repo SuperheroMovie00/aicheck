@@ -71,6 +71,12 @@ public class StatisticalServiceImpl implements StatisticalService {
     }
 
     @Override
+    public List<Map<String,Object>> statisticalOldPassengerFlowByMonthER(Date startTime, Date endTime) {
+        return customerRepository.statisticalOldPassengerFlowByMonthER(startTime,endTime);
+    }
+
+
+    @Override
     public List<Map<String, Object>> statisticalNewPassengerFlowByDay(Date startTime, Date endTime) {
         return customerRepository.statisticalNewPassengerFlowByDay(startTime,endTime);
     }
@@ -85,6 +91,10 @@ public class StatisticalServiceImpl implements StatisticalService {
         return customerRepository.statisticalNewPassengerFlowByMonth(startTime,endTime);
     }
 
+    @Override
+    public List<Map<String, Object>> statisticalNewPassengerFlowByMonthER(Date startTime, Date endTime) {
+        return customerRepository.statisticalNewPassengerFlowByMonthER(startTime,endTime);
+    }
 
     @Override
     public Map<String, Object> statisticalPassengerFlowCount(Date date) {

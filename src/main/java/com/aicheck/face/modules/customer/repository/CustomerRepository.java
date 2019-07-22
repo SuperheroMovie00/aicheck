@@ -117,7 +117,12 @@ public interface CustomerRepository extends JpaRepository<Customer,Integer> {
             "where ir.create_time >= ?1 and ir.create_time <= ?2 group by DAY(ir.create_time) order by DAY(ir.create_time)",nativeQuery = true)
     List<Map<String,Object>> statisticalOldPassengerFlowByMonth(Date startTime,Date endTime);
 
-    
+
+    @Query(value = "select MONTH(ir.create_time) as mon,count(ir.id) as count from identify_record ir " +
+            "where ir.create_time >= ?1 and ir.create_time <= ?2 group by MONTH(ir.create_time) order by MONTH(ir.create_time)",nativeQuery = true)
+    List<Map<String,Object>> statisticalOldPassengerFlowByMonthER(Date startTime,Date endTime);
+
+
 
     @Query(value = "SELECT dayHour as hour,IF ( count IS NULL, 0, count ) as count  FROM ( SELECT count( * ) AS count, DATE_FORMAT( create_time, '%H' ) AS HOUR FROM visitors_record where create_time >= ?1 and create_time <= ?2 GROUP BY HOUR ORDER BY 1 ) A \tRIGHT JOIN ( SELECT\tone.hours + two.hours AS dayHour FROM\t( SELECT\t0 hours UNION ALL SELECT\t1 hours UNION ALL  SELECT\t2 hours UNION ALL SELECT 3 hours UNION ALL SELECT 4 hours UNION ALL SELECT\t5 hours UNION ALL SELECT 6 hours UNION ALL SELECT 7 hours UNION ALl SELECT 8 hours UNION ALL " +
             "SELECT 9 hours  ) one CROSS JOIN ( SELECT 0 hours UNION ALL SELECT 10 hours UNION ALL SELECT 20 hours ) two  WHERE ( one.hours + two.hours ) < 24 ) B ON A.HOUR = CONVERT ( B.dayHour, SIGNED ) ORDER BY dayHour",nativeQuery = true)
@@ -138,6 +143,9 @@ public interface CustomerRepository extends JpaRepository<Customer,Integer> {
             "where ir.create_time >= ?1 and ir.create_time <= ?2 group by DAY(ir.create_time) order by DAY(ir.create_time)",nativeQuery = true)
     List<Map<String,Object>> statisticalNewPassengerFlowByMonth(Date startTime,Date endTime);
 
-    
-    
+    @Query(value = "select MONTH(ir.create_time) as mon,count(ir.id) as count from visitors_record ir " +
+            "where ir.create_time >= ?1 and ir.create_time <= ?2 group by MONTH(ir.create_time) order by MONTH(ir.create_time)",nativeQuery = true)
+    List<Map<String,Object>> statisticalNewPassengerFlowByMonthER(Date startTime,Date endTime);
+
+
 }

@@ -41,6 +41,8 @@ public interface DeviceService extends BaseService<Device,Integer> {
     List<Device> queryrelevancefordeviceid(Integer id);
     
     Device finddeviceforplatformandmacaddress(String platform ,String macaddress);
+
+    Device findAllByformacaddress(String mac_address);
     
 
 }

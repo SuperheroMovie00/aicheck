@@ -46,13 +46,14 @@ public class ImageGroupController {
 		/**
 		 * 查询默认分组是否存在（如果不存在，新建一个）
 		 */
-		ImageGroup defaultgroup=imageGroupService.findById(0);
+		/*ImageGroup defaultgroup=imageGroupService.findById(0);
 		if(defaultgroup==null) {
 			ImageGroup defaultimageGroup=new ImageGroup();
 			defaultimageGroup.setId(0);
 			defaultimageGroup.setCreateTime(new Date());
 			imageGroupService.save(defaultimageGroup);
-		}
+		}*/
+
 		/*
 		 * System.out.println("分组"+imageGroupList); List<ImageGroupVO> imageGroupVOList
 		 * = com.aicheck.face.common.utils.BeanUtils.batchTransform(ImageGroupVO.class,
