@@ -369,8 +369,8 @@ public class CustomerController {
 
 		Customer customerrequest = customerService.save(customer);
 
-		if(customerrequest!=null){
-			log.info("新增会员数据=》"+customer);
+		if(customerrequest==null){
+			log.info("创建会员失败=》"+customer);
 			System.out.println(customer);
 			return R.error("创建会员失败");
 		}
@@ -692,7 +692,7 @@ public class CustomerController {
 			e.printStackTrace();
 		}
 
-		String url = "http://" + localhost + ":8090/yy-face/visitors/" + fileName + ".png";
+		String url = "http://" + localhost + ":9090/yy-face/visitors/" + fileName + ".png";
 		// String url = "http://" + localhost + ":8090/yy-face/yy-face/images/" +
 		// fileName + ".png";
 		// String url = "http://47.74.128.130:8090/images/" + fileName + ".png";

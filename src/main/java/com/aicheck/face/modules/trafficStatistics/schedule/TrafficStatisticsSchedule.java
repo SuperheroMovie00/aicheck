@@ -92,9 +92,12 @@ public class TrafficStatisticsSchedule {
 
 	@Scheduled(cron = "*/10 * * * * ? ")
 	public void startsync() {
-			System.out.println("调用！！！！！！！！！！！！！！"+new Date());
+
+		System.out.println("调用！！！！！！！！！！！！！！"+new Date());
+		if(GlobalUser.channels.size()!=0){
+
 			GlobalUser.channels.forEach(channel -> {
-				System.out.println("踩踩踩踩踩");
+			System.out.println("有设备进行同步操作");
 			String ip;
 			ip = channel.remoteAddress().toString();
 			DeviceService deviceService = (DeviceService) SpringContextUtils.getBean("deviceService");
@@ -175,6 +178,10 @@ public class TrafficStatisticsSchedule {
 				});
 			}
 		});
+		}else{
+			System.out.println("没有链接设备");
+			log.info("没有链接设备");
+		}
 		// CustomerPushBoxUtils.nettyPushnew(MessageTypeEnum.SAVE.getValue(),
 		// customerVO,ipaddress,syncid);
 
