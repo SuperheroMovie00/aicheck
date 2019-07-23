@@ -321,45 +321,41 @@ public class NettyServerHandler extends SimpleChannelInboundHandler<Object> {
 
 		if (msg instanceof TextWebSocketFrame) {
 
-			System.out.println("socket消息返回******");
+			log.info("socket消息返回******");
 			TodoPushService todopushservice = (TodoPushService) SpringContextUtils.getBean("todoPushService");
 			String text = ((TextWebSocketFrame) msg).text();
 
 			JSONObject jsonObject = JSONObject.fromObject(text);
 			socketreturn stu = (socketreturn) JSONObject.toBean(jsonObject, socketreturn.class);
 			if(stu!=  null){
-				System.out.println("socket消息转化对象为******"+stu.toString());
-
+				log.info("socket消息转化对象为******"+stu.toString());
 			}
-			System.out.println("socket消息返回有效******");
 			TodoPush todoPush = todopushservice.findById(stu.getId());
 
 			if (todoPush !=  null) {
-				System.out.println("socket消息返回有效******");
+				log.info("socket消息返回有效******");
 				switch (todoPush.getType()){
 
 					case 4:
-						System.out.println("socket消息返回有效******执行删除（todopush）");
+						log.info("socket消息返回有效******执行删除（todopush）");
 						updatetodupushbytype4(stu,todoPush);
-						System.out.println("socket消息返回有效******执行删除（todopush）完成");
+						log.info("socket消息返回有效******执行删除（todopush）完成");
 						break;
 					case 3:
-						System.out.println("socket消息返回有效******执行新增处理（todopush）");
+						log.info("socket消息返回有效******执行新增处理（todopush）");
 						updatetodupushbytype3(stu,todoPush);
-						System.out.println("socket消息返回有效******执行新增处理（todopush）完成");
+						log.info("socket消息返回有效******执行新增处理（todopush）完成");
 						break;
 					case 2:
-						System.out.println("socket消息返回有效******执行2处理（todopush）");
+						log.info("socket消息返回有效******执行2处理（todopush）");
 						updatetodupushbytype2(stu,todoPush);
-						System.out.println("socket消息返回有效******执行2处理（todopush）完成");
+						log.info("socket消息返回有效******执行2处理（todopush）完成");
 						break;
 						default:
 				}
 			}
-
 			if ("heartbeat".equals(text)) {
 				ctx.channel().writeAndFlush(new TextWebSocketFrame(text));
-
 			}
 		}
 
@@ -393,7 +389,6 @@ public class NettyServerHandler extends SimpleChannelInboundHandler<Object> {
 
 	public static void updatetodupushbytype4(socketreturn sr,TodoPush todopush) {
 		TodoPushService todopushservice = (TodoPushService) SpringContextUtils.getBean("todoPushService");
-		CustomerService customerService = (CustomerService) SpringContextUtils.getBean("customerService");
 
 		todopush.setStatus(1);
 		todopush.setResult_time(new Date());

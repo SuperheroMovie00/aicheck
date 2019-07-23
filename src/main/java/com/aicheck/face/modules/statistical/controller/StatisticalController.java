@@ -270,13 +270,16 @@ public class StatisticalController {
         Calendar calendar = Calendar.getInstance();
 
 
-        Date date1=new Date();
+        Date date1=new Date();  //获取当前时间
+        //获取当前时间的年份
         SimpleDateFormat formatter = new SimpleDateFormat( "yyyy");
+        //将当前时间转成String
         String year = formatter.format(date1);
-        String da=year+"-"+date;
+        //将年份与传来的日期拼接起来    传来的是  例如  09-01
+        String da   =year+"-"+date;
         System.out.println(da);
         SimpleDateFormat formatter2 = new SimpleDateFormat( "yyyy-MM-dd");
-        Date dat3 = formatter2.parse(da);
+        Date dat3 = formatter2.parse(da);           //将拼起来的String  转成Date  上面的格式
         calendar.setTime(dat3);
 
 
@@ -402,9 +405,8 @@ public class StatisticalController {
     }
 
 
-
     @GetMapping("/newyear")
-    public R newyearStatistical() {
+    public R newyearStatistical() {                         //新添加的统计上一年的
         Calendar calendar = Calendar.getInstance();
 
 

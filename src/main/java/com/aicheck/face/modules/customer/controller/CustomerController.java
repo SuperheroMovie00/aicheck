@@ -291,7 +291,7 @@ public class CustomerController {
 	@PostMapping("/save")
 	public R save2(CustomerForm customerForm) {
 
-		System.out.println("进入注册***********************");
+		log.info("进入注册***********************");
 
 		Customer cus = customerService.findByMobile(customerForm.getMobile()); // 根据传输来会员表单的手机号查询会员
 
@@ -371,7 +371,6 @@ public class CustomerController {
 
 		if(customerrequest==null){
 			log.info("创建会员失败=》"+customer);
-			System.out.println(customer);
 			return R.error("创建会员失败");
 		}
 
@@ -502,7 +501,7 @@ public class CustomerController {
 			idList.add(ids);
 			customerService.delete(ids);
 			CustomerPushBoxUtils.nettyPush(MessageTypeEnum.DELETE.getValue(), idList.toArray(new Integer[idList.size()]));
-			System.out.println("用户删除成功");
+			log.info("用户删除成功");
 			return R.ok("删除成功");
 		} catch (Exception e) {
 			return R.error(1, "失败");
@@ -656,7 +655,7 @@ public class CustomerController {
 		 * try { localhost = InetAddress.getLocalHost().getHostAddress(); } catch
 		 * (UnknownHostException e) { e.printStackTrace(); }
 		 */
-		String url = "http://" +  localhost+ ":9090/yy-face/images/" + fileName + ".png";
+		String url = "http://" +  localhost+ ":9090/aicheck-face/images/" + fileName + ".png";
 		// String url = "http://" + localhost + ":8090/yy-face/yy-face/images/" +
 		// fileName + ".png";
 		// String url = "http://47.74.128.130:8090/images/" + fileName + ".png";
@@ -692,7 +691,7 @@ public class CustomerController {
 			e.printStackTrace();
 		}
 
-		String url = "http://" + localhost + ":9090/yy-face/visitors/" + fileName + ".png";
+		String url = "http://" + localhost + ":9090/aicheck-face/visitors/" + fileName + ".png";
 		// String url = "http://" + localhost + ":8090/yy-face/yy-face/images/" +
 		// fileName + ".png";
 		// String url = "http://47.74.128.130:8090/images/" + fileName + ".png";

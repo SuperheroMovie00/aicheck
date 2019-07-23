@@ -104,12 +104,12 @@ public class AuthorizationInterceptor extends HandlerInterceptorAdapter {
             String signString = ApiUtil.concatSignString(request) + AuthorizationEnum.TOKEN.getValue() + timestamp
                     + nonce + mac;
 
-            System.out.println("加密之前的" + signString);
+            log.info("加密之前的" + signString);
 
-            System.out.println(request.getParameterMap().toString());
+            log.info(request.getParameterMap().toString());
             String signature = MD5Util.getMD5(signString);
 
-            System.out.println("加密之后的sign=>" + signature.toUpperCase());
+            log.info("加密之后的sign=>" + signature.toUpperCase());
 
             if (!signature.equals(sign)) {
                 throw new FaceException("签名错误", 400);
@@ -143,7 +143,7 @@ public class AuthorizationInterceptor extends HandlerInterceptorAdapter {
     @Override
     public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex)
             throws Exception {
-        System.out.println("afterCompletion ----------ex => " + ex);
+        log.info("afterCompletion ----------ex => " + ex);
         response.setHeader("Access-Control-Allow-Origin", "*");
 
     }

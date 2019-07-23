@@ -93,15 +93,13 @@ public class TrafficStatisticsSchedule {
 	@Scheduled(cron = "*/10 * * * * ? ")
 	public void startsync() {
 
-		System.out.println("调用！！！！！！！！！！！！！！"+new Date());
+		log.info("调用！！！！！！！！！！！！！！"+new Date());
 		if(GlobalUser.channels.size()!=0){
 
 			GlobalUser.channels.forEach(channel -> {
-			System.out.println("有设备进行同步操作");
+				log.info("有设备进行同步操作");
 			String ip;
 			ip = channel.remoteAddress().toString();
-
-			System.out.println("ipipiipipipipipipip"+ip);
 
 			DeviceService deviceService = (DeviceService) SpringContextUtils.getBean("deviceService");
 //			Device device = deviceService.findAllByformacaddress(ip);
@@ -127,9 +125,9 @@ public class TrafficStatisticsSchedule {
 						message.setAction(MessageTypeEnum.DELETE.getValue());
 						String tudomessage=todoPush.getMessage();
 						tudomessage=tudomessage.replace(":-1",":"+todoPush.getId());
-						System.out.println("删除同步开始******");
+						log.info("删除同步开始******");
 						channel.writeAndFlush(new TextWebSocketFrame(tudomessage));
-						System.out.println("删除同步发送完成******");
+						log.info("删除同步发送完成******");
 						todoPush.setMessage(tudomessage);
 						todoPush.setSend_time(new Date());             //更新todopush的发送时间
 						todoPushService.save(todoPush);
@@ -147,9 +145,9 @@ public class TrafficStatisticsSchedule {
 						message.setObject(customerVO);
 						message.setId(todoPush.getId()); // 将传输的id推送过去
 						String str = JSON.toJSONString(message);
-						System.out.println("新增同步开始******");
+						log.info("新增同步开始******");
 						channel.writeAndFlush(new TextWebSocketFrame(str));
-						System.out.println("新增同步结束******");
+						log.info("新增同步结束******");
 						todoPush.setSend_time(new Date());             //更新todopush的发送时间
 						todoPushService.save(todoPush);
 					}
@@ -167,9 +165,9 @@ public class TrafficStatisticsSchedule {
 						message.setObject(customerVO);
 						message.setId(todoPush.getId()); // 将传输的id推送过去
 						String str = JSON.toJSONString(message);
-						System.out.println("新增同步开始******");
+						log.info("新增同步开始******");
 						channel.writeAndFlush(new TextWebSocketFrame(str));
-						System.out.println("新增同步结束******");
+						log.info("新增同步结束******");
 						todoPush.setSend_time(new Date());             //更新todopush的发送时间
 						todoPushService.save(todoPush);
 					}
@@ -181,7 +179,7 @@ public class TrafficStatisticsSchedule {
 			}
 		});
 		}else{
-			System.out.println("没有链接设备");
+
 			log.info("没有链接设备");
 		}
 		// CustomerPushBoxUtils.nettyPushnew(MessageTypeEnum.SAVE.getValue(),

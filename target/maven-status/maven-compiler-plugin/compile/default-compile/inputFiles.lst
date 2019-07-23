@@ -19,7 +19,6 @@ C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\module
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\modules\statistical\controller\StatisticalController.java
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\modules\sync\repository\syncRepository.java
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\modules\tags\controller\CustomerTagsController.java
-C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\test.java
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\modules\sms\controller\SmsController.java
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\modules\levels\entity\LevelsForm.java
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\modules\salesRecord\entity\SalesRecord.java
@@ -171,6 +170,7 @@ C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\module
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\FaceApplication.java
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\modules\trafficStatistics\repository\TrafficStatisticsRepository.java
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\modules\trafficStatistics\service\TrafficStatisticsService.java
+C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\vo\Test.java
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\modules\identifyRecord\vo\IdentifyRecordVO.java
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\modules\advertisingImages\service\ImageGroupService.java
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\modules\schedule\QuartzFolderJob.java

@@ -108,7 +108,7 @@ public class AdvertisingImagesController {
     @PostMapping("/test")
     public R test( String deviceId) {
     	 List<AdvertisingImages> advertisingImagesList = advertisingImagesService.findByDeviceIdAi(deviceId);
-    	 System.out.println(advertisingImagesList);
+    	 log.info("资源=》"+advertisingImagesList);
     	 return R.ok(advertisingImagesList);
     }
     
@@ -176,7 +176,6 @@ public class AdvertisingImagesController {
     @PostMapping("/advertisingImagesforgroupid")
     public R advertisingImagesforgroupid(Integer groupid) {
     	List<AdvertisingImages> list=advertisingImagesService.qyeryadvertisingimagesforgroupid(groupid);
-    	System.out.println(list);
     	return R.ok(list);
     }
     

@@ -7,6 +7,7 @@ package com.aicheck.face.modules.advertisingImages.service.impl;
 import com.aicheck.face.modules.advertisingImages.entity.AdvertisingImages;
 import com.aicheck.face.modules.advertisingImages.repository.AdvertisingImagesRepository;
 import com.aicheck.face.modules.advertisingImages.service.AdvertisingImagesService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -19,6 +20,7 @@ import java.util.Optional;
  * @Date: Created in 1:38 PM 2019/1/21
  */
 @Service("advertisingImagesService")
+@Slf4j
 public class AdvertisingImagesServiceImpl implements AdvertisingImagesService {
     @Autowired
     private AdvertisingImagesRepository advertisingImagesRepository;

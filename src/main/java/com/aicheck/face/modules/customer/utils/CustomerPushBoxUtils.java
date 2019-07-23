@@ -16,6 +16,7 @@ import com.aicheck.face.modules.nettyPush.MessageTypeEnum;
 
 import io.netty.handler.codec.http.websocketx.TextWebSocketFrame;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.util.CollectionUtils;
 
 import java.lang.reflect.Array;
@@ -28,6 +29,7 @@ import java.util.stream.Collectors;
  * @Description:
  * @Date: Created in 11:15 AM 2019/1/24
  */
+@Slf4j
 public class CustomerPushBoxUtils {
 
 	public static void nettyPush(String type, Object object) {
@@ -136,8 +138,8 @@ public class CustomerPushBoxUtils {
 			List<String> macList = deviceList.stream().filter(device -> ipList.contains(device.getIpAddress()))
 					.map(Device::getMacAddress).collect(Collectors.toList());
 
-			System.out.println("记录集合" + todoPushList);
-			System.out.println("MAC地址集合" + macList);
+			log.info("pusher=>记录集合" + todoPushList);
+			log.info("pusher=>MAC地址集合" + macList);
 			macList.forEach(s -> {
 				TodoPush todoPush = new TodoPush();
 				todoPush.setDeviceId(s);
@@ -161,9 +163,9 @@ public class CustomerPushBoxUtils {
 		//List<Device> deviceList = deviceService.findAllByRegisterType(); // 获取注册方式为空的设备
 		List<Device> deviceList = deviceService.findAllByRegisterTypeonlybox(); // 获取注册方式为空的设备
 		if(deviceList!=null){
-			System.out.println("deviceList取出成功");
+			log.info("push=>deviceList取出成功");
 		}else{
-			System.out.println("deviceList取失败");
+			log.info("push=>deviceList取失败");
 		}
 		List<String> ipList = deviceList.stream().map(Device::getIpAddress).collect(Collectors.toList());
 		
@@ -185,8 +187,8 @@ public class CustomerPushBoxUtils {
 			List<String> macList = deviceList.stream().filter(device -> ipList.contains(device.getIpAddress()))
 					.map(Device::getMacAddress).collect(Collectors.toList());
 
-			System.out.println("记录集合" + todoPushList);
-			System.out.println("MAC地址集合" + macList);
+			log.info("push=>记录集合" + todoPushList);
+			log.info("push=>MAC地址集合" + macList);
 			macList.forEach(s -> {
 				TodoPush todoPush = new TodoPush();
 				todoPush.setDeviceId(s);
@@ -198,9 +200,9 @@ public class CustomerPushBoxUtils {
 
 					List<TodoPush> todoPush= todoPushService.save(todoPushList);
 					if(todoPush!=null){
-						System.out.println("todoPush新增成功");
+						log.info("todoPush新增成功");
 					}else{
-						System.out.println("todoPush新增失败ABCD");
+						log.info("todoPush新增失败ABCD");
 					}
 		}
 	}

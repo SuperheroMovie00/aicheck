@@ -107,7 +107,7 @@ public class JobAndTriggerServiceImpl implements JobAndTriggerService {
             Map.Entry<String, Object> entry = var7.next();
             jobDetail.getJobDataMap().put((String) entry.getKey(), entry.getValue());
         }
-        System.out.println("jobDetail数据：--------" + jobDetail.toString());
+        log.info("jobDetail数据：--------" + jobDetail.toString());
         // 表达式调度构建器(即任务执行的时间)
         CronScheduleBuilder scheduleBuilder = CronScheduleBuilder.cronSchedule(cronExpression);
 
