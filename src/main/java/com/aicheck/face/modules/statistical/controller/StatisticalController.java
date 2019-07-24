@@ -85,7 +85,7 @@ public class StatisticalController {
         calendar.set(Calendar.SECOND,0);
         calendar.set(Calendar.MINUTE,0);
 
-        //      calendar.set(Calendar.HOUR,0);                //原来代码    用的是12小时制-----坑
+        // calendar.set(Calendar.HOUR,0);                //原来代码    用的是12小时制-----坑
 
         calendar.set(Calendar.HOUR_OF_DAY, 0);
 
@@ -269,8 +269,11 @@ public class StatisticalController {
 
         Calendar calendar = Calendar.getInstance();
 
+        SimpleDateFormat formatter2 = new SimpleDateFormat( "yyyy-MM-dd");
+        Date dat3 = formatter2.parse(date);           //将拼起来的String  转成Date  上面的格式
+        calendar.setTime(dat3);
 
-        Date date1=new Date();  //获取当前时间
+       /* Date date1=new Date();  //获取当前时间
         //获取当前时间的年份
         SimpleDateFormat formatter = new SimpleDateFormat( "yyyy");
         //将当前时间转成String
@@ -280,7 +283,7 @@ public class StatisticalController {
         System.out.println(da);
         SimpleDateFormat formatter2 = new SimpleDateFormat( "yyyy-MM-dd");
         Date dat3 = formatter2.parse(da);           //将拼起来的String  转成Date  上面的格式
-        calendar.setTime(dat3);
+        calendar.setTime(dat3);*/
 
 
         System.out.println(Calendar.YEAR);

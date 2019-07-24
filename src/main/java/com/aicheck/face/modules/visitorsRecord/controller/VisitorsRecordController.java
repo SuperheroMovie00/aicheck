@@ -74,16 +74,19 @@ public class VisitorsRecordController {
 
 		log.info("新客识别 ->{}", JSON.toJSONString(visitorsRecordForm));
 
-		VisitorsRecord visitorsRecord = new VisitorsRecord(); // 声明新的对象
+		// 声明新的对象
+		VisitorsRecord visitorsRecord = new VisitorsRecord();
 
-		BeanUtils.copyProperties(visitorsRecordForm, visitorsRecord); // 将数据同步到visitorsRecord类的对象中
+		// 将数据同步到visitorsRecord类的对象中
+		BeanUtils.copyProperties(visitorsRecordForm, visitorsRecord);
 
 		visitorsRecord = visitorsRecordService.save(visitorsRecord);
 
 		log.info("新客识别数据新增成功");
 
 		// 推送至手机
-		List<Device> deviceList = deviceService.findByPlatform(DeviceEnum.MOBILE.getValue()); // 根据平台查询设备
+		// 根据平台查询设备
+		List<Device> deviceList = deviceService.findByPlatform(DeviceEnum.MOBILE.getValue());
 
 		List<String> ipList = deviceList.stream().map(Device::getIpAddress).collect(Collectors.toList());
 

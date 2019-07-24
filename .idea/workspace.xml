@@ -10,34 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e443ab1d-254e-461d-b34a-84827a41395b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/log/sys.2019-07-22.0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/vo/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/vo/Test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/sys.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/sys.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/common/interceptor/AuthorizationInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/common/interceptor/AuthorizationInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/advertisingImages/controller/AdvertisingImagesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/advertisingImages/controller/AdvertisingImagesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/advertisingImages/service/impl/AdvertisingImagesServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/advertisingImages/service/impl/AdvertisingImagesServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/customer/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/customer/controller/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/customer/utils/CustomerPushBoxUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/customer/utils/CustomerPushBoxUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/nettyPush/NettyServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/nettyPush/NettyServerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/quartz/service/impl/JobAndTriggerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/quartz/service/impl/JobAndTriggerServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/statistical/controller/StatisticalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/statistical/controller/StatisticalController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/trafficStatistics/schedule/TrafficStatisticsSchedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/trafficStatistics/schedule/TrafficStatisticsSchedule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/common/interceptor/AuthorizationInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/common/interceptor/AuthorizationInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/advertisingImages/controller/AdvertisingImagesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/advertisingImages/controller/AdvertisingImagesController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/advertisingImages/service/impl/AdvertisingImagesServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/advertisingImages/service/impl/AdvertisingImagesServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/customer/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/customer/controller/CustomerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/customer/utils/CustomerPushBoxUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/customer/utils/CustomerPushBoxUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/nettyPush/NettyServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/nettyPush/NettyServerHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/quartz/service/impl/JobAndTriggerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/quartz/service/impl/JobAndTriggerServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/statistical/controller/StatisticalController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/statistical/controller/StatisticalController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/trafficStatistics/schedule/TrafficStatisticsSchedule.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/trafficStatistics/schedule/TrafficStatisticsSchedule.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/face-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/visitorsRecord/controller/VisitorsRecordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/visitorsRecord/controller/VisitorsRecordController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/visitorsRecord/controller/VisitorsRecordController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/visitorsRecord/controller/VisitorsRecordController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/face-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/face-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -72,8 +50,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/vo/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="13" column="37" lean-forward="true" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+            <state relative-caret-position="220">
+              <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+            <state relative-caret-position="330">
+              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -93,8 +71,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/advertisingImages/entity/AdvertisingImages.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="42" column="4" lean-forward="true" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
+            <state relative-caret-position="836">
+              <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -102,7 +80,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/customer/controller/CustomerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
+            <state relative-caret-position="13398">
               <caret line="664" column="25" selection-start-line="664" selection-start-column="25" selection-end-line="664" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -114,8 +92,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/nettyPush/NettyServerHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="106" column="7" lean-forward="true" selection-start-line="106" selection-start-column="7" selection-end-line="106" selection-end-column="7" />
+            <state relative-caret-position="1672">
+              <caret line="106" column="7" selection-start-line="106" selection-start-column="7" selection-end-line="106" selection-end-column="7" />
               <folding>
                 <element signature="e#4093#4094#0" expanded="true" />
                 <element signature="e#4126#4127#0" expanded="true" />
@@ -127,8 +105,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/customer/utils/CustomerPushBoxUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="177" lean-forward="true" selection-start-line="177" selection-end-line="177" />
+            <state relative-caret-position="3432">
+              <caret line="177" selection-start-line="177" selection-end-line="177" />
             </state>
           </provider>
         </entry>
@@ -136,8 +114,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/common/interceptor/AuthorizationInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="144" column="30" lean-forward="true" selection-start-line="144" selection-start-column="30" selection-end-line="144" selection-end-column="30" />
+            <state relative-caret-position="110">
+              <caret line="97" column="19" selection-start-line="97" selection-start-column="19" selection-end-line="97" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -145,8 +123,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/statistical/controller/StatisticalController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="73" column="23" lean-forward="true" selection-start-line="73" selection-start-column="23" selection-end-line="73" selection-end-column="23" />
+            <state relative-caret-position="413">
+              <caret line="281" column="35" lean-forward="true" selection-start-line="281" selection-start-column="35" selection-end-line="281" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/visitorsRecord/controller/VisitorsRecordController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="82" column="48" selection-start-line="82" selection-start-column="48" selection-end-line="82" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -207,7 +194,6 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
         <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/i8sdk/dllLibrary/FaceSmartSDK.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/visitorsRecord/controller/VisitorsRecordController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/trafficStatistics/service/impl/TrafficStatisticsServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/i8sdk/dllLibrary/impl/FaceSmartSDKImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/vo/ccc.java" />
@@ -226,7 +212,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/statistical/service/StatisticalService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/statistical/service/impl/StatisticalServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/customer/repository/CustomerRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/statistical/controller/StatisticalController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/advertisingImages/controller/AdvertisingImagesController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/advertisingImages/service/impl/AdvertisingImagesServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/quartz/service/impl/JobAndTriggerServiceImpl.java" />
@@ -237,6 +222,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/trafficStatistics/schedule/TrafficStatisticsSchedule.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/vo/Test.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/visitorsRecord/controller/VisitorsRecordController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/statistical/controller/StatisticalController.java" />
       </list>
     </option>
   </component>
@@ -278,6 +265,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -608,7 +597,39 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="aicheck" type="462c0819:PsiDirectoryNode" />
               <item name="face" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="visitorsRecord" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="face" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aicheck-face-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="aicheck" type="462c0819:PsiDirectoryNode" />
+              <item name="face" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="visitorsRecord" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="face" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aicheck-face-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="aicheck" type="462c0819:PsiDirectoryNode" />
+              <item name="face" type="462c0819:PsiDirectoryNode" />
               <item name="vo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="face" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aicheck-face-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="face" type="b2602c69:ProjectViewProjectNode" />
@@ -620,8 +641,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -873,7 +892,8 @@
       <workItem from="1563414520165" duration="41713000" />
       <workItem from="1563501262329" duration="35248000" />
       <workItem from="1563759852809" duration="19099000" />
-      <workItem from="1563846537912" duration="15316000" />
+      <workItem from="1563846537912" duration="21088000" />
+      <workItem from="1563934353553" duration="8162000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1563507774126</created>
@@ -910,11 +930,18 @@
       <option name="project" value="LOCAL" />
       <updated>1563793183514</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="2019-7-23 下午 更新">
+      <created>1563871829294</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1563871829294</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="203333000" />
+    <option name="totallyTimeSpent" value="217267000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -927,8 +954,47 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.1930295" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.23659517" />
+      <window_info id="Structure" order="1" sideWeight="0.50141644" side_tool="true" weight="0.26407507" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.50141644" side_tool="true" weight="0.26407507" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32765958" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.19858156" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.19858156" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.24539007" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Application Servers" order="12" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.38101983" />
+      <window_info anchor="bottom" id="Spring" order="14" weight="0.3286119" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" weight="0.3286119" />
+      <window_info anchor="right" id="Key Promoter X" order="0" weight="0.3297587" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.2077748" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Database" order="9" weight="0.3297587" />
+      <window_info anchor="right" id="Bean Validation" order="10" weight="0.3297587" />
+      <window_info anchor="right" id="Remote Host" order="11" weight="0.3297587" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.24396783" />
       <window_info id="Structure" order="1" sideWeight="0.50141644" side_tool="true" weight="0.26407507" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -964,44 +1030,6 @@
       <window_info anchor="right" id="Database" order="9" weight="0.3297587" />
       <window_info anchor="right" id="Bean Validation" order="10" weight="0.3297587" />
       <window_info anchor="right" id="Remote Host" order="11" weight="0.3297587" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.2707775" />
-      <window_info id="Structure" order="1" sideWeight="0.50141644" side_tool="true" weight="0.26407507" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.50141644" side_tool="true" weight="0.26407507" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32765958" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35177305" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.16312057" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.24539007" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3286119" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Application Servers" order="12" weight="0.3286119" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.38101983" />
-      <window_info anchor="bottom" id="Spring" order="14" weight="0.3286119" />
-      <window_info anchor="bottom" id="Java Enterprise" order="15" weight="0.3286119" />
-      <window_info anchor="right" id="Key Promoter X" order="0" weight="0.3297587" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" weight="0.2077748" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Database" order="9" weight="0.3297587" />
-      <window_info anchor="right" id="Bean Validation" order="10" weight="0.3297587" />
-      <window_info anchor="right" id="Remote Host" order="11" weight="0.3297587" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1013,7 +1041,8 @@
     <MESSAGE value="修复2" />
     <MESSAGE value="修复3" />
     <MESSAGE value="2019-7-22 更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019-7-22 更新" />
+    <MESSAGE value="2019-7-23 下午 更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019-7-23 下午 更新" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -1093,23 +1122,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.4.RELEASE/spring-core-5.1.4.RELEASE-sources.jar!/org/springframework/core/SimpleAliasRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="224" selection-start-line="224" selection-end-line="224" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.4.RELEASE/spring-beans-5.1.4.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="163" selection-start-line="163" selection-end-line="163" />
-          <folding>
-            <element signature="e#7076#7077#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.4.RELEASE/spring-beans-5.1.4.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
@@ -1411,41 +1423,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/customer/controller/CustomerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="664" column="25" selection-start-line="664" selection-start-column="25" selection-end-line="664" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/nettyPush/NettyServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="106" column="7" lean-forward="true" selection-start-line="106" selection-start-column="7" selection-end-line="106" selection-end-column="7" />
-          <folding>
-            <element signature="e#4093#4094#0" expanded="true" />
-            <element signature="e#4126#4127#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/customer/utils/CustomerPushBoxUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="177" lean-forward="true" selection-start-line="177" selection-end-line="177" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/common/interceptor/AuthorizationInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="144" column="30" lean-forward="true" selection-start-line="144" selection-start-column="30" selection-end-line="144" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/trafficStatistics/schedule/TrafficStatisticsSchedule.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="747">
@@ -1456,34 +1433,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha1/netty-all-5.0.0.Alpha1-sources.jar!/io/netty/channel/Channel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="390" column="18" selection-start-line="390" selection-start-column="18" selection-end-line="390" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/vo/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="13" column="37" lean-forward="true" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+        <state relative-caret-position="220">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/advertisingImages/entity/AdvertisingImages.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        <state relative-caret-position="836">
+          <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/advertisingImages/entity/AdvertisingImages.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/customer/controller/CustomerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="42" column="4" lean-forward="true" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
+        <state relative-caret-position="13398">
+          <caret line="664" column="25" selection-start-line="664" selection-start-column="25" selection-end-line="664" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/nettyPush/NettyServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1672">
+          <caret line="106" column="7" selection-start-line="106" selection-start-column="7" selection-end-line="106" selection-end-column="7" />
+          <folding>
+            <element signature="e#4093#4094#0" expanded="true" />
+            <element signature="e#4126#4127#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/customer/utils/CustomerPushBoxUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3432">
+          <caret line="177" selection-start-line="177" selection-end-line="177" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/visitorsRecord/controller/VisitorsRecordController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="82" column="48" selection-start-line="82" selection-start-column="48" selection-end-line="82" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/common/interceptor/AuthorizationInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="97" column="19" selection-start-line="97" selection-start-column="19" selection-end-line="97" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/statistical/controller/StatisticalController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="73" column="23" lean-forward="true" selection-start-line="73" selection-start-column="23" selection-end-line="73" selection-end-column="23" />
+        <state relative-caret-position="413">
+          <caret line="281" column="35" lean-forward="true" selection-start-line="281" selection-start-column="35" selection-end-line="281" selection-end-column="35" />
         </state>
       </provider>
     </entry>
