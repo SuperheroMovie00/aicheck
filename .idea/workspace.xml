@@ -10,72 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e443ab1d-254e-461d-b34a-84827a41395b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/pathseting/controller/pathsetingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/pathseting/entity/pathseting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/pathseting/entity/pathsetinginput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/pathseting/repository/pathsetingRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/pathseting/service/impl/pathsetingServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/pathseting/service/pathsetingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/vo/file.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/sys.2019-06-28.0.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/log/sys.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/sys.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/common/utils/PropertiesUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/common/utils/PropertiesUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/config/MyWebAppConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/config/MyWebAppConfigurer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/advertisingImages/controller/AdvertisingImagesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/advertisingImages/controller/AdvertisingImagesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/advertisingImages/controller/ExtendController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/advertisingImages/controller/ExtendController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/advertisingImages/controller/ImageGroupController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/advertisingImages/controller/ImageGroupController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/advertisingImages/controller/ImageStrategyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/advertisingImages/controller/ImageStrategyController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/customer/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/customer/controller/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/customer/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/customer/repository/CustomerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/customer/utils/CustomerPushBoxUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/customer/utils/CustomerPushBoxUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/device/controller/DeviceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/device/controller/DeviceController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/device/controller/relevanceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/device/controller/relevanceController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/exceptionRecord/controller/ExceptionRecordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/exceptionRecord/controller/ExceptionRecordController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/identifyRecord/controller/IdentifyRecordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/identifyRecord/controller/IdentifyRecordController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/levels/controller/LevelsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/levels/controller/LevelsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/nettyPush/NettyInitial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/nettyPush/NettyInitial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/product/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/product/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/quartz/controller/QuartzController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/quartz/controller/QuartzController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/salesRecord/controller/SalesRecordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/salesRecord/controller/SalesRecordController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/statistical/controller/StatisticalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/statistical/controller/StatisticalController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/statistical/service/StatisticalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/statistical/service/StatisticalService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/statistical/service/impl/StatisticalServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/statistical/service/impl/StatisticalServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/tags/controller/TagsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/tags/controller/TagsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/nettyPush/NettyServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/nettyPush/NettyServerHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/trafficStatistics/schedule/TrafficStatisticsSchedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/trafficStatistics/schedule/TrafficStatisticsSchedule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/visitorsRecord/controller/VisitorsRecordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/visitorsRecord/controller/VisitorsRecordController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/visitorsRecord/service/impl/VisitorsRecordServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/visitorsRecord/service/impl/VisitorsRecordServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/vo/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/vo/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/vo/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/vo/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/common/utils/PropertiesUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/common/utils/PropertiesUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/config/MyWebAppConfigurer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/config/MyWebAppConfigurer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/advertisingImages/controller/AdvertisingImagesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/advertisingImages/controller/AdvertisingImagesController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/advertisingImages/controller/ExtendController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/advertisingImages/controller/ExtendController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/advertisingImages/controller/ImageGroupController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/advertisingImages/controller/ImageGroupController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/advertisingImages/controller/ImageStrategyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/advertisingImages/controller/ImageStrategyController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/customer/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/customer/controller/CustomerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/customer/repository/CustomerRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/customer/repository/CustomerRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/customer/utils/CustomerPushBoxUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/customer/utils/CustomerPushBoxUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/device/controller/DeviceController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/device/controller/DeviceController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/device/controller/relevanceController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/device/controller/relevanceController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/exceptionRecord/controller/ExceptionRecordController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/exceptionRecord/controller/ExceptionRecordController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/identifyRecord/controller/IdentifyRecordController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/identifyRecord/controller/IdentifyRecordController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/levels/controller/LevelsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/levels/controller/LevelsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/nettyPush/NettyInitial$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/nettyPush/NettyInitial$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/nettyPush/NettyInitial$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/nettyPush/NettyInitial$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/nettyPush/NettyInitial.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/nettyPush/NettyInitial.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/product/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/product/controller/ProductController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/quartz/controller/QuartzController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/quartz/controller/QuartzController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/salesRecord/controller/SalesRecordController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/salesRecord/controller/SalesRecordController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/statistical/controller/StatisticalController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/statistical/controller/StatisticalController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/statistical/service/StatisticalService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/statistical/service/StatisticalService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/statistical/service/impl/StatisticalServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/statistical/service/impl/StatisticalServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/tags/controller/TagsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/tags/controller/TagsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/trafficStatistics/schedule/TrafficStatisticsSchedule.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/trafficStatistics/schedule/TrafficStatisticsSchedule.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/visitorsRecord/controller/VisitorsRecordController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/visitorsRecord/controller/VisitorsRecordController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/visitorsRecord/service/impl/VisitorsRecordServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/visitorsRecord/service/impl/VisitorsRecordServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/vo/R.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/vo/R.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/vo/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/vo/Test.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -107,56 +47,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/customer/controller/CustomerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="708" column="8" selection-start-line="708" selection-start-column="8" selection-end-line="708" selection-end-column="8" />
+            <state relative-caret-position="112">
+              <caret line="261" column="41" selection-start-line="261" selection-start-column="41" selection-end-line="261" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/customer/vo/CustomerVO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="198" selection-start-line="198" selection-end-line="198" />
-              <folding>
-                <element signature="e#3328#3329#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/vo/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.1.9/druid-1.1.9-sources.jar!/com/alibaba/druid/support/spring/stat/DruidStatInterceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="71" column="40" selection-start-line="71" selection-start-column="40" selection-end-line="71" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.1.9/druid-1.1.9-sources.jar!/com/alibaba/druid/support/spring/stat/SpringMethodStat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="203" selection-start-line="203" selection-end-line="203" />
             </state>
           </provider>
         </entry>
@@ -164,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/customer/utils/CustomerPushBoxUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="180" column="34" lean-forward="true" selection-start-line="180" selection-start-column="34" selection-end-line="180" selection-end-column="34" />
+            <state relative-caret-position="46">
+              <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -173,35 +71,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/config/MyWebAppConfigurer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="46" column="9" lean-forward="true" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+            <state relative-caret-position="337">
+              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/trafficStatistics/schedule/TrafficStatisticsSchedule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="130" column="46" selection-start-line="130" selection-start-column="46" selection-end-line="130" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/device/entity/TodoPush.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/nettyPush/NettyServerHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="100" selection-start-line="100" selection-end-line="100" />
+            <state relative-caret-position="14">
+              <caret line="332" column="56" selection-start-line="332" selection-start-column="56" selection-end-line="332" selection-end-column="56" />
               <folding>
-                <element signature="e#1760#1761#0" expanded="true" />
-                <element signature="e#1900#1901#0" expanded="true" />
-                <element signature="e#1932#1933#0" expanded="true" />
-                <element signature="e#2042#2043#0" expanded="true" />
-                <element signature="e#2080#2081#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.49/fastjson-1.2.49-sources.jar!/com/alibaba/fastjson/JSON.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="575" selection-start-line="575" selection-end-line="575" />
-              <folding>
-                <element signature="e#20778#20779#0" expanded="true" />
+                <element signature="e#4093#4094#0" expanded="true" />
+                <element signature="e#4126#4127#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -286,7 +178,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/product/service/ProductService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/pathseting/repository/pathsetingRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/pathseting/service/pathsetingService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/nettyPush/NettyServerHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/nettyPush/NettyInitial.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/device/controller/relevanceController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/exceptionRecord/controller/ExceptionRecordController.java" />
@@ -302,11 +193,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/pathseting/controller/pathsetingController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/pathseting/service/impl/pathsetingServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/common/utils/PropertiesUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/trafficStatistics/schedule/TrafficStatisticsSchedule.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/vo/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/customer/utils/CustomerPushBoxUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/config/MyWebAppConfigurer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/customer/controller/CustomerController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/trafficStatistics/schedule/TrafficStatisticsSchedule.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/nettyPush/NettyServerHandler.java" />
       </list>
     </option>
   </component>
@@ -480,6 +372,18 @@
               <item name="modules" type="462c0819:PsiDirectoryNode" />
               <item name="advertisingImages" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="face" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aicheck-face-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="aicheck" type="462c0819:PsiDirectoryNode" />
+              <item name="face" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="nettyPush" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="face" type="b2602c69:ProjectViewProjectNode" />
@@ -791,7 +695,7 @@
       <workItem from="1563934353553" duration="17059000" />
       <workItem from="1564019468728" duration="12738000" />
       <workItem from="1564106786367" duration="22638000" />
-      <workItem from="1564365857055" duration="16464000" />
+      <workItem from="1564365857055" duration="19209000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1563507774126</created>
@@ -842,11 +746,18 @@
       <option name="project" value="LOCAL" />
       <updated>1563953003553</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="2019-7-29 下午 更新">
+      <created>1564389305076</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1564389305076</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="278004000" />
+    <option name="totallyTimeSpent" value="280749000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -861,7 +772,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.22453083" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.15951742" />
       <window_info id="Structure" order="1" sideWeight="0.50141644" side_tool="true" weight="0.26407507" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -872,7 +783,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32765958" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.19007093" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.21276596" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.1716312" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
@@ -948,40 +859,35 @@
     <MESSAGE value="2019-7-22 更新" />
     <MESSAGE value="2019-7-23 下午 更新" />
     <MESSAGE value="2019-7-24 下午 更新统计" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019-7-24 下午 更新统计" />
+    <MESSAGE value="2019-7-29 下午 更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019-7-29 下午 更新" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/customer/controller/CustomerController.java</url>
-          <line>667</line>
+          <line>685</line>
           <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/customer/controller/CustomerController.java</url>
-          <line>448</line>
-          <properties />
-          <option name="timeStamp" value="7" />
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/customer/utils/CustomerPushBoxUtils.java</url>
-          <line>193</line>
+          <line>161</line>
           <properties />
-          <option name="timeStamp" value="10" />
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/customer/utils/CustomerPushBoxUtils.java</url>
           <line>197</line>
           <properties />
-          <option name="timeStamp" value="13" />
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/customer/utils/CustomerPushBoxUtils.java</url>
           <line>36</line>
           <properties />
-          <option name="timeStamp" value="14" />
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1062,13 +968,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="176" column="32" lean-forward="true" selection-start-line="176" selection-start-column="32" selection-end-line="176" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="471">
@@ -1101,17 +1000,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
           <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/nettyPush/NettyServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="407" column="29" lean-forward="true" selection-start-line="407" selection-start-column="29" selection-end-line="407" selection-end-column="29" />
-          <folding>
-            <element signature="e#4093#4094#0" expanded="true" />
-            <element signature="e#4126#4127#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1283,13 +1171,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/trafficStatistics/schedule/TrafficStatisticsSchedule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="234" column="11" lean-forward="true" selection-start-line="234" selection-start-column="11" selection-end-line="234" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/advertisingImages/controller/AdvertisingImagesController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="47">
@@ -1375,34 +1256,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/device/entity/TodoPush.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="100" selection-start-line="100" selection-end-line="100" />
-          <folding>
-            <element signature="e#1760#1761#0" expanded="true" />
-            <element signature="e#1900#1901#0" expanded="true" />
-            <element signature="e#1932#1933#0" expanded="true" />
-            <element signature="e#2042#2043#0" expanded="true" />
-            <element signature="e#2080#2081#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.4.RELEASE/spring-aop-5.1.4.RELEASE-sources.jar!/org/springframework/aop/framework/CglibAopProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="695" column="17" lean-forward="true" selection-start-line="695" selection-start-column="17" selection-end-line="695" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.4.RELEASE/spring-core-5.1.4.RELEASE-sources.jar!/org/springframework/cglib/proxy/MethodProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="202" lean-forward="true" selection-start-line="202" selection-end-line="202" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/customer/vo/CustomerVO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
@@ -1413,27 +1266,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.4.RELEASE/spring-core-5.1.4.RELEASE-sources.jar!/org/springframework/cglib/proxy/MethodProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="217" selection-start-line="217" selection-end-line="217" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.4.RELEASE/spring-aop-5.1.4.RELEASE-sources.jar!/org/springframework/aop/framework/ReflectiveMethodInvocation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="162" selection-start-line="162" selection-end-line="162" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.1.9/druid-1.1.9-sources.jar!/com/alibaba/druid/support/spring/stat/DruidStatInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/vo/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+        <state relative-caret-position="217">
+          <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.1.9/druid-1.1.9-sources.jar!/com/alibaba/druid/support/spring/stat/DruidStatInterceptor.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.4.RELEASE/spring-aop-5.1.4.RELEASE-sources.jar!/org/springframework/aop/framework/CglibAopProxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="71" column="40" selection-start-line="71" selection-start-column="40" selection-end-line="71" selection-end-column="40" />
+        <state relative-caret-position="266">
+          <caret line="664" column="17" lean-forward="true" selection-start-line="664" selection-start-column="17" selection-end-line="664" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/config/MyWebAppConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/customer/utils/CustomerPushBoxUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/nettyPush/MessageTypeEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="45" column="21" lean-forward="true" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+        <state relative-caret-position="66">
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
           <folding>
             <element signature="e#1111#1112#0" expanded="true" />
             <element signature="e#1139#1140#0" expanded="true" />
@@ -1443,27 +1331,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/customer/utils/CustomerPushBoxUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="180" column="34" lean-forward="true" selection-start-line="180" selection-start-column="34" selection-end-line="180" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/config/MyWebAppConfigurer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="46" column="9" lean-forward="true" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/customer/controller/CustomerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="708" column="8" selection-start-line="708" selection-start-column="8" selection-end-line="708" selection-end-column="8" />
+        <state relative-caret-position="112">
+          <caret line="261" column="41" selection-start-line="261" selection-start-column="41" selection-end-line="261" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/device/entity/TodoPush.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="92" column="5" lean-forward="true" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
+          <folding>
+            <element signature="e#1760#1761#0" expanded="true" />
+            <element signature="e#1800#1801#0" expanded="true" />
+            <element signature="e#1900#1901#0" expanded="true" />
+            <element signature="e#1932#1933#0" expanded="true" />
+            <element signature="e#2042#2043#0" expanded="true" />
+            <element signature="e#2080#2081#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/nettyPush/NettyServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="332" column="56" selection-start-line="332" selection-start-column="56" selection-end-line="332" selection-end-column="56" />
+          <folding>
+            <element signature="e#4093#4094#0" expanded="true" />
+            <element signature="e#4126#4127#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/trafficStatistics/schedule/TrafficStatisticsSchedule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="130" column="46" selection-start-line="130" selection-start-column="46" selection-end-line="130" selection-end-column="46" />
         </state>
       </provider>
     </entry>

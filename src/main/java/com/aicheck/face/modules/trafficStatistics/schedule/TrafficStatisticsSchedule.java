@@ -136,7 +136,20 @@ public class TrafficStatisticsSchedule {
 						todoPush.setSend_time(new Date());             //更新todopush的发送时间
 						todoPushService.save(todoPush);
 					}
-					if (todoPush.getType()==3 && todoPush.getDataId()!=null){  //类型为3 并且data_id不为空
+
+					if(todoPush.getType()==3){
+						message.setAction(MessageTypeEnum.UPDATE.getValue());
+						String tudomessage=todoPush.getMessage();
+						tudomessage=tudomessage.replace(":-1",":"+todoPush.getId());
+						log.info("修改同步开始******");
+						channel.writeAndFlush(new TextWebSocketFrame(tudomessage));
+						log.info("修改同步发送完成******");
+						todoPush.setMessage(tudomessage);
+						todoPush.setSend_time(new Date());             //更新todopush的发送时间
+						todoPushService.save(todoPush);
+					}
+
+					/*if (todoPush.getType()==3 && todoPush.getDataId()!=null){  //类型为3 并且data_id不为空
 
 						Customer cus = customerservice.findById(todoPush.getDataId());
 						CustomerVO customerVO = new CustomerVO();
@@ -154,7 +167,7 @@ public class TrafficStatisticsSchedule {
 						log.info("新增同步结束******");
 						todoPush.setSend_time(new Date());             //更新todopush的发送时间
 						todoPushService.save(todoPush);
-					}
+					}*/
 
 					if (todoPush.getType()==2){
 

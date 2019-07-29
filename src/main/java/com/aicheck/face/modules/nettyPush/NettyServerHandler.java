@@ -341,15 +341,20 @@ public class NettyServerHandler extends SimpleChannelInboundHandler<Object> {
 						updatetodupushbytype4(stu,todoPush);
 						log.info("socket消息返回有效******执行删除（todopush）完成");
 						break;
-					case 3:
-						log.info("socket消息返回有效******执行新增处理（todopush）");
+					case 8:
+						log.info("socket消息返回有效******执行查詢人臉处理（todopush）");
 						updatetodupushbytype3(stu,todoPush);
-						log.info("socket消息返回有效******执行新增处理（todopush）完成");
+						log.info("socket消息返回有效******执行查詢人臉处理（todopush）完成");
+						break;
+					case 3:
+						log.info("socket消息返回有效******执行修改处理（todopush）");
+						updatetodupushbytype4(stu,todoPush);
+						log.info("socket消息返回有效******执行修改处理（todopush）完成");
 						break;
 					case 2:
-						log.info("socket消息返回有效******执行2处理（todopush）");
+						log.info("socket消息返回有效******执行新增处理（todopush）");
 						updatetodupushbytype2(stu,todoPush);
-						log.info("socket消息返回有效******执行2处理（todopush）完成");
+						log.info("socket消息返回有效******执行新增处理（todopush）完成");
 						break;
 						default:
 				}

@@ -49,7 +49,7 @@ public class MyWebAppConfigurer implements WebMvcConfigurer {
 
         //remark:date :2019-7-29 原因：将原来的定死的路径改为可以更该的路径
         if(false){
-//        registry.addResourceHandler("/images/**").addResourceLocations("file:////Users/liaojin/Desktop/opencv/");
+//      registry.addResourceHandler("/images/**").addResourceLocations("file:////Users/liaojin/Desktop/opencv/");
         registry.addResourceHandler("/visitors/**").addResourceLocations("file:///" + PropertiesUtils.getInstance().getProperties("visitors"));
         //registry.addResourceHandler("/visitors/**").addResourceLocations("file:///" + "D:\\aicheck-face\\visitors\\");
         registry.addResourceHandler("/ai/**").addResourceLocations("file:///" + PropertiesUtils.getInstance().getProperties("ai"));

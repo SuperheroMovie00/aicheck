@@ -260,7 +260,7 @@ public class CustomerController {
 
 
 		TodoPush todoPush = new TodoPush();
-		todoPush.setType(3);
+		todoPush.setType(8);
 		todoPush.setStatus(0);
 		todoPush.setMessage(features);
 		todoPush.setCreateTime(new Date());
