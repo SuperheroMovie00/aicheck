@@ -25,6 +25,11 @@ public class LevelsController {
 	@GetMapping
 	public R findAllList(@RequestParam(value="currentPage", defaultValue = "1")Integer currentPage, @RequestParam(value = "pageSize", defaultValue = "15")Integer pageSize) {
 		Page<Levels> page = levelsService.findAllList(currentPage, pageSize);
+		if(page==null){
+			return R.error("/v1/levels/get=>page为空");
+		}
+
+
 		return R.ok(page.getContent());
 	}
 	

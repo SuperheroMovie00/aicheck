@@ -179,6 +179,7 @@ public class StatisticalController {
         Date last = calendar.getTime();
 
         List<Map<String,Object>> objects = statisticalService.statisticalOldPassengerFlowByWeek(first,last);
+
         List<Map<String,Object>> maps = statisticalService.statisticalNewPassengerFlowByWeek(first,last);
 
         List<String> oldDays = objects.stream().map(map -> map.get("day").toString()).collect(Collectors.toList());
@@ -298,7 +299,7 @@ public class StatisticalController {
         calendar.add(Calendar.MONTH,1);
         Date nextMonth = calendar.getTime();
 
-        List<Map<String,Object>> objects = statisticalService.statisticalOldPassengerFlowByMonth(currentMonth,nextMonth);
+        List<Map<String,Object>> objects = statisticalService.statisticalOldPassengerFlowByMonthCustomer(currentMonth,nextMonth);
 
         List<Map<String,Object>> maps = statisticalService.statisticalNewPassengerFlowByMonth(currentMonth,nextMonth);
 

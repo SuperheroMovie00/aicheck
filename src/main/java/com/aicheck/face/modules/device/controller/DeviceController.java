@@ -14,6 +14,7 @@ import com.aicheck.face.vo.R;
 
 import io.netty.handler.codec.http.websocketx.TextWebSocketFrame;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -31,7 +32,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/v1/device")
-//@Slf4j
+@Slf4j
 public class DeviceController {
     @Autowired
     private DeviceService deviceService;
@@ -41,7 +42,9 @@ public class DeviceController {
                      @RequestParam(value = "pageSize",defaultValue = "15") Integer pageSize,@RequestParam(value = "platform",required = false) String platform) {
 
         Page<Device> page = deviceService.findAll(currentPage,pageSize,platform);
-
+        if(page==null){
+            return R.error("get device=> 设备集合新消息为空");
+        }
         return R.ok(page.getContent()).put("total", page.getTotalElements());
     }
 
@@ -49,6 +52,9 @@ public class DeviceController {
     public R findByNotGroupDevice() {
 
         List<Device> deviceList = deviceService.findByNotGroupDevice();
+        if(deviceList==null){
+            return R.error("not-group=> 设备集合为空");
+        }
 
         return R.ok(deviceList);
     }
@@ -58,6 +64,9 @@ public class DeviceController {
     @GetMapping("/querydevicefrobox")
     public R querydevicefrobox(String deviceip) {
     	List<Device> devices=deviceService.querydevicefrobox(deviceip);
+        if(devices==null){
+            return R.error("querydevicefrobox=> 设备集合新消息为空");
+        }
     	return R.ok(devices);
     }
     
@@ -99,6 +108,9 @@ public class DeviceController {
     @PostMapping("/queryrelevancefordeviceid")
     public R queryrelevancefordeviceid(Integer deviceid) {
     	List<Device> devices=deviceService.queryrelevancefordeviceid(deviceid);
+        if(devices==null){
+            return R.error("queryrelevancefordeviceid=> 设备集合新消息为空");
+        }
     	System.out.println(devices);
     	return R.ok(devices);
     }
@@ -107,6 +119,10 @@ public class DeviceController {
     @PutMapping("/{id}")
     public R update(@PathVariable Integer id,@RequestParam(value = "name") String name) {
         Device device = deviceService.findById(id);
+
+        if(device==null){
+            return R.error("put=> 设备新消息为空");
+        }
         device.setName(name);
         device = deviceService.update(device);
         return R.ok(device);
@@ -118,7 +134,11 @@ public class DeviceController {
     public R findAllByforplatform(String platform){
     	
     	List<Device> devicelist=deviceService.findAllByforplatform(platform);
-    
+
+        if(devicelist==null){
+            return R.error("findAllByforplatform=> 设备集合新消息为空");
+        }
+
     	return R.ok(devicelist);
     }
       
@@ -127,6 +147,10 @@ public class DeviceController {
     @GetMapping("/update")
     public R updateforid(@RequestParam(value = "id") int id,@RequestParam(value = "name") String name) {
     	Device device = deviceService.findById(id);
+
+        if(device==null){
+            return R.error("update=> 设备新消息为空");
+        }
     	 device.setName(name);
     	 device = deviceService.update(device);
     	 
@@ -138,6 +162,9 @@ public class DeviceController {
     @PostMapping("/init/{id}")
     public R init(@PathVariable Integer id) {
         Device device = deviceService.findById(id);
+        if(device==null){
+            return R.error("update=> 设备新消息为空");
+        }
         GlobalUser.channels.forEach(channel -> {
             if (channel.remoteAddress().toString().equals(device.getIpAddress())) {
               //  log.info("初始化数据:{}--{}",device.getIpAddress(),device.getMacAddress());
@@ -153,6 +180,9 @@ public class DeviceController {
     @PostMapping("/init")
     public R initin(Integer id) {
         Device device = deviceService.findById(id);
+        if(device==null){
+            return R.error("update=> 设备新消息为空");
+        }
         GlobalUser.channels.forEach(channel -> {
             if (channel.remoteAddress().toString().equals(device.getIpAddress())) {
                 //  log.info("初始化数据:{}--{}",device.getIpAddress(),device.getMacAddress());

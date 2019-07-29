@@ -13,6 +13,7 @@ import io.netty.handler.codec.http.HttpServerCodec;
 import io.netty.handler.stream.ChunkedWriteHandler;
 import io.netty.handler.timeout.IdleStateHandler;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
@@ -25,7 +26,7 @@ import java.util.concurrent.TimeUnit;
  * @Date: Created in 11:33 AM 2019/1/23
  */
 @Component
-//@Slf4j
+@Slf4j
 public class NettyInitial {
 
     @Value("${netty.server.port}")
@@ -65,8 +66,8 @@ public class NettyInitial {
                         }
                     }).option(ChannelOption.SO_BACKLOG, 1024).childOption(ChannelOption.SO_KEEPALIVE, true);
             //绑定端口  开启事件驱动
-/*            log.info("【服务器启动成功========端口：" + port + "】");
-*/            Channel channel = bootstrap.bind(port).sync().channel();
+            log.info("【服务器启动成功========端口：" + port + "】");
+            Channel channel = bootstrap.bind(port).sync().channel();
             channel.closeFuture().sync();
         } catch (Exception e) {
             e.printStackTrace();

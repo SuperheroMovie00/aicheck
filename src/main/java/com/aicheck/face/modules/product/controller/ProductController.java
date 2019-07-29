@@ -44,13 +44,19 @@ public class ProductController {
     public R findAllList(@RequestParam(value = "currentPage",defaultValue = "1") Integer currentPage,
                          @RequestParam(value = "pageSize",defaultValue = "15") Integer pageSize) {
         Page<Product> page = productService.findAll(currentPage,pageSize);
+        if(page==null){
+            return R.error("/v1/product/get=>page为空");
+        }
+
         return R.ok(page.getContent());
     }
     @GetMapping("/{id}")
     public R findById(@PathVariable Integer id) {
 
         Product product = productService.findById(id);
-
+        if(product==null){
+            return R.error("/v1/product//{id}=>product为空");
+        }
         return R.ok(product);
     }
     @PostMapping
@@ -59,6 +65,9 @@ public class ProductController {
         Product product = new Product();
         BeanUtils.copyProperties(productForm,product);
         String code = productService.findLastCode();
+        if(code==null){
+            return R.error("/v1/product//{id}=>code为空");
+        }
         String newCode = PrimaryGenerate.getInstance().generaterNextNumber(code);
         product.setCode(newCode);
         product = productService.save(product);

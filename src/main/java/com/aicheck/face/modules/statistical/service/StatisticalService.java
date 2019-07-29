@@ -31,6 +31,8 @@ public interface StatisticalService {
 
     List<Map<String,Object>> statisticalOldPassengerFlowByMonth(Date startTime, Date endTime);
 
+    List<Map<String,Object>> statisticalOldPassengerFlowByMonthCustomer(Date startTime, Date endTime);
+
     List<Map<String,Object>> statisticalOldPassengerFlowByMonthER(Date startTime, Date endTime);
 
     List<Map<String,Object>> statisticalNewPassengerFlowByDay(Date startTime, Date endTime);

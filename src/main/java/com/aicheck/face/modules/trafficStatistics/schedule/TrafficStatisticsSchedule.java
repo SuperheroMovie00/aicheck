@@ -3,6 +3,8 @@
  */
 package com.aicheck.face.modules.trafficStatistics.schedule;
 
+import com.aicheck.face.modules.pathseting.entity.pathseting;
+import com.aicheck.face.modules.pathseting.service.pathsetingService;
 import com.alibaba.fastjson.JSON;
 
 import com.aicheck.face.common.utils.SpringContextUtils;
@@ -52,6 +54,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+import static com.aicheck.face.vo.file.deleteDir;
 
 
 /**
@@ -66,7 +69,8 @@ public class TrafficStatisticsSchedule {
 	static int ccc = 0;
 	@Autowired
 	private TrafficStatisticsService trafficStatisticsService;
-
+	@Autowired
+	private pathsetingService pathsetingService;
 	@Autowired
 	private syncService syncservice;
 	@Autowired
@@ -215,6 +219,41 @@ public class TrafficStatisticsSchedule {
 		 * 失败的话失败次数加一 } syncservice.save(synclist.get(r)); } }
 		 */
 	}
+
+
+	/**
+	 * 定时清理访客资源目录的资源
+ 	 */
+	public void deleteadvertisingimages() {
+
+		pathseting pathempty=pathsetingService.findpathfortype("visitors");
+
+		if(pathempty==null){
+			return ;
+		}
+
+		/**
+		 * 清理文件夹中的文件
+		 */
+		String path = pathempty.getPath();
+		deleteDir(path);
+
+
+
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
 
 	/**
 	 * 同步数据使用的定时器任务(游客识别)

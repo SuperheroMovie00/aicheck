@@ -3,6 +3,8 @@
  */
 package com.aicheck.face.modules.customer.controller;
 
+import com.aicheck.face.modules.pathseting.entity.pathseting;
+import com.aicheck.face.modules.pathseting.service.pathsetingService;
 import com.alibaba.fastjson.JSON;
 import com.aicheck.face.common.constant.ResultEnum;
 import com.aicheck.face.common.utils.*;
@@ -56,7 +58,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 import static com.aicheck.face.modules.customer.utils.ConverterUtils.converterCustomerVO;
-import static com.aicheck.face.modules.customer.utils.ConverterUtils.converterCustomerVOS;
+
 
 
 /**
@@ -76,6 +78,9 @@ public class CustomerController {
 	private TagsService tagsService;
 
 	@Autowired
+	private pathsetingService pathsetingService;
+
+	@Autowired
 	private DeviceService deviceService;
 
 	Thread thread = new Thread();
@@ -88,6 +93,10 @@ public class CustomerController {
 			@RequestParam(value = "pageSize", defaultValue = "15") Integer pageSize) {
 
 		Page<Customer> page = customerService.findAll(currentPage, pageSize);
+		if(page==null){
+			return R.error("@GetMapping=> page为空");
+		}
+
 
 		   @SuppressWarnings("unused")
 
@@ -123,6 +132,7 @@ public class CustomerController {
 
 		CustomerVO customerVO = findById(id);
 
+
 		if (customerVO == null) {
 			return R.error(ResultEnum.IS_NOT_EXIST.getCode(), ResultEnum.IS_NOT_EXIST.getMsg());
 		}
@@ -133,6 +143,7 @@ public class CustomerController {
 	public R findById2(@PathVariable Integer id) {
 
 		CustomerVO customerVO = findById(id);
+
 
 		if (customerVO == null) {
 			return R.error(ResultEnum.IS_NOT_EXIST.getCode(), ResultEnum.IS_NOT_EXIST.getMsg());
@@ -160,6 +171,9 @@ public class CustomerController {
 		customerVO.setCustomerId(String.valueOf(customer.getId()));
 
 		List<CustomerTags> customerTags = customerTagsService.findByCustomerId(customer.getId());
+		if(customerTags==null){
+			return null;
+		}
 
 		if (!CollectionUtils.isEmpty(customerTags)) {
 			List<Tags> tagsList = tagsService
@@ -183,6 +197,9 @@ public class CustomerController {
 		String[] idsStr = ids.split(",");
 		List<Integer> idList = com.aicheck.face.common.utils.BeanUtils.CollStringToIntegerLst(Arrays.asList(idsStr));
 		List<Customer> customers = customerService.findByIdIn(idList.toArray(new Integer[ids.length()]));
+		if(customers==null){
+			return R.error("/ids=> customers为空");
+		}
 
 		CustomerVO customerVOer = findById(idList.get(0));
 
@@ -206,6 +223,9 @@ public class CustomerController {
 	public R checkfaceresult(@RequestBody @Valid requstss todoid) throws InterruptedException {
 		Map<String, String> cMap = new HashMap<String, String>();
 		TodoPush todoPush = todoPushservice.findById(todoid.getTodoid());
+
+
+
 		if (todoPush == null) {
 			return R.error();
 		}
@@ -258,6 +278,12 @@ public class CustomerController {
 		Integer id = todoPushdb.getId();
 
 		List<Device> boxdevices = deviceService.findAllByforplatform("box");
+
+		if(boxdevices==null){
+			return R.error("/checkface=> boxdevices为空");
+		}
+
+
 		List<Channel> channellist = new ArrayList<>();
 
 		GlobalUser.channels.forEach(channel -> {
@@ -637,7 +663,11 @@ public class CustomerController {
 		/* log.info("开始上传图片"); */
 		// 服务器路径
 		// String path = "/Users/liaojin/Desktop/opencv/";
-		String path = PropertiesUtils.getInstance().getProperties("customer");
+		//String path = PropertiesUtils.getInstance().getProperties("customer");
+
+		pathseting  pathempty=pathsetingService.findpathfortype("customer");
+		String  path =pathempty.getPath();
+
 		// String path = "/usr/Java/TRT/img/";
 		String originalFilename = file.getOriginalFilename();
 
@@ -651,10 +681,13 @@ public class CustomerController {
 
 		// String localhost = "192.168.1.165";
 		String localhost = "192.168.1.99";
-		/*
-		 * try { localhost = InetAddress.getLocalHost().getHostAddress(); } catch
-		 * (UnknownHostException e) { e.printStackTrace(); }
-		 */
+
+		try {
+			localhost = InetAddress.getLocalHost().getHostAddress();
+		} catch (UnknownHostException e) {
+			e.printStackTrace();
+		}
+
 		String url = "http://" +  localhost+ ":9090/aicheck-face/images/" + fileName + ".png";
 		// String url = "http://" + localhost + ":8090/yy-face/yy-face/images/" +
 		// fileName + ".png";
@@ -670,7 +703,12 @@ public class CustomerController {
 		log.info("开始上传图片");
 		// 服务器路径
 		// String path = "/Users/liaojin/Desktop/opencv/";
-		String path = PropertiesUtils.getInstance().getProperties("visitors");
+		//String path = PropertiesUtils.getInstance().getProperties("visitors");
+
+		pathseting  pathempty=pathsetingService.findpathfortype("visitors");
+		String  path =pathempty.getPath();
+
+
 		// String path = "/usr/Java/TRT/img/";
 		String originalFilename = file.getOriginalFilename();
 
@@ -700,4 +738,54 @@ public class CustomerController {
 		log.info("图片上传成功——————————> {}", url);
 		return R.ok(url);
 	}
+
+
+	@PostMapping("/upload/ai")
+	public R uploadai(@RequestBody MultipartFile file) {
+		log.info("开始上传图片");
+		// 服务器路径
+		// String path = "/Users/liaojin/Desktop/opencv/";
+		//String path = PropertiesUtils.getInstance().getProperties("visitors");
+
+		pathseting  pathempty=pathsetingService.findpathfortype("ai");
+		String  path =pathempty.getPath();
+
+
+		// String path = "/usr/Java/TRT/img/";
+		String originalFilename = file.getOriginalFilename();
+
+		String fileName = DigestUtils.md5DigestAsHex((originalFilename + new Date().getTime()).getBytes());
+
+		try {
+			FileUploadUtils.uploadFile(file.getBytes(), path, fileName + ".png");
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+		// String localhost = "192.168.1.165";
+		String localhost = "192.168.1.99";
+
+		try {
+			localhost = InetAddress.getLocalHost().getHostAddress();
+		} catch (UnknownHostException e) {
+			e.printStackTrace();
+		}
+
+		String url = "http://" + localhost + ":9090/aicheck-face/ai/" + fileName + ".png";
+		// String url = "http://" + localhost + ":8090/yy-face/yy-face/images/" +
+		// fileName + ".png";
+		// String url = "http://47.74.128.130:8090/images/" + fileName + ".png";
+		// String url = "http://192.168.1.165:8090/images/" + fileName + ".png";
+
+		log.info("图片上传成功——————————> {}", url);
+		return R.ok(url);
+	}
+
+
+
+
+
+
+
+
 }

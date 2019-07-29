@@ -53,6 +53,9 @@ public class SalesRecordController {
     public R findAllList(@RequestParam(value = "currentPage",defaultValue = "1") Integer currentPage,
                          @RequestParam(value = "pageSize",defaultValue = "15") Integer pageSize) {
         Page<SalesRecord> page = salesRecordService.findAll(currentPage,pageSize);
+        if(page==null){
+            return R.error("/v1/sales-record/Get=>page为空");
+        }
         List<SalesRecord> salesRecords =  page.getContent();
 
         return R.ok(convert(salesRecords));
@@ -85,6 +88,9 @@ public class SalesRecordController {
         log.info("Post - 查询购买记录:customerId = {}",id);
 
         Page<SalesRecord> page = salesRecordService.findByCustomerId(id,currentPage,pageSize);
+        if(page==null){
+            return R.error("/v1/sales-record//customerId/{id}=>page为空");
+        }
 
 //        Map<String,Object> map = new HashMap<>();
 //        map.put("salesRecords",);
@@ -96,16 +102,24 @@ public class SalesRecordController {
     public R findById(@PathVariable Integer id) {
 
         SalesRecord salesRecord = salesRecordService.findById(id);
-
+        if(salesRecord==null){
+            return R.error("/v1/sales-record/{id}=>salesRecord为空");
+        }
         SalesRecordVO salesRecordVO = new SalesRecordVO();
         BeanUtils.copyProperties(salesRecord,salesRecordVO);
         //查询客户
         Customer customer = customerService.findById(salesRecord.getCustomerId());
+        if(customer==null){
+            return R.error("/v1/sales-record/{id}=>customer为空");
+        }
         CustomerVO customerVO = new CustomerVO();
         BeanUtils.copyProperties(customer,customerVO);
         salesRecordVO.setCustomerVO(customerVO);
 
         List<SalesDetail> salesDetails = salesDetailService.findBySalesId(salesRecord.getId());
+        if(salesDetails==null){
+            return R.error("/v1/sales-record/{id}=>salesDetails为空");
+        }
         List<SalesDetailVO> salesDetailVOS = new ArrayList<>();
         for (SalesDetail salesDetail : salesDetails) {
             SalesDetailVO salesDetailVO = new SalesDetailVO();
@@ -182,12 +196,19 @@ public class SalesRecordController {
                 salesRecordVO.setCustomerVO(customerVO);
 
                 List<SalesDetail> salesDetails = salesDetailService.findBySalesId(salesRecord.getId());
+                if(salesDetails==null){
+                    return null;
+                }
+
                 List<SalesDetailVO> salesDetailVOS = new ArrayList<>();
                 for (SalesDetail salesDetail : salesDetails) {
 
                     SalesDetailVO salesDetailVO = new SalesDetailVO();
                     BeanUtils.copyProperties(salesDetail,salesDetailVO);
                     Product product = productService.findById(salesDetail.getProductId());
+                    if(product==null){
+                        return null;
+                    }
                     salesDetailVO.setProduct(product);
                     salesDetailVOS.add(salesDetailVO);
                 }

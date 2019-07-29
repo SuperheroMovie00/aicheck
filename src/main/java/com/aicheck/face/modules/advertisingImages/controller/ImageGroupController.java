@@ -42,6 +42,10 @@ public class ImageGroupController {
 	@GetMapping
 	public R findAll() {
 		List<ImageGroup> imageGroupList = imageGroupService.findAll();
+
+		if(imageGroupList==null){
+			return R.error("@GetMapping=> imageGroupList为空");
+		}
 			
 		/**
 		 * 查询默认分组是否存在（如果不存在，新建一个）
@@ -76,10 +80,16 @@ public class ImageGroupController {
 
 		if (id == null) {
 			List<ImageGroup> imageGroupList = imageGroupService.findParentGroup();
+			if(imageGroupList==null){
+				return R.error("/parent=> imageGroupList为空");
+			}
 			return R.ok(converter(imageGroupList));
 		}
 
 		List<ImageGroup> imageGroupList = imageGroupService.findByParent(id);
+		if(imageGroupList==null){
+			return R.error("/parent=> imageGroupList为空");
+		}
 
 		return R.ok(converter(imageGroupList));
 	}
@@ -91,6 +101,7 @@ public class ImageGroupController {
 		imageGroupVOList.forEach(imageGroupVO -> {
 			AdvertisingImages advertisingImages = advertisingImagesService.findByGroupIdSortAsc(imageGroupVO.getId());
 
+
 			if (advertisingImages != null && StringUtils.isNotEmpty(advertisingImages.getUrl())) {
 				imageGroupVO.setCoverImage(advertisingImages.getUrl());
 			}
@@ -101,6 +112,7 @@ public class ImageGroupController {
 	@GetMapping("/findById")
 	public R newfindById(@RequestParam(value = "id", required = false) Integer id) {
 		ImageGroup imageGroup = imageGroupService.findById(id);
+
 		if (imageGroup == null) {
 			return R.error(ResultEnum.IS_NOT_EXIST.getCode(), ResultEnum.IS_NOT_EXIST.getMsg());
 		}
@@ -110,6 +122,8 @@ public class ImageGroupController {
 	@GetMapping("/{id}")
 	public R findById(@PathVariable Integer id) {
 		ImageGroup imageGroup = imageGroupService.findById(id);
+
+
 		if (imageGroup == null) {
 			return R.error(ResultEnum.IS_NOT_EXIST.getCode(), ResultEnum.IS_NOT_EXIST.getMsg());
 		}
@@ -129,6 +143,10 @@ public class ImageGroupController {
 		String idsaddress="";
 		String deviceids="";
 		ImageGroup imageGroup = imageGroupService.findById(groupid);
+
+		if(imageGroup==null){
+			return R.error("//updateimagegrouper=> imageGroup为空");
+		}
 		//String[] chars = imageGroup.getDeviceIds().split("\\|"); // |管道符需要转译
 		String[] chars = imageGroup.getDeviceShow().split("\\|"); // |管道符需要转译
 		// chars[index]="";
@@ -175,6 +193,10 @@ public class ImageGroupController {
 		ImageGroup r = null;
 		Device devicean=null;
 		ImageGroup imageGroup = imageGroupService.findById(groupid);
+		if(imageGroup==null){
+			return R.error("//updateimagegroup=> imageGroup为空");
+		}
+
 		String deviceIds = imageGroup.getDeviceShow();
 		String[] chars = device.split(" ");
 		String charss="";
@@ -210,6 +232,10 @@ public class ImageGroupController {
 		ImageGroup imageGroup = new ImageGroup();
 		if (imageGroupForm.getParentId() != null) {
 			ImageGroup parent = imageGroupService.findById(imageGroupForm.getParentId());
+			if(imageGroup==null){
+				return R.error("//addimageGroup=> parent为空");
+			}
+
 			parent.getDeviceIds();
 			imageGroup.setDeviceIds(parent.getDeviceIds());
 		}
@@ -235,6 +261,9 @@ public class ImageGroupController {
 		ImageGroup imageGroup = new ImageGroup();
 		if (imageGroupForm.getParentId() != null) {
 			ImageGroup parent = imageGroupService.findById(imageGroupForm.getParentId());
+			if(imageGroup==null){
+				return R.error("//@PostMapping=> parent为空");
+			}
 			parent.getDeviceIds();
 			imageGroup.setDeviceIds(parent.getDeviceIds());
 		}
@@ -257,6 +286,7 @@ public class ImageGroupController {
 	public R update(@PathVariable Integer id, @RequestBody ImageGroupForm imageGroupForm) {
 
 		List<ImageGroup> imageGroupList = imageGroupService.findByParent(id);
+
 		if (!CollectionUtils.isEmpty(imageGroupList)) {
 
 			for (ImageGroup imageGroup : imageGroupList) {
@@ -268,6 +298,7 @@ public class ImageGroupController {
 		}
 
 		ImageGroup imageGroup = imageGroupService.findById(id);
+
 		if (imageGroup == null) {
 			return R.error(ResultEnum.IS_NOT_EXIST.getCode(), ResultEnum.IS_NOT_EXIST.getMsg());
 		}
@@ -284,6 +315,7 @@ public class ImageGroupController {
 	@PostMapping("/deletegroup")
 	public R deletegroup(Integer id) {
 		List<ImageGroup> imageGroupList = imageGroupService.findByParent(id);
+
 		if (!CollectionUtils.isEmpty(imageGroupList)) {
 			List<Integer> idList = imageGroupList.stream().map(ImageGroup::getId).collect(Collectors.toList());
 			imageGroupService.deleteByIdIn(idList);
@@ -296,6 +328,7 @@ public class ImageGroupController {
 	public R delete(@PathVariable Integer id) {
 
 		List<ImageGroup> imageGroupList = imageGroupService.findByParent(id);
+
 		if (!CollectionUtils.isEmpty(imageGroupList)) {
 			List<Integer> idList = imageGroupList.stream().map(ImageGroup::getId).collect(Collectors.toList());
 			imageGroupService.deleteByIdIn(idList);
@@ -305,4 +338,5 @@ public class ImageGroupController {
 
 		return R.ok();
 	}
+
 }

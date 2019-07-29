@@ -25,6 +25,11 @@ public class ImageStrategyController {
 	@PostMapping("/querystrategyforcusid")
 	public R querystrategyforcusid(Integer groupid) {
 		List<ImageStrategy> imagesteate=Imagestrategyservice.querystrategyforcusid(groupid);
+
+		if (imagesteate==null){
+			return  R.error("querystrategyforcusid=> imagesteate为空");
+		}
+
 		return R.ok(imagesteate);
 	}
 	
@@ -42,6 +47,9 @@ public class ImageStrategyController {
 	@PostMapping("/findbyid")
 	public R findbyidimagestrate(Integer id) {
 		Optional<ImageStrategy> img=imagestrategyrepository.findById(id);
+		if (img==null){
+			return  R.error("/findbyid=> img为空");
+		}
 		return R.ok(img);
 	}
 	

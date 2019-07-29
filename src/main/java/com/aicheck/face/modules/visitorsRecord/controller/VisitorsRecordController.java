@@ -3,6 +3,8 @@
  */
 package com.aicheck.face.modules.visitorsRecord.controller;
 
+import com.aicheck.face.modules.customer.entity.Customer;
+import com.aicheck.face.modules.customer.service.CustomerService;
 import com.alibaba.fastjson.JSON;
 import com.aicheck.face.modules.customer.vo.CustomerVO;
 import com.aicheck.face.modules.device.constants.DeviceEnum;
@@ -44,10 +46,16 @@ public class VisitorsRecordController {
 	private syncService syncservice;
 	@Autowired
 	private DeviceService deviceService;
+	@Autowired
+	private CustomerService customerService;
 
 	@GetMapping
 	public R findAllList() {
 		List<VisitorsRecord> visitorsRecords = visitorsRecordService.findAll();
+		if(visitorsRecords==null){
+			return R.error("/v1/visitors-record/querytagsforcustomerid=>visitorsRecords为空");
+		}
+
 		Map<String, Object> map = new HashMap<>();
 		map.put("visitorsRecords", visitorsRecords);
 		return R.ok(map);
@@ -56,6 +64,9 @@ public class VisitorsRecordController {
 	@PostMapping("/{id}")
 	public R findById(@PathVariable Integer id) {
 		VisitorsRecord visitorsRecord = visitorsRecordService.findById(id);
+		if(visitorsRecord==null){
+			return R.error("/v1/visitors-record//{id}=>visitorsRecord为空");
+		}
 		return R.ok(visitorsRecord);
 	}
 
@@ -79,6 +90,20 @@ public class VisitorsRecordController {
 
 		// 将数据同步到visitorsRecord类的对象中
 		BeanUtils.copyProperties(visitorsRecordForm, visitorsRecord);
+
+		/**
+		 * 判断customer_id 存在与否
+		 */
+		if(visitorsRecordForm.getCustomerId()!=null){
+
+		Customer customer=customerService.findById(Integer.parseInt(visitorsRecordForm.getCustomerId()));
+		if(customer!=null){
+			//将会员的信息存入到 visitors_record 的表中（提高识别信息的准确性）
+			visitorsRecord.setAge(customer.getAge());
+
+			visitorsRecord.setGender(customer.getGender());
+		}
+		}
 
 		visitorsRecord = visitorsRecordService.save(visitorsRecord);
 

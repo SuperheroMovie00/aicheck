@@ -1,28 +1,49 @@
 package com.aicheck.face.vo;
 
+import java.lang.reflect.Array;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
+
+import static com.aicheck.face.vo.file.deleteDir;
 
 public class Test {
 
 
     public static void main(String[] args) throws ParseException {
 
-        Calendar calendar = Calendar.getInstance();
+        /**
+         * 清理文件夹中的文件
+         */
+       /* String path = "D:\\123";
+        deleteDir(path);
+
+*/
+
+        Integer[] arr=new Integer[3];
+        arr[0]=5;
+
+
+
+/*      Calendar calendar = Calendar.getInstance();
         calendar.setTime(new Date());
         calendar.set(Calendar.YEAR,-1);
 
-        String dss="2019-07-23T17:50:58.465";
+        String dss="2019-7-24 18:38:40";
 
-        SimpleDateFormat sf=new SimpleDateFormat("yyyy-MM-dd");
+        SimpleDateFormat sf=new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         SimpleDateFormat formatter2 = new SimpleDateFormat("yyyy");
-        Date dat3 = formatter2.parse(dss);
-        String da= sf.format(calendar.getTime());
+        Date dat3 = sf.parse(dss);
 
-        System.out.println(dat3);
 
+        long newtime=new Date().getTime();
+        long oldtime=dat3.getTime();
+        long diff = newtime - oldtime;
+        long minute = diff / 1000L / 60L;
+
+        System.out.println(minute);
+*/
 
 
 

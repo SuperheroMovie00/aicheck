@@ -52,7 +52,9 @@ public class AdvertisingImagesController {
     public R findAll() {
 
         List<AdvertisingImages> advertisingImagesList = advertisingImagesService.findAll();
-
+        if(advertisingImagesList==null){
+            return R.error("Get=>  advertisingImagesList为空");
+        }
         return R.ok(advertisingImagesList);
     }
 
@@ -65,6 +67,10 @@ public class AdvertisingImagesController {
         List<Integer> idList=  BeanUtils.CollStringToIntegerLst(Arrays.asList(array));
 
         List<AdvertisingImages> advertisingImagesList = advertisingImagesService.findByIds(idList);
+
+        if(advertisingImagesList==null){
+            return R.error("ids=>  advertisingImagesList为空");
+        }
 
         List<AdvertisingImagesVO> advertisingImagesVOList = BeanUtils.batchTransform(AdvertisingImagesVO.class,advertisingImagesList);
         
@@ -83,11 +89,17 @@ public class AdvertisingImagesController {
 
         Device device = deviceService.findByMacAddresser(deviceId);
 
+
         if (device == null || "BOX".equals(device.getPlatform().toUpperCase())) {
             return findDefault();
         }
 
         List<Device> deviceList = deviceService.findByNotGroupDevice();
+
+        if(deviceList==null){
+            return R.error("/device/{deviceId}=>  deviceList为空");
+        }
+
 
         if (!CollectionUtils.isEmpty(deviceList)) {
             List<Integer> list = deviceList.stream().map(Device::getId).collect(Collectors.toList());
@@ -98,7 +110,10 @@ public class AdvertisingImagesController {
         }
 
         List<AdvertisingImages> advertisingImagesList = advertisingImagesService.findByDeviceId(device.getId());
-        
+
+        if(advertisingImagesList==null){
+            return R.error("/device/{deviceId}=>  advertisingImagesList为空");
+        }
         
         
         return R.ok(advertisingImagesList);
@@ -108,7 +123,12 @@ public class AdvertisingImagesController {
     @PostMapping("/test")
     public R test( String deviceId) {
     	 List<AdvertisingImages> advertisingImagesList = advertisingImagesService.findByDeviceIdAi(deviceId);
-    	 log.info("资源=》"+advertisingImagesList);
+        if(advertisingImagesList==null){
+            return R.error("/test=>  advertisingImagesList为空");
+        }
+
+
+        log.info("资源=》"+advertisingImagesList);
     	 return R.ok(advertisingImagesList);
     }
     
@@ -117,6 +137,8 @@ public class AdvertisingImagesController {
     public R findByDeviceAi(@PathVariable String deviceId) {
 
         List<AdvertisingImages> advertisingImagesList = advertisingImagesService.findByDeviceIdAi(deviceId);
+
+
 
         if (CollectionUtils.isEmpty(advertisingImagesList)) {
 
@@ -130,6 +152,10 @@ public class AdvertisingImagesController {
         for (Integer integer : set) {
 
             ImageGroup imageGroup = imageGroupService.findById(integer);
+
+            if(imageGroup==null){
+                return R.error("/device-ai/{deviceId}=>  imageGroup为空");
+            }
 
             AdvertisingImagesInfoVO advertisingImagesInfoVO = new AdvertisingImagesInfoVO();
             advertisingImagesInfoVO.setGroupId(integer);
@@ -152,6 +178,7 @@ public class AdvertisingImagesController {
          * 获取初始默认的分组中的资源
          */
         List<AdvertisingImages> defaultList = advertisingImagesService.findByGroupId(0);
+
         if (!CollectionUtils.isEmpty(defaultList)) {
             AdvertisingImagesInfoVO advertisingImagesInfoVO = new AdvertisingImagesInfoVO();
             advertisingImagesInfoVO.setGroupId(0);
@@ -168,6 +195,9 @@ public class AdvertisingImagesController {
     @PostMapping("/advertisingImagesRepository")
     public R advertisingImagesRepository(Integer strategyid) {
     	List<AdvertisingImages> list=advertisingImagesService.qyeryadvertisingimagesforstrategyid(strategyid);
+        if(list==null){
+            return R.error("advertisingImagesRepository=>  list为空");
+        }
     	return R.ok(list);
     	
     }
@@ -176,6 +206,9 @@ public class AdvertisingImagesController {
     @PostMapping("/advertisingImagesforgroupid")
     public R advertisingImagesforgroupid(Integer groupid) {
     	List<AdvertisingImages> list=advertisingImagesService.qyeryadvertisingimagesforgroupid(groupid);
+        if(list==null){
+            return R.error("advertisingImagesforgroupid=>  list为空");
+        }
     	return R.ok(list);
     }
     
@@ -185,6 +218,7 @@ public class AdvertisingImagesController {
     public R deleteadviceimage(Integer id) {
     	try {
     		advertisingImagesService.delete(id);
+
     		return R.ok();
 		} catch (Exception e) {
 			// TODO: handle exception
@@ -195,6 +229,7 @@ public class AdvertisingImagesController {
    
     private List<AdvertisingImagesInfoVO> findDefaultAi() {
         List<AdvertisingImages> advertisingImagesList = advertisingImagesService.findByGroupId(1);
+
         if (CollectionUtils.isEmpty(advertisingImagesList)) {
             return null;
         }
@@ -210,6 +245,11 @@ public class AdvertisingImagesController {
     @GetMapping("/default")
     public R findDefault() {
         List<AdvertisingImages> advertisingImagesList = advertisingImagesService.findByGroupId(0);
+
+        if (advertisingImagesList==null){
+            return R.error("/default=> advertisingImagesList为空");
+        }
+
         return R.ok(advertisingImagesList);
     }
     
@@ -219,6 +259,11 @@ public class AdvertisingImagesController {
     public R addadvertisingimages(AdvertisingImages advertisingimages) {
     	advertisingimages.setCreateTime(new Date());
     	AdvertisingImages adv=advertisingImagesService.save(advertisingimages);
+
+    	if (adv==null){
+            return R.error("/addadvertisingimages=> adv为空");
+        }
+
     	return R.ok(adv);
     }
     
@@ -228,6 +273,10 @@ public class AdvertisingImagesController {
     	advertisingimages.setGroupId(0);
     	advertisingimages.setCreateTime(new Date());
     	AdvertisingImages adv=advertisingImagesService.save(advertisingimages);
+        if (adv==null){
+            return R.error("/defaultaddadvertisingimages=> adv为空");
+        }
+
     	return R.ok(adv);
     }
     
@@ -236,6 +285,7 @@ public class AdvertisingImagesController {
     public R findByGroup(@PathVariable Integer groupId) {
 
         List<AdvertisingImages> advertisingImagesList = advertisingImagesService.findByGroupId(groupId);
+
 
         if (!CollectionUtils.isEmpty(advertisingImagesList)) {
             List<AdvertisingImagesVO> advertisingImagesVOList = BeanUtils.batchTransform(AdvertisingImagesVO.class,advertisingImagesList);
@@ -248,6 +298,8 @@ public class AdvertisingImagesController {
     public R findById(@PathVariable Integer id) {
 
         AdvertisingImages advertisingImages = advertisingImagesService.findById(id);
+
+
 
         if (advertisingImages == null) {
             return R.error(ResultEnum.IS_NOT_EXIST.getCode(), ResultEnum.IS_NOT_EXIST.getMsg());
@@ -324,6 +376,9 @@ public class AdvertisingImagesController {
 
         for (int i = 0; i < ids.length; i++) {
             AdvertisingImages advertisingImages = advertisingImagesService.findById(ids[i]);
+
+
+
             if (advertisingImages == null) {
                 continue;
             }
@@ -349,6 +404,11 @@ public class AdvertisingImagesController {
     @GetMapping("/qyeryadvertisingimagesforgroupidwherezero")
     public R qyeryadvertisingimagesforgroupidwherezero() {
         List<AdvertisingImages> advertisingimagess= advertisingImagesService.qyeryadvertisingimagesforgroupidwherezero();
+
+        if (advertisingimagess==null){
+            return R.error(" /qyeryadvertisingimagesforgroupidwherezero=> advertisingimagess为空");
+        }
+
         return R.ok(advertisingimagess);
     }
 

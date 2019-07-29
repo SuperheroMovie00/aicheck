@@ -32,6 +32,9 @@ public class TagsController {
     public R findAllList(@RequestParam(value = "currentPage",defaultValue = "1") Integer currentPage, @RequestParam(value = "pageSize",defaultValue = "15") Integer pageSize) {
 
         Page<Tags> page = tagsService.findAllList(currentPage,pageSize);
+        if(page==null){
+            return R.error("/v1/tags/get=>page为空");
+        }
 
         return R.ok(page.getContent());
     }
@@ -41,7 +44,9 @@ public class TagsController {
     public R findById(@PathVariable Integer id) {
 
         Tags tags = tagsService.findById(id);
-
+        if(tags==null){
+            return R.error("/v1/tags//{id}=>tags为空");
+        }
         return R.ok(tags);
     }
  
@@ -51,6 +56,9 @@ public class TagsController {
     public R querytagsforcustomerid(@RequestParam(value = "customerid") Integer customerid) {
     	System.out.println(customerid);
     	List<Tags> tags=tagsService.querytagsforcustomerid(customerid);
+        if(tags==null){
+            return R.error("/v1/tags/querytagsforcustomerid=>tags为空");
+        }
         return R.ok(tags);
     }
     

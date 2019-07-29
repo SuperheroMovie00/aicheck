@@ -24,6 +24,11 @@ public class ExtendController {
 	  @GetMapping
 	  public R findAll() {
 		  List<Extend> extendlist =extendservice.findAll();
+
+		  if(extendlist==null){
+			return R.error("/v1/extend @GetMapping=> extendlist为空");
+		  }
+
 		  return R.ok(extendlist);
 	  }
 	  

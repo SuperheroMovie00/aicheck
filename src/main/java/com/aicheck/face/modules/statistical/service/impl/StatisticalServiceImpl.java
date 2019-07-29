@@ -71,6 +71,12 @@ public class StatisticalServiceImpl implements StatisticalService {
     }
 
     @Override
+    public List<Map<String, Object>> statisticalOldPassengerFlowByMonthCustomer(Date startTime, Date endTime) {
+        return customerRepository.statisticalOldPassengerFlowByMonthCustomer(startTime,endTime);
+    }
+
+
+    @Override
     public List<Map<String,Object>> statisticalOldPassengerFlowByMonthER(Date startTime, Date endTime) {
         return customerRepository.statisticalOldPassengerFlowByMonthER(startTime,endTime);
     }

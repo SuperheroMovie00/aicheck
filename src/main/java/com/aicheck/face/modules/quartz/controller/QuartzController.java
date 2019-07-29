@@ -23,6 +23,9 @@ public class QuartzController {
     public R find() {
 
         String s = jobAndTriggerService.findByCron();
+        if(s==null){
+            return R.error("/v1/quartz/Get=>s为空");
+        }
 
         return R.ok(s);
     }

@@ -36,8 +36,10 @@ public class CustomerPushBoxUtils {
 		Message message = new Message();
 		message.setAction(type); // 成功失败
 		message.setObject(object); // 类型
-		Integer[] array=null;
-
+		message.setId(-1);
+		Integer[] array=new Integer[5];
+		CustomerVO customerVO=(CustomerVO)object;
+		array[0]=Integer.parseInt(customerVO.getCustomerId());
 		String str = JSON.toJSONString(message);
 		push(str, type,array);
 	}

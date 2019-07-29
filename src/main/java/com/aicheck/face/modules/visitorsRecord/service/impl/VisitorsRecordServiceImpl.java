@@ -35,13 +35,16 @@ public class VisitorsRecordServiceImpl implements VisitorsRecordService {
 			long currentTimestamp = new Date().getTime(); 
 			long diff = currentTimestamp - timestamp;   //创建时间与当前时间进行对比
 			long minute = diff / 1000L / 60L;	
-				
+
 			if (minute < 720L) {                    	//两个小时
 				//visit.setCreateTime(new Date());
 				visit.setLastTime(new Date());         //赋值最后的修改时间
+				System.out.println("修改访客记录");
 				return visitorsRecordRepository.save(visit);
+
+
 			}else {         //如果超出规定的时间的话  ，新增一条访客记录
-				
+				System.out.println("新增一条访客记录");
 				return visitorsRecordRepository.save(visitorsRecord);
 			}
 		}

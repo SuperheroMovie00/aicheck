@@ -56,6 +56,9 @@ public class IdentifyRecordController {
     @GetMapping
     public R findAllList(@RequestParam(value = "currentPage",defaultValue = "1") Integer currentPage, @RequestParam(value = "pageSize",defaultValue = "15") Integer pageSize) {
         Page<IdentifyRecord> page = identifyRecordService.findAllList(currentPage,pageSize);
+        if(page==null){
+            return R.error("/v1/identify-record/get=>page为空");
+        }
 
         return R.ok(convert(page.getContent()));
     }
@@ -64,6 +67,9 @@ public class IdentifyRecordController {
     public R findNotifyList(@RequestParam(value = "pageSize",defaultValue = "20") Integer pageSize) {
 
         Page<IdentifyRecord> page = identifyRecordService.findByNotifyList(pageSize);
+        if(page==null){
+            return R.error("/v1/identify-record/notify-list=>page为空");
+        }
 
         Map<String,Object> map = new HashMap<>();
         map.put("identifyRecords",convert(page.getContent()));
@@ -82,6 +88,10 @@ public class IdentifyRecordController {
         System.out.println(simpleDateFormat.format(calendar.getTime()) + "----" + simpleDateFormat.format(date));
 
         List<IdentifyRecord> identifyRecords = identifyRecordService.findByCreateTimeBefore(calendar.getTime());
+        if(identifyRecords==null){
+            return R.error("/v1/identify-record/latest=>identifyRecords为空");
+        }
+
         Map<String,Object> map = new HashMap<>();
         map.put("identifyRecords",convert(identifyRecords));
 /*        log.info("/identify-record/latest 识别数据后五秒返回：{}",JSON.toJSONString(map));
@@ -206,6 +216,10 @@ public class IdentifyRecordController {
         identifyRecord.setCustomerId(jsonObject.getString("customerId"));
         identifyRecord = identifyRecordService.save(identifyRecord);
         Customer customer = customerService.findById(Integer.parseInt(jsonObject.getString("customerId")));
+        if(customer==null){
+            return R.error("/v1/identify-record/post=>customer为空");
+        }
+
         CustomerVO customerVO = new CustomerVO();
         BeanUtils.copyProperties(customer,customerVO);
         customerVO.setCustomerId(String.valueOf(customer.getId()));
@@ -216,6 +230,10 @@ public class IdentifyRecordController {
 
         // 推送至手机
         List<Device> deviceList = deviceService.findByPlatform(DeviceEnum.MOBILE.getValue());
+        if(deviceList==null){
+            return R.error("/v1/identify-record/post=>deviceList为空");
+        }
+
         List<String> ipList = deviceList.stream().map(Device::getIpAddress).collect(Collectors.toList());
         GlobalUser.channels.forEach(channel -> {
             if (ipList.contains(channel.remoteAddress().toString())) {

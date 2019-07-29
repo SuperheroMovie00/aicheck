@@ -29,6 +29,10 @@ public class relevanceController {
 	public R addrelevance(relevance relevance) {
 		relevance relevancenew=relevanceService.save(relevance);
 		Device device=deviceService.findById(relevance.getBoxdeviceId());
+		if(device==null){
+			return  R.error("/v1/relevance/v1/relevance/addrelevance=>device为空");
+		}
+
 		device.setIsRelevance(1);
 		deviceService.save(device);
 		return  R.ok(relevancenew);		
@@ -40,7 +44,10 @@ public class relevanceController {
 			
 			relevance relevance=relevanceService.queryrelevanceforboxdeviceid(relevanceid);
 			Device device= deviceService.findById(relevance.getBoxdeviceId());
-			System.out.println(device);
+			if(device==null){
+				return  R.error("/v1/relevance/v1/relevance/deleterelevanceforid=>device为空");
+			}
+
 			device.setIsRelevance(0);
 			deviceService.save(device);
 			relevanceService.delete(relevance.getId());	

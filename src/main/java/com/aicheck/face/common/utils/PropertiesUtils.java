@@ -65,13 +65,13 @@ public class PropertiesUtils {
     private String getFolder(String key) {
         String folder = "";
         if ("visitors".equals(key)) {
-            folder = "C:\\yy-face\\visitors\\";
+            folder = "C:\\aicheck-face\\visitors\\";
         } else if ("ai".equals(key)) {
 //            folder = "/Users/liaojin/Desktop/opencv/";
-            folder = "C:\\yy-face\\ai\\";
+            folder = "C:\\aicheck-face\\ai\\";
         } else if ("customer".equals(key)) {
 //            folder = "/Users/liaojin/Desktop/opencv/";
-            folder = "C:\\yy-face\\customer\\";
+            folder = "C:\\aicheck-face\\customer\\";
         }
         return folder;
     }

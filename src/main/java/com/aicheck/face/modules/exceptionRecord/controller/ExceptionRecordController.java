@@ -31,6 +31,10 @@ public class ExceptionRecordController {
 
         Page<ExceptionRecord> page = exceptionRecordService.findAll(currentPage,pageSize);
 
+        if(page==null){
+            return R.error("/v1/exception-record/get=>page为空");
+        }
+
         return R.ok(page.getContent());
     }
 

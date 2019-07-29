@@ -61,6 +61,7 @@ public class R extends HashMap<String, Object> {
 	}
 
 	public R put(String key, Object value) {
+		//大家快来幅度萨芬
 		super.put(key, value);
 		return this;
 	}
