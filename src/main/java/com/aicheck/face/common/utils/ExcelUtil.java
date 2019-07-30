@@ -1,5 +1,5 @@
 /*
- * Copyright  2018 Yiyuan Networks 上海义援网络科技有限公司. All rights reserved.
+ * Copyright  2018 LianChao Networks 上海联朝网络科技有限公司. All rights reserved.
  */
 package com.aicheck.face.common.utils;
 
@@ -221,7 +221,7 @@ public class ExcelUtil {
                 throw new FaceException("导入失败(第" + (r + 1) + "行,人脸图片未填写)");
             }
 
-//            customer.setId(id);
+//          customer.setId(id);
             customer.setName(name);
             customer.setAge(age);
             customer.setGender(gender);
@@ -239,7 +239,7 @@ public class ExcelUtil {
                 e.printStackTrace();
             }
             String picName = urlStr.substring(urlStr.lastIndexOf("/") + 1,urlStr.length());
-            String url = "http://" + localhost + ":8090/yy-face/images/" + picName;
+            String url = "http://" + localhost + ":9090/aicheck-face/images/" + picName;
             customer.setImgUrl(url);
             customer.setFaceId(faceId);
 

@@ -1,5 +1,5 @@
 /*
- * Copyright  2018 Yiyuan Networks 上海义援网络科技有限公司. All rights reserved.
+ * Copyright  2018 LianChao Networks 上海联朝网络科技有限公司. All rights reserved.
  */
 package com.aicheck.face.datasources;
 

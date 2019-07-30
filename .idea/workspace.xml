@@ -12,10 +12,35 @@
     <list default="true" id="e443ab1d-254e-461d-b34a-84827a41395b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/sys.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/sys.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/base/BaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/base/BaseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/common/constant/ResultEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/common/constant/ResultEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/common/exception/FaceException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/common/exception/FaceException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/common/exception/FaceExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/common/exception/FaceExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/common/utils/ApiUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/common/utils/ApiUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/common/utils/AppBaseResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/common/utils/AppBaseResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/common/utils/BeanUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/common/utils/BeanUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/common/utils/ExcelUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/common/utils/ExcelUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/common/utils/FileUploadUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/common/utils/FileUploadUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/common/utils/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/common/utils/FileUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/common/utils/HttpsUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/common/utils/HttpsUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/common/utils/MD5Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/common/utils/MD5Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/common/utils/PrimaryGenerate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/common/utils/PrimaryGenerate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/common/utils/ResultUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/common/utils/ResultUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/common/utils/UpdateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/common/utils/UpdateUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/config/MyWebAppConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/config/MyWebAppConfigurer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/customer/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/customer/controller/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/nettyPush/NettyServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/nettyPush/NettyServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/config/ResultConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/config/ResultConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/datasources/DruidConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/datasources/DruidConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/datasources/DruidStatFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/datasources/DruidStatFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/datasources/DruidStatViewServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/datasources/DruidStatViewServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/advertisingImages/controller/AdvertisingImagesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/advertisingImages/controller/AdvertisingImagesController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/trafficStatistics/schedule/TrafficStatisticsSchedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/trafficStatistics/schedule/TrafficStatisticsSchedule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/vo/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/vo/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/vo/ResultVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/vo/ResultVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/config/MyWebAppConfigurer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/config/MyWebAppConfigurer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/customer/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/customer/controller/CustomerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/nettyPush/NettyServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/nettyPush/NettyServerHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/trafficStatistics/schedule/TrafficStatisticsSchedule.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/trafficStatistics/schedule/TrafficStatisticsSchedule.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/face-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/face-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,8 +75,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/customer/controller/CustomerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="261" column="41" selection-start-line="261" selection-start-column="41" selection-end-line="261" selection-end-column="41" />
+            <state relative-caret-position="13838">
+              <caret line="685" selection-start-line="685" selection-end-line="685" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,8 +87,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/customer/utils/CustomerPushBoxUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+            <state relative-caret-position="3498">
+              <caret line="180" column="52" selection-start-line="180" selection-start-column="52" selection-end-line="180" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -71,17 +96,47 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/config/MyWebAppConfigurer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+            <state relative-caret-position="352">
+              <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#3210#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/common/utils/ExcelUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="224" column="35" lean-forward="true" selection-start-line="224" selection-start-column="35" selection-end-line="224" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/advertisingImages/controller/AdvertisingImagesController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="424">
+              <caret line="356" column="34" lean-forward="true" selection-start-line="356" selection-start-column="34" selection-end-line="356" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/FaceApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/trafficStatistics/schedule/TrafficStatisticsSchedule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="130" column="46" selection-start-line="130" selection-start-column="46" selection-end-line="130" selection-end-column="46" />
+            <state relative-caret-position="4158">
+              <caret line="241" selection-start-line="241" selection-end-line="241" />
             </state>
           </provider>
         </entry>
@@ -89,8 +144,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/nettyPush/NettyServerHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14">
-              <caret line="332" column="56" selection-start-line="332" selection-start-column="56" selection-end-line="332" selection-end-column="56" />
+            <state relative-caret-position="6666">
+              <caret line="335" column="47" selection-start-line="335" selection-start-column="47" selection-end-line="335" selection-end-column="47" />
               <folding>
                 <element signature="e#4093#4094#0" expanded="true" />
                 <element signature="e#4126#4127#0" expanded="true" />
@@ -110,9 +165,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>device</find>
-      <find>deviceService.save</find>
-      <find>finddeviceforplatformandmacaddress</find>
       <find>findAllByRegisterType</find>
       <find>pusher</find>
       <find>pushnew</find>
@@ -140,6 +192,9 @@
       <find>deleteDir</find>
       <find>heartbeat</find>
       <find>\fakepath</find>
+      <find>上海义援网络科技有限公司</find>
+      <find>Yiyuan</find>
+      <find>yy-</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -148,31 +203,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/vo/ccc.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/vo/IpTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/device/repository/TodoPushRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/test.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/banner.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/device/entity/TodoPush.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/base/BaseService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/common/constant/ResultEnum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/device/repository/DeviceRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/device/service/DeviceService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/device/service/impl/DeviceServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/advertisingImages/service/impl/AdvertisingImagesServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/quartz/service/impl/JobAndTriggerServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/common/interceptor/AuthorizationInterceptor.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/statistical/service/StatisticalService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/statistical/service/impl/StatisticalServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/statistical/controller/StatisticalController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/customer/repository/CustomerRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/visitorsRecord/service/impl/VisitorsRecordServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/device/controller/DeviceController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/advertisingImages/controller/ExtendController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/advertisingImages/controller/ImageStrategyController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/vo/R.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/advertisingImages/controller/AdvertisingImagesController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/advertisingImages/controller/ImageGroupController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/pathseting/entity/pathseting.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/product/service/ProductService.java" />
@@ -195,10 +227,33 @@
         <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/common/utils/PropertiesUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/vo/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/customer/utils/CustomerPushBoxUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/config/MyWebAppConfigurer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/customer/controller/CustomerController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/trafficStatistics/schedule/TrafficStatisticsSchedule.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/nettyPush/NettyServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/trafficStatistics/schedule/TrafficStatisticsSchedule.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/config/ResultConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/datasources/DruidConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/vo/R.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/vo/ResultVO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/common/utils/BeanUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/common/utils/AppBaseResult.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/base/BaseService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/common/utils/UpdateUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/common/utils/FileUploadUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/common/utils/FileUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/common/utils/ResultUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/common/utils/HttpsUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/common/utils/PrimaryGenerate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/common/constant/ResultEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/common/exception/FaceException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/common/exception/FaceExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/config/MyWebAppConfigurer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/datasources/DruidStatViewServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/datasources/DruidStatFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/common/utils/MD5Util.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/common/utils/ApiUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/common/utils/ExcelUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/advertisingImages/controller/AdvertisingImagesController.java" />
       </list>
     </option>
   </component>
@@ -419,6 +474,31 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="aicheck" type="462c0819:PsiDirectoryNode" />
               <item name="face" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="face" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aicheck-face-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="aicheck" type="462c0819:PsiDirectoryNode" />
+              <item name="face" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="face" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aicheck-face-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="aicheck" type="462c0819:PsiDirectoryNode" />
+              <item name="face" type="462c0819:PsiDirectoryNode" />
               <item name="vo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -443,6 +523,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -461,7 +542,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -480,7 +561,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.FaceApplication">
+  <component name="RunManager" selected="Application.FaceApplication">
     <configuration name="FaceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.aicheck.face.FaceApplication" />
       <module name="aicheck-face-master" />
@@ -695,7 +776,11 @@
       <workItem from="1563934353553" duration="17059000" />
       <workItem from="1564019468728" duration="12738000" />
       <workItem from="1564106786367" duration="22638000" />
-      <workItem from="1564365857055" duration="19209000" />
+      <workItem from="1564365857055" duration="19854000" />
+      <workItem from="1564392726394" duration="251000" />
+      <workItem from="1564393014738" duration="90000" />
+      <workItem from="1564393217284" duration="5972000" />
+      <workItem from="1564451816893" duration="1859000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1563507774126</created>
@@ -753,11 +838,18 @@
       <option name="project" value="LOCAL" />
       <updated>1564389305076</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="2019-7-29 下午 更新">
+      <created>1564392074998</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1564392074998</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="280749000" />
+    <option name="totallyTimeSpent" value="289566000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -770,9 +862,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.15951742" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.16689008" />
       <window_info id="Structure" order="1" sideWeight="0.50141644" side_tool="true" weight="0.26407507" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -782,8 +873,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32765958" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.19007093" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.1716312" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2964539" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.18439716" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
@@ -794,7 +885,7 @@
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Application Servers" order="12" weight="0.32765958" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.38014185" />
-      <window_info anchor="bottom" id="Spring" order="14" weight="0.3286119" />
+      <window_info anchor="bottom" id="Spring" order="14" weight="0.32765958" />
       <window_info anchor="bottom" id="Java Enterprise" order="15" weight="0.3286119" />
       <window_info anchor="right" id="Key Promoter X" order="0" weight="0.3297587" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
@@ -808,6 +899,7 @@
       <window_info anchor="right" id="Database" order="9" weight="0.3297587" />
       <window_info anchor="right" id="Bean Validation" order="10" weight="0.3297587" />
       <window_info anchor="right" id="Remote Host" order="11" weight="0.3297587" />
+      <window_info anchor="right" id="Coverage" order="12" side_tool="true" weight="0.3297587" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.22453083" />
@@ -863,34 +955,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="2019-7-29 下午 更新" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/customer/controller/CustomerController.java</url>
-          <line>685</line>
-          <properties />
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/customer/utils/CustomerPushBoxUtils.java</url>
-          <line>161</line>
-          <properties />
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/customer/utils/CustomerPushBoxUtils.java</url>
-          <line>197</line>
-          <properties />
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/customer/utils/CustomerPushBoxUtils.java</url>
-          <line>36</line>
-          <properties />
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="SpringBootApplicationConfigurationType">
         <watch expression="df.format(toDay)" language="JAVA" />
@@ -912,6 +976,11 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/face$FaceApplication.ic" NAME="FaceApplication Coverage Results" MODIFIED="1564393055224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.aicheck.face.*</FILTER>
+    </SUITE>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
@@ -968,34 +1037,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="65" column="17" lean-forward="true" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/socket/WebSocketConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/socket/WebSocketEndPoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="89" column="5" lean-forward="true" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/nettyPush/ChildChannelHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/nettyPush/GlobalUser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
@@ -1171,13 +1212,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/advertisingImages/controller/AdvertisingImagesController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="332" column="4" lean-forward="true" selection-start-line="332" selection-start-column="4" selection-end-line="332" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/nettyPush/Message.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="335">
@@ -1304,20 +1338,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/config/MyWebAppConfigurer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/customer/utils/CustomerPushBoxUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/nettyPush/MessageTypeEnum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -1327,16 +1347,6 @@
             <element signature="e#1139#1140#0" expanded="true" />
             <element signature="e#1171#1172#0" expanded="true" />
             <element signature="e#1198#1199#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/customer/controller/CustomerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="261" column="41" selection-start-line="261" selection-start-column="41" selection-end-line="261" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1356,10 +1366,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/user/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/customer/controller/CustomerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13838">
+          <caret line="685" selection-start-line="685" selection-end-line="685" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/customer/utils/CustomerPushBoxUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3498">
+          <caret line="180" column="52" selection-start-line="180" selection-start-column="52" selection-end-line="180" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/FaceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/trafficStatistics/schedule/TrafficStatisticsSchedule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4158">
+          <caret line="241" selection-start-line="241" selection-end-line="241" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/nettyPush/NettyServerHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="332" column="56" selection-start-line="332" selection-start-column="56" selection-end-line="332" selection-end-column="56" />
+        <state relative-caret-position="6666">
+          <caret line="335" column="47" selection-start-line="335" selection-start-column="47" selection-end-line="335" selection-end-column="47" />
           <folding>
             <element signature="e#4093#4094#0" expanded="true" />
             <element signature="e#4126#4127#0" expanded="true" />
@@ -1367,10 +1422,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/trafficStatistics/schedule/TrafficStatisticsSchedule.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/config/MyWebAppConfigurer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="130" column="46" selection-start-line="130" selection-start-column="46" selection-end-line="130" selection-end-column="46" />
+        <state relative-caret-position="352">
+          <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#3210#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/common/utils/ExcelUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="224" column="35" lean-forward="true" selection-start-line="224" selection-start-column="35" selection-end-line="224" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/advertisingImages/controller/AdvertisingImagesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="356" column="34" lean-forward="true" selection-start-line="356" selection-start-column="34" selection-end-line="356" selection-end-column="34" />
         </state>
       </provider>
     </entry>

@@ -351,7 +351,7 @@ public class AdvertisingImagesController {
                 log.error("获取本地地址失败:{}",e.getMessage());
             }
 
-            String url = "http://" + localhost + ":8090/yy-face/ai/" + file.getOriginalFilename();
+            String url = "http://" + localhost + ":9090/aicheck-face/ai/" + file.getOriginalFilename();
 
             AdvertisingImages advertisingImages = new AdvertisingImages();
             advertisingImages.setType(FileSuffixUtils.checkSuffix(file.getOriginalFilename())?1:2);

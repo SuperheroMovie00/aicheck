@@ -1,5 +1,5 @@
 /*
- * Copyright  2018 Yiyuan Networks 上海义援网络科技有限公司. All rights reserved.
+ * Copyright  2018 LianChao Networks 上海联朝网络科技有限公司. All rights reserved.
  */
 package com.aicheck.face.config;
 
@@ -59,9 +59,12 @@ public class MyWebAppConfigurer implements WebMvcConfigurer {
 
         }
 
+        /**
+         * 配置服务器地址指向的本地地址
+         */
         registry.addResourceHandler("/visitors/**").addResourceLocations("file:///" + visitorspath+"//");
         registry.addResourceHandler("/ai/**").addResourceLocations("file:///" + aipath+"//");
-        registry.addResourceHandler("/images/**").addResourceLocations("file:///" + "C://customer"+"//");
+        registry.addResourceHandler("/images/**").addResourceLocations("file:///" + customerpath+"//");
 
     }
 
