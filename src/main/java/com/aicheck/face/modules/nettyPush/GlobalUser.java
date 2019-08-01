@@ -17,9 +17,13 @@ import java.util.concurrent.ConcurrentHashMap;
  */
 public class GlobalUser {
 
-    //保存全局的 全部 连接上服务器的客户
+    /**
+     *保存全局的 全部 连接上服务器的客户
+     */
     public static ChannelGroup channels = new DefaultChannelGroup(GlobalEventExecutor
             .INSTANCE);
-    // 保存全局 连接ip 及机器识别码
+    /**
+     * 保存全局 连接ip 及机器识别码
+     */
     public static Map<String,String> map = new ConcurrentHashMap<String, String>();
 }

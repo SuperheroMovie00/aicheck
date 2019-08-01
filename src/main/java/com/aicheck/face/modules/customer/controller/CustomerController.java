@@ -665,9 +665,11 @@ public class CustomerController {
 		// String path = "/Users/liaojin/Desktop/opencv/";
 		//String path = PropertiesUtils.getInstance().getProperties("customer");
 
+		String path="C://customer";   //给初始默认值
 		pathseting  pathempty=pathsetingService.findpathfortype("customer");
-		String  path =pathempty.getPath();
-
+		if(pathempty!=null) {
+			path = pathempty.getPath();
+		}
 		// String path = "/usr/Java/TRT/img/";
 		String originalFilename = file.getOriginalFilename();
 
@@ -705,9 +707,11 @@ public class CustomerController {
 		// String path = "/Users/liaojin/Desktop/opencv/";
 		//String path = PropertiesUtils.getInstance().getProperties("visitors");
 
+		String path="C://visitory";
 		pathseting  pathempty=pathsetingService.findpathfortype("visitors");
-		String  path =pathempty.getPath();
-
+		if(pathempty!=null) {
+			path = pathempty.getPath();
+		}
 
 		// String path = "/usr/Java/TRT/img/";
 		String originalFilename = file.getOriginalFilename();
@@ -747,8 +751,12 @@ public class CustomerController {
 		// String path = "/Users/liaojin/Desktop/opencv/";
 		//String path = PropertiesUtils.getInstance().getProperties("visitors");
 
+		String path="C://ai";
 		pathseting  pathempty=pathsetingService.findpathfortype("ai");
-		String  path =pathempty.getPath();
+		if(pathempty!=null){
+			path =pathempty.getPath();
+		}
+
 
 
 		// String path = "/usr/Java/TRT/img/";

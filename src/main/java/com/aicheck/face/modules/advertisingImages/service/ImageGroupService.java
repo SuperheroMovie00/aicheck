@@ -19,6 +19,11 @@ public interface ImageGroupService extends BaseService<ImageGroup,Integer> {
 
     List<ImageGroup> findParentGroup();
 
+
+    ImageGroup querydefault();
+
+    List<ImageGroup> findallnotdefault();
+
     int updateDeviceIds(String deviceIds,Integer id);
 
     List<ImageGroup> deleteByIdIn(List<Integer> idList);

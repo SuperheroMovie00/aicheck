@@ -41,22 +41,25 @@ public class ImageGroupController {
 
 	@GetMapping
 	public R findAll() {
-		List<ImageGroup> imageGroupList = imageGroupService.findAll();
 
-		if(imageGroupList==null){
-			return R.error("@GetMapping=> imageGroupList为空");
-		}
 			
 		/**
 		 * 查询默认分组是否存在（如果不存在，新建一个）
 		 */
-		/*ImageGroup defaultgroup=imageGroupService.findById(0);
+		ImageGroup defaultgroup=imageGroupService.querydefault();
 		if(defaultgroup==null) {
 			ImageGroup defaultimageGroup=new ImageGroup();
-			defaultimageGroup.setId(0);
-			defaultimageGroup.setCreateTime(new Date());
+			defaultimageGroup.setName("default");
+			defaultimageGroup.setDefaults("default");
 			imageGroupService.save(defaultimageGroup);
-		}*/
+		}
+
+		List<ImageGroup> imageGroupList = imageGroupService.findallnotdefault();
+
+		if(imageGroupList==null){
+			return R.error("@GetMapping=> imageGroupList为空");
+		}
+
 
 		/*
 		 * System.out.println("分组"+imageGroupList); List<ImageGroupVO> imageGroupVOList

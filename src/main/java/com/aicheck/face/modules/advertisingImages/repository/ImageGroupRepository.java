@@ -23,8 +23,15 @@ public interface ImageGroupRepository extends JpaRepository<ImageGroup,Integer> 
 
     List<ImageGroup> findByParentId(Integer parentId);
 
+    @Query(value = "select *from image_group where defaults='default'",nativeQuery = true)
+    ImageGroup querydefault();
+
     @Query(value = "select * from image_group where parent_id is null or parent_id = ''",nativeQuery = true)
     List<ImageGroup> findParentGroup();
+
+    @Query(value = "select * from image_group where defaults <> 'default'",nativeQuery = true)
+    List<ImageGroup> findallnotdefault();
+
 
     @Modifying
     @Transactional

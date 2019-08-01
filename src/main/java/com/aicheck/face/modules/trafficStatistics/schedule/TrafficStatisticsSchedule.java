@@ -235,7 +235,7 @@ public class TrafficStatisticsSchedule {
     /**
      * 定时清理访客资源目录的资源
      */
-    @Scheduled(cron = "* * * * */6 ? ")
+    //@Scheduled(cron = "* * * * */6 ? ")
     public void deleteadvertisingimages() {
 
         pathseting pathempty = pathsetingService.findpathfortype("visitors");

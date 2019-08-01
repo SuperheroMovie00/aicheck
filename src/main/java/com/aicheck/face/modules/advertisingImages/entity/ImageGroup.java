@@ -45,7 +45,17 @@ public class ImageGroup implements Serializable {
     private Integer machinenum;
     
     private String deviceShow;
-    
+
+    private  String defaults;
+
+    public String getDefaults() {
+        return defaults;
+    }
+
+    public void setDefaults(String defaults) {
+        this.defaults = defaults;
+    }
+
     public String getDeviceShow() {
 		return deviceShow;
 	}

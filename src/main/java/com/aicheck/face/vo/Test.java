@@ -8,21 +8,32 @@ import java.util.Date;
 
 import static com.aicheck.face.vo.file.deleteDir;
 
-public class Test {
+public class Test  extends Date{
 
 
-    public static void main(String[] args) throws ParseException {
+
+    private static final long serialVersionUID = 1L;
+    private void test(){
+        System.out.println(super.getClass().getName());
+    }
+
+
+
+    public static void main(String[] args) {
+
+        new Test().test();
+
 
         /**
          * 清理文件夹中的文件
          */
+
        /* String path = "D:\\123";
         deleteDir(path);
-
 */
 
-        Integer[] arr=new Integer[3];
-        arr[0]=5;
+        /*Integer[] arr=new Integer[3];
+        arr[0]=5;*/
 
 
 

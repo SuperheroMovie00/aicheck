@@ -61,8 +61,8 @@ public class NettyInitial {
                             socketChannel.pipeline().addLast("handler", new NettyServerHandler());
                             // 进行设置心跳检测
                             socketChannel.pipeline().addLast(new IdleStateHandler(60, 30, 60 * 30, TimeUnit.SECONDS));
-//                            // 配置通道处理  来进行业务处理
-//                            socketChannel.pipeline().addLast(new NettyServerHandler());
+//                          // 配置通道处理  来进行业务处理
+//                          socketChannel.pipeline().addLast(new NettyServerHandler());
                         }
                     }).option(ChannelOption.SO_BACKLOG, 1024).childOption(ChannelOption.SO_KEEPALIVE, true);
             //绑定端口  开启事件驱动

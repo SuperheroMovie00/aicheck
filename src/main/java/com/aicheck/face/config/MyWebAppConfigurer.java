@@ -32,7 +32,7 @@ public class MyWebAppConfigurer implements WebMvcConfigurer {
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
 
-        String visitorspath=null,customerpath=null,aipath=null;
+        String visitorspath="C://visitory",customerpath="C://customer",aipath="C://ai";
         List<pathseting> pathlist=pathsetingService.findAll();
         for(int i=0;i<pathlist.size();i++){
             if(pathlist.get(i).getType().equals("visitors")){

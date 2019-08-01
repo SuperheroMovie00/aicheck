@@ -228,6 +228,7 @@ public class AdvertisingImagesController {
     
    
     private List<AdvertisingImagesInfoVO> findDefaultAi() {
+
         List<AdvertisingImages> advertisingImagesList = advertisingImagesService.findByGroupId(1);
 
         if (CollectionUtils.isEmpty(advertisingImagesList)) {
@@ -244,7 +245,9 @@ public class AdvertisingImagesController {
     
     @GetMapping("/default")
     public R findDefault() {
-        List<AdvertisingImages> advertisingImagesList = advertisingImagesService.findByGroupId(0);
+
+        ImageGroup imageGroup=imageGroupService.querydefault();
+        List<AdvertisingImages> advertisingImagesList = advertisingImagesService.findByGroupId(imageGroup.getId());
 
         if (advertisingImagesList==null){
             return R.error("/default=> advertisingImagesList为空");
@@ -270,7 +273,10 @@ public class AdvertisingImagesController {
     //新加的新增方法
     @PostMapping("/defaultaddadvertisingimages")
     public R defaultaddadvertisingimages(AdvertisingImages advertisingimages) {
-    	advertisingimages.setGroupId(0);
+
+        ImageGroup imageGroup=imageGroupService.querydefault();
+
+        advertisingimages.setGroupId(imageGroup.getId());
     	advertisingimages.setCreateTime(new Date());
     	AdvertisingImages adv=advertisingImagesService.save(advertisingimages);
         if (adv==null){
@@ -403,7 +409,9 @@ public class AdvertisingImagesController {
      */
     @GetMapping("/qyeryadvertisingimagesforgroupidwherezero")
     public R qyeryadvertisingimagesforgroupidwherezero() {
-        List<AdvertisingImages> advertisingimagess= advertisingImagesService.qyeryadvertisingimagesforgroupidwherezero();
+
+        ImageGroup imageGroup=imageGroupService.querydefault();
+        List<AdvertisingImages> advertisingimagess= advertisingImagesService.findByGroupId(imageGroup.getId());
 
         if (advertisingimagess==null){
             return R.error(" /qyeryadvertisingimagesforgroupidwherezero=> advertisingimagess为空");

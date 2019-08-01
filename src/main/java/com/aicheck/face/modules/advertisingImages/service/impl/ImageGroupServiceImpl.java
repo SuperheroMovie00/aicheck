@@ -70,6 +70,17 @@ public class ImageGroupServiceImpl implements ImageGroupService {
         return imageGroupRepository.findParentGroup();
     }
 
+
+    @Override
+    public ImageGroup querydefault() {
+        return imageGroupRepository.querydefault();
+    }
+
+    @Override
+    public List<ImageGroup> findallnotdefault() {
+        return imageGroupRepository.findallnotdefault();
+    }
+
     @Override
     public int updateDeviceIds(String deviceIds, Integer id) {
 
