@@ -1,5 +1,5 @@
 /*
- * Copyright  哈哈哈哈哈哈哈哈. All rights reserved.
+ * Copyright  上海联朝网络科技有限公司. All rights reserved.
  */
 package com.aicheck.face.modules.advertisingImages.controller;
 
@@ -124,15 +124,19 @@ public class AdvertisingImagesController {
     public R test( String deviceId) {
     	 List<AdvertisingImages> advertisingImagesList = advertisingImagesService.findByDeviceIdAi(deviceId);
         if(advertisingImagesList==null){
-            return R.error("/test=>  advertisingImagesList为空");
+            return R.error("/Detest=>  advertisingImagesList为空");
         }
 
 
         log.info("资源=》"+advertisingImagesList);
     	 return R.ok(advertisingImagesList);
     }
-    
-    
+
+
+    /**
+     * 原来版本 default
+     * @return
+     */
     @GetMapping("/device-ai/{deviceId}")
     public R findByDeviceAi(@PathVariable String deviceId) {
 
@@ -224,9 +228,13 @@ public class AdvertisingImagesController {
 			// TODO: handle exception
 			return R.error();
 		}
-    }  
-    
-   
+    }
+
+
+    /**
+     * 原来版本 default
+     * @return
+     */
     private List<AdvertisingImagesInfoVO> findDefaultAi() {
 
         List<AdvertisingImages> advertisingImagesList = advertisingImagesService.findByGroupId(1);

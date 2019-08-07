@@ -1,5 +1,5 @@
 /*
- * Copyright  哈哈哈哈哈哈哈哈. All rights reserved.
+ * Copyright  上海联朝网络科技有限公司. All rights reserved.
  */
 package com.aicheck.face.modules.nettyPush;
 
@@ -187,7 +187,6 @@ public class NettyServerHandler extends SimpleChannelInboundHandler<Object> {
 		}
 
 		String uri = req.getUri();
-
 		QueryStringDecoder queryStringDecoder = new QueryStringDecoder(uri);
 		Map<String, List<String>> parameters = queryStringDecoder.parameters();
 
@@ -212,6 +211,10 @@ public class NettyServerHandler extends SimpleChannelInboundHandler<Object> {
 		String sign = signList.get(0);
 
 		String platform = platformList.get(0);
+
+
+
+
 
 		String str = "platform=" + platform + "&" + AuthorizationEnum.TOKEN.getValue() + timestamp + nonce;
 
@@ -256,9 +259,9 @@ public class NettyServerHandler extends SimpleChannelInboundHandler<Object> {
 		// 扫描待办信息
 		log.info("连接设备s -> {}", s);
 		//十秒钟同步一次替换
-		/*if(false) { 
+		/*if(false) {
 		TodoPushService todoPushService = (TodoPushService) SpringContextUtils.getBean("todoPushService");
-	
+
 		List<TodoPush> todoPushList = todoPushService.findByDeviceId(s);
 		if (!CollectionUtils.isEmpty(todoPushList)) {
 			log.info("待发送消息设备 -> {},数量:{}", s, todoPushList.size());
@@ -271,7 +274,7 @@ public class NettyServerHandler extends SimpleChannelInboundHandler<Object> {
 				log.info("待发送消息 id :{} ,发送成功", todoPush.getId());
 			});
 		}
-		
+
 		}*/
 	}
 
@@ -337,7 +340,7 @@ public class NettyServerHandler extends SimpleChannelInboundHandler<Object> {
 				switch (todoPush.getType()){
 
 					case 4:
-						log.info("socket消息返回有效******执行删除（todopush）");
+						log.info("socket消息返回有效******执	行删除（todopush）");
 						updatetodupushbytype4(stu,todoPush);
 						log.info("socket消息返回有效******执行删除（todopush）完成");
 						break;

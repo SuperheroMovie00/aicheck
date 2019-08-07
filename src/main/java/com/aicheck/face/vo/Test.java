@@ -1,27 +1,63 @@
 package com.aicheck.face.vo;
 
+import com.aicheck.face.modules.pathseting.entity.pathseting;
+import com.aicheck.face.modules.pathseting.service.pathsetingService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.transaction.annotation.Transactional;
+
+import java.io.IOException;
 import java.lang.reflect.Array;
+import java.net.URL;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.List;
+import java.util.regex.Pattern;
 
 import static com.aicheck.face.vo.file.deleteDir;
+import static com.aicheck.face.vo.file.copyDir;
+import static org.springframework.boot.autoconfigure.condition.ConditionOutcome.match;
 
-public class Test  extends Date{
+public class Test {
 
-
-
-    private static final long serialVersionUID = 1L;
-    private void test(){
-        System.out.println(super.getClass().getName());
-    }
+    @Autowired
+    private pathsetingService pathsetingService;
 
 
 
-    public static void main(String[] args) {
 
-        new Test().test();
+    public static void main(String[] args) throws IOException {
+
+
+        String regex = "^(?:[1-9][0-9]?|1[01][0-9]|120)$";
+        System.out.println(Pattern.matches(regex, "120"));
+
+
+
+
+        /*Detest t=new Detest();
+        t.add();
+*/
+
+
+
+
+        /*  List<String> list =new ArrayList<>();
+
+        list.add("a");
+        list.add("b");
+        list.add("c");
+        list.add("d");
+
+        for (String c:list) {
+            System.out.println(c);
+
+        }
+*/
+
+        //copyDir("D:\\111","D:\\222333");
 
 
         /**
@@ -59,6 +95,20 @@ public class Test  extends Date{
 
 
     }
+
+
+    public  void add(){
+        URL path= this.getClass().getClassLoader().getResource("");
+        System.out.println(path);
+    }
+
+
+
+
+
+
+
+
 
 
 }

@@ -1,5 +1,5 @@
 /*
- * Copyright  哈哈哈哈哈哈哈哈. All rights reserved.
+ * Copyright  上海联朝网络科技有限公司. All rights reserved.
  */
 package com.aicheck.face.modules.identifyRecord.controller;
 
@@ -24,6 +24,7 @@ import com.aicheck.face.modules.visitorsRecord.service.VisitorsRecordService;
 import com.aicheck.face.vo.R;
 import io.netty.handler.codec.http.websocketx.TextWebSocketFrame;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -42,7 +43,7 @@ import java.util.stream.Collectors;
  */
 @RestController
 @RequestMapping("/v1/identify-record")
-//@Slf4j
+@Slf4j
 public class IdentifyRecordController {
     @Autowired
     private IdentifyRecordService identifyRecordService;
@@ -79,7 +80,7 @@ public class IdentifyRecordController {
 
     @PostMapping("/latest")
     public R findLatestIdentify() {
-        /*log.info("/identify-record/latest 识别数据后五秒请求");*/
+        log.info("/identify-record/latest 识别数据后五秒请求");
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         Date date = new Date();
         Calendar calendar = Calendar.getInstance();
@@ -94,8 +95,8 @@ public class IdentifyRecordController {
 
         Map<String,Object> map = new HashMap<>();
         map.put("identifyRecords",convert(identifyRecords));
-/*        log.info("/identify-record/latest 识别数据后五秒返回：{}",JSON.toJSONString(map));
-*/        return R.ok(map);
+        log.info("/identify-record/latest 识别数据后五秒返回：{}",JSON.toJSONString(map));
+        return R.ok(map);
     }
 
     @PostMapping("/latest-all")
@@ -115,14 +116,14 @@ public class IdentifyRecordController {
         }
 
         if (identifyRecord == null) {
-/*            log.info("广告分类播放请求成功  -> {} ",visitorsRecord.getGender());
-*/            return R.ok(visitorsRecord);
+            log.info("广告分类播放请求成功  -> {} ",visitorsRecord.getGender());
+            return R.ok(visitorsRecord);
         }
 
         if (visitorsRecord == null) {
             Customer customer = customerService.findById(Integer.parseInt(identifyRecord.getCustomerId()));
-/*            log.info("广告分类播放请求成功  -> {} ",customer.getGender());
-*/            return R.ok(ConverterUtils.converterCustomerVO(customer));
+            log.info("广告分类播放请求成功  -> {} ",customer.getGender());
+            return R.ok(ConverterUtils.converterCustomerVO(customer));
         }
 
 
@@ -133,12 +134,12 @@ public class IdentifyRecordController {
         long visitorsTimestamp = visitorsRecord.getCreateTime().getTime();
 
         if (visitorsTimestamp > identifyTimestamp) {
-/*            log.info("广告分类播放请求成功  -> {} ",visitorsRecord.getGender());
-*/            return R.ok(visitorsRecord);
+            log.info("广告分类播放请求成功  -> {} ",visitorsRecord.getGender());
+            return R.ok(visitorsRecord);
         }
 
-/*        log.info("广告分类播放请求成功  -> {} ",customer.getGender());
-*/
+        log.info("广告分类播放请求成功  -> {} ",customer.getGender());
+
         return R.ok(ConverterUtils.converterCustomerVO(customer));
     }
 
@@ -209,8 +210,8 @@ public class IdentifyRecordController {
 
     @PostMapping
     public R save(@RequestBody String customerId) {
-/*        log.info("识别到老客:{}",customerId);
-*/        JSONObject jsonObject = JSON.parseObject(customerId);
+        log.info("识别到老客:{}",customerId);
+        JSONObject jsonObject = JSON.parseObject(customerId);
         IdentifyRecord identifyRecord = new IdentifyRecord();
         identifyRecord.setFaceCoordinates(jsonObject.getString("faceCoordinates"));
         identifyRecord.setCustomerId(jsonObject.getString("customerId"));

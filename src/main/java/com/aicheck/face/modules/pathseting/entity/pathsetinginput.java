@@ -1,11 +1,16 @@
 package com.aicheck.face.modules.pathseting.entity;
 
+import java.util.Date;
+
 public class pathsetinginput {
 
     private String visitorspath;
     private String customerpath;
     private String aipath;
     private String deletevisitorytime;
+
+
+
 
 
     public String getDeletevisitorytime() {

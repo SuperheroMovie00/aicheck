@@ -1,5 +1,5 @@
 /*
- * Copyright  哈哈哈哈哈哈哈哈. All rights reserved.
+ * Copyright  上海联朝网络科技有限公司. All rights reserved.
  */
 package com.aicheck.face.config;
 
@@ -15,8 +15,10 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class MySchedulerFactoryBean implements SchedulerFactoryBeanCustomizer {
+
     @Override
     public void customize(SchedulerFactoryBean schedulerFactoryBean) {
+
         schedulerFactoryBean.setStartupDelay(2);
         schedulerFactoryBean.setAutoStartup(true);
         schedulerFactoryBean.setOverwriteExistingJobs(true);

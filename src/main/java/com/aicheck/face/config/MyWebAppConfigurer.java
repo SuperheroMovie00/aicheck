@@ -10,11 +10,14 @@ import com.aicheck.face.modules.pathseting.service.pathsetingService;
 import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 import java.util.List;
+
+import static com.aicheck.face.config.ResultConfig.fastJsonHttpMessageConverters;
 
 /**
  * @Author: liaojin
@@ -28,10 +31,12 @@ public class MyWebAppConfigurer implements WebMvcConfigurer {
     @Autowired
     private pathsetingService pathsetingService;
 
-
+    ResourceHandlerRegistry registryvalue;
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
 
+
+        registryvalue=registry;
         String visitorspath="C://visitory",customerpath="C://customer",aipath="C://ai";
         List<pathseting> pathlist=pathsetingService.findAll();
         for(int i=0;i<pathlist.size();i++){
@@ -62,11 +67,15 @@ public class MyWebAppConfigurer implements WebMvcConfigurer {
         /**
          * 配置服务器地址指向的本地地址
          */
+
         registry.addResourceHandler("/visitors/**").addResourceLocations("file:///" + visitorspath+"//");
         registry.addResourceHandler("/ai/**").addResourceLocations("file:///" + aipath+"//");
         registry.addResourceHandler("/images/**").addResourceLocations("file:///" + customerpath+"//");
 
     }
+
+
+
 
     @Override
     public void addInterceptors(InterceptorRegistry registry) {

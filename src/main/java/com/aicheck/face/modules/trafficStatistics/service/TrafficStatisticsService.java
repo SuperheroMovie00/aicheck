@@ -1,5 +1,5 @@
 /*
- * Copyright  哈哈哈哈哈哈哈哈. All rights reserved.
+ * Copyright  上海联朝网络科技有限公司. All rights reserved.
  */
 package com.aicheck.face.modules.trafficStatistics.service;
 

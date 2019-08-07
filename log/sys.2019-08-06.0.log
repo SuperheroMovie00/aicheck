@@ -1,0 +1,594 @@
+2019-08-06 16:44:25,927 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on LAPTOP-3J4GOKGI with PID 21320 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-08-06 16:44:25,937 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-08-06 16:45:56,107 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on LAPTOP-3J4GOKGI with PID 23148 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-08-06 16:45:56,110 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-08-06 16:46:06,754 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on LAPTOP-3J4GOKGI with PID 1952 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-08-06 16:46:06,761 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-08-06 16:46:32,242 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on LAPTOP-3J4GOKGI with PID 12200 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-08-06 16:46:32,246 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-08-06 16:49:38,674 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on LAPTOP-3J4GOKGI with PID 18208 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-08-06 16:49:38,679 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-08-06 16:51:39,293 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on LAPTOP-3J4GOKGI with PID 2988 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-08-06 16:51:39,297 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-08-06 16:52:39,868 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on LAPTOP-3J4GOKGI with PID 18060 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-08-06 16:52:39,873 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-08-06 16:53:37,810 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on LAPTOP-3J4GOKGI with PID 14592 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-08-06 16:53:37,813 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-08-06 16:55:45,132 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on LAPTOP-3J4GOKGI with PID 21620 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-08-06 16:55:45,136 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-08-06 16:57:39,576 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on LAPTOP-3J4GOKGI with PID 16956 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-08-06 16:57:39,578 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-08-06 16:58:38,358 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on LAPTOP-3J4GOKGI with PID 7036 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-08-06 16:58:38,362 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-08-06 17:01:10,674 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on LAPTOP-3J4GOKGI with PID 2236 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-08-06 17:01:10,678 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-08-06 17:02:55,807 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on LAPTOP-3J4GOKGI with PID 6252 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-08-06 17:02:55,812 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-08-06 17:03:48,148 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on LAPTOP-3J4GOKGI with PID 1692 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-08-06 17:03:48,151 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-08-06 17:05:18,411 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on LAPTOP-3J4GOKGI with PID 8308 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-08-06 17:05:18,415 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-08-06 17:05:23,705 INFO (NettyInitial.java:69)- 【服务器启动成功========端口：9800】
+2019-08-06 17:05:24,638 INFO (StartupInfoLogger.java:59)- Started FaceApplication in 6.645 seconds (JVM running for 7.924)
+2019-08-06 17:05:30,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:05:30 CST 2019
+2019-08-06 17:05:30,012 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:05:45,697 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on LAPTOP-3J4GOKGI with PID 3772 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-08-06 17:05:45,700 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-08-06 17:05:53,027 INFO (NettyInitial.java:69)- 【服务器启动成功========端口：9800】
+2019-08-06 17:05:54,633 INFO (StartupInfoLogger.java:59)- Started FaceApplication in 9.306 seconds (JVM running for 9.913)
+2019-08-06 17:06:00,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:06:00 CST 2019
+2019-08-06 17:06:00,013 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:06:10,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:06:10 CST 2019
+2019-08-06 17:06:10,001 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:06:20,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:06:20 CST 2019
+2019-08-06 17:06:20,001 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:06:30,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:06:30 CST 2019
+2019-08-06 17:06:30,001 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:06:41,429 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on LAPTOP-3J4GOKGI with PID 11540 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-08-06 17:06:41,433 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-08-06 17:06:48,298 INFO (NettyInitial.java:69)- 【服务器启动成功========端口：9800】
+2019-08-06 17:06:49,844 INFO (StartupInfoLogger.java:59)- Started FaceApplication in 8.794 seconds (JVM running for 10.307)
+2019-08-06 17:06:50,003 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:06:50 CST 2019
+2019-08-06 17:06:50,008 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:07:00,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:07:00 CST 2019
+2019-08-06 17:07:00,003 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:07:10,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:07:10 CST 2019
+2019-08-06 17:07:10,003 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:07:21,900 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on LAPTOP-3J4GOKGI with PID 1320 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-08-06 17:07:21,904 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-08-06 17:07:28,975 INFO (NettyInitial.java:69)- 【服务器启动成功========端口：9800】
+2019-08-06 17:07:30,600 INFO (StartupInfoLogger.java:59)- Started FaceApplication in 9.07 seconds (JVM running for 10.534)
+2019-08-06 17:07:40,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:07:40 CST 2019
+2019-08-06 17:07:40,014 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:07:50,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:07:50 CST 2019
+2019-08-06 17:07:50,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:08:00,011 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:08:00 CST 2019
+2019-08-06 17:08:00,012 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:08:10,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:08:10 CST 2019
+2019-08-06 17:08:10,001 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:08:20,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:08:20 CST 2019
+2019-08-06 17:08:20,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:08:30,613 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on LAPTOP-3J4GOKGI with PID 18568 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-08-06 17:08:30,616 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-08-06 17:08:37,494 INFO (NettyInitial.java:69)- 【服务器启动成功========端口：9800】
+2019-08-06 17:08:39,115 INFO (StartupInfoLogger.java:59)- Started FaceApplication in 8.862 seconds (JVM running for 10.663)
+2019-08-06 17:08:40,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:08:40 CST 2019
+2019-08-06 17:08:40,012 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:08:50,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:08:50 CST 2019
+2019-08-06 17:08:50,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:09:00,000 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:09:00 CST 2019
+2019-08-06 17:09:00,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:09:10,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:09:10 CST 2019
+2019-08-06 17:09:10,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:09:20,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:09:20 CST 2019
+2019-08-06 17:09:20,004 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:09:30,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:09:30 CST 2019
+2019-08-06 17:09:30,003 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:09:40,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:09:40 CST 2019
+2019-08-06 17:09:40,003 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:09:50,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:09:50 CST 2019
+2019-08-06 17:09:50,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:10:00,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:10:00 CST 2019
+2019-08-06 17:10:00,004 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:10:10,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:10:10 CST 2019
+2019-08-06 17:10:10,003 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:10:20,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:10:20 CST 2019
+2019-08-06 17:10:20,003 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:10:30,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:10:30 CST 2019
+2019-08-06 17:10:30,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:10:40,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:10:40 CST 2019
+2019-08-06 17:10:40,003 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:10:50,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:10:50 CST 2019
+2019-08-06 17:10:50,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:11:00,000 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:11:00 CST 2019
+2019-08-06 17:11:00,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:11:10,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:11:10 CST 2019
+2019-08-06 17:11:10,003 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:11:20,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:11:20 CST 2019
+2019-08-06 17:11:20,004 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:11:30,000 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:11:30 CST 2019
+2019-08-06 17:11:30,001 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:11:40,000 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:11:40 CST 2019
+2019-08-06 17:11:40,001 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:11:50,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:11:50 CST 2019
+2019-08-06 17:11:50,001 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:12:00,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:12:00 CST 2019
+2019-08-06 17:12:00,004 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:12:10,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:12:10 CST 2019
+2019-08-06 17:12:10,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:12:20,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:12:20 CST 2019
+2019-08-06 17:12:20,003 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:12:30,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:12:30 CST 2019
+2019-08-06 17:12:30,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:12:40,003 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:12:40 CST 2019
+2019-08-06 17:12:40,004 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:12:50,000 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:12:50 CST 2019
+2019-08-06 17:12:50,001 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:13:00,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:13:00 CST 2019
+2019-08-06 17:13:00,003 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:13:10,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:13:10 CST 2019
+2019-08-06 17:13:10,003 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:13:20,003 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:13:20 CST 2019
+2019-08-06 17:13:20,004 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:13:30,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:13:30 CST 2019
+2019-08-06 17:13:30,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:13:40,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:13:40 CST 2019
+2019-08-06 17:13:40,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:13:50,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:13:50 CST 2019
+2019-08-06 17:13:50,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:14:00,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:14:00 CST 2019
+2019-08-06 17:14:00,003 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:14:10,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:14:10 CST 2019
+2019-08-06 17:14:10,004 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:14:20,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:14:20 CST 2019
+2019-08-06 17:14:20,001 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:14:30,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:14:30 CST 2019
+2019-08-06 17:14:30,003 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:14:40,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:14:40 CST 2019
+2019-08-06 17:14:40,003 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:14:50,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:14:50 CST 2019
+2019-08-06 17:14:50,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:15:00,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:15:00 CST 2019
+2019-08-06 17:15:00,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:15:10,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:15:10 CST 2019
+2019-08-06 17:15:10,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:15:20,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:15:20 CST 2019
+2019-08-06 17:15:20,003 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:15:30,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:15:30 CST 2019
+2019-08-06 17:15:30,004 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:15:40,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:15:40 CST 2019
+2019-08-06 17:15:40,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:15:50,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:15:50 CST 2019
+2019-08-06 17:15:50,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:16:00,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:16:00 CST 2019
+2019-08-06 17:16:00,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:16:10,000 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:16:10 CST 2019
+2019-08-06 17:16:10,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:16:20,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:16:20 CST 2019
+2019-08-06 17:16:20,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:16:30,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:16:30 CST 2019
+2019-08-06 17:16:30,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:16:40,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:16:40 CST 2019
+2019-08-06 17:16:40,003 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:16:50,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:16:50 CST 2019
+2019-08-06 17:16:50,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:17:00,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:17:00 CST 2019
+2019-08-06 17:17:00,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:17:10,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:17:10 CST 2019
+2019-08-06 17:17:10,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:17:20,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:17:20 CST 2019
+2019-08-06 17:17:20,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:17:30,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:17:30 CST 2019
+2019-08-06 17:17:30,003 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:17:40,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:17:40 CST 2019
+2019-08-06 17:17:40,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:17:50,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:17:50 CST 2019
+2019-08-06 17:17:50,003 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:18:00,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:18:00 CST 2019
+2019-08-06 17:18:00,003 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:18:10,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:18:10 CST 2019
+2019-08-06 17:18:10,003 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:18:20,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:18:20 CST 2019
+2019-08-06 17:18:20,003 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:18:30,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:18:30 CST 2019
+2019-08-06 17:18:30,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:18:40,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:18:40 CST 2019
+2019-08-06 17:18:40,003 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:18:50,000 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:18:50 CST 2019
+2019-08-06 17:18:50,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:19:00,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:19:00 CST 2019
+2019-08-06 17:19:00,003 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:19:10,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:19:10 CST 2019
+2019-08-06 17:19:10,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:19:20,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:19:20 CST 2019
+2019-08-06 17:19:20,004 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:19:30,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:19:30 CST 2019
+2019-08-06 17:19:30,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:19:40,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:19:40 CST 2019
+2019-08-06 17:19:40,003 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:19:50,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:19:50 CST 2019
+2019-08-06 17:19:50,001 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:20:00,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:20:00 CST 2019
+2019-08-06 17:20:00,004 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:20:10,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:20:10 CST 2019
+2019-08-06 17:20:10,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:20:20,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:20:20 CST 2019
+2019-08-06 17:20:20,003 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:20:30,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:20:30 CST 2019
+2019-08-06 17:20:30,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:20:40,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:20:40 CST 2019
+2019-08-06 17:20:40,003 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:20:50,000 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:20:50 CST 2019
+2019-08-06 17:20:50,001 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:21:00,000 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:21:00 CST 2019
+2019-08-06 17:21:00,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:21:10,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:21:10 CST 2019
+2019-08-06 17:21:10,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:21:20,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:21:20 CST 2019
+2019-08-06 17:21:20,004 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:21:30,000 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:21:30 CST 2019
+2019-08-06 17:21:30,001 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:21:40,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:21:40 CST 2019
+2019-08-06 17:21:40,003 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:21:50,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:21:50 CST 2019
+2019-08-06 17:21:50,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:22:00,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:22:00 CST 2019
+2019-08-06 17:22:00,003 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:22:10,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:22:10 CST 2019
+2019-08-06 17:22:10,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:22:20,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:22:20 CST 2019
+2019-08-06 17:22:20,003 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:22:30,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:22:30 CST 2019
+2019-08-06 17:22:30,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:22:40,000 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:22:40 CST 2019
+2019-08-06 17:22:40,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:22:50,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:22:50 CST 2019
+2019-08-06 17:22:50,003 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:23:00,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:23:00 CST 2019
+2019-08-06 17:23:00,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:23:10,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:23:10 CST 2019
+2019-08-06 17:23:10,003 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:23:20,000 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:23:20 CST 2019
+2019-08-06 17:23:20,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:23:30,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:23:30 CST 2019
+2019-08-06 17:23:30,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:23:40,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:23:40 CST 2019
+2019-08-06 17:23:40,001 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:23:50,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:23:50 CST 2019
+2019-08-06 17:23:50,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:24:00,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:24:00 CST 2019
+2019-08-06 17:24:00,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:24:10,000 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:24:10 CST 2019
+2019-08-06 17:24:10,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:24:20,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:24:20 CST 2019
+2019-08-06 17:24:20,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:24:30,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:24:30 CST 2019
+2019-08-06 17:24:30,001 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:24:40,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:24:40 CST 2019
+2019-08-06 17:24:40,004 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:24:50,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:24:50 CST 2019
+2019-08-06 17:24:50,003 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:25:00,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:25:00 CST 2019
+2019-08-06 17:25:00,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:25:10,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:25:10 CST 2019
+2019-08-06 17:25:10,003 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:25:20,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:25:20 CST 2019
+2019-08-06 17:25:20,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:25:30,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:25:30 CST 2019
+2019-08-06 17:25:30,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:25:40,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:25:40 CST 2019
+2019-08-06 17:25:40,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:25:50,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:25:50 CST 2019
+2019-08-06 17:25:50,003 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:26:00,000 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:26:00 CST 2019
+2019-08-06 17:26:00,000 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:26:10,000 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:26:10 CST 2019
+2019-08-06 17:26:10,001 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:26:20,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:26:20 CST 2019
+2019-08-06 17:26:20,001 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:26:36,096 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on LAPTOP-3J4GOKGI with PID 7468 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-08-06 17:26:36,100 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-08-06 17:26:44,061 INFO (NettyInitial.java:69)- 【服务器启动成功========端口：9800】
+2019-08-06 17:26:45,943 INFO (StartupInfoLogger.java:59)- Started FaceApplication in 10.258 seconds (JVM running for 12.359)
+2019-08-06 17:26:50,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:26:50 CST 2019
+2019-08-06 17:26:50,009 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:27:00,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:27:00 CST 2019
+2019-08-06 17:27:00,004 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:27:10,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:27:10 CST 2019
+2019-08-06 17:27:10,006 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:27:20,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:27:20 CST 2019
+2019-08-06 17:27:20,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:27:30,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:27:30 CST 2019
+2019-08-06 17:27:30,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:27:40,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:27:40 CST 2019
+2019-08-06 17:27:40,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:27:50,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:27:50 CST 2019
+2019-08-06 17:27:50,003 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:28:00,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:28:00 CST 2019
+2019-08-06 17:28:00,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:28:10,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:28:10 CST 2019
+2019-08-06 17:28:10,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:28:20,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:28:20 CST 2019
+2019-08-06 17:28:20,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:28:30,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:28:30 CST 2019
+2019-08-06 17:28:30,004 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:28:40,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:28:40 CST 2019
+2019-08-06 17:28:40,003 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:28:50,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:28:50 CST 2019
+2019-08-06 17:28:50,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:29:00,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:29:00 CST 2019
+2019-08-06 17:29:00,001 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:29:10,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:29:10 CST 2019
+2019-08-06 17:29:10,003 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:29:20,003 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:29:20 CST 2019
+2019-08-06 17:29:20,003 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:29:30,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:29:30 CST 2019
+2019-08-06 17:29:30,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:29:40,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:29:40 CST 2019
+2019-08-06 17:29:40,001 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:30:54,247 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on LAPTOP-3J4GOKGI with PID 1476 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-08-06 17:30:54,250 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-08-06 17:31:02,307 INFO (NettyInitial.java:69)- 【服务器启动成功========端口：9800】
+2019-08-06 17:31:04,193 INFO (StartupInfoLogger.java:59)- Started FaceApplication in 10.358 seconds (JVM running for 12.516)
+2019-08-06 17:31:06,688 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=10&297e325a66f62bae0166f631b0b2000215650838663831565083866383
+2019-08-06 17:31:06,689 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@683d559d
+2019-08-06 17:31:06,691 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>57558812E152CF9DFA0EA54846723DD9
+2019-08-06 17:31:07,422 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-08-06 17:31:08,128 INFO (AuthorizationInterceptor.java:107)- 加密之前的297e325a66f62bae0166f631b0b2000215650838681131565083868113
+2019-08-06 17:31:08,128 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@683d559d
+2019-08-06 17:31:08,129 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>8A6EE83B3B83750C96F9DCCA9C425704
+2019-08-06 17:31:08,207 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-08-06 17:31:08,591 INFO (AuthorizationInterceptor.java:107)- 加密之前的297e325a66f62bae0166f631b0b2000215650838685711565083868571
+2019-08-06 17:31:08,591 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@683d559d
+2019-08-06 17:31:08,592 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>ADD499CA73DD3ADB2B06B4B78DCDA472
+2019-08-06 17:31:08,633 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-08-06 17:31:09,168 INFO (AuthorizationInterceptor.java:107)- 加密之前的297e325a66f62bae0166f631b0b2000215650838691581565083869158
+2019-08-06 17:31:09,168 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@683d559d
+2019-08-06 17:31:09,169 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>644C3E6AD4C84C340F00F542A8A033AF
+2019-08-06 17:31:09,190 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-08-06 17:31:09,552 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=10&297e325a66f62bae0166f631b0b2000215650838695351565083869535
+2019-08-06 17:31:09,553 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@683d559d
+2019-08-06 17:31:09,553 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>BC903D8F156DF3B36447F26D81738119
+2019-08-06 17:31:09,652 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-08-06 17:31:09,991 INFO (AuthorizationInterceptor.java:107)- 加密之前的297e325a66f62bae0166f631b0b2000215650838699821565083869982
+2019-08-06 17:31:09,991 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@683d559d
+2019-08-06 17:31:09,992 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>341A46C049CE57F5A85925B7B0C18C52
+2019-08-06 17:31:10,003 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:31:10 CST 2019
+2019-08-06 17:31:10,007 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:31:10,009 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-08-06 17:31:10,302 INFO (AuthorizationInterceptor.java:107)- 加密之前的297e325a66f62bae0166f631b0b2000215650838702851565083870285
+2019-08-06 17:31:10,303 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@683d559d
+2019-08-06 17:31:10,304 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>0F5DC28A32866F2B125D7B33B6FA3749
+2019-08-06 17:31:10,320 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-08-06 17:31:11,001 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=10&297e325a66f62bae0166f631b0b2000215650838709841565083870984
+2019-08-06 17:31:11,001 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@683d559d
+2019-08-06 17:31:11,002 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>1F1A5FB3FE618F93C9564656BDD96442
+2019-08-06 17:31:11,048 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-08-06 17:31:11,852 INFO (AuthorizationInterceptor.java:107)- 加密之前的297e325a66f62bae0166f631b0b2000215650838718421565083871842
+2019-08-06 17:31:11,852 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@683d559d
+2019-08-06 17:31:11,853 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>DF49BE19DB3AF71F9E5DAD309F45B380
+2019-08-06 17:31:11,896 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-08-06 17:31:12,286 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=10&297e325a66f62bae0166f631b0b2000215650838722731565083872273
+2019-08-06 17:31:12,286 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@683d559d
+2019-08-06 17:31:12,287 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>50CBE11E5ED5AE03F2A8A5DDC4436C56
+2019-08-06 17:31:12,325 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-08-06 17:31:12,928 INFO (AuthorizationInterceptor.java:107)- 加密之前的297e325a66f62bae0166f631b0b2000215650838729211565083872921
+2019-08-06 17:31:12,928 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@683d559d
+2019-08-06 17:31:12,929 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>2427A3D3E8AD6F2DB364F66EDBE8F736
+2019-08-06 17:31:12,959 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-08-06 17:31:13,726 INFO (AuthorizationInterceptor.java:107)- 加密之前的297e325a66f62bae0166f631b0b2000215650838737161565083873716
+2019-08-06 17:31:13,726 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@683d559d
+2019-08-06 17:31:13,727 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>A66525B5BE2B0E3E5015A69323E776C1
+2019-08-06 17:31:13,751 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-08-06 17:31:14,018 INFO (AuthorizationInterceptor.java:107)- 加密之前的297e325a66f62bae0166f631b0b2000215650838740051565083874005
+2019-08-06 17:31:14,019 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@683d559d
+2019-08-06 17:31:14,020 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>9059493BAED29FCAB694A1A3C4D3A78F
+2019-08-06 17:31:14,040 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-08-06 17:31:14,777 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=10&297e325a66f62bae0166f631b0b2000215650838747651565083874765
+2019-08-06 17:31:14,778 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@683d559d
+2019-08-06 17:31:14,779 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>FCA20F5664F5B4F4BF24934D15093496
+2019-08-06 17:31:14,804 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-08-06 17:31:18,659 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=10&297e325a66f62bae0166f631b0b2000215650838786451565083878645
+2019-08-06 17:31:18,659 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@683d559d
+2019-08-06 17:31:18,660 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>4353A9A7029D8DA98011D85BFA02D1E5
+2019-08-06 17:31:18,691 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-08-06 17:31:19,099 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=10&297e325a66f62bae0166f631b0b2000215650838790831565083879083
+2019-08-06 17:31:19,100 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@683d559d
+2019-08-06 17:31:19,101 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>9E21C35B6846E7398EBD164A1C4EBC94
+2019-08-06 17:31:19,119 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-08-06 17:31:19,274 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=10&297e325a66f62bae0166f631b0b2000215650838792581565083879258
+2019-08-06 17:31:19,274 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@683d559d
+2019-08-06 17:31:19,275 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>5A3B7AFAB1D0D15F108B886383E88AB1
+2019-08-06 17:31:19,291 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-08-06 17:31:19,429 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=10&297e325a66f62bae0166f631b0b2000215650838794131565083879413
+2019-08-06 17:31:19,430 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@683d559d
+2019-08-06 17:31:19,431 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>A6C598B822937AABFD592A26DD51737B
+2019-08-06 17:31:19,446 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-08-06 17:31:20,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:31:20 CST 2019
+2019-08-06 17:31:20,001 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:31:20,198 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=10&297e325a66f62bae0166f631b0b2000215650838801851565083880185
+2019-08-06 17:31:20,198 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@683d559d
+2019-08-06 17:31:20,199 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>75476DF194DFEC1102ED0F6BCFE78395
+2019-08-06 17:31:20,278 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-08-06 17:31:21,654 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=10&297e325a66f62bae0166f631b0b2000215650838816451565083881645
+2019-08-06 17:31:21,655 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@683d559d
+2019-08-06 17:31:21,656 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>31AB5A1FE61F8DB554EF3D9CC8C5AB77
+2019-08-06 17:31:21,730 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-08-06 17:31:23,211 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=10&297e325a66f62bae0166f631b0b2000215650838832011565083883201
+2019-08-06 17:31:23,212 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@683d559d
+2019-08-06 17:31:23,213 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>303436DDD3A2E5FEF186C72183DC81D0
+2019-08-06 17:31:23,291 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-08-06 17:31:24,731 INFO (AuthorizationInterceptor.java:107)- 加密之前的ids=24&297e325a66f62bae0166f631b0b2000215650838847121565083884712
+2019-08-06 17:31:24,731 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@683d559d
+2019-08-06 17:31:24,732 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>20BAA8D2C6B7FB4971D44EF7D26FFBA9
+2019-08-06 17:31:24,799 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-08-06 17:31:26,268 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=10&297e325a66f62bae0166f631b0b2000215650838862571565083886257
+2019-08-06 17:31:26,269 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@683d559d
+2019-08-06 17:31:26,269 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>0FEF0A34F8F878E8A22706B28CB8C2B9
+2019-08-06 17:31:26,321 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-08-06 17:31:27,837 INFO (AuthorizationInterceptor.java:107)- 加密之前的297e325a66f62bae0166f631b0b2000215650838878241565083887824
+2019-08-06 17:31:27,838 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@683d559d
+2019-08-06 17:31:27,838 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>E1A12CEA2ACDA8A76DEF4D88E490BD66
+2019-08-06 17:31:27,870 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-08-06 17:31:28,311 INFO (AuthorizationInterceptor.java:107)- 加密之前的297e325a66f62bae0166f631b0b2000215650838882941565083888294
+2019-08-06 17:31:28,311 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@683d559d
+2019-08-06 17:31:28,311 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>E833058CB89C7D24BC2898D6673F33BE
+2019-08-06 17:31:28,327 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-08-06 17:31:28,479 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=10&297e325a66f62bae0166f631b0b2000215650838884681565083888468
+2019-08-06 17:31:28,480 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@683d559d
+2019-08-06 17:31:28,480 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>F5193593AF2AB2B0ED357D8052E733ED
+2019-08-06 17:31:28,528 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-08-06 17:31:30,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:31:30 CST 2019
+2019-08-06 17:31:30,003 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:31:40,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:31:40 CST 2019
+2019-08-06 17:31:40,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:31:50,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:31:50 CST 2019
+2019-08-06 17:31:50,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:32:00,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:32:00 CST 2019
+2019-08-06 17:32:00,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:32:10,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:32:10 CST 2019
+2019-08-06 17:32:10,003 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:32:20,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:32:20 CST 2019
+2019-08-06 17:32:20,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:32:30,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:32:30 CST 2019
+2019-08-06 17:32:30,003 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:32:40,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:32:40 CST 2019
+2019-08-06 17:32:40,003 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:32:50,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:32:50 CST 2019
+2019-08-06 17:32:50,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:33:00,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:33:00 CST 2019
+2019-08-06 17:33:00,003 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:33:10,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:33:10 CST 2019
+2019-08-06 17:33:10,003 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:33:20,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:33:20 CST 2019
+2019-08-06 17:33:20,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 17:33:30,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 17:33:30 CST 2019
+2019-08-06 17:33:30,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 18:12:31,058 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on LAPTOP-3J4GOKGI with PID 264 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-08-06 18:12:31,062 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-08-06 18:12:38,959 INFO (NettyInitial.java:69)- 【服务器启动成功========端口：9800】
+2019-08-06 18:12:40,652 INFO (StartupInfoLogger.java:59)- Started FaceApplication in 10.003 seconds (JVM running for 12.186)
+2019-08-06 18:12:50,003 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 18:12:50 CST 2019
+2019-08-06 18:12:50,008 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 18:13:00,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 18:13:00 CST 2019
+2019-08-06 18:13:00,003 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 18:13:10,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 18:13:10 CST 2019
+2019-08-06 18:13:10,001 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 18:13:20,000 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 18:13:20 CST 2019
+2019-08-06 18:13:20,001 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 18:13:30,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 18:13:30 CST 2019
+2019-08-06 18:13:30,003 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 18:13:40,000 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 18:13:40 CST 2019
+2019-08-06 18:13:40,001 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 18:13:50,000 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 18:13:50 CST 2019
+2019-08-06 18:13:50,001 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 18:14:00,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 18:14:00 CST 2019
+2019-08-06 18:14:00,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 18:14:10,003 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 18:14:10 CST 2019
+2019-08-06 18:14:10,005 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 18:14:20,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 18:14:20 CST 2019
+2019-08-06 18:14:20,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 18:14:30,000 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 18:14:30 CST 2019
+2019-08-06 18:14:30,001 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 18:14:40,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 18:14:40 CST 2019
+2019-08-06 18:14:40,003 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 18:14:50,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 18:14:50 CST 2019
+2019-08-06 18:14:50,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 18:15:00,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 18:15:00 CST 2019
+2019-08-06 18:15:00,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 18:15:10,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 18:15:10 CST 2019
+2019-08-06 18:15:10,001 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 18:15:20,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 18:15:20 CST 2019
+2019-08-06 18:15:20,003 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 18:15:27,267 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on LAPTOP-3J4GOKGI with PID 21056 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-08-06 18:15:27,272 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-08-06 18:15:34,967 INFO (NettyInitial.java:69)- 【服务器启动成功========端口：9800】
+2019-08-06 18:15:36,623 INFO (StartupInfoLogger.java:59)- Started FaceApplication in 9.763 seconds (JVM running for 11.933)
+2019-08-06 18:15:40,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 18:15:40 CST 2019
+2019-08-06 18:15:40,009 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 18:15:50,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 18:15:50 CST 2019
+2019-08-06 18:15:50,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 18:16:00,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 18:16:00 CST 2019
+2019-08-06 18:16:00,003 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 18:16:10,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 18:16:10 CST 2019
+2019-08-06 18:16:10,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 18:16:20,003 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 18:16:20 CST 2019
+2019-08-06 18:16:20,004 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 18:16:30,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 18:16:30 CST 2019
+2019-08-06 18:16:30,003 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 18:16:40,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 18:16:40 CST 2019
+2019-08-06 18:16:40,003 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 18:16:50,000 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 18:16:50 CST 2019
+2019-08-06 18:16:50,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 18:17:00,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 18:17:00 CST 2019
+2019-08-06 18:17:00,005 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 18:17:10,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 18:17:10 CST 2019
+2019-08-06 18:17:10,003 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 18:17:20,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 18:17:20 CST 2019
+2019-08-06 18:17:20,003 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 18:17:30,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 18:17:30 CST 2019
+2019-08-06 18:17:30,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 18:17:40,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 18:17:40 CST 2019
+2019-08-06 18:17:40,005 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 18:17:50,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 18:17:50 CST 2019
+2019-08-06 18:17:50,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 18:18:00,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 18:18:00 CST 2019
+2019-08-06 18:18:00,001 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 18:18:10,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 18:18:10 CST 2019
+2019-08-06 18:18:10,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 18:18:20,003 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 18:18:20 CST 2019
+2019-08-06 18:18:20,005 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 18:18:30,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 18:18:30 CST 2019
+2019-08-06 18:18:30,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 18:18:41,624 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on LAPTOP-3J4GOKGI with PID 2188 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-08-06 18:18:41,631 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-08-06 18:18:49,487 INFO (NettyInitial.java:69)- 【服务器启动成功========端口：9800】
+2019-08-06 18:18:51,121 INFO (StartupInfoLogger.java:59)- Started FaceApplication in 9.904 seconds (JVM running for 11.992)
+2019-08-06 18:19:00,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 18:19:00 CST 2019
+2019-08-06 18:19:00,010 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 18:19:10,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 18:19:10 CST 2019
+2019-08-06 18:19:10,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 18:19:20,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 18:19:20 CST 2019
+2019-08-06 18:19:20,003 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 18:19:30,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 18:19:30 CST 2019
+2019-08-06 18:19:30,003 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 18:19:40,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 18:19:40 CST 2019
+2019-08-06 18:19:40,003 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 18:19:50,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 18:19:50 CST 2019
+2019-08-06 18:19:50,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 18:20:00,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 18:20:00 CST 2019
+2019-08-06 18:20:00,001 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 18:20:10,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 18:20:10 CST 2019
+2019-08-06 18:20:10,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 18:20:20,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 18:20:20 CST 2019
+2019-08-06 18:20:20,003 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 18:20:30,000 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 18:20:30 CST 2019
+2019-08-06 18:20:30,001 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 18:20:46,216 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on LAPTOP-3J4GOKGI with PID 6488 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-08-06 18:20:46,220 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-08-06 18:20:54,053 INFO (NettyInitial.java:69)- 【服务器启动成功========端口：9800】
+2019-08-06 18:20:55,717 INFO (StartupInfoLogger.java:59)- Started FaceApplication in 9.916 seconds (JVM running for 12.043)
+2019-08-06 18:29:06,224 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on LAPTOP-3J4GOKGI with PID 24384 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-08-06 18:29:06,228 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-08-06 18:29:13,335 INFO (NettyInitial.java:69)- 【服务器启动成功========端口：9800】
+2019-08-06 18:29:14,931 INFO (StartupInfoLogger.java:59)- Started FaceApplication in 9.094 seconds (JVM running for 12.201)
+2019-08-06 18:29:26,679 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on LAPTOP-3J4GOKGI with PID 19260 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-08-06 18:29:26,682 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-08-06 18:29:34,544 INFO (NettyInitial.java:69)- 【服务器启动成功========端口：9800】
+2019-08-06 18:29:36,339 INFO (StartupInfoLogger.java:59)- Started FaceApplication in 10.08 seconds (JVM running for 12.021)
+2019-08-06 18:29:40,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 18:29:40 CST 2019
+2019-08-06 18:29:40,008 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 18:29:50,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 18:29:50 CST 2019
+2019-08-06 18:29:50,005 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 18:30:00,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 18:30:00 CST 2019
+2019-08-06 18:30:00,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 18:30:10,000 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 18:30:10 CST 2019
+2019-08-06 18:30:10,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 18:30:20,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 18:30:20 CST 2019
+2019-08-06 18:30:20,003 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 18:30:30,000 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 18:30:30 CST 2019
+2019-08-06 18:30:30,002 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 18:30:40,002 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 18:30:40 CST 2019
+2019-08-06 18:30:40,004 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备
+2019-08-06 18:30:50,001 INFO (TrafficStatisticsSchedule.java:99)- 调用！！！！！！！！！！！！！！Tue Aug 06 18:30:50 CST 2019
+2019-08-06 18:30:50,001 INFO (TrafficStatisticsSchedule.java:198)- 没有链接设备

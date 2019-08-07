@@ -1,5 +1,5 @@
 /*
- * Copyright  哈哈哈哈哈哈哈哈. All rights reserved.
+ * Copyright  上海联朝网络科技有限公司. All rights reserved.
  */
 package com.aicheck.face.modules.trafficStatistics.schedule;
 
@@ -27,6 +27,7 @@ import com.aicheck.face.modules.trafficStatistics.entity.TrafficStatistics;
 import com.aicheck.face.modules.trafficStatistics.service.TrafficStatisticsService;
 
 
+import com.netsdk.demo.VideoStatistic;
 import io.netty.channel.ChannelFuture;
 
 import io.netty.handler.codec.http.websocketx.TextWebSocketFrame;
@@ -50,6 +51,7 @@ import java.io.IOException;
 
 
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 
@@ -105,7 +107,7 @@ public class TrafficStatisticsSchedule {
                 ip = channel.remoteAddress().toString();
 
                 DeviceService deviceService = (DeviceService) SpringContextUtils.getBean("deviceService");
-//			Device device = deviceService.findAllByformacaddress(ip);
+//			    Device device = deviceService.findAllByformacaddress(ip);
                 Device device = deviceService.findAllByforipaddress(ip);
                 if (device == null) {
                     return;
@@ -250,6 +252,33 @@ public class TrafficStatisticsSchedule {
         deleteDir(path);
         log.info("清理访客文件夹");
     }
+
+    /**
+     * 定时统计流量
+     */
+    @Scheduled(cron = "*/10 * * * * ? ")
+    public void flowstatistics(){
+        VideoStatistic demo = new VideoStatistic();
+        demo.InitTest();
+        Date date=new Date();
+        Calendar calendar = Calendar.getInstance();
+        calendar.setTime(new Date());
+        calendar.set(Calendar.HOUR, 0);
+        calendar.set(Calendar.MINUTE, 0);
+        calendar.set(Calendar.SECOND, 0);
+
+        System.out.println("开始时间"+calendar.getTime());
+        System.out.println("结束时间"+date);
+
+        demo.startFindNumberStatrewrite(calendar.getTime(),date);
+
+
+    }
+
+
+
+
+
 
 
     /**

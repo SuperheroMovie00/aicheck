@@ -1,5 +1,5 @@
 /*
- * Copyright  哈哈哈哈哈哈哈哈. All rights reserved.
+ * Copyright  上海联朝网络科技有限公司. All rights reserved.
  */
 package com.aicheck.face.modules.customer.controller;
 
@@ -294,6 +294,7 @@ public class CustomerController {
 			}
 		});
 
+		//如果没有盒子 默认没有人脸 通过验证
 		if (channellist.size() == 0) {
 			return R.error("算力盒关闭，请开启");
 		}
@@ -566,7 +567,7 @@ public class CustomerController {
 		Customer customer = new Customer();
 		customer.setId(1);
 		customer.setName("测试人员");
-		customer.setAddress("test");
+		customer.setAddress("Detest");
 		customer.setAge(11);
 		customer.setEmail("11@qq.com");
 		customer.setGender("男");

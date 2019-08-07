@@ -24,6 +24,7 @@ public class pathsetingServiceImpl implements pathsetingService {
 
     @Override
     public List<pathseting> save(List<pathseting> t) {
+
         return pathsetingRepository.saveAll(t);
     }
 

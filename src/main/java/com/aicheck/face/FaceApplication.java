@@ -1,5 +1,5 @@
 /*
- * Copyright  哈哈哈哈哈哈哈哈. All rights reserved.
+ * Copyright  上海联朝网络科技有限公司. All rights reserved.
  */
 package com.aicheck.face;
 
@@ -11,6 +11,10 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ImportResource;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
+import com.netsdk.demo.VideoStatistic;
+
+import java.util.Calendar;
+import java.util.Date;
 
 import javax.servlet.MultipartConfigElement;
 
@@ -21,7 +25,23 @@ import javax.servlet.MultipartConfigElement;
 public class FaceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(FaceApplication.class, args);
+    	VideoStatistic demo = new VideoStatistic();
+    	demo.InitTest();
+    	Date date=new Date();
+    	Calendar calendar = Calendar.getInstance();
+ 		calendar.setTime(new Date());
+ 		calendar.set(Calendar.HOUR, 0);
+ 		calendar.set(Calendar.MINUTE, 0);
+ 		calendar.set(Calendar.SECOND, 0);
+ 		
+ 		System.out.println("开始时间"+calendar.getTime());
+ 		System.out.println("结束时间"+date);
+ 		
+    	demo.startFindNumberStatrewrite(calendar.getTime(),date);
+    	
+    	SpringApplication.run(FaceApplication.class, args);
+        
+    	
     }
 
     /**

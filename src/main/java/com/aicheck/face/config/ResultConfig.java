@@ -24,7 +24,10 @@ import java.util.List;
 public class ResultConfig {
 
     @Bean
-    public HttpMessageConverters fastJsonHttpMessageConverters(){
+    public static HttpMessageConverters fastJsonHttpMessageConverters(){
+
+
+
         //1.需要定义一个convert转换消息的对象;
         FastJsonHttpMessageConverter fastJsonHttpMessageConverter = new FastJsonHttpMessageConverter();
         //2:添加fastJson的配置信息;
