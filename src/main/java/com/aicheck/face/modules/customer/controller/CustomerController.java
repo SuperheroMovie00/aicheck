@@ -155,7 +155,7 @@ public class CustomerController {
 	// public R pushBoxCheck(MultipartFile file) {
 	//
 	// GlobalUser.channels.forEach(channel ->{
-	// System.out.println(channel.id());
+	// SystemParameter.out.println(channel.id());
 	// });
 	//
 	// return R.ok();

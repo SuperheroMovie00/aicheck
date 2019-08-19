@@ -90,7 +90,7 @@ public class AuthorizationInterceptor extends HandlerInterceptorAdapter {
             }
 
             // 请求时间间隔
-            // long requestInterval = System.currentTimeMillis() - Long.valueOf(timestamp);
+            // long requestInterval = SystemParameter.currentTimeMillis() - Long.valueOf(timestamp);
 
             // if (requestInterval >=
             // Integer.parseInt(AuthorizationEnum.EXPIRE_TIME.getValue())) {

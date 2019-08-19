@@ -781,7 +781,7 @@ class DownLoadRecordFrame extends JFrame{
 			SwingUtilities.invokeLater(new Runnable() {	
 				@Override
 				public void run() {
-//					System.out.println("ByFile " + dwDownLoadSize + " / " + dwTotalSize);
+//					SystemParameter.out.println("ByFile " + dwDownLoadSize + " / " + dwTotalSize);
 					downloadByFileProgressBar.setValue(dwDownLoadSize*100 / dwTotalSize);
 					if(dwDownLoadSize == -1) {
 						downloadByFileProgressBar.setValue(100);
@@ -804,7 +804,7 @@ class DownLoadRecordFrame extends JFrame{
 			SwingUtilities.invokeLater(new Runnable() {
 				@Override
 				public void run() {
-//					System.out.println("ByTime " + dwDownLoadSize + " / " + dwTotalSize);
+//					SystemParameter.out.println("ByTime " + dwDownLoadSize + " / " + dwTotalSize);
 					downloadByTimeProgressBar.setValue(dwDownLoadSize*100 / dwTotalSize);
 					if(dwDownLoadSize == -1) {
 						downloadByTimeProgressBar.setValue(100);

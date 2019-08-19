@@ -3,6 +3,8 @@ package com.netsdk.demo;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
 
 import com.netsdk.demo.util.CaseMenu;
 import com.netsdk.lib.NetSDKLib;
@@ -115,7 +117,7 @@ public class VideoStatistic {
 	}
 
 	/** 订阅视频统计 句柄 */
-	private LLong videoStatHandle = new LLong(0);
+	private static LLong videoStatHandle = new LLong(0);
 
 	/**
 	 * 订阅
@@ -151,14 +153,16 @@ public class VideoStatistic {
 	}
 
 	// 查询句柄
-	private LLong findHandle = new LLong(0);
+	private static LLong findHandle = new LLong(0);
 
 	/**
 	 * 重写的 startFindNumberStat 方法
 	 * @param begintime
 	 * @param endtime
 	 */
-	public void startFindNumberStatrewrite(Date begintime, Date endtime) {
+	public static Map<String, Integer> startFindNumberStatrewrite(Date begintime, Date endtime,int GranularityType) {
+		Map<String, Integer> map=new HashMap<String, Integer>();
+		
 		NET_IN_FINDNUMBERSTAT inParam = new NET_IN_FINDNUMBERSTAT();
 		// 通道号
 		inParam.nChannelID = 0;
@@ -167,10 +171,10 @@ public class VideoStatistic {
 		begincalendar.setTime(begintime);
 		
 		
-/*		System.out.println("开始"+begincalendar.get(Calendar.YEAR));
-		System.out.println("开始"+begincalendar.get(Calendar.MONTH));
-		System.out.println("开始"+begincalendar.get(Calendar.DATE));
-		System.out.println("开始"+begincalendar.get(Calendar.HOUR)); */	
+/*		SystemParameter.out.println("开始"+begincalendar.get(Calendar.YEAR));
+		SystemParameter.out.println("开始"+begincalendar.get(Calendar.MONTH));
+		SystemParameter.out.println("开始"+begincalendar.get(Calendar.DATE));
+		SystemParameter.out.println("开始"+begincalendar.get(Calendar.HOUR)); */
 	
 		
 		// 开始时间
@@ -179,15 +183,15 @@ public class VideoStatistic {
 		inParam.stStartTime.dwYear = begincalendar.get(Calendar.YEAR);
 		inParam.stStartTime.dwMonth =MONTH+1;
 		inParam.stStartTime.dwDay = begincalendar.get(Calendar.DATE);
-		inParam.stStartTime.dwHour = begincalendar.get(Calendar.HOUR);
+		inParam.stStartTime.dwHour = begincalendar.get(Calendar.HOUR_OF_DAY);
 
 		Calendar endcalendar = Calendar.getInstance();
 		endcalendar.setTime(endtime);
 		
-/*		System.out.println("结束"+endcalendar.get(Calendar.YEAR));
-		System.out.println("结束"+endcalendar.get(Calendar.MONTH));
-		System.out.println("结束"+endcalendar.get(Calendar.DATE));
-		System.out.println("结束"+endcalendar.get(Calendar.HOUR));*/
+/*		SystemParameter.out.println("结束"+endcalendar.get(Calendar.YEAR));
+		SystemParameter.out.println("结束"+endcalendar.get(Calendar.MONTH));
+		SystemParameter.out.println("结束"+endcalendar.get(Calendar.DATE));
+		SystemParameter.out.println("结束"+endcalendar.get(Calendar.HOUR));*/
 		
 		
 		// 结束时间
@@ -195,10 +199,10 @@ public class VideoStatistic {
 		inParam.stEndTime.dwYear = endcalendar.get(Calendar.YEAR);
 		inParam.stEndTime.dwMonth = ENDMONTH+1;
 		inParam.stEndTime.dwDay = endcalendar.get(Calendar.DATE);
-		inParam.stEndTime.dwHour = endcalendar.get(Calendar.HOUR);
+		inParam.stEndTime.dwHour = endcalendar.get(Calendar.HOUR_OF_DAY);
 
 		// 颗粒度
-		inParam.nGranularityType = 2;
+		inParam.nGranularityType = GranularityType;
 		// 接口超时时间5s
 		inParam.nWaittime = 5000;
 
@@ -208,7 +212,7 @@ public class VideoStatistic {
 		findHandle = netsdkApi.CLIENT_StartFindNumberStat(loginHandle, inParam, outParam);
 		if (findHandle.longValue() == 0) {
 			System.err.printf("StartFindNumberStat Failed! LastError = 0x%x\n", netsdkApi.CLIENT_GetLastError());
-			return;
+			return null;
 		}
 
 		System.out.println("dwTotalCount: " + outParam.dwTotalCount);
@@ -235,9 +239,9 @@ public class VideoStatistic {
 			bFound = netsdkApi.CLIENT_DoFindNumberStat(findHandle, inDoFind, outDofind);
 			if (0 == bFound) {
 				System.err.printf("DoFindNumberStat Failed! LastError = 0x%x\n", netsdkApi.CLIENT_GetLastError());
-				return;
+				return null;
 			}
-
+			
 			int Enterpeoplenum = 0;
 			int Exitpeoplenum = 0;
 			// 查询结果
@@ -251,13 +255,17 @@ public class VideoStatistic {
 				Exitpeoplenum = numberstat[i].nExitedSubtotal;
 																
 			}
+			map.put("IN", Enterpeoplenum);
+			map.put("OUT", Exitpeoplenum);
 			System.out.println("进入的人数" + Enterpeoplenum);
 			System.out.println("出去的人数" + Exitpeoplenum);
+			System.out.println("map=>"+map);
 
 			// 查询下一次
 			// 从上一次结束地方开始查询
 			inDoFind.nBeginNumber	 += inDoFind.nCount;
 		} while (outDofind.nCount >= inDoFind.nCount);
+		return map;
 	}
 
 	public void startFindNumberStat() {
@@ -276,10 +284,10 @@ public class VideoStatistic {
 		inParam.stEndTime.dwYear = 2019;
 		inParam.stEndTime.dwMonth = 8;
 		inParam.stEndTime.dwDay = 6;
-		inParam.stEndTime.dwHour = 20;
+		inParam.stEndTime.dwHour = 19;
 
 		// 颗粒度
-		inParam.nGranularityType = 2;
+		inParam.nGranularityType = 4;
 		// 接口超时时间5s
 		inParam.nWaittime = 5000;
 		

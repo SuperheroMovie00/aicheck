@@ -807,7 +807,7 @@ public class FaceRecognitionModule {
 		 */
 //		// 地点,支持模糊匹配 
 //		String machineAddress = "";
-//		System.arraycopy(machineAddress.getBytes(), 0, findContion.szMachineAddress, 0, machineAddress.getBytes().length);
+//		SystemParameter.arraycopy(machineAddress.getBytes(), 0, findContion.szMachineAddress, 0, machineAddress.getBytes().length);
 //		
 //		// 待查询报警类型
 //		findContion.nAlarmType = EM_FACERECOGNITION_ALARM_TYPE.NET_FACERECOGNITION_ALARM_TYPE_ALL;
@@ -817,13 +817,13 @@ public class FaceRecognitionModule {
 //		
 //		// 人员组ID(人脸库ID)
 //		String groupId = "";
-//		System.arraycopy(groupId.getBytes(), 0, findContion.szGroupIdArr[0].szGroupId, 0, groupId.getBytes().length);
+//		SystemParameter.arraycopy(groupId.getBytes(), 0, findContion.szGroupIdArr[0].szGroupId, 0, groupId.getBytes().length);
 //		
 //		// 人员信息扩展是否有效
 //		findContion.abPersonInfoEx = 1;     
 //		
 //		// 人员组ID(人脸库ID)
-//		System.arraycopy(groupId.getBytes(), 0, findContion.stPersonInfoEx.szGroupID, 0, groupId.getBytes().length);
+//		SystemParameter.arraycopy(groupId.getBytes(), 0, findContion.stPersonInfoEx.szGroupID, 0, groupId.getBytes().length);
 		
 		findContion.write();
 		lFindHandle = LoginModule.netsdk.CLIENT_FindFileEx(LoginModule.m_hLoginHandle, type, findContion.getPointer(), null, 3000);

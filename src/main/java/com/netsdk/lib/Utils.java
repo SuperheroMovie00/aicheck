@@ -2,6 +2,8 @@ package com.netsdk.lib;
 
 import com.sun.jna.Platform;
 
+import java.io.File;
+
 public class Utils {
 	public Utils() {
 
@@ -72,10 +74,14 @@ public class Utils {
 
 		String loadLibrary = "";
 		String osPrefix = getOsPrefix();
+
+		File targetFile = new File("./libs/win64/");
+
 		if(osPrefix.toLowerCase().startsWith("win32-x86")) {
 			loadLibrary = "./libs/win32/";
 		} else if(osPrefix.toLowerCase().startsWith("win32-amd64") ) {
 			loadLibrary = "./libs/win64/";
+
 		} else if(osPrefix.toLowerCase().startsWith("linux-i386")) {
 			loadLibrary = "";
 		}else if(osPrefix.toLowerCase().startsWith("linux-amd64")) {

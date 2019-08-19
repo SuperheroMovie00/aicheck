@@ -62,7 +62,7 @@ public class ImageGroupController {
 
 
 		/*
-		 * System.out.println("分组"+imageGroupList); List<ImageGroupVO> imageGroupVOList
+		 * SystemParameter.out.println("分组"+imageGroupList); List<ImageGroupVO> imageGroupVOList
 		 * = com.aicheck.face.common.utils.BeanUtils.batchTransform(ImageGroupVO.class,
 		 * imageGroupList);
 		 * 
@@ -260,7 +260,7 @@ public class ImageGroupController {
 	@PostMapping
 	public R save(@RequestBody ImageGroupForm imageGroupForm) {
 
-		// System.out.println("红火火恍恍惚惚"+imageGroupForm);
+		// SystemParameter.out.println("红火火恍恍惚惚"+imageGroupForm);
 		ImageGroup imageGroup = new ImageGroup();
 		if (imageGroupForm.getParentId() != null) {
 			ImageGroup parent = imageGroupService.findById(imageGroupForm.getParentId());

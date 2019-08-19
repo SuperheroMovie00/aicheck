@@ -77,10 +77,10 @@ public class TestController {
 
 //    @PostMapping("/import")
 //    public R importExcel(MultipartFile file) {
-//        System.out.println("导入");
+//        SystemParameter.out.println("导入");
 //        try {
 //            List<Customer> customerList = ExcelUtil.importExcel(file.getOriginalFilename(),file);
-//            System.out.println("===================================");
+//            SystemParameter.out.println("===================================");
 //            //TODO 批量新增至数据库
 //        } catch (Exception e) {
 //            e.printStackTrace();

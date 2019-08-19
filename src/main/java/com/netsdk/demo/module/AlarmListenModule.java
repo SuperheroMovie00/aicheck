@@ -27,7 +27,7 @@ public class AlarmListenModule {
 	public static boolean startListen(fMessCallBack cbMessage) {
 
 		if (bListening) {
-//			System.out.println("Had Subscribe Alarm.");
+//			SystemParameter.out.println("Had Subscribe Alarm.");
 			return true;
 		}
 		

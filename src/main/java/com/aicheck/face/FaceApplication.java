@@ -13,6 +13,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 import com.netsdk.demo.VideoStatistic;
 
+import java.io.File;
 import java.util.Calendar;
 import java.util.Date;
 
@@ -25,20 +26,21 @@ import javax.servlet.MultipartConfigElement;
 public class FaceApplication {
 
     public static void main(String[] args) {
-    	VideoStatistic demo = new VideoStatistic();
+    	
+    	/*VideoStatistic demo = new VideoStatistic();
     	demo.InitTest();
     	Date date=new Date();
     	Calendar calendar = Calendar.getInstance();
- 		calendar.setTime(new Date());
- 		calendar.set(Calendar.HOUR, 0);
- 		calendar.set(Calendar.MINUTE, 0);
- 		calendar.set(Calendar.SECOND, 0);
+        calendar.setTime(date);
+        calendar.set(Calendar.HOUR_OF_DAY, calendar.get(Calendar.HOUR_OF_DAY) - 1);
  		
- 		System.out.println("开始时间"+calendar.getTime());
- 		System.out.println("结束时间"+date);
+ 		SystemParameter.out.println("开始时间"+calendar.getTime());
+ 		SystemParameter.out.println("结束时间"+date);
  		
-    	demo.startFindNumberStatrewrite(calendar.getTime(),date);
-    	
+    	demo.startFindNumberStatrewrite(calendar.getTime(),date);*/
+
+
+
     	SpringApplication.run(FaceApplication.class, args);
         
     	

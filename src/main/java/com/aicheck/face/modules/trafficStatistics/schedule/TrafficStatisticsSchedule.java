@@ -23,10 +23,12 @@ import com.aicheck.face.modules.nettyPush.MessageTypeEnum;
 import com.aicheck.face.modules.socket.WebSocketEndPoint;
 import com.aicheck.face.modules.sync.entity.sync;
 import com.aicheck.face.modules.sync.service.syncService;
+import com.aicheck.face.modules.system.entity.SystemParameter;
+import com.aicheck.face.modules.system.service.SystemParameterService;
 import com.aicheck.face.modules.trafficStatistics.entity.TrafficStatistics;
 import com.aicheck.face.modules.trafficStatistics.service.TrafficStatisticsService;
-
-
+import com.aicheck.face.modules.visitorsRecord.entity.Videostatistic;
+import com.aicheck.face.modules.visitorsRecord.service.VideostatisticService;
 import com.netsdk.demo.VideoStatistic;
 import io.netty.channel.ChannelFuture;
 
@@ -35,7 +37,6 @@ import io.netty.handler.codec.http.websocketx.TextWebSocketFrame;
 
 import lombok.extern.slf4j.Slf4j;
 import net.sf.json.JSONObject;
-
 
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -48,12 +49,13 @@ import org.springframework.util.CollectionUtils;
 
 
 import java.io.IOException;
-
-
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
+import java.util.Map;
 
 import static com.aicheck.face.vo.file.deleteDir;
 
@@ -76,6 +78,10 @@ public class TrafficStatisticsSchedule {
     private syncService syncservice;
     @Autowired
     private CustomerService customerservice;
+    @Autowired
+    private VideostatisticService videostatisticService;
+    @Autowired
+    private SystemParameterService systemparameterservice;
 
     //date :jar 包运行报错  @Scheduled(cron = "0 59 * * * ?")
     public void saveTrafficStatistics() {
@@ -102,7 +108,7 @@ public class TrafficStatisticsSchedule {
         if (GlobalUser.channels.size() != 0) {
 
             GlobalUser.channels.forEach(channel -> {
-                log.info("有设备进行同步操作");
+                //log.info("有设备进行同步操作");
                 String ip;
                 ip = channel.remoteAddress().toString();
 
@@ -115,11 +121,11 @@ public class TrafficStatisticsSchedule {
                 String s = device.getMacAddress();
 
                 TodoPushService todoPushService = (TodoPushService) SpringContextUtils.getBean("todoPushService");
-                log.info("连接设备 -> {}", s, ip);
+                //log.info("连接设备 -> {}", s, ip);
 
                 List<TodoPush> todoPushList = todoPushService.findByDeviceId(s);
                 if (!CollectionUtils.isEmpty(todoPushList)) {
-                    log.info("待发送消息设备 -> {},数量:{}", s, todoPushList.size());
+                    //log.info("待发送消息设备 -> {},数量:{}", s, todoPushList.size());
 
                     todoPushList.forEach(todoPush -> {
                         Message message = new Message();
@@ -130,9 +136,9 @@ public class TrafficStatisticsSchedule {
                             message.setAction(MessageTypeEnum.DELETE.getValue());
                             String tudomessage = todoPush.getMessage();
                             tudomessage = tudomessage.replace(":-1", ":" + todoPush.getId());
-                            log.info("删除同步开始******");
+                            //log.info("删除同步开始******");
                             channel.writeAndFlush(new TextWebSocketFrame(tudomessage));
-                            log.info("删除同步发送完成******");
+                            //log.info("删除同步发送完成******");
                             todoPush.setMessage(tudomessage);
                             todoPush.setSend_time(new Date());             //更新todopush的发送时间
                             todoPushService.save(todoPush);
@@ -142,9 +148,9 @@ public class TrafficStatisticsSchedule {
                             message.setAction(MessageTypeEnum.UPDATE.getValue());
                             String tudomessage = todoPush.getMessage();
                             tudomessage = tudomessage.replace(":-1", ":" + todoPush.getId());
-                            log.info("修改同步开始******");
+                            //log.info("修改同步开始******");
                             channel.writeAndFlush(new TextWebSocketFrame(tudomessage));
-                            log.info("修改同步发送完成******");
+                            //log.info("修改同步发送完成******");
                             todoPush.setMessage(tudomessage);
                             todoPush.setSend_time(new Date());             //更新todopush的发送时间
                             todoPushService.save(todoPush);
@@ -183,27 +189,27 @@ public class TrafficStatisticsSchedule {
                             message.setObject(customerVO);
                             message.setId(todoPush.getId()); // 将传输的id推送过去
                             String str = JSON.toJSONString(message);
-                            log.info("新增同步开始******");
+                            //log.info("新增同步开始******");
                             channel.writeAndFlush(new TextWebSocketFrame(str));
-                            log.info("新增同步结束******");
+                            //log.info("新增同步结束******");
                             todoPush.setSend_time(new Date());             //更新todopush的发送时间
                             todoPushService.save(todoPush);
                         }
 
 
-                        log.info("待发送消息 id :{} ,发送成功", todoPush.getId(), ip);
+                        //log.info("待发送消息 id :{} ,发送成功", todoPush.getId(), ip);
                     });
                 }
             });
         } else {
 
-            log.info("没有链接设备");
+            //log.info("没有链接设备");
         }
         // CustomerPushBoxUtils.nettyPushnew(MessageTypeEnum.SAVE.getValue(),
         // customerVO,ipaddress,syncid);
 
         /*
-         * System.out.println("调用注册会员同步*******************"); List<sync> synclist =
+         * SystemParameter.out.println("调用注册会员同步*******************"); List<sync> synclist =
          * syncservice.querysynclist(0, "save");
          *
          * if (synclist != null) { for (int r = 0; r < synclist.size(); r++) { Customer
@@ -211,7 +217,7 @@ public class TrafficStatisticsSchedule {
          * ipaddress=synclist.get(r).getReceiver(); Integer
          * syncid=synclist.get(r).getId();
          *
-         * System.out.println(cus); CustomerVO customerVO = new CustomerVO();
+         * SystemParameter.out.println(cus); CustomerVO customerVO = new CustomerVO();
          * BeanUtils.copyProperties(cus, customerVO);
          *
          * // 将user_model_value字符串类型的转成UserModel对象类型
@@ -239,7 +245,7 @@ public class TrafficStatisticsSchedule {
      */
     //@Scheduled(cron = "* * * * */6 ? ")
     public void deleteadvertisingimages() {
-
+    	 JSONObject json = null;
         pathseting pathempty = pathsetingService.findpathfortype("visitors");
 
         if (pathempty == null) {
@@ -254,33 +260,275 @@ public class TrafficStatisticsSchedule {
     }
 
     /**
-     * 定时统计流量
+     * 定时统计流量(每小时)
+     * @throws ParseException 
      */
-    @Scheduled(cron = "*/10 * * * * ? ")
-    public void flowstatistics(){
-        VideoStatistic demo = new VideoStatistic();
-        demo.InitTest();
-        Date date=new Date();
-        Calendar calendar = Calendar.getInstance();
-        calendar.setTime(new Date());
-        calendar.set(Calendar.HOUR, 0);
-        calendar.set(Calendar.MINUTE, 0);
-        calendar.set(Calendar.SECOND, 0);
+    @Scheduled(cron = "0 0/60 * * * ?") 
+    //@Scheduled(cron = "*/10 * * * * ? ")
+    public void flowstatisticshour() throws ParseException{
+    	VideoStatistic demo = new VideoStatistic();
+    	demo.InitTest();
+    	JSONObject json = null;
+    	SimpleDateFormat simpleDateFormat=new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+    	SimpleDateFormat simpleDateFormatdd=new SimpleDateFormat("dd");
+        SystemParameter systemParameter=systemparameterservice.querysystem("day");
+        String dayendtime=systemParameter.getSystemValue();
+        //将最后的统计时间与 当前时间进行比较
+        Date dayendtimesf=simpleDateFormat.parse(dayendtime);
+        if(!simpleDateFormatdd.format(new Date()).equals(simpleDateFormatdd.format(dayendtimesf))) {
+        	for(int r=Integer.parseInt(simpleDateFormatdd.format(dayendtimesf));r<Integer.parseInt(simpleDateFormatdd.format(new Date()));r++) {
+        		//先将日期为这个时间的数据都删掉，然后再将时间调回到这个时间进行24时的统计。
+        		SimpleDateFormat simpleDateFormatc=new SimpleDateFormat("yyyy-MM-dd");
+        		String datestr=simpleDateFormatc.format(dayendtimesf);
+        		videostatisticService.deletevideostatistic(datestr, "day");
+        		
+        		for(int l=1;l<24;l++) {
+        		Date cccdata=dayendtimesf;
+        		Calendar calendar = Calendar.getInstance();
+                calendar.setTime(cccdata);
+                calendar.set(Calendar.HOUR_OF_DAY, 0);
+                
+                Calendar calendar2 = Calendar.getInstance();
+                calendar2.setTime(cccdata);
+                calendar2.set(Calendar.HOUR_OF_DAY, 0);
+                
+                calendar.set(Calendar.HOUR_OF_DAY, calendar.get(Calendar.HOUR_OF_DAY) + l);
+                calendar2.set(Calendar.HOUR_OF_DAY, calendar2.get(Calendar.HOUR_OF_DAY) + l + 1);
+                
+                Map<String, Integer> cMap = VideoStatistic.startFindNumberStatrewrite(calendar.getTime(), calendar2.getTime(), 1);
+        		
+                Integer innum = cMap.get("IN");
+                Integer outnum = cMap.get("OUT");
+                json = JSONObject.fromObject(cMap);
+                Videostatistic addvideostatistic = new Videostatistic();
+                addvideostatistic.setDateType("day");
+                addvideostatistic.setDateInformation(json.toString());
+                addvideostatistic.setCreateTime(calendar.getTime());
+                videostatisticService.save(addvideostatistic);
+        		
+        		}
+        		SimpleDateFormat simpleDateFormatHH=new SimpleDateFormat("HH");
+        		Date crea=null;
+        		for(int c=1;c<Integer.parseInt(simpleDateFormatHH.format(new Date()));c++) {
+        			Date cccdata=new Date();
+        			
+        			Calendar calendar = Calendar.getInstance();
+                    calendar.setTime(cccdata);
+                    calendar.set(Calendar.HOUR_OF_DAY, 0);
+                    
+                    Calendar calendar2 = Calendar.getInstance();
+                    calendar2.setTime(cccdata);
+                    calendar2.set(Calendar.HOUR_OF_DAY, 0);
+                    
+                    calendar.set(Calendar.HOUR_OF_DAY, calendar.get(Calendar.HOUR_OF_DAY) + c);
+                    calendar2.set(Calendar.HOUR_OF_DAY, calendar2.get(Calendar.HOUR_OF_DAY) + c + 1);
+                    
+                    Map<String, Integer> cMap = VideoStatistic.startFindNumberStatrewrite(calendar.getTime(), calendar2.getTime(), 1);
+            		
+                    Integer innum = cMap.get("IN");
+                    Integer outnum = cMap.get("OUT");
+                    json = JSONObject.fromObject(cMap);
+                    Videostatistic addvideostatistic = new Videostatistic();
+                    addvideostatistic.setDateType("day");
+                    addvideostatistic.setDateInformation(json.toString());
+                    addvideostatistic.setCreateTime(calendar.getTime());
+                    videostatisticService.save(addvideostatistic);
+                    crea=calendar2.getTime();
+        		}
+        		
+        		SystemParameter system=systemparameterservice.querysystem("day");
+                system.setSystemValue(simpleDateFormat.format(crea));
+                systemparameterservice.save(system);
+        		
+        	}
+        }else {
+        	SimpleDateFormat simpleDateFormatHH=new SimpleDateFormat("HH");
+        	
+        	if(Integer.parseInt(simpleDateFormatHH.format(new Date()))-Integer.parseInt(simpleDateFormatHH.format(dayendtimesf))!=1) {
+        		SimpleDateFormat simpleDateFormatc=new SimpleDateFormat("yyyy-MM-dd");
+        		String datestr=simpleDateFormatc.format(dayendtimesf);
+        		videostatisticService.deletevideostatistic(datestr, "day");
+        		Date crea=null;
+        		for(int c=1;c<Integer.parseInt(simpleDateFormatHH.format(dayendtimesf));c++) {
+        			Date cccdata=dayendtimesf;
+        			
+        			Calendar calendar = Calendar.getInstance();
+                    calendar.setTime(cccdata);
+                    calendar.set(Calendar.HOUR_OF_DAY, 0);
+                    
+                    Calendar calendar2 = Calendar.getInstance();
+                    calendar2.setTime(cccdata);
+                    calendar2.set(Calendar.HOUR_OF_DAY, 0);
+                    
+                    calendar.set(Calendar.HOUR_OF_DAY, calendar.get(Calendar.HOUR_OF_DAY) + c);
+                    calendar2.set(Calendar.HOUR_OF_DAY, calendar2.get(Calendar.HOUR_OF_DAY) + c + 1);
+                    
+                    Map<String, Integer> cMap = VideoStatistic.startFindNumberStatrewrite(calendar.getTime(), calendar2.getTime(), 1);
+            		
+                    Integer innum = cMap.get("IN");
+                    Integer outnum = cMap.get("OUT");
+                    json = JSONObject.fromObject(cMap);
+                    Videostatistic addvideostatistic = new Videostatistic();
+                    addvideostatistic.setDateType("day");
+                    addvideostatistic.setDateInformation(json.toString());
+                    addvideostatistic.setCreateTime(calendar.getTime());
+                    videostatisticService.save(addvideostatistic);
+                    crea=calendar2.getTime();
+        		}
+        		
+        		SystemParameter system=systemparameterservice.querysystem("day");
+                system.setSystemValue(simpleDateFormat.format(crea));
+                systemparameterservice.save(system);
+        			
+        	}else {
+        		
+            	Date date = new Date();
+                Calendar calendar = Calendar.getInstance();
+                calendar.setTime(date); 
 
-        System.out.println("开始时间"+calendar.getTime());
-        System.out.println("结束时间"+date);
+                Calendar calendar2 = Calendar.getInstance();
+                calendar2.setTime(date);
+                   
+                calendar2.set(Calendar.HOUR_OF_DAY, calendar2.get(Calendar.HOUR_OF_DAY) - 1);
 
-        demo.startFindNumberStatrewrite(calendar.getTime(),date);
-
-
+                Map<String, Integer> map=   VideoStatistic.startFindNumberStatrewrite(calendar2.getTime(),calendar.getTime(),1);
+                json = JSONObject.fromObject(map);
+                Videostatistic addvideostatistic = new Videostatistic();
+                addvideostatistic.setDateType("day");
+                addvideostatistic.setDateInformation(json.toString());
+                addvideostatistic.setCreateTime(calendar2.getTime());
+                videostatisticService.save(addvideostatistic);	
+                SystemParameter system=systemparameterservice.querysystem("day");
+                system.setSystemValue(simpleDateFormat.format(calendar2.getTime()));
+                systemparameterservice.save(system);
+        	}
+	
+        }	
+       
+    
     }
 
+    /**
+     * 每天
+     * @throws ParseException 
+     */
+	@Scheduled(cron = "0 59 23 * * ?")
+//	@Scheduled(cron = "*/10 * * * * ? ")
+	public void flowstatisticsday() throws ParseException {
+		VideoStatistic demo = new VideoStatistic();
+    	demo.InitTest();
+		JSONObject json = null;
+		SimpleDateFormat simpleDateFormat=new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+    	SimpleDateFormat simpleDateFormatdd=new SimpleDateFormat("dd");
+		SystemParameter systemParameter=systemparameterservice.querysystem("week");
+		
+		String dayendtime=systemParameter.getSystemValue();
+        //将最后的统计时间与 当前时间进行比较
+        Date dayendtimesf=simpleDateFormat.parse(dayendtime);
+       int c=0;
+       Date crea=null;
+        if(Integer.parseInt(simpleDateFormatdd.format(new Date()))-Integer.parseInt(simpleDateFormatdd.format(dayendtimesf))>1) { //如果两者不相等
+        	for(int r=Integer.parseInt(simpleDateFormatdd.format(dayendtimesf));r<Integer.parseInt(simpleDateFormatdd.format(new Date()));r++) {
+        		Date cccdate=dayendtimesf;
+        		Calendar calendar = Calendar.getInstance();
+                calendar.setTime(cccdate);        		
+                calendar.set(Calendar.DATE, calendar.get(Calendar.DATE) + c);
+                Map<String, Integer> map=   VideoStatistic.startFindNumberStatrewrite(calendar.getTime(),calendar.getTime(),2);
+               
+                json = JSONObject.fromObject(map);
+                Videostatistic addvideostatistic = new Videostatistic();
+                addvideostatistic.setDateType("week");
+                addvideostatistic.setDateInformation(json.toString());
+                addvideostatistic.setCreateTime(calendar.getTime());
+                videostatisticService.save(addvideostatistic);
+                crea=calendar.getTime();
+                c++;
+        	}
+        	SystemParameter system=systemparameterservice.querysystem("week");
+            system.setSystemValue(simpleDateFormat.format(crea));
+            systemparameterservice.save(system);
+      
+        }else if(Integer.parseInt(simpleDateFormatdd.format(new Date()))-Integer.parseInt(simpleDateFormatdd.format(dayendtimesf))==1) {
+        	Date date=new Date();
+    		Map<String, Integer> map= VideoStatistic.startFindNumberStatrewrite(date, date, 2);
+    		 json = JSONObject.fromObject(map);
+    		Videostatistic addvideostatistic = new Videostatistic();
+            addvideostatistic.setDateType("week");
+            addvideostatistic.setDateInformation(json.toString());
+            addvideostatistic.setCreateTime(date);
+            videostatisticService.save(addvideostatistic);
+            SystemParameter system=systemparameterservice.querysystem("week");
+	        system.setSystemValue(simpleDateFormat.format(date));
+	        systemparameterservice.save(system);
+            
+        }	
+		
+	}
 
+	
+	
+	@Scheduled(cron = "0 0 0 1 * ?")    //每月一号零点触发
+//	@Scheduled(cron = "*/10 * * * * ? ")
+	public void ccccc() throws ParseException {
+		VideoStatistic demo = new VideoStatistic();
+    	demo.InitTest();
+		JSONObject json = null;
+		
+		SimpleDateFormat simpleDateFormat=new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+    	SimpleDateFormat simpleDateFormatMM=new SimpleDateFormat("MM");
+    	SystemParameter systemParameter=systemparameterservice.querysystem("year");
+		
+		String dayendtime=systemParameter.getSystemValue();
+        //将最后的统计时间与 当前时间进行比较
+        Date dayendtimesf=simpleDateFormat.parse(dayendtime);
+		if(Integer.parseInt(simpleDateFormatMM.format(new Date()))-Integer.parseInt(simpleDateFormatMM.format(dayendtimesf))>1) {
+		
+		int c=0;
+		Date crea=null;
+		for (int i = Integer.parseInt(simpleDateFormatMM.format(dayendtimesf)); i < Integer.parseInt(simpleDateFormatMM.format(new Date())); i++) {
+			Date cccdate=dayendtimesf;
+    		Calendar calendar = Calendar.getInstance();
+            calendar.setTime(cccdate);        		
+            
+            calendar.set(Calendar.MONTH, calendar.get(Calendar.MONTH) + c);
+            Map<String, Integer> map=   VideoStatistic.startFindNumberStatrewrite(calendar.getTime(),calendar.getTime(),4);
+            json = JSONObject.fromObject(map);
+            Videostatistic addvideostatistic = new Videostatistic();
+            addvideostatistic.setDateType("year");
+            addvideostatistic.setDateInformation(json.toString());
+            addvideostatistic.setCreateTime(calendar.getTime());
+            videostatisticService.save(addvideostatistic);	
+            crea=calendar.getTime();
+			c++;
+		}
+		SystemParameter system=systemparameterservice.querysystem("year");
+        system.setSystemValue(simpleDateFormat.format(crea));
+        systemparameterservice.save(system);
+		
+		}else if(Integer.parseInt(simpleDateFormatMM.format(new Date()))-Integer.parseInt(simpleDateFormatMM.format(dayendtimesf))==1) {
+			Calendar calendar = Calendar.getInstance();
+			calendar.add(Calendar.DATE, -1); //得到前一天
+			Date date = calendar.getTime();
+			
+			Map<String, Integer> map= VideoStatistic.startFindNumberStatrewrite(date, date, 4);
+			
+			json = JSONObject.fromObject(map);
+			Videostatistic addvideostatistic = new Videostatistic();
+	        addvideostatistic.setDateType("year");
+	        addvideostatistic.setDateInformation(json.toString());
+	        addvideostatistic.setCreateTime(date);
+	        videostatisticService.save(addvideostatistic);
+	        
+	        SystemParameter system=systemparameterservice.querysystem("year");
+	        system.setSystemValue(simpleDateFormat.format(date));
+	        systemparameterservice.save(system);	        
+		}
+		
+	}
 
-
-
-
-
+	
+	
+	
     /**
      * 同步数据使用的定时器任务(游客识别)
      */

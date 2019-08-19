@@ -112,7 +112,7 @@ public class FileUtils {
         //获得文件里面所有的文件及文件夹
         File[] files = file.listFiles();
 //        //创建您要写入的日志文件
-//        String file1 = dirPathLog + "/del_path" + System.currentTimeMillis() + ".txt";   //写入的是否操作
+//        String file1 = dirPathLog + "/del_path" + SystemParameter.currentTimeMillis() + ".txt";   //写入的是否操作
         //遍历files里面的所有文件及文件夹
 
         for (File f : files) {
@@ -146,10 +146,10 @@ public class FileUtils {
                 }
             }
 
-//            System.out.println("当前时间：" + currTime);
-//            System.out.println("文件最后被修改的时间" + lastTime);
-//            System.out.println("时间差：" + differences);
-//            System.out.println("30天的时间：" + thDay);
+//            SystemParameter.out.println("当前时间：" + currTime);
+//            SystemParameter.out.println("文件最后被修改的时间" + lastTime);
+//            SystemParameter.out.println("时间差：" + differences);
+//            SystemParameter.out.println("30天的时间：" + thDay);
         }
     }
 

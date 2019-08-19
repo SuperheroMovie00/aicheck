@@ -21,7 +21,7 @@ public class NativeString implements CharSequence, Comparable<Object> {
     private boolean wide;
 
     /** Create a native string (NUL-terminated array of <code>char</code>).<p>
-     * If the system property <code>jna.encoding</code> is set, its value will
+     * If the SystemParameter property <code>jna.encoding</code> is set, its value will
      * be used to encode the native string.  If not set or if the encoding
      * is unavailable, the default platform encoding will be used. 
      */
@@ -31,7 +31,7 @@ public class NativeString implements CharSequence, Comparable<Object> {
 
     /** Create a native string as a NUL-terminated array of <code>wchar_t</code>
      * (if <code>wide</code> is true) or <code>char</code>.<p>
-     * If the system property <code>jna.encoding</code> is set, its value will
+     * If the SystemParameter property <code>jna.encoding</code> is set, its value will
      * be used to encode the native <code>char</code>string.  
      * If not set or if the encoding is unavailable, the default platform 
      * encoding will be used. 

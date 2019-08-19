@@ -6,6 +6,7 @@ package com.aicheck.face.modules.visitorsRecord.controller;
 import com.aicheck.face.modules.customer.entity.Customer;
 import com.aicheck.face.modules.customer.service.CustomerService;
 import com.alibaba.fastjson.JSON;
+import com.netsdk.demo.VideoStatistic;
 import com.aicheck.face.modules.customer.vo.CustomerVO;
 import com.aicheck.face.modules.device.constants.DeviceEnum;
 import com.aicheck.face.modules.device.entity.Device;
@@ -21,10 +22,13 @@ import com.aicheck.face.modules.visitorsRecord.service.VisitorsRecordService;
 import com.aicheck.face.vo.R;
 import io.netty.handler.codec.http.websocketx.TextWebSocketFrame;
 import lombok.extern.slf4j.Slf4j;
+import net.sf.json.JSONObject;
+
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Calendar;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
@@ -60,6 +64,10 @@ public class VisitorsRecordController {
 		map.put("visitorsRecords", visitorsRecords);
 		return R.ok(map);
 	}
+	
+	
+	
+	
 
 	@PostMapping("/{id}")
 	public R findById(@PathVariable Integer id) {
@@ -159,5 +167,33 @@ public class VisitorsRecordController {
 
 		return R.ok(visitorsRecord);
 	}
+	
+	
+	@PostMapping("videostatisctest")
+	public R videostatisctest() {
+		JSONObject json = null;
+		VideoStatistic demo = new VideoStatistic();
+    	demo.InitTest();
+    	
+    	Date date=new Date();
+    	Calendar calendar = Calendar.getInstance();
+        calendar.setTime(date);
+        
+        Calendar calendar2 = Calendar.getInstance();
+        calendar2.setTime(date);
+        calendar2.set(Calendar.HOUR_OF_DAY, 0);
+        
+        calendar2.set(Calendar.HOUR_OF_DAY, calendar.get(Calendar.HOUR_OF_DAY) + 1);
+
+        Map<String, Integer> cMap = VideoStatistic.startFindNumberStatrewrite(calendar.getTime(), calendar2.getTime(), 1);
+
+        Integer innum = cMap.get("IN");
+        Integer outnum = cMap.get("OUT");
+        json = JSONObject.fromObject(cMap);
+        
+        return R.ok(json);
+	}
+	
+	
 
 }

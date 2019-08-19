@@ -133,6 +133,6 @@ public class DefaultSmsSenderImpl implements SmsSender {
 //    public static void main(String[] args) {
 //        DefaultSmsSenderImpl smsSender = new DefaultSmsSenderImpl();
 //        String result = smsSender.sender(394907);
-//        System.out.println(result);
+//        SystemParameter.out.println(result);
 //    }
 }

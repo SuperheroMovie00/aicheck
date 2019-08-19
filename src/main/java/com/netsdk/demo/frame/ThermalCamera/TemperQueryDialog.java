@@ -488,7 +488,7 @@ public class TemperQueryDialog extends JDialog{
 					return;
 				}
 				
-//				System.out.println("offset " + offset + " nFound " + stuDoFind.nFound + " Total " + ThermalCameraModule.getTotalCount());
+//				SystemParameter.out.println("offset " + offset + " nFound " + stuDoFind.nFound + " Total " + ThermalCameraModule.getTotalCount());
 
 				if (stuDoFind.nFound == 0) {
 					JOptionPane.showMessageDialog(null, Res.string().getFailed(), Res.string().getErrorMessage(), JOptionPane.ERROR_MESSAGE);

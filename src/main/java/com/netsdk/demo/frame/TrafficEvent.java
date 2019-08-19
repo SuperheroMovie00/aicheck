@@ -676,7 +676,7 @@ class TrafficEventFrame extends JFrame {
 		    showPicture(snapImage, plateImage);
 		}
         
-        else    // other events go to the system default process event handler
+        else    // other events go to the SystemParameter default process event handler
         {
             super.processEvent( event );   
         }
