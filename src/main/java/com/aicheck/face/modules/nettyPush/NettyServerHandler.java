@@ -7,7 +7,6 @@ import com.aicheck.face.common.constant.AuthorizationEnum;
 import com.aicheck.face.common.exception.FaceException;
 import com.aicheck.face.common.utils.MD5Util;
 import com.aicheck.face.common.utils.SpringContextUtils;
-import com.aicheck.face.modules.customer.service.CustomerService;
 import com.aicheck.face.modules.device.entity.Device;
 import com.aicheck.face.modules.device.entity.TodoPush;
 import com.aicheck.face.modules.device.service.DeviceService;
@@ -57,7 +56,6 @@ public class NettyServerHandler extends SimpleChannelInboundHandler<Object> {
 	public void handlerAdded(ChannelHandlerContext ctx) throws Exception {
 		log.info("【handlerAdded】id====> {}", ctx.channel().id());
 		log.info("【handlerAdded】remoteAddress====> {}", ctx.channel().remoteAddress());
-
 		GlobalUser.channels.add(ctx.channel());
 	}
 
@@ -212,10 +210,6 @@ public class NettyServerHandler extends SimpleChannelInboundHandler<Object> {
 
 		String platform = platformList.get(0);
 
-
-
-
-
 		String str = "platform=" + platform + "&" + AuthorizationEnum.TOKEN.getValue() + timestamp + nonce;
 
 		String md5Sign = MD5Util.getMD5(str);
@@ -235,7 +229,7 @@ public class NettyServerHandler extends SimpleChannelInboundHandler<Object> {
 			String ip = ctx.channel().remoteAddress().toString();
 			GlobalUser.map.put(ip, uri);
 			DeviceService deviceService = (DeviceService) SpringContextUtils.getBean("deviceService");
-			// Device device = deviceService.findByMacAddress(s);
+			// Device device = deviceService.findByMacAddress(s);	
 			Device device = deviceService.finddeviceforplatformandmacaddress(platform, s);
 			if (device == null) {
 				device = new Device();
@@ -246,7 +240,7 @@ public class NettyServerHandler extends SimpleChannelInboundHandler<Object> {
 			device.setPlatform(platform);
 			deviceService.save(device);
 		}
-		// 构造握手响应返回，本机测试
+		//构造握手响应返回，本机测试
 		WebSocketServerHandshakerFactory wsFactory = new WebSocketServerHandshakerFactory(
 				"ws://" + req.headers().get(HttpHeaders.Names.HOST) + uri, null, false);
 		handShaker = wsFactory.newHandshaker(req);
@@ -327,7 +321,7 @@ public class NettyServerHandler extends SimpleChannelInboundHandler<Object> {
 			log.info("socket消息返回******");
 			TodoPushService todopushservice = (TodoPushService) SpringContextUtils.getBean("todoPushService");
 			String text = ((TextWebSocketFrame) msg).text();
-
+			
 			JSONObject jsonObject = JSONObject.fromObject(text);
 			socketreturn stu = (socketreturn) JSONObject.toBean(jsonObject, socketreturn.class);
 			if(stu!=  null){

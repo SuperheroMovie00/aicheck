@@ -1,0 +1,1228 @@
+2019-09-09 14:08:15,477 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on 爱新觉罗的Computer with PID 4432 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-09-09 14:08:15,487 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-09-09 14:08:23,841 INFO (NettyInitial.java:69)- 【服务器启动成功========端口：9800】
+2019-09-09 14:08:25,450 INFO (StartupInfoLogger.java:59)- Started FaceApplication in 10.397 seconds (JVM running for 11.079)
+2019-09-09 14:08:30,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:08:30 CST 2019
+2019-09-09 14:08:33,237 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680093130571568009313057
+2019-09-09 14:08:33,237 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@57eaaede
+2019-09-09 14:08:33,239 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>3ABD6FAAA20272C7D440E8071105F13B
+2019-09-09 14:08:33,423 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 14:08:39,042 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680093189351568009318935
+2019-09-09 14:08:39,043 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@57eaaede
+2019-09-09 14:08:39,043 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>C30EEF3B66877F0217CA4EEC80763AD2
+2019-09-09 14:08:39,053 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 14:08:40,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:08:40 CST 2019
+2019-09-09 14:08:50,000 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:08:50 CST 2019
+2019-09-09 14:09:00,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:09:00 CST 2019
+2019-09-09 14:09:10,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:09:10 CST 2019
+2019-09-09 14:12:01,207 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on 爱新觉罗的Computer with PID 21280 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-09-09 14:12:01,211 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-09-09 14:12:08,877 INFO (NettyInitial.java:69)- 【服务器启动成功========端口：9800】
+2019-09-09 14:12:10,510 INFO (StartupInfoLogger.java:59)- Started FaceApplication in 9.703 seconds (JVM running for 10.316)
+2019-09-09 14:12:20,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:12:20 CST 2019
+2019-09-09 14:12:20,141 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680095399841568009539984
+2019-09-09 14:12:20,142 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@3f20bac9
+2019-09-09 14:12:20,143 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>92AF45ADE12A46EAD5C698ACFD2780F8
+2019-09-09 14:12:20,321 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 14:12:22,700 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=2&297e325a66f62bae0166f631b0b2000215680095399841568009539984
+2019-09-09 14:12:22,701 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@3f20bac9
+2019-09-09 14:12:22,702 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>28B1AC34F2461CC09FE9EBE5A3A0B150
+2019-09-09 14:12:22,720 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 14:12:23,794 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680095399841568009539984
+2019-09-09 14:12:23,795 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@3f20bac9
+2019-09-09 14:12:23,796 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>92AF45ADE12A46EAD5C698ACFD2780F8
+2019-09-09 14:12:23,800 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 14:12:24,727 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=2&297e325a66f62bae0166f631b0b2000215680095399841568009539984
+2019-09-09 14:12:24,728 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@3f20bac9
+2019-09-09 14:12:24,729 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>28B1AC34F2461CC09FE9EBE5A3A0B150
+2019-09-09 14:12:24,735 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 14:12:25,501 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680095399841568009539984
+2019-09-09 14:12:25,502 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@3f20bac9
+2019-09-09 14:12:25,502 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>92AF45ADE12A46EAD5C698ACFD2780F8
+2019-09-09 14:12:25,508 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 14:12:26,414 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=2&297e325a66f62bae0166f631b0b2000215680095399841568009539984
+2019-09-09 14:12:26,415 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@3f20bac9
+2019-09-09 14:12:26,415 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>28B1AC34F2461CC09FE9EBE5A3A0B150
+2019-09-09 14:12:26,420 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 14:12:27,164 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=2&297e325a66f62bae0166f631b0b2000215680095399841568009539984
+2019-09-09 14:12:27,165 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@3f20bac9
+2019-09-09 14:12:27,165 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>28B1AC34F2461CC09FE9EBE5A3A0B150
+2019-09-09 14:12:27,171 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 14:12:30,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:12:30 CST 2019
+2019-09-09 14:12:40,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:12:40 CST 2019
+2019-09-09 14:12:50,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:12:50 CST 2019
+2019-09-09 14:13:00,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:13:00 CST 2019
+2019-09-09 14:13:10,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:13:10 CST 2019
+2019-09-09 14:13:20,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:13:20 CST 2019
+2019-09-09 14:13:30,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:13:30 CST 2019
+2019-09-09 14:13:40,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:13:40 CST 2019
+2019-09-09 14:13:50,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:13:50 CST 2019
+2019-09-09 14:14:00,008 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:14:00 CST 2019
+2019-09-09 14:14:10,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:14:10 CST 2019
+2019-09-09 14:24:12,694 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on 爱新觉罗的Computer with PID 9532 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-09-09 14:24:12,699 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-09-09 14:24:55,226 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on 爱新觉罗的Computer with PID 20000 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-09-09 14:24:55,231 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-09-09 14:25:03,004 INFO (NettyInitial.java:69)- 【服务器启动成功========端口：9800】
+2019-09-09 14:25:04,668 INFO (StartupInfoLogger.java:59)- Started FaceApplication in 9.907 seconds (JVM running for 10.534)
+2019-09-09 14:25:09,775 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680103096441568010309644
+2019-09-09 14:25:09,776 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@4b621825
+2019-09-09 14:25:09,777 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>871CF373740800FEE38B193452470A6C
+2019-09-09 14:25:10,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:25:10 CST 2019
+2019-09-09 14:25:10,045 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 14:25:12,960 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=2&297e325a66f62bae0166f631b0b2000215680103096441568010309644
+2019-09-09 14:25:12,961 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@4b621825
+2019-09-09 14:25:12,961 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>F53D0EA4C442EF46C88C9DF2AF3C0993
+2019-09-09 14:25:13,018 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 14:25:14,447 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=2&297e325a66f62bae0166f631b0b2000215680103096441568010309644
+2019-09-09 14:25:14,448 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@4b621825
+2019-09-09 14:25:14,449 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>F53D0EA4C442EF46C88C9DF2AF3C0993
+2019-09-09 14:25:14,476 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 14:25:15,833 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680103096441568010309644
+2019-09-09 14:25:15,834 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@4b621825
+2019-09-09 14:25:15,834 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>871CF373740800FEE38B193452470A6C
+2019-09-09 14:25:15,878 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 14:25:17,416 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=2&297e325a66f62bae0166f631b0b2000215680103096441568010309644
+2019-09-09 14:25:17,417 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@4b621825
+2019-09-09 14:25:17,418 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>F53D0EA4C442EF46C88C9DF2AF3C0993
+2019-09-09 14:25:17,443 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 14:25:18,418 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680103096441568010309644
+2019-09-09 14:25:18,419 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@4b621825
+2019-09-09 14:25:18,419 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>871CF373740800FEE38B193452470A6C
+2019-09-09 14:25:18,446 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 14:25:19,286 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=2&297e325a66f62bae0166f631b0b2000215680103096441568010309644
+2019-09-09 14:25:19,287 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@4b621825
+2019-09-09 14:25:19,288 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>F53D0EA4C442EF46C88C9DF2AF3C0993
+2019-09-09 14:25:19,305 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 14:25:20,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:25:20 CST 2019
+2019-09-09 14:25:22,154 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=2&297e325a66f62bae0166f631b0b2000215680103096441568010309644
+2019-09-09 14:25:22,154 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@4b621825
+2019-09-09 14:25:22,155 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>F53D0EA4C442EF46C88C9DF2AF3C0993
+2019-09-09 14:25:22,186 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 14:25:22,311 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=2&297e325a66f62bae0166f631b0b2000215680103096441568010309644
+2019-09-09 14:25:22,312 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@4b621825
+2019-09-09 14:25:22,312 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>F53D0EA4C442EF46C88C9DF2AF3C0993
+2019-09-09 14:25:22,325 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 14:25:22,477 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=2&297e325a66f62bae0166f631b0b2000215680103096441568010309644
+2019-09-09 14:25:22,477 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@4b621825
+2019-09-09 14:25:22,478 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>F53D0EA4C442EF46C88C9DF2AF3C0993
+2019-09-09 14:25:22,490 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 14:25:25,173 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680103096441568010309644
+2019-09-09 14:25:25,173 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@4b621825
+2019-09-09 14:25:25,175 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>871CF373740800FEE38B193452470A6C
+2019-09-09 14:25:25,218 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 14:25:30,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:25:30 CST 2019
+2019-09-09 14:25:40,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:25:40 CST 2019
+2019-09-09 14:25:50,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:25:50 CST 2019
+2019-09-09 14:26:00,004 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:26:00 CST 2019
+2019-09-09 14:26:10,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:26:10 CST 2019
+2019-09-09 14:26:20,839 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on 爱新觉罗的Computer with PID 16072 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-09-09 14:26:20,843 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-09-09 14:26:28,386 INFO (NettyInitial.java:69)- 【服务器启动成功========端口：9800】
+2019-09-09 14:26:30,095 INFO (StartupInfoLogger.java:59)- Started FaceApplication in 9.641 seconds (JVM running for 10.284)
+2019-09-09 14:26:40,003 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:26:40 CST 2019
+2019-09-09 14:26:44,373 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680104042541568010404254
+2019-09-09 14:26:44,374 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@e5e8a7f
+2019-09-09 14:26:44,375 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>B8EFDAF20AF7ED9EDA952125C19996ED
+2019-09-09 14:26:44,510 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 14:26:49,265 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=2&297e325a66f62bae0166f631b0b2000215680104042541568010404254
+2019-09-09 14:26:49,266 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@e5e8a7f
+2019-09-09 14:26:49,267 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>362ECA80B0D07D18F483D4CCDCC3AC47
+2019-09-09 14:26:49,299 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 14:26:50,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:26:50 CST 2019
+2019-09-09 14:26:50,233 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680104042541568010404254
+2019-09-09 14:26:50,233 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@e5e8a7f
+2019-09-09 14:26:50,234 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>B8EFDAF20AF7ED9EDA952125C19996ED
+2019-09-09 14:26:50,241 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 14:26:57,748 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680104042541568010404254
+2019-09-09 14:26:57,748 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@e5e8a7f
+2019-09-09 14:26:57,749 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>B8EFDAF20AF7ED9EDA952125C19996ED
+2019-09-09 14:26:57,754 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 14:27:00,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:27:00 CST 2019
+2019-09-09 14:27:10,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:27:10 CST 2019
+2019-09-09 14:27:20,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:27:20 CST 2019
+2019-09-09 14:27:30,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:27:30 CST 2019
+2019-09-09 14:27:40,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:27:40 CST 2019
+2019-09-09 14:27:50,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:27:50 CST 2019
+2019-09-09 14:28:00,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:28:00 CST 2019
+2019-09-09 14:28:10,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:28:10 CST 2019
+2019-09-09 14:28:20,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:28:20 CST 2019
+2019-09-09 14:28:30,003 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:28:30 CST 2019
+2019-09-09 14:28:40,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:28:40 CST 2019
+2019-09-09 14:28:50,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:28:50 CST 2019
+2019-09-09 14:29:00,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:29:00 CST 2019
+2019-09-09 14:29:10,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:29:10 CST 2019
+2019-09-09 14:29:20,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:29:20 CST 2019
+2019-09-09 14:29:30,003 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:29:30 CST 2019
+2019-09-09 14:29:40,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:29:40 CST 2019
+2019-09-09 14:29:50,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:29:50 CST 2019
+2019-09-09 14:30:00,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:30:00 CST 2019
+2019-09-09 14:30:10,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:30:10 CST 2019
+2019-09-09 14:30:20,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:30:20 CST 2019
+2019-09-09 14:30:30,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:30:30 CST 2019
+2019-09-09 14:30:40,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:30:40 CST 2019
+2019-09-09 14:30:50,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:30:50 CST 2019
+2019-09-09 14:31:00,000 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:31:00 CST 2019
+2019-09-09 14:31:10,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:31:10 CST 2019
+2019-09-09 14:31:20,003 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:31:20 CST 2019
+2019-09-09 14:31:30,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:31:30 CST 2019
+2019-09-09 14:31:40,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:31:40 CST 2019
+2019-09-09 14:31:50,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:31:50 CST 2019
+2019-09-09 14:32:00,003 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:32:00 CST 2019
+2019-09-09 14:32:10,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:32:10 CST 2019
+2019-09-09 14:32:20,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:32:20 CST 2019
+2019-09-09 14:32:30,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:32:30 CST 2019
+2019-09-09 14:32:40,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:32:40 CST 2019
+2019-09-09 14:32:50,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:32:50 CST 2019
+2019-09-09 14:33:00,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:33:00 CST 2019
+2019-09-09 14:33:10,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:33:10 CST 2019
+2019-09-09 14:33:20,000 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:33:20 CST 2019
+2019-09-09 14:33:30,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:33:30 CST 2019
+2019-09-09 14:33:40,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:33:40 CST 2019
+2019-09-09 14:33:50,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:33:50 CST 2019
+2019-09-09 14:34:00,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:34:00 CST 2019
+2019-09-09 14:34:10,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:34:10 CST 2019
+2019-09-09 14:34:20,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:34:20 CST 2019
+2019-09-09 14:34:30,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:34:30 CST 2019
+2019-09-09 14:34:40,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:34:40 CST 2019
+2019-09-09 14:34:50,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:34:50 CST 2019
+2019-09-09 14:35:00,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:35:00 CST 2019
+2019-09-09 14:35:10,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:35:10 CST 2019
+2019-09-09 14:35:20,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:35:20 CST 2019
+2019-09-09 14:35:30,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:35:30 CST 2019
+2019-09-09 14:35:40,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:35:40 CST 2019
+2019-09-09 14:35:50,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:35:50 CST 2019
+2019-09-09 14:36:00,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:36:00 CST 2019
+2019-09-09 14:36:10,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:36:10 CST 2019
+2019-09-09 14:36:20,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:36:20 CST 2019
+2019-09-09 14:36:30,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:36:30 CST 2019
+2019-09-09 14:36:40,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:36:40 CST 2019
+2019-09-09 14:36:50,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:36:50 CST 2019
+2019-09-09 14:37:00,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:37:00 CST 2019
+2019-09-09 14:37:10,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:37:10 CST 2019
+2019-09-09 14:37:20,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:37:20 CST 2019
+2019-09-09 14:37:30,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:37:30 CST 2019
+2019-09-09 14:37:40,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:37:40 CST 2019
+2019-09-09 14:37:50,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:37:50 CST 2019
+2019-09-09 14:38:00,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:38:00 CST 2019
+2019-09-09 14:38:10,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:38:10 CST 2019
+2019-09-09 14:38:20,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:38:20 CST 2019
+2019-09-09 14:38:30,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:38:30 CST 2019
+2019-09-09 14:38:40,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:38:40 CST 2019
+2019-09-09 14:38:50,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:38:50 CST 2019
+2019-09-09 14:39:00,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:39:00 CST 2019
+2019-09-09 14:39:10,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:39:10 CST 2019
+2019-09-09 14:39:20,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:39:20 CST 2019
+2019-09-09 14:39:30,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:39:30 CST 2019
+2019-09-09 14:39:40,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:39:40 CST 2019
+2019-09-09 14:39:50,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:39:50 CST 2019
+2019-09-09 14:40:00,000 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:40:00 CST 2019
+2019-09-09 14:40:15,007 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on 爱新觉罗的Computer with PID 15872 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-09-09 14:40:15,013 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-09-09 14:40:22,707 INFO (NettyInitial.java:69)- 【服务器启动成功========端口：9800】
+2019-09-09 14:40:24,342 INFO (StartupInfoLogger.java:59)- Started FaceApplication in 9.75 seconds (JVM running for 10.414)
+2019-09-09 14:40:30,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:40:30 CST 2019
+2019-09-09 14:40:40,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:40:40 CST 2019
+2019-09-09 14:40:46,747 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680112465601568011246560
+2019-09-09 14:40:46,749 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@5fab0070
+2019-09-09 14:40:46,752 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>D5B456F5D428A4B4155B22A1DB6066E9
+2019-09-09 14:40:46,935 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 14:40:50,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:40:50 CST 2019
+2019-09-09 14:40:51,476 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=2&297e325a66f62bae0166f631b0b2000215680112465601568011246560
+2019-09-09 14:40:51,477 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@5fab0070
+2019-09-09 14:40:51,477 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>451DDA3E65BB3A112C54FDEDAF5A0859
+2019-09-09 14:40:51,496 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 14:40:52,343 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680112465601568011246560
+2019-09-09 14:40:52,344 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@5fab0070
+2019-09-09 14:40:52,344 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>D5B456F5D428A4B4155B22A1DB6066E9
+2019-09-09 14:40:52,350 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 14:41:00,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:41:00 CST 2019
+2019-09-09 14:41:08,541 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680112465601568011246560
+2019-09-09 14:41:08,542 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@5fab0070
+2019-09-09 14:41:08,544 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>D5B456F5D428A4B4155B22A1DB6066E9
+2019-09-09 14:41:08,548 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 14:41:10,003 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:41:10 CST 2019
+2019-09-09 14:41:20,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:41:20 CST 2019
+2019-09-09 14:45:07,481 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on 爱新觉罗的Computer with PID 10980 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-09-09 14:45:07,485 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-09-09 14:45:15,269 INFO (NettyInitial.java:69)- 【服务器启动成功========端口：9800】
+2019-09-09 14:45:16,919 INFO (StartupInfoLogger.java:59)- Started FaceApplication in 9.828 seconds (JVM running for 10.476)
+2019-09-09 14:45:20,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:45:20 CST 2019
+2019-09-09 14:45:22,429 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680115222931568011522293
+2019-09-09 14:45:22,430 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@3a5c3fe4
+2019-09-09 14:45:22,432 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>6D87D44CA1DDB86D6FC46F8ECAD4A927
+2019-09-09 14:45:22,596 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 14:45:30,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:45:30 CST 2019
+2019-09-09 14:45:35,342 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680115222931568011522293
+2019-09-09 14:45:35,343 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@3a5c3fe4
+2019-09-09 14:45:35,344 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>6D87D44CA1DDB86D6FC46F8ECAD4A927
+2019-09-09 14:45:35,353 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 14:45:37,341 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=2&297e325a66f62bae0166f631b0b2000215680115222931568011522293
+2019-09-09 14:45:37,342 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@3a5c3fe4
+2019-09-09 14:45:37,343 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>C86319FA2D6B4CD2A153BCEE890CA72D
+2019-09-09 14:45:37,351 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 14:45:38,423 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680115222931568011522293
+2019-09-09 14:45:38,424 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@3a5c3fe4
+2019-09-09 14:45:38,424 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>6D87D44CA1DDB86D6FC46F8ECAD4A927
+2019-09-09 14:45:38,429 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 14:45:40,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:45:40 CST 2019
+2019-09-09 14:45:49,705 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680115496661568011549666
+2019-09-09 14:45:49,705 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@3a5c3fe4
+2019-09-09 14:45:49,707 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>B493EEC3AC533B6A53F7F61FCA55B730
+2019-09-09 14:45:49,721 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 14:45:50,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:45:50 CST 2019
+2019-09-09 14:45:50,175 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680115501291568011550129
+2019-09-09 14:45:50,176 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@3a5c3fe4
+2019-09-09 14:45:50,177 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>210A3D9C72069A154A0F0C223E83B15E
+2019-09-09 14:45:50,186 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 14:45:50,739 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680115506801568011550680
+2019-09-09 14:45:50,739 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@3a5c3fe4
+2019-09-09 14:45:50,739 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>EC1F9D39D0A41CC36F8D11D64C6F5EA3
+2019-09-09 14:45:50,746 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 14:46:00,003 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:46:00 CST 2019
+2019-09-09 14:46:10,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:46:10 CST 2019
+2019-09-09 14:46:20,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:46:20 CST 2019
+2019-09-09 14:46:28,650 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on 爱新觉罗的Computer with PID 16372 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-09-09 14:46:28,653 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-09-09 14:46:36,410 INFO (NettyInitial.java:69)- 【服务器启动成功========端口：9800】
+2019-09-09 14:46:38,144 INFO (StartupInfoLogger.java:59)- Started FaceApplication in 9.886 seconds (JVM running for 10.583)
+2019-09-09 14:46:40,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:46:40 CST 2019
+2019-09-09 14:46:48,491 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680116083501568011608350
+2019-09-09 14:46:48,491 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@54e4784c
+2019-09-09 14:46:48,495 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>233ECD363DBCFBE346E1C9E78DD0F3B0
+2019-09-09 14:46:48,674 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 14:46:50,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:46:50 CST 2019
+2019-09-09 14:46:50,319 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680116083501568011608350
+2019-09-09 14:46:50,320 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@54e4784c
+2019-09-09 14:46:50,321 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>233ECD363DBCFBE346E1C9E78DD0F3B0
+2019-09-09 14:46:50,329 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 14:46:50,680 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680116083501568011608350
+2019-09-09 14:46:50,680 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@54e4784c
+2019-09-09 14:46:50,681 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>233ECD363DBCFBE346E1C9E78DD0F3B0
+2019-09-09 14:46:50,686 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 14:46:50,846 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680116083501568011608350
+2019-09-09 14:46:50,846 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@54e4784c
+2019-09-09 14:46:50,848 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>233ECD363DBCFBE346E1C9E78DD0F3B0
+2019-09-09 14:46:50,855 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 14:46:51,848 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=2&297e325a66f62bae0166f631b0b2000215680116083501568011608350
+2019-09-09 14:46:51,849 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@54e4784c
+2019-09-09 14:46:51,850 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>CAC8F2E4D46CBC32E3D29ABF390ED797
+2019-09-09 14:46:51,856 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 14:46:52,656 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680116083501568011608350
+2019-09-09 14:46:52,656 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@54e4784c
+2019-09-09 14:46:52,657 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>233ECD363DBCFBE346E1C9E78DD0F3B0
+2019-09-09 14:46:52,665 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 14:47:00,000 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:47:00 CST 2019
+2019-09-09 14:47:10,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:47:10 CST 2019
+2019-09-09 14:47:20,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:47:20 CST 2019
+2019-09-09 14:47:30,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:47:30 CST 2019
+2019-09-09 14:47:40,003 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:47:40 CST 2019
+2019-09-09 14:47:50,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:47:50 CST 2019
+2019-09-09 14:48:00,003 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:48:00 CST 2019
+2019-09-09 14:48:10,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 14:48:10 CST 2019
+2019-09-09 17:00:07,893 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on 爱新觉罗的Computer with PID 7604 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-09-09 17:00:07,897 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-09-09 17:00:33,602 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on 爱新觉罗的Computer with PID 13388 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-09-09 17:00:33,607 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-09-09 17:00:41,699 INFO (NettyInitial.java:69)- 【服务器启动成功========端口：9800】
+2019-09-09 17:00:43,275 INFO (StartupInfoLogger.java:59)- Started FaceApplication in 10.154 seconds (JVM running for 10.837)
+2019-09-09 17:00:50,003 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:00:50 CST 2019
+2019-09-09 17:01:00,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:01:00 CST 2019
+2019-09-09 17:01:00,239 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680196600751568019660075
+2019-09-09 17:01:00,240 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@332c870c
+2019-09-09 17:01:00,242 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>39D7032F957B37083923EF77F8A0DFE9
+2019-09-09 17:01:00,443 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:01:02,994 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680196600751568019660075
+2019-09-09 17:01:02,995 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@332c870c
+2019-09-09 17:01:02,995 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>39D7032F957B37083923EF77F8A0DFE9
+2019-09-09 17:01:03,029 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:01:04,591 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680196645641568019664564
+2019-09-09 17:01:04,592 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@332c870c
+2019-09-09 17:01:04,593 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>77937FDCBD0E0107BDA4FFBBCF1D0658
+2019-09-09 17:01:04,602 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:01:06,564 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680196665441568019666544
+2019-09-09 17:01:06,566 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@332c870c
+2019-09-09 17:01:06,567 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>7299264A272AFA6A8F5462C4063E16B4
+2019-09-09 17:01:06,575 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:01:07,579 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680196675571568019667557
+2019-09-09 17:01:07,581 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@332c870c
+2019-09-09 17:01:07,581 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>99F51BF5D875A271A4E656920F8F5CEC
+2019-09-09 17:01:07,589 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:01:08,474 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680196684551568019668455
+2019-09-09 17:01:08,477 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@332c870c
+2019-09-09 17:01:08,478 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>A8681EEA573BD2879861F2C6870666D0
+2019-09-09 17:01:08,485 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:01:10,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:01:10 CST 2019
+2019-09-09 17:01:20,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:01:20 CST 2019
+2019-09-09 17:01:25,115 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680196850951568019685095
+2019-09-09 17:01:25,117 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@332c870c
+2019-09-09 17:01:25,118 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>C084CC7C499120FFCE0C96DD9CD0F922
+2019-09-09 17:01:25,126 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:01:30,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:01:30 CST 2019
+2019-09-09 17:01:40,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:01:40 CST 2019
+2019-09-09 17:01:50,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:01:50 CST 2019
+2019-09-09 17:02:00,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:02:00 CST 2019
+2019-09-09 17:02:08,426 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680197284021568019728402
+2019-09-09 17:02:08,427 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@332c870c
+2019-09-09 17:02:08,428 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>8AE8E373759FB7EDEBDB22363CB81667
+2019-09-09 17:02:08,439 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:02:10,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:02:10 CST 2019
+2019-09-09 17:02:20,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:02:20 CST 2019
+2019-09-09 17:02:30,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:02:30 CST 2019
+2019-09-09 17:02:40,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:02:40 CST 2019
+2019-09-09 17:02:50,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:02:50 CST 2019
+2019-09-09 17:03:00,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:03:00 CST 2019
+2019-09-09 17:03:10,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:03:10 CST 2019
+2019-09-09 17:03:20,000 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:03:20 CST 2019
+2019-09-09 17:03:30,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:03:30 CST 2019
+2019-09-09 17:03:40,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:03:40 CST 2019
+2019-09-09 17:03:50,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:03:50 CST 2019
+2019-09-09 17:04:00,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:04:00 CST 2019
+2019-09-09 17:04:05,156 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680198451251568019845125
+2019-09-09 17:04:05,156 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@332c870c
+2019-09-09 17:04:05,157 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>B1CE870E214D9EB033EA2A4E0DFDA54E
+2019-09-09 17:04:05,336 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:04:08,807 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680198487861568019848786
+2019-09-09 17:04:08,807 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@332c870c
+2019-09-09 17:04:08,808 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>83D444FFD5DB4A9D64EE00328B582D31
+2019-09-09 17:04:08,820 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:04:10,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:04:10 CST 2019
+2019-09-09 17:04:20,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:04:20 CST 2019
+2019-09-09 17:04:30,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:04:30 CST 2019
+2019-09-09 17:04:38,711 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680198786841568019878684
+2019-09-09 17:04:38,712 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@332c870c
+2019-09-09 17:04:38,713 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>86E715F1C8DB43B40F79A74AE5585213
+2019-09-09 17:04:38,722 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:04:40,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:04:40 CST 2019
+2019-09-09 17:04:40,326 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680198786841568019878684
+2019-09-09 17:04:40,326 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@332c870c
+2019-09-09 17:04:40,327 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>86E715F1C8DB43B40F79A74AE5585213
+2019-09-09 17:04:40,332 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680198786841568019878684
+2019-09-09 17:04:40,333 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@348501dd
+2019-09-09 17:04:40,334 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>86E715F1C8DB43B40F79A74AE5585213
+2019-09-09 17:04:40,341 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:04:40,363 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:04:43,026 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680198786841568019878684
+2019-09-09 17:04:43,027 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@332c870c
+2019-09-09 17:04:43,028 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680198786841568019878684
+2019-09-09 17:04:43,028 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@348501dd
+2019-09-09 17:04:43,028 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>86E715F1C8DB43B40F79A74AE5585213
+2019-09-09 17:04:43,028 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>86E715F1C8DB43B40F79A74AE5585213
+2019-09-09 17:04:43,033 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:04:43,033 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:04:44,625 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680198786841568019878684
+2019-09-09 17:04:44,626 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@348501dd
+2019-09-09 17:04:44,627 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680198786841568019878684
+2019-09-09 17:04:44,627 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@332c870c
+2019-09-09 17:04:44,627 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>86E715F1C8DB43B40F79A74AE5585213
+2019-09-09 17:04:44,628 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>86E715F1C8DB43B40F79A74AE5585213
+2019-09-09 17:04:44,633 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:04:44,633 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:04:44,818 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680198786841568019878684
+2019-09-09 17:04:44,818 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680198786841568019878684
+2019-09-09 17:04:44,818 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@332c870c
+2019-09-09 17:04:44,818 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@348501dd
+2019-09-09 17:04:44,819 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>86E715F1C8DB43B40F79A74AE5585213
+2019-09-09 17:04:44,819 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>86E715F1C8DB43B40F79A74AE5585213
+2019-09-09 17:04:44,823 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:04:44,824 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:04:45,001 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680198786841568019878684
+2019-09-09 17:04:45,002 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@348501dd
+2019-09-09 17:04:45,003 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>86E715F1C8DB43B40F79A74AE5585213
+2019-09-09 17:04:45,004 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680198786841568019878684
+2019-09-09 17:04:45,005 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@332c870c
+2019-09-09 17:04:45,005 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>86E715F1C8DB43B40F79A74AE5585213
+2019-09-09 17:04:45,008 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:04:45,011 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:04:47,112 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680198870931568019887093
+2019-09-09 17:04:47,113 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@348501dd
+2019-09-09 17:04:47,113 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>90F5F4D9449D22FCD3822383DB2013FE
+2019-09-09 17:04:47,124 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:04:50,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:04:50 CST 2019
+2019-09-09 17:04:56,492 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680198964751568019896475
+2019-09-09 17:04:56,493 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@348501dd
+2019-09-09 17:04:56,493 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>9A4AC259F706120A5E73307855F809F2
+2019-09-09 17:04:56,502 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:04:58,426 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680198964751568019896475
+2019-09-09 17:04:58,427 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@348501dd
+2019-09-09 17:04:58,428 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>9A4AC259F706120A5E73307855F809F2
+2019-09-09 17:04:58,431 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680198964751568019896475
+2019-09-09 17:04:58,431 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@332c870c
+2019-09-09 17:04:58,431 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>9A4AC259F706120A5E73307855F809F2
+2019-09-09 17:04:58,436 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:04:58,464 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:04:58,936 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680198964751568019896475
+2019-09-09 17:04:58,936 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@348501dd
+2019-09-09 17:04:58,937 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>9A4AC259F706120A5E73307855F809F2
+2019-09-09 17:04:58,937 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680198964751568019896475
+2019-09-09 17:04:58,938 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@332c870c
+2019-09-09 17:04:58,938 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>9A4AC259F706120A5E73307855F809F2
+2019-09-09 17:04:58,941 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:04:58,942 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:05:00,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:05:00 CST 2019
+2019-09-09 17:05:01,892 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680199018711568019901871
+2019-09-09 17:05:01,895 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@332c870c
+2019-09-09 17:05:01,896 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>D1C8CD5E4C1331512670A9C8C646BE9D
+2019-09-09 17:05:01,904 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:05:10,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:05:10 CST 2019
+2019-09-09 17:05:20,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:05:20 CST 2019
+2019-09-09 17:05:30,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:05:30 CST 2019
+2019-09-09 17:05:40,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:05:40 CST 2019
+2019-09-09 17:05:45,471 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680199454421568019945442
+2019-09-09 17:05:45,471 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@332c870c
+2019-09-09 17:05:45,472 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>3A4451C6E676A8AB0928417FA712DB58
+2019-09-09 17:05:45,480 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:05:49,014 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680199489951568019948995
+2019-09-09 17:05:49,015 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@332c870c
+2019-09-09 17:05:49,016 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>DBDFDE1CCD4E9E78841DFF1C47A3879A
+2019-09-09 17:05:49,026 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:05:49,225 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680199492031568019949203
+2019-09-09 17:05:49,225 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@332c870c
+2019-09-09 17:05:49,227 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>BF9293C59D1DCB5E5875094655F15EA1
+2019-09-09 17:05:49,236 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:05:49,468 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680199494491568019949449
+2019-09-09 17:05:49,469 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@332c870c
+2019-09-09 17:05:49,472 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>3BC0189848DB186CD8F96F8C9E2842D8
+2019-09-09 17:05:49,484 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:05:49,674 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680199496551568019949655
+2019-09-09 17:05:49,674 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@332c870c
+2019-09-09 17:05:49,676 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>AB76D44C1C59996F95B7174CA4434C0D
+2019-09-09 17:05:49,685 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:05:50,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:05:50 CST 2019
+2019-09-09 17:05:50,789 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680199496551568019949655
+2019-09-09 17:05:50,790 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@332c870c
+2019-09-09 17:05:50,790 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>AB76D44C1C59996F95B7174CA4434C0D
+2019-09-09 17:05:50,802 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:05:50,808 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=8&type=1&297e325a66f62bae0166f631b0b2000215680199496551568019949655
+2019-09-09 17:05:50,808 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@332c870c
+2019-09-09 17:05:50,809 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>AB76D44C1C59996F95B7174CA4434C0D
+2019-09-09 17:05:50,815 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:06:00,003 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:06:00 CST 2019
+2019-09-09 17:06:10,000 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:06:10 CST 2019
+2019-09-09 17:06:20,000 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:06:20 CST 2019
+2019-09-09 17:06:30,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:06:30 CST 2019
+2019-09-09 17:06:40,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:06:40 CST 2019
+2019-09-09 17:06:50,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:06:50 CST 2019
+2019-09-09 17:07:00,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:07:00 CST 2019
+2019-09-09 17:07:10,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:07:10 CST 2019
+2019-09-09 17:07:20,000 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:07:20 CST 2019
+2019-09-09 17:07:30,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:07:30 CST 2019
+2019-09-09 17:07:40,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:07:40 CST 2019
+2019-09-09 17:07:50,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:07:50 CST 2019
+2019-09-09 17:08:00,000 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:08:00 CST 2019
+2019-09-09 17:08:10,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:08:10 CST 2019
+2019-09-09 17:08:20,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:08:20 CST 2019
+2019-09-09 17:08:30,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:08:30 CST 2019
+2019-09-09 17:08:40,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:08:40 CST 2019
+2019-09-09 17:08:50,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:08:50 CST 2019
+2019-09-09 17:09:00,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:09:00 CST 2019
+2019-09-09 17:09:10,000 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:09:10 CST 2019
+2019-09-09 17:09:20,000 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:09:20 CST 2019
+2019-09-09 17:09:30,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:09:30 CST 2019
+2019-09-09 17:09:40,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:09:40 CST 2019
+2019-09-09 17:09:50,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:09:50 CST 2019
+2019-09-09 17:10:00,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:10:00 CST 2019
+2019-09-09 17:10:10,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:10:10 CST 2019
+2019-09-09 17:10:20,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:10:20 CST 2019
+2019-09-09 17:10:30,003 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:10:30 CST 2019
+2019-09-09 17:10:40,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:10:40 CST 2019
+2019-09-09 17:10:50,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:10:50 CST 2019
+2019-09-09 17:11:00,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:11:00 CST 2019
+2019-09-09 17:11:10,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:11:10 CST 2019
+2019-09-09 17:11:20,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:11:20 CST 2019
+2019-09-09 17:11:30,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:11:30 CST 2019
+2019-09-09 17:11:40,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:11:40 CST 2019
+2019-09-09 17:11:50,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:11:50 CST 2019
+2019-09-09 17:12:00,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:12:00 CST 2019
+2019-09-09 17:12:10,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:12:10 CST 2019
+2019-09-09 17:12:20,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:12:20 CST 2019
+2019-09-09 17:12:30,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:12:30 CST 2019
+2019-09-09 17:12:40,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:12:40 CST 2019
+2019-09-09 17:12:50,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:12:50 CST 2019
+2019-09-09 17:13:00,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:13:00 CST 2019
+2019-09-09 17:13:10,000 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:13:10 CST 2019
+2019-09-09 17:13:20,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:13:20 CST 2019
+2019-09-09 17:13:30,003 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:13:30 CST 2019
+2019-09-09 17:13:40,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:13:40 CST 2019
+2019-09-09 17:13:50,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:13:50 CST 2019
+2019-09-09 17:14:00,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:14:00 CST 2019
+2019-09-09 17:14:10,003 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:14:10 CST 2019
+2019-09-09 17:14:20,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:14:20 CST 2019
+2019-09-09 17:14:30,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:14:30 CST 2019
+2019-09-09 17:14:40,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:14:40 CST 2019
+2019-09-09 17:14:50,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:14:50 CST 2019
+2019-09-09 17:15:00,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:15:00 CST 2019
+2019-09-09 17:15:10,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:15:10 CST 2019
+2019-09-09 17:15:20,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:15:20 CST 2019
+2019-09-09 17:15:30,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:15:30 CST 2019
+2019-09-09 17:15:40,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:15:40 CST 2019
+2019-09-09 17:15:50,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:15:50 CST 2019
+2019-09-09 17:16:00,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:16:00 CST 2019
+2019-09-09 17:16:10,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:16:10 CST 2019
+2019-09-09 17:16:20,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:16:20 CST 2019
+2019-09-09 17:16:30,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:16:30 CST 2019
+2019-09-09 17:16:40,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:16:40 CST 2019
+2019-09-09 17:16:50,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:16:50 CST 2019
+2019-09-09 17:17:00,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:17:00 CST 2019
+2019-09-09 17:17:10,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:17:10 CST 2019
+2019-09-09 17:17:20,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:17:20 CST 2019
+2019-09-09 17:17:30,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:17:30 CST 2019
+2019-09-09 17:17:40,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:17:40 CST 2019
+2019-09-09 17:17:50,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:17:50 CST 2019
+2019-09-09 17:18:00,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:18:00 CST 2019
+2019-09-09 17:18:10,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:18:10 CST 2019
+2019-09-09 17:18:20,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:18:20 CST 2019
+2019-09-09 17:18:30,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:18:30 CST 2019
+2019-09-09 17:18:40,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:18:40 CST 2019
+2019-09-09 17:18:50,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:18:50 CST 2019
+2019-09-09 17:19:00,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:19:00 CST 2019
+2019-09-09 17:19:10,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:19:10 CST 2019
+2019-09-09 17:19:20,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:19:20 CST 2019
+2019-09-09 17:19:30,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:19:30 CST 2019
+2019-09-09 17:19:40,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:19:40 CST 2019
+2019-09-09 17:19:50,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:19:50 CST 2019
+2019-09-09 17:20:00,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:20:00 CST 2019
+2019-09-09 17:20:10,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:20:10 CST 2019
+2019-09-09 17:20:20,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:20:20 CST 2019
+2019-09-09 17:20:30,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:20:30 CST 2019
+2019-09-09 17:20:40,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:20:40 CST 2019
+2019-09-09 17:20:50,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:20:50 CST 2019
+2019-09-09 17:21:00,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:21:00 CST 2019
+2019-09-09 17:21:10,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:21:10 CST 2019
+2019-09-09 17:21:20,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:21:20 CST 2019
+2019-09-09 17:21:30,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:21:30 CST 2019
+2019-09-09 17:21:40,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:21:40 CST 2019
+2019-09-09 17:21:50,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:21:50 CST 2019
+2019-09-09 17:22:00,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:22:00 CST 2019
+2019-09-09 17:22:10,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:22:10 CST 2019
+2019-09-09 17:22:20,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:22:20 CST 2019
+2019-09-09 17:22:30,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:22:30 CST 2019
+2019-09-09 17:22:40,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:22:40 CST 2019
+2019-09-09 17:22:50,003 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:22:50 CST 2019
+2019-09-09 17:23:00,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:23:00 CST 2019
+2019-09-09 17:23:10,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:23:10 CST 2019
+2019-09-09 17:23:20,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:23:20 CST 2019
+2019-09-09 17:23:30,000 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:23:30 CST 2019
+2019-09-09 17:23:40,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:23:40 CST 2019
+2019-09-09 17:23:50,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:23:50 CST 2019
+2019-09-09 17:24:00,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:24:00 CST 2019
+2019-09-09 17:24:10,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:24:10 CST 2019
+2019-09-09 17:24:20,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:24:20 CST 2019
+2019-09-09 17:24:33,975 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on 爱新觉罗的Computer with PID 12524 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-09-09 17:24:33,979 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-09-09 17:24:41,906 INFO (NettyInitial.java:69)- 【服务器启动成功========端口：9800】
+2019-09-09 17:24:43,570 INFO (StartupInfoLogger.java:59)- Started FaceApplication in 9.982 seconds (JVM running for 10.635)
+2019-09-09 17:24:50,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:24:50 CST 2019
+2019-09-09 17:25:00,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:25:00 CST 2019
+2019-09-09 17:25:10,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:25:10 CST 2019
+2019-09-09 17:25:20,000 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:25:20 CST 2019
+2019-09-09 17:25:28,747 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=1&type=1&297e325a66f62bae0166f631b0b2000215680211286151568021128615
+2019-09-09 17:25:28,747 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@71611471
+2019-09-09 17:25:28,749 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>0DEBFC7EBF958C128977D7DE5C94D656
+2019-09-09 17:25:28,935 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:25:30,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:25:30 CST 2019
+2019-09-09 17:25:35,048 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=1&type=2&297e325a66f62bae0166f631b0b2000215680211286151568021128615
+2019-09-09 17:25:35,049 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@71611471
+2019-09-09 17:25:35,050 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>9282A67F6E07F4F42D88B5D993140689
+2019-09-09 17:25:35,069 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:25:35,863 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=1&type=1&297e325a66f62bae0166f631b0b2000215680211286151568021128615
+2019-09-09 17:25:35,864 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@71611471
+2019-09-09 17:25:35,865 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>0DEBFC7EBF958C128977D7DE5C94D656
+2019-09-09 17:25:35,871 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:25:36,707 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=1&type=2&297e325a66f62bae0166f631b0b2000215680211286151568021128615
+2019-09-09 17:25:36,707 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@71611471
+2019-09-09 17:25:36,708 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>9282A67F6E07F4F42D88B5D993140689
+2019-09-09 17:25:36,715 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:25:38,848 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=1&type=1&297e325a66f62bae0166f631b0b2000215680211286151568021128615
+2019-09-09 17:25:38,848 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@71611471
+2019-09-09 17:25:38,849 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>0DEBFC7EBF958C128977D7DE5C94D656
+2019-09-09 17:25:38,855 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:25:39,999 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=2&pageSize=1&type=1&297e325a66f62bae0166f631b0b2000215680211286151568021128615
+2019-09-09 17:25:40,000 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@71611471
+2019-09-09 17:25:40,001 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>5DC871430B04DF115D605B873D533620
+2019-09-09 17:25:40,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:25:40 CST 2019
+2019-09-09 17:25:40,007 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:25:40,467 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=1&type=1&297e325a66f62bae0166f631b0b2000215680211286151568021128615
+2019-09-09 17:25:40,468 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@71611471
+2019-09-09 17:25:40,468 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>0DEBFC7EBF958C128977D7DE5C94D656
+2019-09-09 17:25:40,474 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:25:40,846 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=2&pageSize=1&type=1&297e325a66f62bae0166f631b0b2000215680211286151568021128615
+2019-09-09 17:25:40,846 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@71611471
+2019-09-09 17:25:40,847 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>5DC871430B04DF115D605B873D533620
+2019-09-09 17:25:40,853 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:25:41,188 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=1&type=1&297e325a66f62bae0166f631b0b2000215680211286151568021128615
+2019-09-09 17:25:41,188 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@71611471
+2019-09-09 17:25:41,189 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>0DEBFC7EBF958C128977D7DE5C94D656
+2019-09-09 17:25:41,196 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:25:41,764 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=1&type=1&297e325a66f62bae0166f631b0b2000215680211286151568021128615
+2019-09-09 17:25:41,764 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@71611471
+2019-09-09 17:25:41,765 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>0DEBFC7EBF958C128977D7DE5C94D656
+2019-09-09 17:25:41,770 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:25:42,045 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=1&type=1&297e325a66f62bae0166f631b0b2000215680211286151568021128615
+2019-09-09 17:25:42,045 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@71611471
+2019-09-09 17:25:42,046 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>0DEBFC7EBF958C128977D7DE5C94D656
+2019-09-09 17:25:42,053 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:25:42,259 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=2&pageSize=1&type=1&297e325a66f62bae0166f631b0b2000215680211286151568021128615
+2019-09-09 17:25:42,260 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@71611471
+2019-09-09 17:25:42,261 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>5DC871430B04DF115D605B873D533620
+2019-09-09 17:25:42,266 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:25:42,526 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=1&type=1&297e325a66f62bae0166f631b0b2000215680211286151568021128615
+2019-09-09 17:25:42,526 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@71611471
+2019-09-09 17:25:42,527 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>0DEBFC7EBF958C128977D7DE5C94D656
+2019-09-09 17:25:42,533 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:25:42,713 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=2&pageSize=1&type=1&297e325a66f62bae0166f631b0b2000215680211286151568021128615
+2019-09-09 17:25:42,713 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@71611471
+2019-09-09 17:25:42,714 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>5DC871430B04DF115D605B873D533620
+2019-09-09 17:25:42,719 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:25:50,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:25:50 CST 2019
+2019-09-09 17:26:00,003 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:26:00 CST 2019
+2019-09-09 17:26:10,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:26:10 CST 2019
+2019-09-09 17:26:20,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:26:20 CST 2019
+2019-09-09 17:26:30,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:26:30 CST 2019
+2019-09-09 17:26:40,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:26:40 CST 2019
+2019-09-09 17:26:50,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:26:50 CST 2019
+2019-09-09 17:27:00,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:27:00 CST 2019
+2019-09-09 17:27:10,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:27:10 CST 2019
+2019-09-09 17:27:20,003 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:27:20 CST 2019
+2019-09-09 17:27:30,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:27:30 CST 2019
+2019-09-09 17:27:40,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:27:40 CST 2019
+2019-09-09 17:27:50,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:27:50 CST 2019
+2019-09-09 17:28:00,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:28:00 CST 2019
+2019-09-09 17:28:10,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:28:10 CST 2019
+2019-09-09 17:28:20,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:28:20 CST 2019
+2019-09-09 17:28:30,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:28:30 CST 2019
+2019-09-09 17:28:40,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:28:40 CST 2019
+2019-09-09 17:28:50,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:28:50 CST 2019
+2019-09-09 17:29:00,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:29:00 CST 2019
+2019-09-09 17:29:10,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:29:10 CST 2019
+2019-09-09 17:29:20,003 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:29:20 CST 2019
+2019-09-09 17:29:30,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:29:30 CST 2019
+2019-09-09 17:29:40,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:29:40 CST 2019
+2019-09-09 17:29:50,003 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:29:50 CST 2019
+2019-09-09 17:30:00,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:30:00 CST 2019
+2019-09-09 17:30:10,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:30:10 CST 2019
+2019-09-09 17:30:20,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:30:20 CST 2019
+2019-09-09 17:30:30,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:30:30 CST 2019
+2019-09-09 17:30:40,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:30:40 CST 2019
+2019-09-09 17:30:50,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:30:50 CST 2019
+2019-09-09 17:31:00,000 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:31:00 CST 2019
+2019-09-09 17:31:10,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:31:10 CST 2019
+2019-09-09 17:31:20,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:31:20 CST 2019
+2019-09-09 17:31:30,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:31:30 CST 2019
+2019-09-09 17:31:40,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:31:40 CST 2019
+2019-09-09 17:31:50,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:31:50 CST 2019
+2019-09-09 17:32:00,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:32:00 CST 2019
+2019-09-09 17:32:10,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:32:10 CST 2019
+2019-09-09 17:32:20,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:32:20 CST 2019
+2019-09-09 17:32:30,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:32:30 CST 2019
+2019-09-09 17:32:40,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:32:40 CST 2019
+2019-09-09 17:32:50,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:32:50 CST 2019
+2019-09-09 17:33:00,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:33:00 CST 2019
+2019-09-09 17:33:10,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:33:10 CST 2019
+2019-09-09 17:33:20,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:33:20 CST 2019
+2019-09-09 17:33:30,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:33:30 CST 2019
+2019-09-09 17:33:40,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:33:40 CST 2019
+2019-09-09 17:33:50,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:33:50 CST 2019
+2019-09-09 17:34:00,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:34:00 CST 2019
+2019-09-09 17:34:10,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:34:10 CST 2019
+2019-09-09 17:34:20,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:34:20 CST 2019
+2019-09-09 17:34:30,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:34:30 CST 2019
+2019-09-09 17:34:40,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:34:40 CST 2019
+2019-09-09 17:34:50,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:34:50 CST 2019
+2019-09-09 17:35:00,000 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:35:00 CST 2019
+2019-09-09 17:35:10,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:35:10 CST 2019
+2019-09-09 17:35:20,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:35:20 CST 2019
+2019-09-09 17:35:30,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:35:30 CST 2019
+2019-09-09 17:35:40,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:35:40 CST 2019
+2019-09-09 17:35:50,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:35:50 CST 2019
+2019-09-09 17:36:00,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:36:00 CST 2019
+2019-09-09 17:36:10,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:36:10 CST 2019
+2019-09-09 17:36:20,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:36:20 CST 2019
+2019-09-09 17:36:30,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:36:30 CST 2019
+2019-09-09 17:36:40,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:36:40 CST 2019
+2019-09-09 17:36:45,062 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on 爱新觉罗的Computer with PID 19716 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-09-09 17:36:45,068 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-09-09 17:36:52,822 INFO (NettyInitial.java:69)- 【服务器启动成功========端口：9800】
+2019-09-09 17:36:54,420 INFO (StartupInfoLogger.java:59)- Started FaceApplication in 9.743 seconds (JVM running for 10.365)
+2019-09-09 17:37:00,003 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:37:00 CST 2019
+2019-09-09 17:37:09,405 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=1&type=1&297e325a66f62bae0166f631b0b2000215680218292641568021829264
+2019-09-09 17:37:09,405 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@77c118b
+2019-09-09 17:37:09,407 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>3F59E7AB4475CE5E45FD0D842923BFBE
+2019-09-09 17:37:09,693 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:37:10,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:37:10 CST 2019
+2019-09-09 17:37:20,003 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:37:20 CST 2019
+2019-09-09 17:37:23,123 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=1&type=1&297e325a66f62bae0166f631b0b2000215680218430981568021843098
+2019-09-09 17:37:23,124 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@77c118b
+2019-09-09 17:37:23,126 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>A8DF3AB40B4ABC92BB0BAB47C90B7690
+2019-09-09 17:37:23,137 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:37:29,297 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=1&type=1&297e325a66f62bae0166f631b0b2000215680218492691568021849269
+2019-09-09 17:37:29,298 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@77c118b
+2019-09-09 17:37:29,299 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>270BE68A2F4121CCB11DDA541B388517
+2019-09-09 17:37:29,324 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:37:30,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:37:30 CST 2019
+2019-09-09 17:37:40,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:37:40 CST 2019
+2019-09-09 17:37:50,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:37:50 CST 2019
+2019-09-09 17:38:00,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:38:00 CST 2019
+2019-09-09 17:38:10,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:38:10 CST 2019
+2019-09-09 17:38:20,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:38:20 CST 2019
+2019-09-09 17:38:30,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:38:30 CST 2019
+2019-09-09 17:38:40,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:38:40 CST 2019
+2019-09-09 17:38:50,003 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:38:50 CST 2019
+2019-09-09 17:38:50,516 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=2&pageSize=1&type=1&297e325a66f62bae0166f631b0b2000215680218492691568021849269
+2019-09-09 17:38:50,517 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@77c118b
+2019-09-09 17:38:50,518 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>CFC9111B3D2026961523D4879C0FB800
+2019-09-09 17:38:50,525 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:38:51,204 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=1&type=1&297e325a66f62bae0166f631b0b2000215680218492691568021849269
+2019-09-09 17:38:51,204 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@77c118b
+2019-09-09 17:38:51,205 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>270BE68A2F4121CCB11DDA541B388517
+2019-09-09 17:38:51,210 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:38:51,783 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=2&pageSize=1&type=1&297e325a66f62bae0166f631b0b2000215680218492691568021849269
+2019-09-09 17:38:51,783 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@77c118b
+2019-09-09 17:38:51,784 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>CFC9111B3D2026961523D4879C0FB800
+2019-09-09 17:38:51,789 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:38:52,252 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=1&type=1&297e325a66f62bae0166f631b0b2000215680218492691568021849269
+2019-09-09 17:38:52,252 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@77c118b
+2019-09-09 17:38:52,253 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>270BE68A2F4121CCB11DDA541B388517
+2019-09-09 17:38:52,260 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:38:52,627 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=2&pageSize=1&type=1&297e325a66f62bae0166f631b0b2000215680218492691568021849269
+2019-09-09 17:38:52,628 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@77c118b
+2019-09-09 17:38:52,629 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>CFC9111B3D2026961523D4879C0FB800
+2019-09-09 17:38:52,637 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:38:53,069 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=1&type=1&297e325a66f62bae0166f631b0b2000215680218492691568021849269
+2019-09-09 17:38:53,069 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@77c118b
+2019-09-09 17:38:53,069 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>270BE68A2F4121CCB11DDA541B388517
+2019-09-09 17:38:53,074 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:38:53,403 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=2&pageSize=1&type=1&297e325a66f62bae0166f631b0b2000215680218492691568021849269
+2019-09-09 17:38:53,403 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@77c118b
+2019-09-09 17:38:53,403 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>CFC9111B3D2026961523D4879C0FB800
+2019-09-09 17:38:53,410 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:38:53,859 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=1&type=1&297e325a66f62bae0166f631b0b2000215680218492691568021849269
+2019-09-09 17:38:53,859 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@77c118b
+2019-09-09 17:38:53,860 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>270BE68A2F4121CCB11DDA541B388517
+2019-09-09 17:38:53,866 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:38:54,155 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=2&pageSize=1&type=1&297e325a66f62bae0166f631b0b2000215680218492691568021849269
+2019-09-09 17:38:54,155 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@77c118b
+2019-09-09 17:38:54,156 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>CFC9111B3D2026961523D4879C0FB800
+2019-09-09 17:38:54,171 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:38:54,531 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=1&type=1&297e325a66f62bae0166f631b0b2000215680218492691568021849269
+2019-09-09 17:38:54,531 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@77c118b
+2019-09-09 17:38:54,532 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>270BE68A2F4121CCB11DDA541B388517
+2019-09-09 17:38:54,537 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:38:54,811 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=2&pageSize=1&type=1&297e325a66f62bae0166f631b0b2000215680218492691568021849269
+2019-09-09 17:38:54,812 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@77c118b
+2019-09-09 17:38:54,812 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>CFC9111B3D2026961523D4879C0FB800
+2019-09-09 17:38:54,817 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:39:00,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:39:00 CST 2019
+2019-09-09 17:39:10,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:39:10 CST 2019
+2019-09-09 17:39:19,982 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=1&type=1&297e325a66f62bae0166f631b0b2000215680219599611568021959961
+2019-09-09 17:39:19,984 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@77c118b
+2019-09-09 17:39:19,987 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>ED02EB114CBAF39BF5C478B4E858ACCF
+2019-09-09 17:39:19,994 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:39:20,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:39:20 CST 2019
+2019-09-09 17:40:04,225 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on 爱新觉罗的Computer with PID 9752 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-09-09 17:40:04,230 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-09-09 17:40:11,648 INFO (NettyInitial.java:69)- 【服务器启动成功========端口：9800】
+2019-09-09 17:40:13,137 INFO (StartupInfoLogger.java:59)- Started FaceApplication in 9.319 seconds (JVM running for 9.922)
+2019-09-09 17:40:20,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:40:20 CST 2019
+2019-09-09 17:40:28,165 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=1&type=1&297e325a66f62bae0166f631b0b2000215680220280421568022028042
+2019-09-09 17:40:28,165 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@297b62b3
+2019-09-09 17:40:28,166 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>129AA161AB5D11059A5CF4BC6B325FAC
+2019-09-09 17:40:28,337 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 17:40:30,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:40:30 CST 2019
+2019-09-09 17:40:40,003 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:40:40 CST 2019
+2019-09-09 17:40:50,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:40:50 CST 2019
+2019-09-09 17:41:00,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:41:00 CST 2019
+2019-09-09 17:41:10,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:41:10 CST 2019
+2019-09-09 17:41:20,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:41:20 CST 2019
+2019-09-09 17:41:30,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:41:30 CST 2019
+2019-09-09 17:41:40,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:41:40 CST 2019
+2019-09-09 17:41:50,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:41:50 CST 2019
+2019-09-09 17:42:00,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:42:00 CST 2019
+2019-09-09 17:42:10,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:42:10 CST 2019
+2019-09-09 17:42:20,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:42:20 CST 2019
+2019-09-09 17:42:30,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:42:30 CST 2019
+2019-09-09 17:42:40,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:42:40 CST 2019
+2019-09-09 17:42:50,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:42:50 CST 2019
+2019-09-09 17:43:00,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:43:00 CST 2019
+2019-09-09 17:43:10,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:43:10 CST 2019
+2019-09-09 17:43:20,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:43:20 CST 2019
+2019-09-09 17:43:30,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:43:30 CST 2019
+2019-09-09 17:43:40,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:43:40 CST 2019
+2019-09-09 17:43:50,003 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:43:50 CST 2019
+2019-09-09 17:44:00,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:44:00 CST 2019
+2019-09-09 17:44:10,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:44:10 CST 2019
+2019-09-09 17:44:20,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:44:20 CST 2019
+2019-09-09 17:44:30,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:44:30 CST 2019
+2019-09-09 17:44:40,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:44:40 CST 2019
+2019-09-09 17:44:50,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:44:50 CST 2019
+2019-09-09 17:45:00,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:45:00 CST 2019
+2019-09-09 17:45:10,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:45:10 CST 2019
+2019-09-09 17:45:20,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:45:20 CST 2019
+2019-09-09 17:45:30,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:45:30 CST 2019
+2019-09-09 17:45:40,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:45:40 CST 2019
+2019-09-09 17:45:50,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:45:50 CST 2019
+2019-09-09 17:46:00,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:46:00 CST 2019
+2019-09-09 17:46:10,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:46:10 CST 2019
+2019-09-09 17:46:20,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:46:20 CST 2019
+2019-09-09 17:46:30,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:46:30 CST 2019
+2019-09-09 17:46:40,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:46:40 CST 2019
+2019-09-09 17:46:50,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:46:50 CST 2019
+2019-09-09 17:47:00,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:47:00 CST 2019
+2019-09-09 17:47:10,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:47:10 CST 2019
+2019-09-09 17:47:20,003 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:47:20 CST 2019
+2019-09-09 17:47:30,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:47:30 CST 2019
+2019-09-09 17:47:40,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:47:40 CST 2019
+2019-09-09 17:47:50,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:47:50 CST 2019
+2019-09-09 17:48:00,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:48:00 CST 2019
+2019-09-09 17:48:10,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:48:10 CST 2019
+2019-09-09 17:48:20,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:48:20 CST 2019
+2019-09-09 17:48:30,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:48:30 CST 2019
+2019-09-09 17:48:40,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:48:40 CST 2019
+2019-09-09 17:48:50,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:48:50 CST 2019
+2019-09-09 17:49:00,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:49:00 CST 2019
+2019-09-09 17:49:10,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:49:10 CST 2019
+2019-09-09 17:49:20,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:49:20 CST 2019
+2019-09-09 17:49:30,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:49:30 CST 2019
+2019-09-09 17:49:40,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:49:40 CST 2019
+2019-09-09 17:49:50,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:49:50 CST 2019
+2019-09-09 17:50:00,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:50:00 CST 2019
+2019-09-09 17:50:10,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:50:10 CST 2019
+2019-09-09 17:50:20,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:50:20 CST 2019
+2019-09-09 17:50:30,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:50:30 CST 2019
+2019-09-09 17:50:40,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:50:40 CST 2019
+2019-09-09 17:50:50,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:50:50 CST 2019
+2019-09-09 17:51:00,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:51:00 CST 2019
+2019-09-09 17:51:10,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:51:10 CST 2019
+2019-09-09 17:51:20,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:51:20 CST 2019
+2019-09-09 17:51:30,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:51:30 CST 2019
+2019-09-09 17:51:40,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:51:40 CST 2019
+2019-09-09 17:51:50,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:51:50 CST 2019
+2019-09-09 17:52:00,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:52:00 CST 2019
+2019-09-09 17:52:10,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:52:10 CST 2019
+2019-09-09 17:52:20,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:52:20 CST 2019
+2019-09-09 17:52:30,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:52:30 CST 2019
+2019-09-09 17:52:40,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:52:40 CST 2019
+2019-09-09 17:52:50,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:52:50 CST 2019
+2019-09-09 17:53:00,032 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:53:00 CST 2019
+2019-09-09 17:53:10,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:53:10 CST 2019
+2019-09-09 17:53:20,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:53:20 CST 2019
+2019-09-09 17:53:30,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:53:30 CST 2019
+2019-09-09 17:53:40,000 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:53:40 CST 2019
+2019-09-09 17:53:50,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:53:50 CST 2019
+2019-09-09 17:54:00,000 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:54:00 CST 2019
+2019-09-09 17:54:10,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:54:10 CST 2019
+2019-09-09 17:54:20,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:54:20 CST 2019
+2019-09-09 17:54:30,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:54:30 CST 2019
+2019-09-09 17:54:40,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:54:40 CST 2019
+2019-09-09 17:54:50,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:54:50 CST 2019
+2019-09-09 17:55:00,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:55:00 CST 2019
+2019-09-09 17:55:10,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:55:10 CST 2019
+2019-09-09 17:55:20,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:55:20 CST 2019
+2019-09-09 17:55:30,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:55:30 CST 2019
+2019-09-09 17:55:40,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:55:40 CST 2019
+2019-09-09 17:55:50,000 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:55:50 CST 2019
+2019-09-09 17:56:00,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:56:00 CST 2019
+2019-09-09 17:56:10,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:56:10 CST 2019
+2019-09-09 17:56:20,003 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:56:20 CST 2019
+2019-09-09 17:56:30,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:56:30 CST 2019
+2019-09-09 17:56:40,003 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:56:40 CST 2019
+2019-09-09 17:56:50,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:56:50 CST 2019
+2019-09-09 17:57:00,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:57:00 CST 2019
+2019-09-09 17:57:10,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:57:10 CST 2019
+2019-09-09 17:57:20,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:57:20 CST 2019
+2019-09-09 17:57:30,000 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:57:30 CST 2019
+2019-09-09 17:57:40,000 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:57:40 CST 2019
+2019-09-09 17:57:50,003 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:57:50 CST 2019
+2019-09-09 17:58:00,013 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:58:00 CST 2019
+2019-09-09 17:58:10,003 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:58:10 CST 2019
+2019-09-09 17:58:20,069 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:58:20 CST 2019
+2019-09-09 17:58:30,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:58:30 CST 2019
+2019-09-09 17:58:40,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:58:40 CST 2019
+2019-09-09 17:58:50,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:58:50 CST 2019
+2019-09-09 17:59:02,258 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:59:02 CST 2019
+2019-09-09 17:59:10,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:59:10 CST 2019
+2019-09-09 17:59:20,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:59:20 CST 2019
+2019-09-09 17:59:30,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:59:30 CST 2019
+2019-09-09 17:59:40,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:59:40 CST 2019
+2019-09-09 17:59:50,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 17:59:50 CST 2019
+2019-09-09 18:00:00,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 18:00:00 CST 2019
+2019-09-09 18:00:10,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 18:00:10 CST 2019
+2019-09-09 18:00:20,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 18:00:20 CST 2019
+2019-09-09 18:00:30,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 18:00:30 CST 2019
+2019-09-09 18:00:40,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 18:00:40 CST 2019
+2019-09-09 18:00:50,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 18:00:50 CST 2019
+2019-09-09 18:01:00,004 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 18:01:00 CST 2019
+2019-09-09 18:01:10,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 18:01:10 CST 2019
+2019-09-09 18:01:20,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 18:01:20 CST 2019
+2019-09-09 18:01:30,003 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 18:01:30 CST 2019
+2019-09-09 18:01:40,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 18:01:40 CST 2019
+2019-09-09 18:01:50,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 18:01:50 CST 2019
+2019-09-09 18:02:00,000 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 18:02:00 CST 2019
+2019-09-09 18:02:10,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 18:02:10 CST 2019
+2019-09-09 18:02:20,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 18:02:20 CST 2019
+2019-09-09 18:02:30,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 18:02:30 CST 2019
+2019-09-09 18:02:40,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 18:02:40 CST 2019
+2019-09-09 18:02:50,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 18:02:50 CST 2019
+2019-09-09 18:03:00,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 18:03:00 CST 2019
+2019-09-09 18:03:10,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 18:03:10 CST 2019
+2019-09-09 18:03:20,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 18:03:20 CST 2019
+2019-09-09 18:03:30,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 18:03:30 CST 2019
+2019-09-09 18:03:40,003 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 18:03:40 CST 2019
+2019-09-09 18:03:50,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 18:03:50 CST 2019
+2019-09-09 18:04:00,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 18:04:00 CST 2019
+2019-09-09 18:04:10,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 18:04:10 CST 2019
+2019-09-09 18:04:20,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 18:04:20 CST 2019
+2019-09-09 18:04:30,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 18:04:30 CST 2019
+2019-09-09 18:04:40,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 18:04:40 CST 2019
+2019-09-09 18:04:50,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 18:04:50 CST 2019
+2019-09-09 18:05:00,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 18:05:00 CST 2019
+2019-09-09 18:05:05,086 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on 爱新觉罗的Computer with PID 21972 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-09-09 18:05:05,091 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-09-09 18:05:10,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 18:05:10 CST 2019
+2019-09-09 18:05:12,927 INFO (NettyInitial.java:69)- 【服务器启动成功========端口：9800】
+2019-09-09 18:05:20,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 18:05:20 CST 2019
+2019-09-09 18:05:30,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 18:05:30 CST 2019
+2019-09-09 18:05:40,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 18:05:40 CST 2019
+2019-09-09 18:05:50,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 18:05:50 CST 2019
+2019-09-09 18:06:00,000 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 18:06:00 CST 2019
+2019-09-09 18:06:10,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 18:06:10 CST 2019
+2019-09-09 18:06:20,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 18:06:20 CST 2019
+2019-09-09 18:06:30,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 18:06:30 CST 2019
+2019-09-09 18:06:40,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 18:06:40 CST 2019
+2019-09-09 18:06:50,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 18:06:50 CST 2019
+2019-09-09 18:07:05,556 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on 爱新觉罗的Computer with PID 7768 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-09-09 18:07:05,560 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-09-09 18:07:13,433 INFO (NettyInitial.java:69)- 【服务器启动成功========端口：9800】
+2019-09-09 18:07:15,060 INFO (StartupInfoLogger.java:59)- Started FaceApplication in 9.888 seconds (JVM running for 10.553)
+2019-09-09 18:07:20,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 18:07:20 CST 2019
+2019-09-09 18:07:30,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 18:07:30 CST 2019
+2019-09-09 18:07:40,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 18:07:40 CST 2019
+2019-09-09 18:07:50,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 18:07:50 CST 2019
+2019-09-09 18:08:11,783 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 18:08:11 CST 2019
+2019-09-09 18:08:20,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 18:08:20 CST 2019
+2019-09-09 18:08:30,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 18:08:30 CST 2019
+2019-09-09 18:08:40,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 18:08:40 CST 2019
+2019-09-09 18:08:50,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 18:08:50 CST 2019
+2019-09-09 18:09:00,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 18:09:00 CST 2019
+2019-09-09 18:09:10,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 18:09:10 CST 2019
+2019-09-09 18:09:17,244 INFO (AuthorizationInterceptor.java:107)- 加密之前的currentPage=1&pageSize=10&297e325a66f62bae0166f631b0b2000215680237550841568023755084
+2019-09-09 18:09:17,245 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@78ddd601
+2019-09-09 18:09:17,246 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>6B3F0FD326CD5B2C6EE4C8CFC2A634E8
+2019-09-09 18:09:17,574 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 18:09:18,788 INFO (AuthorizationInterceptor.java:107)- 加密之前的297e325a66f62bae0166f631b0b2000215680237587741568023758774
+2019-09-09 18:09:18,789 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@78ddd601
+2019-09-09 18:09:18,790 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>1D53889CB79DE9B4DE5BAF785C2CA298
+2019-09-09 18:09:18,838 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 18:09:20,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 18:09:20 CST 2019
+2019-09-09 18:09:20,335 INFO (AuthorizationInterceptor.java:107)- 加密之前的297e325a66f62bae0166f631b0b2000215680237602781568023760278
+2019-09-09 18:09:20,336 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@78ddd601
+2019-09-09 18:09:20,337 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>9D3E69A80272C3B8F4E29D12F492E5A7
+2019-09-09 18:09:20,571 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 18:09:20,599 INFO (AuthorizationInterceptor.java:107)- 加密之前的datestr=2019-09-09&type=4&weektype=1&297e325a66f62bae0166f631b0b2000215680237602781568023760278
+2019-09-09 18:09:20,600 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@78ddd601
+2019-09-09 18:09:20,601 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>9561438891DAA59BD8C82F4105296435
+2019-09-09 18:09:20,635 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 18:09:30,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 18:09:30 CST 2019
+2019-09-09 18:09:40,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 18:09:40 CST 2019
+2019-09-09 18:09:50,000 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 18:09:50 CST 2019
+2019-09-09 19:03:33,030 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on 爱新觉罗的Computer with PID 14616 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-09-09 19:03:33,035 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-09-09 19:03:41,035 INFO (NettyInitial.java:69)- 【服务器启动成功========端口：9800】
+2019-09-09 19:03:42,943 INFO (StartupInfoLogger.java:59)- Started FaceApplication in 10.338 seconds (JVM running for 11.001)
+2019-09-09 19:03:50,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 19:03:50 CST 2019
+2019-09-09 19:04:00,003 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 19:04:00 CST 2019
+2019-09-09 19:04:10,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 19:04:10 CST 2019
+2019-09-09 19:04:20,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 19:04:20 CST 2019
+2019-09-09 19:04:23,776 INFO (AuthorizationInterceptor.java:107)- 加密之前的date=2019-09-10&297e325a66f62bae0166f631b0b2000215680270608291568027060829
+2019-09-09 19:04:23,777 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@4906534e
+2019-09-09 19:04:23,779 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>FE547F6A8F895C20CB8621FDC7FE5BDA
+2019-09-09 19:04:23,821 ERROR (FaceExceptionHandler.java:45)- Failed to convert value of type 'java.lang.String' to required type 'java.util.Date'; nested exception is org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [java.util.Date] for value '2019-09-10'; nested exception is java.lang.IllegalArgumentException
+org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.util.Date'; nested exception is org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [java.util.Date] for value '2019-09-10'; nested exception is java.lang.IllegalArgumentException
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:132)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:126)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:166)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [java.util.Date] for value '2019-09-10'; nested exception is java.lang.IllegalArgumentException
+	at org.springframework.core.convert.support.ObjectToObjectConverter.convert(ObjectToObjectConverter.java:112)
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:40)
+	at org.springframework.core.convert.support.GenericConversionService.convert(GenericConversionService.java:191)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:129)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:73)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:53)
+	at org.springframework.validation.DataBinder.convertIfNecessary(DataBinder.java:693)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:124)
+	... 57 common frames omitted
+Caused by: java.lang.IllegalArgumentException: null
+	at java.util.Date.parse(Unknown Source)
+	at java.util.Date.<init>(Unknown Source)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.springframework.core.convert.support.ObjectToObjectConverter.convert(ObjectToObjectConverter.java:108)
+	... 64 common frames omitted
+2019-09-09 19:04:23,922 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 19:04:30,000 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 19:04:30 CST 2019
+2019-09-09 19:04:40,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 19:04:40 CST 2019
+2019-09-09 19:04:49,868 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on 爱新觉罗的Computer with PID 2332 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-09-09 19:04:49,873 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-09-09 19:04:57,285 INFO (NettyInitial.java:69)- 【服务器启动成功========端口：9800】
+2019-09-09 19:04:58,900 INFO (StartupInfoLogger.java:59)- Started FaceApplication in 9.416 seconds (JVM running for 10.026)
+2019-09-09 19:05:00,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 19:05:00 CST 2019
+2019-09-09 19:05:10,000 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 19:05:10 CST 2019
+2019-09-09 19:05:14,842 INFO (AuthorizationInterceptor.java:107)- 加密之前的date=2019-09-10&297e325a66f62bae0166f631b0b2000215680271114661568027111466
+2019-09-09 19:05:14,843 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@63ce1252
+2019-09-09 19:05:14,846 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>FE396998EB8146AC8CFCF4777B711CBF
+2019-09-09 19:05:14,946 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 19:05:20,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 19:05:20 CST 2019
+2019-09-09 19:06:40,037 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on 爱新觉罗的Computer with PID 17188 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-09-09 19:06:40,040 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-09-09 19:06:47,544 INFO (NettyInitial.java:69)- 【服务器启动成功========端口：9800】
+2019-09-09 19:06:49,155 INFO (StartupInfoLogger.java:59)- Started FaceApplication in 9.522 seconds (JVM running for 10.138)
+2019-09-09 19:06:50,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 19:06:50 CST 2019
+2019-09-09 19:07:00,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 19:07:00 CST 2019
+2019-09-09 19:07:03,115 INFO (AuthorizationInterceptor.java:107)- 加密之前的date=2019-09-09&297e325a66f62bae0166f631b0b2000215680272229361568027222936
+2019-09-09 19:07:03,116 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@3a47a6d
+2019-09-09 19:07:03,118 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>F995525EF8CD7172A3B1C6679A5A518D
+2019-09-09 19:07:03,280 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 19:07:08,626 INFO (AuthorizationInterceptor.java:107)- 加密之前的date=2019-09-09&297e325a66f62bae0166f631b0b2000215680272285941568027228594
+2019-09-09 19:07:08,628 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@3a47a6d
+2019-09-09 19:07:08,628 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>6C1264D5166C292400D52A32F34D2F98
+2019-09-09 19:07:08,632 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 19:07:10,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 19:07:10 CST 2019
+2019-09-09 19:07:20,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 19:07:20 CST 2019
+2019-09-09 19:07:29,859 INFO (AuthorizationInterceptor.java:107)- 加密之前的date=2019-09-09&297e325a66f62bae0166f631b0b2000215680272497971568027249797
+2019-09-09 19:07:29,860 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@3a47a6d
+2019-09-09 19:07:29,861 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>F1BA3365FA7D486B7F3D49FCE69614CB
+2019-09-09 19:07:29,866 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 19:07:30,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 19:07:30 CST 2019
+2019-09-09 19:07:40,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 19:07:40 CST 2019
+2019-09-09 19:07:50,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 19:07:50 CST 2019
+2019-09-09 19:08:00,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 19:08:00 CST 2019
+2019-09-09 19:08:10,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 19:08:10 CST 2019
+2019-09-09 19:08:20,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 19:08:20 CST 2019
+2019-09-09 19:08:30,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 19:08:30 CST 2019
+2019-09-09 19:08:40,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 19:08:40 CST 2019
+2019-09-09 19:08:50,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 19:08:50 CST 2019
+2019-09-09 19:09:00,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 19:09:00 CST 2019
+2019-09-09 19:09:10,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 19:09:10 CST 2019
+2019-09-09 19:09:20,003 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 19:09:20 CST 2019
+2019-09-09 19:09:30,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 19:09:30 CST 2019
+2019-09-09 19:09:40,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 19:09:40 CST 2019
+2019-09-09 19:09:50,003 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 19:09:50 CST 2019
+2019-09-09 19:10:00,000 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 19:10:00 CST 2019
+2019-09-09 19:10:10,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 19:10:10 CST 2019
+2019-09-09 19:10:13,784 INFO (AuthorizationInterceptor.java:107)- 加密之前的date=2019-09-09&297e325a66f62bae0166f631b0b2000215680274137311568027413731
+2019-09-09 19:10:13,785 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@3a47a6d
+2019-09-09 19:10:13,786 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>C68A993A0800E767FFC21A0B02678D8C
+2019-09-09 19:10:13,790 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 19:10:20,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 19:10:20 CST 2019
+2019-09-09 19:10:30,003 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 19:10:30 CST 2019
+2019-09-09 19:10:37,427 INFO (AuthorizationInterceptor.java:107)- 加密之前的date=2019-09-09&297e325a66f62bae0166f631b0b2000215680274373741568027437374
+2019-09-09 19:10:37,428 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@3a47a6d
+2019-09-09 19:10:37,428 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>3BFFAE7F85740B8D6D0845FD15847943
+2019-09-09 19:10:37,432 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 19:10:40,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 19:10:40 CST 2019
+2019-09-09 19:39:18,261 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on 爱新觉罗的Computer with PID 19952 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-09-09 19:39:18,267 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-09-09 19:39:28,355 INFO (NettyInitial.java:69)- 【服务器启动成功========端口：9800】
+2019-09-09 19:39:30,364 INFO (StartupInfoLogger.java:59)- Started FaceApplication in 12.537 seconds (JVM running for 13.341)
+2019-09-09 19:39:38,045 INFO (AuthorizationInterceptor.java:107)- 加密之前的date=2019-09-09&297e325a66f62bae0166f631b0b2000215680291778011568029177801
+2019-09-09 19:39:38,046 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@23bd867f
+2019-09-09 19:39:38,049 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>DE6D9003FB7CCB8BC4A14142521A4A25
+2019-09-09 19:39:40,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 19:39:40 CST 2019
+2019-09-09 19:39:50,000 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 19:39:50 CST 2019
+2019-09-09 19:40:00,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 19:40:00 CST 2019
+2019-09-09 19:40:10,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 19:40:10 CST 2019
+2019-09-09 19:40:20,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 19:40:20 CST 2019
+2019-09-09 19:40:41,715 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on 爱新觉罗的Computer with PID 21920 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-09-09 19:40:41,721 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-09-09 19:40:51,509 INFO (NettyInitial.java:69)- 【服务器启动成功========端口：9800】
+2019-09-09 19:40:53,933 INFO (StartupInfoLogger.java:59)- Started FaceApplication in 12.681 seconds (JVM running for 13.58)
+2019-09-09 19:41:00,003 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 19:41:00 CST 2019
+2019-09-09 19:41:00,042 INFO (AuthorizationInterceptor.java:107)- 加密之前的date=2019-09-09&297e325a66f62bae0166f631b0b2000215680292597761568029259776
+2019-09-09 19:41:00,042 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@1d8ff7f9
+2019-09-09 19:41:00,044 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>47AC80FB38997188EACEE14057D3EF34
+2019-09-09 19:41:10,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 19:41:10 CST 2019
+2019-09-09 19:41:20,000 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 19:41:20 CST 2019
+2019-09-09 19:41:30,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 19:41:30 CST 2019
+2019-09-09 19:41:40,000 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 19:41:40 CST 2019
+2019-09-09 19:41:50,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 19:41:50 CST 2019
+2019-09-09 19:41:50,698 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 19:41:58,520 INFO (AuthorizationInterceptor.java:107)- 加密之前的date=2019-09-09&297e325a66f62bae0166f631b0b2000215680293184741568029318474
+2019-09-09 19:41:58,521 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@1d8ff7f9
+2019-09-09 19:41:58,522 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>650D46873AC44475A0851CEEAC5C62C7
+2019-09-09 19:42:00,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 19:42:00 CST 2019
+2019-09-09 19:42:10,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 19:42:10 CST 2019
+2019-09-09 19:42:11,455 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 19:42:14,521 INFO (AuthorizationInterceptor.java:107)- 加密之前的date=2019-09-09&297e325a66f62bae0166f631b0b2000215680293344591568029334459
+2019-09-09 19:42:14,522 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@1d8ff7f9
+2019-09-09 19:42:14,523 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>6547C45804F79BCF1685AD2CB244703B
+2019-09-09 19:42:20,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 19:42:20 CST 2019
+2019-09-09 19:42:30,441 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on 爱新觉罗的Computer with PID 21408 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-09-09 19:42:30,447 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-09-09 19:42:38,907 INFO (NettyInitial.java:69)- 【服务器启动成功========端口：9800】
+2019-09-09 19:42:40,776 INFO (StartupInfoLogger.java:59)- Started FaceApplication in 10.776 seconds (JVM running for 11.543)
+2019-09-09 19:42:50,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 19:42:50 CST 2019
+2019-09-09 19:42:55,046 INFO (AuthorizationInterceptor.java:107)- 加密之前的date=2019-09-09&297e325a66f62bae0166f631b0b2000215680293748761568029374876
+2019-09-09 19:42:55,047 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@370e8bca
+2019-09-09 19:42:55,049 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>29DD94053645564007B34B7613A2A8B1
+2019-09-09 19:43:00,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 19:43:00 CST 2019
+2019-09-09 19:43:10,002 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 19:43:10 CST 2019
+2019-09-09 19:43:20,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 19:43:20 CST 2019
+2019-09-09 19:43:29,469 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-09 19:43:30,001 INFO (TrafficStatisticsSchedule.java:107)- 调用！！！！！！！！！！！！！！Mon Sep 09 19:43:30 CST 2019

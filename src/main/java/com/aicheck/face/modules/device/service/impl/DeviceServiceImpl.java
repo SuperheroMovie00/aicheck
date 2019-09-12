@@ -170,5 +170,11 @@ public class DeviceServiceImpl implements DeviceService {
         return deviceRepository.findAllByformacaddress(mac_address);
     }
 
+	@Override
+	public int deletedevice() {
+		// TODO Auto-generated method stub
+		return deviceRepository.deletedevice();
+	}
+
 
 }

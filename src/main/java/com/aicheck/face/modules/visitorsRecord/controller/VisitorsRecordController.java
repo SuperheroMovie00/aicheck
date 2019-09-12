@@ -16,8 +16,11 @@ import com.aicheck.face.modules.nettyPush.Message;
 import com.aicheck.face.modules.nettyPush.MessageTypeEnum;
 import com.aicheck.face.modules.sync.entity.sync;
 import com.aicheck.face.modules.sync.service.syncService;
+import com.aicheck.face.modules.visitorsRecord.entity.Video;
+import com.aicheck.face.modules.visitorsRecord.entity.Videostatistic;
 import com.aicheck.face.modules.visitorsRecord.entity.VisitorsRecord;
 import com.aicheck.face.modules.visitorsRecord.entity.VisitorsRecordForm;
+import com.aicheck.face.modules.visitorsRecord.service.VideoService;
 import com.aicheck.face.modules.visitorsRecord.service.VisitorsRecordService;
 import com.aicheck.face.vo.R;
 import io.netty.handler.codec.http.websocketx.TextWebSocketFrame;
@@ -28,6 +31,8 @@ import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.HashMap;
@@ -52,6 +57,8 @@ public class VisitorsRecordController {
 	private DeviceService deviceService;
 	@Autowired
 	private CustomerService customerService;
+	@Autowired
+	private VideoService videoservice;
 
 	@GetMapping
 	public R findAllList() {
@@ -193,6 +200,51 @@ public class VisitorsRecordController {
         
         return R.ok(json);
 	}
+	
+	
+	
+	@PostMapping("/videoday")
+	public R videoday(String date) throws ParseException {
+		JSONObject json = null;
+		//VideoStatistic demo = new VideoStatistic();
+    	//demo.InitTest();
+		SimpleDateFormat simpleDateFormat=new SimpleDateFormat("yyyy-MM-dd");
+		Date date2=simpleDateFormat.parse(date);
+		//查询创建时间包含当前时间的记录
+		Video video=videoservice.findvideo(date);
+		Map<String, Integer> map=new HashMap<>();
+		if(video==null) {
+			//说明没有记录.进行统计统计
+			int dates=0;
+			for(int l=1;l<24;l++) {
+        		Date cccdata=date2;
+        		Calendar calendar = Calendar.getInstance();
+                calendar.setTime(cccdata);
+                calendar.set(Calendar.HOUR_OF_DAY, 0);
+                
+                Calendar calendar2 = Calendar.getInstance();
+                calendar2.setTime(cccdata);
+                calendar2.set(Calendar.HOUR_OF_DAY, 0);
+                
+                calendar.set(Calendar.HOUR_OF_DAY, calendar.get(Calendar.HOUR_OF_DAY) + l);
+                calendar2.set(Calendar.HOUR_OF_DAY, calendar2.get(Calendar.HOUR_OF_DAY) + l + 1);
+                
+                Map<String, Integer> cMap = VideoStatistic.startFindNumberStatrewrite(calendar.getTime(), calendar2.getTime(), 1);
+        		
+                dates++;
+        		}
+			
+		}
+		
+		
+		
+		return R.ok();
+	}
+	
+	
+	
+	
+	
 	
 	
 

@@ -82,12 +82,19 @@ public class DeviceController {
     	return R.ok(device);	
     }
     
+    
+    @PostMapping("/ccc")
+    public R ccc(@RequestBody @Valid DeviceForm deviceForm, HttpServletRequest request) {
+    	
+    	System.out.println(deviceForm);
+    	return R.ok();
+    }
+    
   
-    @PostMapping
+    @PostMapping("/sdevice")
     public R save(@RequestBody @Valid DeviceForm deviceForm, HttpServletRequest request) {
 
        // Device device = deviceService.findByMacAddress(deviceForm.getMacAddress()); //查询出
-
     	/**
     	 * 新修改的查询方法=》根据吗，mac地址以及条件平台为传入的平台
     	 */
@@ -193,6 +200,19 @@ public class DeviceController {
             }
         });
         return R.ok();
+    }
+    
+    
+    
+    @PostMapping("/deletedevice")
+    public R deletedevice() {
+    	
+    	int r =deviceService.deletedevice();
+    	if(r>0) {
+    		return R.ok();
+    	}else {
+    		return R.error();
+    	}
     }
 
 

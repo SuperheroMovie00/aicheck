@@ -10,117 +10,81 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e443ab1d-254e-461d-b34a-84827a41395b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/libs/camera.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/libs/device.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/libs/examples.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/libs/jna.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/libs/win64/ImageAlg.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/libs/win64/Infra.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/libs/win64/IvsDrawer.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/libs/win64/Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/libs/win64/NetFramework.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/libs/win64/Stream.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/libs/win64/StreamSvr.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/libs/win64/avnetsdk.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/libs/win64/dhconfigsdk.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/libs/win64/dhnetsdk.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/libs/win64/dhplay.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/libs/win64/fisheye.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/libs/win64/libcurl.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/libs/win64/libeay32.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/libs/win64/ssleay32.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/sys.2019-08-07.0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/sys.2019-08-08.0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/sys.2019-08-09.0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/sys.2019-08-16.0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/system/entity/SystemParameter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/system/repository/SystemParameterRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/system/service/SystemParameterService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/system/service/impl/SystemParameterServiceimpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/visitorsRecord/entity/Videostatistic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/visitorsRecord/repository/VideostatisticRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/visitorsRecord/service/VideostatisticService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/visitorsRecord/service/impl/VideostatisticServiceimpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/detest/entity/Detest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/detest/repository/DetestRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/detest/service/DetestService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/detest/service/impl/DetestServiceimpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/system/entity/SystemParameter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/system/repository/SystemParameterRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/system/service/SystemParameterService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/system/service/impl/SystemParameterServiceimpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/visitorsRecord/entity/Videostatistic.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/visitorsRecord/repository/VideostatisticRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/visitorsRecord/service/VideostatisticService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/visitorsRecord/service/impl/VideostatisticServiceimpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.aicheck.face.FaceApplicationTests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/com.aicheck.face.FaceApplicationTests.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/sys.2019-07-12.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/sys.2019-07-13.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/sys.2019-07-17.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/sys.2019-07-18.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/sys.2019-07-19.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/libs/camera.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/libs/device.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/libs/examples.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/libs/jna.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/libs/win64/ImageAlg.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/libs/win64/Infra.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/libs/win64/IvsDrawer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/libs/win64/Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/libs/win64/NetFramework.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/libs/win64/Stream.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/libs/win64/StreamSvr.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/libs/win64/avnetsdk.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/libs/win64/dhconfigsdk.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/libs/win64/dhnetsdk.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/libs/win64/dhplay.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/libs/win64/fisheye.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/libs/win64/libcurl.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/libs/win64/libeay32.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/libs/win64/ssleay32.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/sys.2019-07-22.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/sys.2019-07-23.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/sys.2019-07-24.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/sys.2019-07-26.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/sys.2019-07-29.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/sys.2019-07-30.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/sys.2019-07-31.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/sys.2019-08-01.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/sys.2019-08-05.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/sys.2019-08-06.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/sys.2019-08-07.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/sys.2019-08-08.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/sys.2019-08-09.0.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/log/sys.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/sys.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/FaceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/FaceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/common/interceptor/AuthorizationInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/common/interceptor/AuthorizationInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/common/utils/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/common/utils/FileUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/advertisingImages/controller/ImageGroupController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/advertisingImages/controller/ImageGroupController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/customer/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/customer/controller/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/customer/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/customer/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/sms/DefaultSmsSenderImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/sms/DefaultSmsSenderImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/advertisingImages/repository/ImageGroupRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/advertisingImages/repository/ImageGroupRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/device/controller/DeviceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/device/controller/DeviceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/device/controller/relevanceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/device/controller/relevanceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/device/repository/DeviceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/device/repository/DeviceRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/device/service/DeviceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/device/service/DeviceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/device/service/impl/DeviceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/device/service/impl/DeviceServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/nettyPush/NettyServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/nettyPush/NettyServerHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/statistical/controller/StatisticalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/statistical/controller/StatisticalController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/trafficStatistics/schedule/TrafficStatisticsSchedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/trafficStatistics/schedule/TrafficStatisticsSchedule.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/visitorsRecord/controller/VisitorsRecordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/visitorsRecord/controller/VisitorsRecordController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/vo/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/vo/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/visitorsRecord/entity/Videostatistic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/visitorsRecord/entity/Videostatistic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/visitorsRecord/repository/VideostatisticRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/visitorsRecord/repository/VideostatisticRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/visitorsRecord/service/VideostatisticService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/visitorsRecord/service/VideostatisticService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/visitorsRecord/service/impl/VideostatisticServiceimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/visitorsRecord/service/impl/VideostatisticServiceimpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/netsdk/demo/VideoStatistic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/netsdk/demo/VideoStatistic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/netsdk/demo/frame/DownLoadRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/netsdk/demo/frame/DownLoadRecord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/netsdk/demo/frame/ThermalCamera/TemperQueryDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/netsdk/demo/frame/ThermalCamera/TemperQueryDialog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/netsdk/demo/frame/TrafficEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/netsdk/demo/frame/TrafficEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/netsdk/demo/module/AlarmListenModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/netsdk/demo/module/AlarmListenModule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/netsdk/demo/module/FaceRecognitionModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/netsdk/demo/module/FaceRecognitionModule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/netsdk/lib/NativeString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/netsdk/lib/NativeString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/netsdk/lib/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/netsdk/lib/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/aicheck-face-master.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/FaceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/FaceApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/advertisingImages/controller/AdvertisingImagesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/advertisingImages/controller/AdvertisingImagesController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/customer/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/customer/controller/CustomerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/detest/controller/DetestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/detest/controller/DetestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/common/interceptor/AuthorizationInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/common/interceptor/AuthorizationInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/advertisingImages/repository/ImageGroupRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/advertisingImages/repository/ImageGroupRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/device/controller/DeviceController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/device/controller/DeviceController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/device/repository/DeviceRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/device/repository/DeviceRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/device/service/DeviceService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/device/service/DeviceService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/device/service/impl/DeviceServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/device/service/impl/DeviceServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/nettyPush/NettyServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/nettyPush/NettyServerHandler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/statistical/controller/StatisticalController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/statistical/controller/StatisticalController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/trafficStatistics/schedule/TrafficStatisticsSchedule.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/trafficStatistics/schedule/TrafficStatisticsSchedule.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/visitorsRecord/controller/VisitorsRecordController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/visitorsRecord/controller/VisitorsRecordController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/vo/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/vo/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/vo/VideoStatistic$DisconnectCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/vo/VideoStatistic$DisconnectCallback.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/vo/VideoStatistic$HaveReconnectCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/vo/VideoStatistic$HaveReconnectCallback.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/vo/VideoStatistic$VideoStatSumCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/vo/VideoStatistic$VideoStatSumCallback.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/vo/VideoStatistic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/vo/VideoStatistic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/visitorsRecord/entity/Videostatistic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/visitorsRecord/entity/Videostatistic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/visitorsRecord/repository/VideostatisticRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/visitorsRecord/repository/VideostatisticRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/visitorsRecord/service/VideostatisticService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/visitorsRecord/service/VideostatisticService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/visitorsRecord/service/impl/VideostatisticServiceimpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aicheck/face/modules/visitorsRecord/service/impl/VideostatisticServiceimpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/netsdk/demo/VideoStatistic$DisconnectCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/netsdk/demo/VideoStatistic$DisconnectCallback.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/netsdk/demo/VideoStatistic$HaveReconnectCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/netsdk/demo/VideoStatistic$HaveReconnectCallback.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/netsdk/demo/VideoStatistic$VideoStatSumCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/netsdk/demo/VideoStatistic$VideoStatSumCallback.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/netsdk/demo/VideoStatistic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/netsdk/demo/VideoStatistic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/netsdk/demo/frame/AlarmListenFrame$ShowAlarmEventPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/netsdk/demo/frame/AlarmListenFrame$ShowAlarmEventPanel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/netsdk/demo/frame/Attendance/AttendanceShowPanel$EventInfoShowPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/netsdk/demo/frame/Attendance/AttendanceShowPanel$EventInfoShowPanel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/netsdk/demo/frame/Attendance/AttendanceShowPanel$UserInfoShowPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/netsdk/demo/frame/Attendance/AttendanceShowPanel$UserInfoShowPanel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/netsdk/demo/frame/Attendance/AttendanceShowPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/netsdk/demo/frame/Attendance/AttendanceShowPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/netsdk/demo/frame/Attendance/OperateByUserIdDialog$FingerPrintShowPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/netsdk/demo/frame/Attendance/OperateByUserIdDialog$FingerPrintShowPanel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/netsdk/demo/frame/DeviceSearchAndInitFrame$DeviceSearchResultShowListPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/netsdk/demo/frame/DeviceSearchAndInitFrame$DeviceSearchResultShowListPanel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/netsdk/demo/frame/DownLoadRecordFrame$DownLoadByFilePanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/netsdk/demo/frame/DownLoadRecordFrame$DownLoadByFilePanel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/netsdk/demo/frame/FaceRecognition/DispositionOperateDialog$DispositionListPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/netsdk/demo/frame/FaceRecognition/DispositionOperateDialog$DispositionListPanel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/netsdk/demo/frame/FaceRecognition/GroupOperateDialog$GroupListPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/netsdk/demo/frame/FaceRecognition/GroupOperateDialog$GroupListPanel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/netsdk/demo/frame/FaceRecognition/PersonOperateDialog$PersonInfoListPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/netsdk/demo/frame/FaceRecognition/PersonOperateDialog$PersonInfoListPanel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/netsdk/demo/frame/Gate/CardManegerDialog$CardListPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/netsdk/demo/frame/Gate/CardManegerDialog$CardListPanel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/netsdk/demo/frame/ThermalCamera/TemperQueryDialog$QueryShowPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/netsdk/demo/frame/ThermalCamera/TemperQueryDialog$QueryShowPanel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/netsdk/demo/frame/TrafficEventFrame$MessagePanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/netsdk/demo/frame/TrafficEventFrame$MessagePanel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/netsdk/demo/util/Base64Util$Decoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/netsdk/demo/util/Base64Util$Decoder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/netsdk/demo/util/Base64Util$Encoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/netsdk/demo/util/Base64Util$Encoder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/netsdk/lib/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/netsdk/lib/Utils.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/face-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/face-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/aicheck/face/FaceApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/aicheck/face/FaceApplicationTests.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -155,8 +119,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/statistical/controller/StatisticalController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11594">
-              <caret line="556" column="71" selection-start-line="556" selection-start-column="71" selection-end-line="556" selection-end-column="71" />
+            <state relative-caret-position="13750">
+              <caret line="654" column="41" selection-start-line="654" selection-start-column="41" selection-end-line="654" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -167,8 +131,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/trafficStatistics/schedule/TrafficStatisticsSchedule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4312">
-              <caret line="252" column="9" selection-start-line="252" selection-start-column="9" selection-end-line="252" selection-end-column="9" />
+            <state relative-caret-position="3916">
+              <caret line="234" column="10" selection-start-line="234" selection-start-column="10" selection-end-line="234" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/netsdk/lib/Utils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1782">
+              <caret line="83" column="42" selection-start-line="83" selection-start-column="42" selection-end-line="83" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -177,13 +153,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/netsdk/lib/Utils.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="64" column="8" lean-forward="true" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="264">
+              <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/visitorsRecord/controller/CarstatisticsController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2266">
+              <caret line="129" column="15" selection-start-line="129" selection-start-column="15" selection-end-line="129" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -251,7 +233,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/vo/VideoStatistic.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/netsdk/lib/NetSDKLib.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/testtable/entity/testtable.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/testtable/repository/TesttablerRepository.java" />
@@ -301,6 +282,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/visitorsRecord/repository/VideostatisticRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/FaceApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/netsdk/lib/Utils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/visitorsRecord/controller/CarstatisticsController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
       </list>
     </option>
@@ -382,7 +364,67 @@
               <item name="aicheck-face-master" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="aicheck" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="face" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aicheck-face-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="aicheck" type="462c0819:PsiDirectoryNode" />
+              <item name="face" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="face" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aicheck-face-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="aicheck" type="462c0819:PsiDirectoryNode" />
+              <item name="face" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="face" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aicheck-face-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="aicheck" type="462c0819:PsiDirectoryNode" />
+              <item name="face" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="visitorsRecord" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="face" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aicheck-face-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="aicheck" type="462c0819:PsiDirectoryNode" />
+              <item name="face" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="visitorsRecord" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="face" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aicheck-face-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="face" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aicheck-face-master" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -705,7 +747,18 @@
       <workItem from="1565316284871" duration="7238000" />
       <workItem from="1565609613103" duration="43000" />
       <workItem from="1565944630176" duration="9406000" />
-      <workItem from="1566180961696" duration="4995000" />
+      <workItem from="1566180961696" duration="5742000" />
+      <workItem from="1566215015539" duration="757000" />
+      <workItem from="1566286532811" duration="1539000" />
+      <workItem from="1566469211825" duration="359000" />
+      <workItem from="1566469775628" duration="594000" />
+      <workItem from="1566526183510" duration="12000" />
+      <workItem from="1566529718538" duration="7000" />
+      <workItem from="1567565428207" duration="3251000" />
+      <workItem from="1567654020997" duration="2909000" />
+      <workItem from="1568009633477" duration="5501000" />
+      <workItem from="1568097248978" duration="2463000" />
+      <workItem from="1568277024009" duration="1307000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1563507774126</created>
@@ -791,11 +844,18 @@
       <option name="project" value="LOCAL" />
       <updated>1565168185232</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="2019-8-19 下午 修复">
+      <created>1566198523702</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1566198523702</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="426375000" />
+    <option name="totallyTimeSpent" value="445821000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -808,8 +868,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.22252011" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.18632708" />
       <window_info id="Structure" order="1" sideWeight="0.50141644" side_tool="true" weight="0.26407507" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -819,7 +880,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32765958" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.19432624" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.19716312" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.18297872" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -863,17 +924,12 @@
     <MESSAGE value="2019-7-30 上午 更新" />
     <MESSAGE value="2019-8-1 上午 修复image_group" />
     <MESSAGE value="2019-8-7 上午 修复" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019-8-7 上午 修复" />
+    <MESSAGE value="2019-8-19 下午 修复" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019-8-19 下午 修复" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/trafficStatistics/schedule/TrafficStatisticsSchedule.java</url>
-          <line>248</line>
-          <properties />
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/net/java/dev/jna/jna/3.4.0/jna-3.4.0.jar!/com/sun/jna/Native.class</url>
           <line>201</line>
@@ -956,7 +1012,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/test/entity/Test.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/test/service/impl/TestServiceimpl.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/customer/controller/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1217,16 +1272,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/vo/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="51" column="34" lean-forward="true" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/netsdk/demo/VideoStatistic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -1321,10 +1366,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/vo/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/statistical/controller/StatisticalController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11594">
-          <caret line="556" column="71" selection-start-line="556" selection-start-column="71" selection-end-line="556" selection-end-column="71" />
+        <state relative-caret-position="13750">
+          <caret line="654" column="41" selection-start-line="654" selection-start-column="41" selection-end-line="654" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1333,11 +1388,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/trafficStatistics/schedule/TrafficStatisticsSchedule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4312">
-          <caret line="252" column="9" selection-start-line="252" selection-start-column="9" selection-end-line="252" selection-end-column="9" />
+        <state relative-caret-position="3916">
+          <caret line="234" column="10" selection-start-line="234" selection-start-column="10" selection-end-line="234" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/netsdk/lib/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1782">
+          <caret line="83" column="42" selection-start-line="83" selection-start-column="42" selection-end-line="83" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aicheck/face/modules/visitorsRecord/controller/CarstatisticsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2266">
+          <caret line="129" column="15" selection-start-line="129" selection-start-column="15" selection-end-line="129" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -1350,18 +1422,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/netsdk/lib/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="64" column="8" lean-forward="true" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="264">
+          <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -1387,7 +1449,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1429,10 +1490,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
+          <last-edited>aicheck-face-master</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

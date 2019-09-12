@@ -6,7 +6,9 @@ package com.aicheck.face.modules.device.repository;
 import com.aicheck.face.modules.device.entity.Device;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
+import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
@@ -64,5 +66,11 @@ public interface DeviceRepository extends JpaRepository<Device,Integer>,JpaSpeci
     
     @Query(value ="select *from device where platform=?1 and mac_address=?2",nativeQuery = true)
 	Device finddeviceforplatformandmacaddress(String platform ,String macaddress);
+    
+    @Modifying
+    @Transactional
+	@Query(value = "delete FROM device", nativeQuery = true)
+    int deletedevice();
+    
     
 }

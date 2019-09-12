@@ -44,5 +44,7 @@ public interface DeviceService extends BaseService<Device,Integer> {
 
     Device findAllByformacaddress(String mac_address);
     
+    int deletedevice();
+    
 
 }

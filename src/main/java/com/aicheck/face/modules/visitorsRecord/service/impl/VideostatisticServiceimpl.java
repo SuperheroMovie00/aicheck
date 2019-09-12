@@ -85,4 +85,10 @@ public class VideostatisticServiceimpl implements VideostatisticService {
     public int  deletevideostatistic(String datestr, String type) {
         return videostatisticRepository.deletevideostatistic(datestr,type);
     }
+
+	@Override
+	public Videostatistic findvideostatisicfordate(String date) {
+		// TODO Auto-generated method stub
+		return videostatisticRepository.findvideostatisicfordate(date);
+	}
 }

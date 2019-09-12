@@ -1,6 +1,5 @@
 package com.netsdk.demo;
 
-import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.HashMap;
@@ -276,18 +275,18 @@ public class VideoStatistic {
 
 		// 开始时间
 		inParam.stStartTime.dwYear = 2019;
-		inParam.stStartTime.dwMonth = 8;
-		inParam.stStartTime.dwDay = 6;
-		inParam.stStartTime.dwHour = 19;
+		inParam.stStartTime.dwMonth = 9;
+		inParam.stStartTime.dwDay = 5;
+		inParam.stStartTime.dwHour = 20;
 
 		// 结束时间
 		inParam.stEndTime.dwYear = 2019;
-		inParam.stEndTime.dwMonth = 8;
-		inParam.stEndTime.dwDay = 6;
-		inParam.stEndTime.dwHour = 19;
+		inParam.stEndTime.dwMonth = 9;
+		inParam.stEndTime.dwDay = 5;
+		inParam.stEndTime.dwHour = 21;
 
 		// 颗粒度
-		inParam.nGranularityType = 4;
+		inParam.nGranularityType = 1;
 		// 接口超时时间5s
 		inParam.nWaittime = 5000;
 		

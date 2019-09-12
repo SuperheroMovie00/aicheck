@@ -65,7 +65,9 @@ public class Utils {
 		
 		return osName;
     }
-    
+
+
+
     // 获取加载库
 	public static String getLoadLibrary(String library) {
 		if (isChecking()) {
@@ -75,13 +77,11 @@ public class Utils {
 		String loadLibrary = "";
 		String osPrefix = getOsPrefix();
 
-		File targetFile = new File("./libs/win64/");
 
 		if(osPrefix.toLowerCase().startsWith("win32-x86")) {
 			loadLibrary = "./libs/win32/";
 		} else if(osPrefix.toLowerCase().startsWith("win32-amd64") ) {
 			loadLibrary = "./libs/win64/";
-
 		} else if(osPrefix.toLowerCase().startsWith("linux-i386")) {
 			loadLibrary = "";
 		}else if(osPrefix.toLowerCase().startsWith("linux-amd64")) {

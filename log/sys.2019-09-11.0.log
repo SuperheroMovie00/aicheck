@@ -1,0 +1,216 @@
+2019-09-11 15:04:10,388 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on 爱新觉罗的Computer with PID 18552 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-09-11 15:04:10,399 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-09-11 15:04:19,548 INFO (NettyInitial.java:69)- 【服务器启动成功========端口：9800】
+2019-09-11 15:04:21,314 INFO (StartupInfoLogger.java:59)- Started FaceApplication in 11.519 seconds (JVM running for 12.37)
+2019-09-11 15:04:30,002 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Wed Sep 11 15:04:30 CST 2019
+2019-09-11 15:04:40,001 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Wed Sep 11 15:04:40 CST 2019
+2019-09-11 15:06:42,614 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on 爱新觉罗的Computer with PID 15724 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-09-11 15:06:42,620 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-09-11 15:06:50,630 INFO (NettyInitial.java:69)- 【服务器启动成功========端口：9800】
+2019-09-11 15:06:52,431 INFO (StartupInfoLogger.java:59)- Started FaceApplication in 10.274 seconds (JVM running for 10.894)
+2019-09-11 15:07:03,285 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Wed Sep 11 15:07:03 CST 2019
+2019-09-11 15:08:22,771 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on 爱新觉罗的Computer with PID 8472 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-09-11 15:08:22,776 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-09-11 15:08:30,436 INFO (NettyInitial.java:69)- 【服务器启动成功========端口：9800】
+2019-09-11 15:08:32,105 INFO (StartupInfoLogger.java:59)- Started FaceApplication in 9.719 seconds (JVM running for 10.348)
+2019-09-11 15:08:43,246 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Wed Sep 11 15:08:43 CST 2019
+2019-09-11 15:12:16,696 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on 爱新觉罗的Computer with PID 17936 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-09-11 15:12:16,701 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-09-11 15:12:26,746 INFO (NettyInitial.java:69)- 【服务器启动成功========端口：9800】
+2019-09-11 15:12:29,669 INFO (StartupInfoLogger.java:59)- Started FaceApplication in 13.363 seconds (JVM running for 14.003)
+2019-09-11 15:12:30,010 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Wed Sep 11 15:12:30 CST 2019
+2019-09-11 15:12:40,002 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Wed Sep 11 15:12:40 CST 2019
+2019-09-11 15:12:50,002 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Wed Sep 11 15:12:50 CST 2019
+2019-09-11 15:12:52,401 INFO (AuthorizationInterceptor.java:107)- 加密之前的dates=2019-09-11&type=1&297e325a66f62bae0166f631b0b2000215681859721181568185972118
+2019-09-11 15:12:52,402 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@537dd60e
+2019-09-11 15:12:52,405 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>CF758FCF031BEA182BACA9A868E1436A
+2019-09-11 15:12:55,006 ERROR (FaceExceptionHandler.java:45)- null
+java.lang.NullPointerException: null
+	at com.aicheck.face.modules.statistical.controller.StatisticalController.videoStatistic(StatisticalController.java:384)
+	at com.aicheck.face.modules.statistical.controller.StatisticalController$$FastClassBySpringCGLIB$$815462d5.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at com.alibaba.druid.support.spring.stat.DruidStatInterceptor.invoke(DruidStatInterceptor.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.aicheck.face.modules.statistical.controller.StatisticalController$$EnhancerBySpringCGLIB$$29917025.videoStatistic(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2019-09-11 15:12:55,083 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-11 15:13:00,001 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Wed Sep 11 15:13:00 CST 2019
+2019-09-11 15:13:10,001 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Wed Sep 11 15:13:10 CST 2019
+2019-09-11 15:15:26,446 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on 爱新觉罗的Computer with PID 4528 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-09-11 15:15:26,450 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-09-11 15:15:34,334 INFO (NettyInitial.java:69)- 【服务器启动成功========端口：9800】
+2019-09-11 15:15:36,060 INFO (StartupInfoLogger.java:59)- Started FaceApplication in 10.01 seconds (JVM running for 10.653)
+2019-09-11 15:15:40,002 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Wed Sep 11 15:15:40 CST 2019
+2019-09-11 15:15:46,758 INFO (AuthorizationInterceptor.java:107)- 加密之前的dates=2019-09-11&type=1&297e325a66f62bae0166f631b0b2000215681861465841568186146584
+2019-09-11 15:15:46,759 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@37b065c4
+2019-09-11 15:15:46,761 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>316FE4CE45CE281DACF2C83E9668573A
+2019-09-11 15:15:49,124 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-11 15:15:50,001 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Wed Sep 11 15:15:50 CST 2019
+2019-09-11 15:15:54,658 INFO (AuthorizationInterceptor.java:107)- 加密之前的dates=2019-09-11&type=1&297e325a66f62bae0166f631b0b2000215681861545281568186154528
+2019-09-11 15:15:54,660 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@37b065c4
+2019-09-11 15:15:54,660 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>FC84F7D23E6BBF48C485508AE983A7F8
+2019-09-11 15:15:56,196 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-11 15:16:00,002 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Wed Sep 11 15:16:00 CST 2019
+2019-09-11 15:16:10,002 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Wed Sep 11 15:16:10 CST 2019
+2019-09-11 15:16:15,218 INFO (AuthorizationInterceptor.java:107)- 加密之前的dates=2019-09-11&type=1&297e325a66f62bae0166f631b0b2000215681861751501568186175150
+2019-09-11 15:16:15,218 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@37b065c4
+2019-09-11 15:16:15,219 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>0EE296F7DF3A12EAA9B7BED4F223CEC6
+2019-09-11 15:16:16,757 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-11 15:16:20,001 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Wed Sep 11 15:16:20 CST 2019
+2019-09-11 15:16:29,673 INFO (AuthorizationInterceptor.java:107)- 加密之前的dates=2019-09-11&type=1&297e325a66f62bae0166f631b0b2000215681861896231568186189623
+2019-09-11 15:16:29,675 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@37b065c4
+2019-09-11 15:16:29,676 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>7245F2426A6B95DFA32C6B36E0093642
+2019-09-11 15:16:30,001 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Wed Sep 11 15:16:30 CST 2019
+2019-09-11 15:16:31,212 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-11 15:16:40,002 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Wed Sep 11 15:16:40 CST 2019
+2019-09-11 15:16:50,001 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Wed Sep 11 15:16:50 CST 2019
+2019-09-11 15:16:56,074 INFO (AuthorizationInterceptor.java:107)- 加密之前的dates=2019-09-11&type=1&297e325a66f62bae0166f631b0b2000215681862160241568186216024
+2019-09-11 15:16:56,075 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@37b065c4
+2019-09-11 15:16:56,076 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>A39D507DB8C03F61A4E70A7472A81B84
+2019-09-11 15:16:57,612 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-11 15:17:00,002 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Wed Sep 11 15:17:00 CST 2019
+2019-09-11 15:17:10,001 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Wed Sep 11 15:17:10 CST 2019
+2019-09-11 15:17:20,001 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Wed Sep 11 15:17:20 CST 2019
+2019-09-11 15:17:30,002 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Wed Sep 11 15:17:30 CST 2019
+2019-09-11 15:17:40,001 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Wed Sep 11 15:17:40 CST 2019
+2019-09-11 15:17:50,002 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Wed Sep 11 15:17:50 CST 2019
+2019-09-11 15:18:00,001 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Wed Sep 11 15:18:00 CST 2019
+2019-09-11 15:18:10,002 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Wed Sep 11 15:18:10 CST 2019
+2019-09-11 15:18:20,002 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Wed Sep 11 15:18:20 CST 2019
+2019-09-11 15:18:30,001 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Wed Sep 11 15:18:30 CST 2019
+2019-09-11 15:18:40,000 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Wed Sep 11 15:18:40 CST 2019
+2019-09-11 15:19:24,462 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on 爱新觉罗的Computer with PID 11964 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-09-11 15:19:24,466 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-09-11 15:20:01,443 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on 爱新觉罗的Computer with PID 5512 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-09-11 15:20:01,447 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-09-11 15:20:09,430 INFO (NettyInitial.java:69)- 【服务器启动成功========端口：9800】
+2019-09-11 15:20:11,181 INFO (StartupInfoLogger.java:59)- Started FaceApplication in 10.144 seconds (JVM running for 10.849)
+2019-09-11 15:20:20,002 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Wed Sep 11 15:20:20 CST 2019
+2019-09-11 15:20:44,586 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on 爱新觉罗的Computer with PID 6192 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-09-11 15:20:44,590 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-09-11 15:20:53,126 INFO (NettyInitial.java:69)- 【服务器启动成功========端口：9800】
+2019-09-11 15:20:55,255 INFO (StartupInfoLogger.java:59)- Started FaceApplication in 11.065 seconds (JVM running for 11.737)
+2019-09-11 15:20:58,351 INFO (AuthorizationInterceptor.java:107)- 加密之前的dates=2019-09-11&type=1&297e325a66f62bae0166f631b0b2000215681864581681568186458168
+2019-09-11 15:20:58,352 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@4f0146a1
+2019-09-11 15:20:58,354 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>020EA2920C9FDDB9144F3C02E44219EB
+2019-09-11 15:21:00,002 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Wed Sep 11 15:21:00 CST 2019
+2019-09-11 15:21:00,775 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-11 15:21:10,002 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Wed Sep 11 15:21:10 CST 2019
+2019-09-11 15:21:20,001 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Wed Sep 11 15:21:20 CST 2019
+2019-09-11 15:22:56,875 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on 爱新觉罗的Computer with PID 13896 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-09-11 15:22:56,880 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-09-11 15:23:04,759 INFO (NettyInitial.java:69)- 【服务器启动成功========端口：9800】
+2019-09-11 15:23:06,432 INFO (StartupInfoLogger.java:59)- Started FaceApplication in 9.939 seconds (JVM running for 10.553)
+2019-09-11 15:23:10,003 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Wed Sep 11 15:23:10 CST 2019
+2019-09-11 15:23:20,001 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Wed Sep 11 15:23:20 CST 2019
+2019-09-11 15:23:30,002 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Wed Sep 11 15:23:30 CST 2019
+2019-09-11 15:23:40,002 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Wed Sep 11 15:23:40 CST 2019
+2019-09-11 15:23:50,002 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Wed Sep 11 15:23:50 CST 2019
+2019-09-11 15:23:52,879 INFO (AuthorizationInterceptor.java:107)- 加密之前的dates=2019-09-11&type=1&297e325a66f62bae0166f631b0b2000215681866327181568186632718
+2019-09-11 15:23:52,880 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@1cf4dfac
+2019-09-11 15:23:52,881 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>8979443B8C315AF341EECA561D79BDE8
+2019-09-11 15:23:53,968 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-11 15:23:58,634 INFO (AuthorizationInterceptor.java:107)- 加密之前的dates=2019-09-11&type=2&297e325a66f62bae0166f631b0b2000215681866327181568186632718
+2019-09-11 15:23:58,634 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@1cf4dfac
+2019-09-11 15:23:58,635 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>0B25379CBFE7B9FC5EB0EEE5E8FC968E
+2019-09-11 15:23:59,626 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-11 15:24:00,001 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Wed Sep 11 15:24:00 CST 2019
+2019-09-11 15:24:04,557 INFO (AuthorizationInterceptor.java:107)- 加密之前的dates=2019-09-11&type=3&297e325a66f62bae0166f631b0b2000215681866327181568186632718
+2019-09-11 15:24:04,558 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@1cf4dfac
+2019-09-11 15:24:04,558 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>F975A8199664E3B9D060CC650D6F4D5E
+2019-09-11 15:24:06,142 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-11 15:24:10,002 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Wed Sep 11 15:24:10 CST 2019
+2019-09-11 15:24:18,906 INFO (AuthorizationInterceptor.java:107)- 加密之前的dates=2019-09-11&type=1&297e325a66f62bae0166f631b0b2000215681866327181568186632718
+2019-09-11 15:24:18,907 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@1cf4dfac
+2019-09-11 15:24:18,908 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>8979443B8C315AF341EECA561D79BDE8
+2019-09-11 15:24:19,171 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-11 15:24:20,001 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Wed Sep 11 15:24:20 CST 2019
+2019-09-11 15:24:21,008 INFO (AuthorizationInterceptor.java:107)- 加密之前的dates=2019-09-11&type=2&297e325a66f62bae0166f631b0b2000215681866327181568186632718
+2019-09-11 15:24:21,009 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@1cf4dfac
+2019-09-11 15:24:21,010 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>0B25379CBFE7B9FC5EB0EEE5E8FC968E
+2019-09-11 15:24:21,123 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-11 15:24:22,626 INFO (AuthorizationInterceptor.java:107)- 加密之前的dates=2019-09-11&type=3&297e325a66f62bae0166f631b0b2000215681866327181568186632718
+2019-09-11 15:24:22,627 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@1cf4dfac
+2019-09-11 15:24:22,627 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>F975A8199664E3B9D060CC650D6F4D5E
+2019-09-11 15:24:22,764 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-11 15:24:23,977 INFO (AuthorizationInterceptor.java:107)- 加密之前的dates=2019-09-11&type=1&297e325a66f62bae0166f631b0b2000215681866327181568186632718
+2019-09-11 15:24:23,978 INFO (AuthorizationInterceptor.java:109)- org.apache.catalina.util.ParameterMap@1cf4dfac
+2019-09-11 15:24:23,979 INFO (AuthorizationInterceptor.java:112)- 加密之后的sign=>8979443B8C315AF341EECA561D79BDE8
+2019-09-11 15:24:24,116 INFO (AuthorizationInterceptor.java:146)- afterCompletion ----------ex => null
+2019-09-11 15:24:30,001 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Wed Sep 11 15:24:30 CST 2019
+2019-09-11 18:18:36,119 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on 爱新觉罗的Computer with PID 17988 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-09-11 18:18:36,123 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-09-11 18:18:44,721 INFO (NettyInitial.java:69)- 【服务器启动成功========端口：9800】
+2019-09-11 18:18:46,491 INFO (StartupInfoLogger.java:59)- Started FaceApplication in 10.825 seconds (JVM running for 11.626)
+2019-09-11 18:18:50,001 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Wed Sep 11 18:18:50 CST 2019
+2019-09-11 18:19:00,002 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Wed Sep 11 18:19:00 CST 2019
+2019-09-11 18:19:10,001 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Wed Sep 11 18:19:10 CST 2019
+2019-09-11 18:19:20,002 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Wed Sep 11 18:19:20 CST 2019
+2019-09-11 18:19:30,002 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Wed Sep 11 18:19:30 CST 2019
+2019-09-11 18:19:40,000 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Wed Sep 11 18:19:40 CST 2019
+2019-09-11 18:19:50,002 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Wed Sep 11 18:19:50 CST 2019
+2019-09-11 18:20:00,001 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Wed Sep 11 18:20:00 CST 2019
+2019-09-11 18:20:10,001 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Wed Sep 11 18:20:10 CST 2019
+2019-09-11 18:20:20,002 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Wed Sep 11 18:20:20 CST 2019

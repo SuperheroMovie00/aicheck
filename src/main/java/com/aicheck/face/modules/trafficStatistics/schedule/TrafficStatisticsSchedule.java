@@ -54,6 +54,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -263,9 +264,10 @@ public class TrafficStatisticsSchedule {
      * 定时统计流量(每小时)
      * @throws ParseException 
      */
-    @Scheduled(cron = "0 0/60 * * * ?") 
+    //@Scheduled(cron = "0 0/6 * * * ?")
     //@Scheduled(cron = "*/10 * * * * ? ")
     public void flowstatisticshour() throws ParseException{
+    	System.out.println("调用统计");
     	VideoStatistic demo = new VideoStatistic();
     	demo.InitTest();
     	JSONObject json = null;
@@ -412,7 +414,7 @@ public class TrafficStatisticsSchedule {
      * 每天
      * @throws ParseException 
      */
-	@Scheduled(cron = "0 59 23 * * ?")
+	//@Scheduled(cron = "0 59 23 * * ?")
 //	@Scheduled(cron = "*/10 * * * * ? ")
 	public void flowstatisticsday() throws ParseException {
 		VideoStatistic demo = new VideoStatistic();
@@ -467,7 +469,7 @@ public class TrafficStatisticsSchedule {
 
 	
 	
-	@Scheduled(cron = "0 0 0 1 * ?")    //每月一号零点触发
+	//@Scheduled(cron = "0 0 0 1 * ?")    //每月一号零点触发
 //	@Scheduled(cron = "*/10 * * * * ? ")
 	public void ccccc() throws ParseException {
 		VideoStatistic demo = new VideoStatistic();
@@ -527,6 +529,77 @@ public class TrafficStatisticsSchedule {
 	}
 
 	
+	@Scheduled(cron = "0 20 18 ? * *")
+	public void ccc() {	
+		System.out.println("ddddddddddddd突然出现");
+	}
+	
+	
+	/**
+	 * 每天晚上23点59分的时候,统计这一天的客流量
+	 */
+	@Scheduled(cron = "0 59 23 ? * *")
+	//@Scheduled(cron = "*/10 * * * * ? ")
+	public void videodaystatistics() {
+		Videostatistic videostatistic= videostatisticService.findvideostatisicfortype("day");
+		
+		VideoStatistic demo = new VideoStatistic();
+        demo.InitTest();
+    	Map<String, Object> requestmap = new HashMap<String, Object>();
+        JSONObject json = null;
+		List<String> day = new ArrayList<String>();
+        List<String> incount = new ArrayList<String>();
+        List<String> outcount = new ArrayList<String>();
+        Date date1 = new Date();
+        Calendar calendar1 = Calendar.getInstance();
+        calendar1.setTime(date1);
+        int Number = calendar1.get(Calendar.HOUR_OF_DAY);
+
+        for (int r = 0; r < 24; r++) {
+            Date date = new Date();
+            Calendar calendar = Calendar.getInstance();
+            calendar.setTime(date);
+            calendar.set(Calendar.HOUR_OF_DAY, 0);
+            
+            Calendar calendar2 = Calendar.getInstance();
+            calendar2.setTime(date);
+            calendar2.set(Calendar.HOUR_OF_DAY, 0);
+            
+            calendar.set(Calendar.HOUR_OF_DAY, calendar.get(Calendar.HOUR_OF_DAY) + r);
+            calendar2.set(Calendar.HOUR_OF_DAY, calendar2.get(Calendar.HOUR_OF_DAY) + r + 1);
+            Map<String, Integer> cMap = VideoStatistic.startFindNumberStatrewrite(calendar.getTime(), calendar2.getTime(), 1);
+            
+            Integer innum = cMap.get("IN");
+            Integer outnum = cMap.get("OUT");
+            json = JSONObject.fromObject(cMap);
+            
+            incount.add(String.valueOf(innum));
+            outcount.add(String.valueOf(outnum));
+            day.add(String.valueOf(r)+"时");
+        }
+		
+		if(videostatistic!=null) {
+			requestmap.put("day", day);
+	        requestmap.put("incount", incount);
+	        requestmap.put("outcount", outcount);
+	        json = JSONObject.fromObject(requestmap);
+	        videostatistic.setDateType("day");
+	        videostatistic.setDateInformation(json.toString());
+	        videostatistic.setModificationTime(new Date());
+	        videostatisticService.save(videostatistic);
+		}else {
+			Videostatistic videostatisticday=new Videostatistic();
+			requestmap.put("day", day);
+	        requestmap.put("incount", incount);
+	        requestmap.put("outcount", outcount);
+	        json = JSONObject.fromObject(requestmap);
+	        videostatisticday.setDateType("day");
+	        videostatisticday.setDateInformation(json.toString());
+	        videostatisticday.setCreateTime(new Date());
+	        videostatisticService.save(videostatisticday);
+		}
+		
+	}
 	
 	
     /**

@@ -105,7 +105,7 @@ public class AuthorizationInterceptor extends HandlerInterceptorAdapter {
                     + nonce + mac;
 
             log.info("加密之前的" + signString);
-
+            
             log.info(request.getParameterMap().toString());
             String signature = MD5Util.getMD5(signString);
 
@@ -122,17 +122,22 @@ public class AuthorizationInterceptor extends HandlerInterceptorAdapter {
                         device = new Device();
                         device.setMacAddress(mac);
                         device.setCreateTime(new Date());
-
                         device.setIpAddress("/" + ip);
                         device.setPlatform("mobile");
-
-                        deviceservice.save(device);
-
+                        /**
+                         * date :  	2019/9/12
+                         * 原因    :  设备管理出现两条相同的记录
+                         */
+                        //deviceservice.save(device);
 
                     } else {
                         device.setCreateTime(new Date());
                         device.setIpAddress("/" + ip);
-                        deviceservice.save(device);
+                        /**
+                         * date :  2019/9/12
+                         * 原因    :  设备管理出现两条相同的记录
+                         */
+                        //deviceservice.save(device);
                     }
                 }
             }

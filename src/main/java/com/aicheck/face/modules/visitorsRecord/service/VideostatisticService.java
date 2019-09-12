@@ -10,7 +10,11 @@ public interface VideostatisticService extends BaseService<Videostatistic,Intege
 
     Videostatistic findvideostatisicfortype(String type);
 
+    Videostatistic findvideostatisicfordate(String date);
+    
     List<Videostatistic> findvideostatisicfordaylist(String type);
+    
+    
     
     List<Videostatistic> findvideostatisicforweeklist(String datestr);
     

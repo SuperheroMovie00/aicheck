@@ -32,6 +32,8 @@ C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\module
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\modules\advertisingImages\service\impl\ImageGroupServiceImpl.java
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\netsdk\demo\frame\FaceRecognition\FaceRecognition.java
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\netsdk\common\LoginPanel.java
+C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\modules\visitorsRecord\service\VideoService.java
+C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\modules\visitorsRecord\service\CarstatisticsService.java
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\modules\statistical\service\impl\StatisticalServiceImpl.java
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\netsdk\demo\frame\ThermalCamera\HeatMapDialog.java
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\modules\salesRecord\service\impl\SalesRecordServiceImpl.java
@@ -124,6 +126,7 @@ C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\netsdk\demo\module\
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\modules\advertisingImages\service\ImageGroupService.java
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\modules\schedule\QuartzFolderJob.java
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\netsdk\demo\module\AutoRegisterModule.java
+C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\modules\visitorsRecord\entity\carparameter.java
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\config\ResultConfig.java
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\modules\visitorsRecord\entity\VisitorsRecord.java
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\modules\advertisingImages\controller\ExtendController.java
@@ -132,6 +135,7 @@ C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\module
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\modules\advertisingImages\vo\AdvertisingImagesVO.java
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\modules\detest\entity\Detest.java
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\modules\levels\service\impl\LevelsServiceImpl.java
+C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\modules\visitorsRecord\service\impl\CarstatisticsServiceimpl.java
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\common\exception\FaceExceptionHandler.java
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\modules\statistical\service\StatisticalService.java
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\modules\product\controller\ProductController.java
@@ -153,6 +157,7 @@ C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\module
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\modules\salesRecord\entity\SalesRecord.java
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\netsdk\demo\frame\DeviceSearchAndInit.java
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\modules\sync\service\impl\syncServiceImpl.java
+C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\modules\visitorsRecord\repository\CarstatisticsRepository.java
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\netsdk\demo\frame\Attendance\SubscribePanel.java
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\modules\device\entity\Device.java
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\modules\advertisingImages\controller\AdvertisingImagesController.java
@@ -177,6 +182,7 @@ C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\module
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\netsdk\common\WindowCloseListener.java
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\modules\i8sdk\dllLibrary\FaceSmartSDK.java
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\netsdk\demo\frame\AutoRegister\AddDeviceDialog.java
+C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\modules\visitorsRecord\repository\VideoRepository.java
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\common\utils\UpdateUtils.java
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\modules\customer\entity\UserModel.java
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\common\utils\PrimaryGenerate.java
@@ -194,6 +200,7 @@ C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\common
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\modules\advertisingImages\entity\ImageGroup.java
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\netsdk\demo\module\CapturePictureModule.java
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\vo\ResultVO.java
+C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\modules\visitorsRecord\controller\CarstatisticsController.java
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\netsdk\common\PaintPanel.java
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\modules\detest\controller\DetestController.java
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\netsdk\common\DateChooserJButton.java
@@ -210,6 +217,7 @@ C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\module
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\netsdk\demo\module\ThermalCameraModule.java
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\modules\visitorsRecord\entity\Videostatistic.java
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\modules\tags\service\impl\CustomerTagsServiceImpl.java
+C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\modules\visitorsRecord\service\impl\VideoServiceimpl.java
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\netsdk\demo\module\DownLoadRecordModule.java
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\vo\R.java
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\netsdk\demo\frame\TrafficEvent.java
@@ -217,6 +225,7 @@ C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\module
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\modules\visitorsRecord\service\VideostatisticService.java
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\modules\identifyRecord\controller\IdentifyRecordController.java
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\netsdk\demo\frame\AutoRegister\AutoRegister.java
+C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\modules\visitorsRecord\entity\Carstatistics.java
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\modules\advertisingImages\service\ImageStrategyService.java
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\modules\advertisingImages\entity\ImageStrategy.java
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\modules\salesDetail\service\impl\SalesDetailServiceImpl.java
@@ -295,3 +304,4 @@ C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\module
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\netsdk\demo\frame\Gate\ModifyCardDialog.java
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\modules\customer\entity\Customer.java
 C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\modules\system\service\SystemParameterService.java
+C:\Users\Super\Desktop\aicheck-face-master\src\main\java\com\aicheck\face\modules\visitorsRecord\entity\Video.java

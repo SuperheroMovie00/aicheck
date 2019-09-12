@@ -11,11 +11,6 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ImportResource;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
-import com.netsdk.demo.VideoStatistic;
-
-import java.io.File;
-import java.util.Calendar;
-import java.util.Date;
 
 import javax.servlet.MultipartConfigElement;
 

@@ -50,7 +50,7 @@ public class relevanceController {
 
 			device.setIsRelevance(0);
 			deviceService.save(device);
-			relevanceService.delete(relevance.getId());	
+			relevanceService.delete(relevance.getId());
 			return R.ok();
 			
 		} catch (Exception e) {
