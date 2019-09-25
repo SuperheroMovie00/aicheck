@@ -1,0 +1,236 @@
+2019-09-17 14:13:54,075 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on 爱新觉罗的Computer with PID 16508 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-09-17 14:13:54,085 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-09-17 14:14:03,710 INFO (NettyInitial.java:69)- 【服务器启动成功========端口：9800】
+2019-09-17 14:14:05,492 INFO (StartupInfoLogger.java:59)- Started FaceApplication in 12.012 seconds (JVM running for 12.896)
+2019-09-17 14:14:10,001 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Tue Sep 17 14:14:10 CST 2019
+2019-09-17 14:14:11,827 INFO (AuthorizationInterceptor.java:106)- 加密之前的currentPage=1&pageSize=10&297e325a66f62bae0166f631b0b2000215687008515691568700851569
+2019-09-17 14:14:11,828 INFO (AuthorizationInterceptor.java:108)- org.apache.catalina.util.ParameterMap@594a21d0
+2019-09-17 14:14:11,831 INFO (AuthorizationInterceptor.java:111)- 加密之后的sign=>38E166E0254267848742C43CFF7C8F61
+2019-09-17 14:14:12,582 INFO (AuthorizationInterceptor.java:150)- afterCompletion ----------ex => null
+2019-09-17 14:14:15,512 INFO (AuthorizationInterceptor.java:106)- 加密之前的297e325a66f62bae0166f631b0b2000215687008554921568700855492
+2019-09-17 14:14:15,514 INFO (AuthorizationInterceptor.java:108)- org.apache.catalina.util.ParameterMap@32fc8d86
+2019-09-17 14:14:15,515 INFO (AuthorizationInterceptor.java:111)- 加密之后的sign=>FB8F1150830C80BB696C291F514BEB2E
+2019-09-17 14:14:15,570 INFO (AuthorizationInterceptor.java:150)- afterCompletion ----------ex => null
+2019-09-17 14:14:17,343 INFO (AuthorizationInterceptor.java:106)- 加密之前的id=42&297e325a66f62bae0166f631b0b2000215687008554921568700855492
+2019-09-17 14:14:17,345 INFO (AuthorizationInterceptor.java:108)- org.apache.catalina.util.ParameterMap@32fc8d86
+2019-09-17 14:14:17,346 INFO (AuthorizationInterceptor.java:111)- 加密之后的sign=>E8DBFE08743CA844A9EAE8ECC0CAB1FB
+2019-09-17 14:14:17,347 INFO (AuthorizationInterceptor.java:106)- 加密之前的groupid=42&297e325a66f62bae0166f631b0b2000215687008554921568700855492
+2019-09-17 14:14:17,347 INFO (AuthorizationInterceptor.java:108)- org.apache.catalina.util.ParameterMap@594a21d0
+2019-09-17 14:14:17,348 INFO (AuthorizationInterceptor.java:111)- 加密之后的sign=>ECA90DBA959AFF2280A90A2299EAA7DE
+2019-09-17 14:14:17,373 INFO (AuthorizationInterceptor.java:150)- afterCompletion ----------ex => null
+2019-09-17 14:14:17,379 INFO (AuthorizationInterceptor.java:150)- afterCompletion ----------ex => null
+2019-09-17 14:14:17,386 INFO (AuthorizationInterceptor.java:106)- 加密之前的platform=ai&297e325a66f62bae0166f631b0b2000215687008554921568700855492
+2019-09-17 14:14:17,387 INFO (AuthorizationInterceptor.java:108)- org.apache.catalina.util.ParameterMap@594a21d0
+2019-09-17 14:14:17,387 INFO (AuthorizationInterceptor.java:111)- 加密之后的sign=>EDDBD6808E50BA43B7901ABB590D4BCB
+2019-09-17 14:14:17,420 INFO (AuthorizationInterceptor.java:150)- afterCompletion ----------ex => null
+2019-09-17 14:14:20,002 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Tue Sep 17 14:14:20 CST 2019
+2019-09-17 14:14:20,292 INFO (AuthorizationInterceptor.java:106)- 加密之前的297e325a66f62bae0166f631b0b2000215687008554921568700855492
+2019-09-17 14:14:20,292 INFO (AuthorizationInterceptor.java:108)- org.apache.catalina.util.ParameterMap@594a21d0
+2019-09-17 14:14:20,293 INFO (AuthorizationInterceptor.java:111)- 加密之后的sign=>FB8F1150830C80BB696C291F514BEB2E
+2019-09-17 14:14:20,333 INFO (AuthorizationInterceptor.java:150)- afterCompletion ----------ex => null
+2019-09-17 14:14:24,498 INFO (AuthorizationInterceptor.java:106)- 加密之前的297e325a66f62bae0166f631b0b2000215687008554921568700855492
+2019-09-17 14:14:24,499 INFO (AuthorizationInterceptor.java:108)- {timestamp=[Ljava.lang.String;@403a8ff1, nonce=[Ljava.lang.String;@6ce6612e, token=[Ljava.lang.String;@23053999, sign=[Ljava.lang.String;@30e50130}
+2019-09-17 14:14:24,499 INFO (AuthorizationInterceptor.java:111)- 加密之后的sign=>FB8F1150830C80BB696C291F514BEB2E
+2019-09-17 14:14:24,503 INFO (CustomerController.java:750)- 开始上传图片
+2019-09-17 14:14:24,510 INFO (CustomerController.java:789)- 图片上传成功——————————> http://192.168.0.251:9090/aicheck-face/ai/502e6c42e877d0973da0f3884344acaf.png
+2019-09-17 14:14:24,512 INFO (AuthorizationInterceptor.java:150)- afterCompletion ----------ex => null
+2019-09-17 14:14:24,548 INFO (AuthorizationInterceptor.java:106)- 加密之前的image=C:\fakepath\timg.png&sort=1&type=1&url=http://192.168.0.251:9090/aicheck-face/ai/502e6c42e877d0973da0f3884344acaf.png&297e325a66f62bae0166f631b0b2000215687008554921568700855492
+2019-09-17 14:14:24,548 INFO (AuthorizationInterceptor.java:108)- org.apache.catalina.util.ParameterMap@594a21d0
+2019-09-17 14:14:24,549 INFO (AuthorizationInterceptor.java:111)- 加密之后的sign=>1F38E363FB57839128EAFE049A164511
+2019-09-17 14:14:24,611 INFO (AuthorizationInterceptor.java:150)- afterCompletion ----------ex => null
+2019-09-17 14:14:25,784 INFO (AuthorizationInterceptor.java:106)- 加密之前的297e325a66f62bae0166f631b0b2000215687008554921568700855492
+2019-09-17 14:14:25,785 INFO (AuthorizationInterceptor.java:108)- org.apache.catalina.util.ParameterMap@594a21d0
+2019-09-17 14:14:25,785 INFO (AuthorizationInterceptor.java:111)- 加密之后的sign=>FB8F1150830C80BB696C291F514BEB2E
+2019-09-17 14:14:25,795 INFO (AuthorizationInterceptor.java:150)- afterCompletion ----------ex => null
+2019-09-17 14:14:30,001 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Tue Sep 17 14:14:30 CST 2019
+2019-09-17 14:14:31,377 INFO (AuthorizationInterceptor.java:106)- 加密之前的id=101&297e325a66f62bae0166f631b0b2000215687008554921568700855492
+2019-09-17 14:14:31,379 INFO (AuthorizationInterceptor.java:108)- org.apache.catalina.util.ParameterMap@71ec52bf
+2019-09-17 14:14:31,380 INFO (AuthorizationInterceptor.java:111)- 加密之后的sign=>B09A305AAA6EAC0566C5267AB18E44C9
+2019-09-17 14:14:31,423 INFO (AuthorizationInterceptor.java:150)- afterCompletion ----------ex => null
+2019-09-17 14:14:32,133 INFO (AuthorizationInterceptor.java:106)- 加密之前的297e325a66f62bae0166f631b0b2000215687008554921568700855492
+2019-09-17 14:14:32,134 INFO (AuthorizationInterceptor.java:108)- org.apache.catalina.util.ParameterMap@71ec52bf
+2019-09-17 14:14:32,134 INFO (AuthorizationInterceptor.java:111)- 加密之后的sign=>FB8F1150830C80BB696C291F514BEB2E
+2019-09-17 14:14:32,140 INFO (AuthorizationInterceptor.java:106)- 加密之前的groupid=42&297e325a66f62bae0166f631b0b2000215687008554921568700855492
+2019-09-17 14:14:32,140 INFO (AuthorizationInterceptor.java:108)- org.apache.catalina.util.ParameterMap@594a21d0
+2019-09-17 14:14:32,140 INFO (AuthorizationInterceptor.java:111)- 加密之后的sign=>ECA90DBA959AFF2280A90A2299EAA7DE
+2019-09-17 14:14:32,148 INFO (AuthorizationInterceptor.java:150)- afterCompletion ----------ex => null
+2019-09-17 14:14:32,152 INFO (AuthorizationInterceptor.java:106)- 加密之前的id=101&297e325a66f62bae0166f631b0b2000215687008554921568700855492
+2019-09-17 14:14:32,153 INFO (AuthorizationInterceptor.java:108)- org.apache.catalina.util.ParameterMap@594a21d0
+2019-09-17 14:14:32,153 INFO (AuthorizationInterceptor.java:111)- 加密之后的sign=>B09A305AAA6EAC0566C5267AB18E44C9
+2019-09-17 14:14:32,162 INFO (AuthorizationInterceptor.java:150)- afterCompletion ----------ex => null
+2019-09-17 14:14:32,894 INFO (AuthorizationInterceptor.java:106)- 加密之前的id=102&297e325a66f62bae0166f631b0b2000215687008554921568700855492
+2019-09-17 14:14:32,894 INFO (AuthorizationInterceptor.java:108)- org.apache.catalina.util.ParameterMap@2d7b4c7b
+2019-09-17 14:14:32,894 INFO (AuthorizationInterceptor.java:111)- 加密之后的sign=>D033603E5E567BA700A3A042870B9444
+2019-09-17 14:14:32,911 INFO (AuthorizationInterceptor.java:150)- afterCompletion ----------ex => null
+2019-09-17 14:14:33,549 INFO (AuthorizationInterceptor.java:106)- 加密之前的297e325a66f62bae0166f631b0b2000215687008554921568700855492
+2019-09-17 14:14:33,550 INFO (AuthorizationInterceptor.java:108)- org.apache.catalina.util.ParameterMap@2d7b4c7b
+2019-09-17 14:14:33,551 INFO (AuthorizationInterceptor.java:111)- 加密之后的sign=>FB8F1150830C80BB696C291F514BEB2E
+2019-09-17 14:14:33,557 INFO (AuthorizationInterceptor.java:106)- 加密之前的id=102&297e325a66f62bae0166f631b0b2000215687008554921568700855492
+2019-09-17 14:14:33,557 INFO (AuthorizationInterceptor.java:106)- 加密之前的groupid=42&297e325a66f62bae0166f631b0b2000215687008554921568700855492
+2019-09-17 14:14:33,558 INFO (AuthorizationInterceptor.java:108)- org.apache.catalina.util.ParameterMap@71ec52bf
+2019-09-17 14:14:33,558 INFO (AuthorizationInterceptor.java:108)- org.apache.catalina.util.ParameterMap@2d7b4c7b
+2019-09-17 14:14:33,558 INFO (AuthorizationInterceptor.java:111)- 加密之后的sign=>D033603E5E567BA700A3A042870B9444
+2019-09-17 14:14:33,558 INFO (AuthorizationInterceptor.java:111)- 加密之后的sign=>ECA90DBA959AFF2280A90A2299EAA7DE
+2019-09-17 14:14:33,564 INFO (AuthorizationInterceptor.java:150)- afterCompletion ----------ex => null
+2019-09-17 14:14:33,566 INFO (AuthorizationInterceptor.java:150)- afterCompletion ----------ex => null
+2019-09-17 14:14:34,123 INFO (AuthorizationInterceptor.java:106)- 加密之前的id=103&297e325a66f62bae0166f631b0b2000215687008554921568700855492
+2019-09-17 14:14:34,123 INFO (AuthorizationInterceptor.java:108)- org.apache.catalina.util.ParameterMap@71ec52bf
+2019-09-17 14:14:34,124 INFO (AuthorizationInterceptor.java:111)- 加密之后的sign=>28AC7B54F65F8407E44799B759617C4C
+2019-09-17 14:14:34,139 INFO (AuthorizationInterceptor.java:150)- afterCompletion ----------ex => null
+2019-09-17 14:14:34,724 INFO (AuthorizationInterceptor.java:106)- 加密之前的297e325a66f62bae0166f631b0b2000215687008554921568700855492
+2019-09-17 14:14:34,726 INFO (AuthorizationInterceptor.java:108)- org.apache.catalina.util.ParameterMap@71ec52bf
+2019-09-17 14:14:34,727 INFO (AuthorizationInterceptor.java:111)- 加密之后的sign=>FB8F1150830C80BB696C291F514BEB2E
+2019-09-17 14:14:34,733 INFO (AuthorizationInterceptor.java:106)- 加密之前的id=103&297e325a66f62bae0166f631b0b2000215687008554921568700855492
+2019-09-17 14:14:34,733 INFO (AuthorizationInterceptor.java:108)- org.apache.catalina.util.ParameterMap@71ec52bf
+2019-09-17 14:14:34,734 INFO (AuthorizationInterceptor.java:111)- 加密之后的sign=>28AC7B54F65F8407E44799B759617C4C
+2019-09-17 14:14:34,739 INFO (AuthorizationInterceptor.java:106)- 加密之前的groupid=42&297e325a66f62bae0166f631b0b2000215687008554921568700855492
+2019-09-17 14:14:34,740 INFO (AuthorizationInterceptor.java:108)- org.apache.catalina.util.ParameterMap@2d7b4c7b
+2019-09-17 14:14:34,740 INFO (AuthorizationInterceptor.java:111)- 加密之后的sign=>ECA90DBA959AFF2280A90A2299EAA7DE
+2019-09-17 14:14:34,746 INFO (AuthorizationInterceptor.java:150)- afterCompletion ----------ex => null
+2019-09-17 14:14:34,748 INFO (AuthorizationInterceptor.java:150)- afterCompletion ----------ex => null
+2019-09-17 14:14:36,099 INFO (AuthorizationInterceptor.java:106)- 加密之前的id=104&297e325a66f62bae0166f631b0b2000215687008554921568700855492
+2019-09-17 14:14:36,099 INFO (AuthorizationInterceptor.java:108)- org.apache.catalina.util.ParameterMap@71ec52bf
+2019-09-17 14:14:36,100 INFO (AuthorizationInterceptor.java:111)- 加密之后的sign=>ACFEA4DE10AC4E926CF669A8B32BA312
+2019-09-17 14:14:36,113 INFO (AuthorizationInterceptor.java:150)- afterCompletion ----------ex => null
+2019-09-17 14:14:36,718 INFO (AuthorizationInterceptor.java:106)- 加密之前的297e325a66f62bae0166f631b0b2000215687008554921568700855492
+2019-09-17 14:14:36,719 INFO (AuthorizationInterceptor.java:108)- org.apache.catalina.util.ParameterMap@71ec52bf
+2019-09-17 14:14:36,719 INFO (AuthorizationInterceptor.java:111)- 加密之后的sign=>FB8F1150830C80BB696C291F514BEB2E
+2019-09-17 14:14:36,722 INFO (AuthorizationInterceptor.java:106)- 加密之前的id=104&297e325a66f62bae0166f631b0b2000215687008554921568700855492
+2019-09-17 14:14:36,722 INFO (AuthorizationInterceptor.java:108)- org.apache.catalina.util.ParameterMap@71ec52bf
+2019-09-17 14:14:36,722 INFO (AuthorizationInterceptor.java:111)- 加密之后的sign=>ACFEA4DE10AC4E926CF669A8B32BA312
+2019-09-17 14:14:36,726 INFO (AuthorizationInterceptor.java:106)- 加密之前的groupid=42&297e325a66f62bae0166f631b0b2000215687008554921568700855492
+2019-09-17 14:14:36,726 INFO (AuthorizationInterceptor.java:108)- org.apache.catalina.util.ParameterMap@2d7b4c7b
+2019-09-17 14:14:36,726 INFO (AuthorizationInterceptor.java:111)- 加密之后的sign=>ECA90DBA959AFF2280A90A2299EAA7DE
+2019-09-17 14:14:36,731 INFO (AuthorizationInterceptor.java:150)- afterCompletion ----------ex => null
+2019-09-17 14:14:36,732 INFO (AuthorizationInterceptor.java:150)- afterCompletion ----------ex => null
+2019-09-17 14:14:40,002 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Tue Sep 17 14:14:40 CST 2019
+2019-09-17 14:14:50,000 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Tue Sep 17 14:14:50 CST 2019
+2019-09-17 14:14:51,422 INFO (AuthorizationInterceptor.java:106)- 加密之前的297e325a66f62bae0166f631b0b2000215687008554921568700855492
+2019-09-17 14:14:51,423 INFO (AuthorizationInterceptor.java:108)- {timestamp=[Ljava.lang.String;@2202c3fd, nonce=[Ljava.lang.String;@59f69980, token=[Ljava.lang.String;@37b45c35, sign=[Ljava.lang.String;@69daa28f}
+2019-09-17 14:14:51,423 INFO (AuthorizationInterceptor.java:111)- 加密之后的sign=>FB8F1150830C80BB696C291F514BEB2E
+2019-09-17 14:14:51,427 INFO (CustomerController.java:750)- 开始上传图片
+2019-09-17 14:14:51,438 INFO (CustomerController.java:789)- 图片上传成功——————————> http://192.168.0.251:9090/aicheck-face/ai/b17e4cf032947103982cc82b4f2dae7a.png
+2019-09-17 14:14:51,439 INFO (AuthorizationInterceptor.java:150)- afterCompletion ----------ex => null
+2019-09-17 14:14:51,450 INFO (AuthorizationInterceptor.java:106)- 加密之前的image=C:\fakepath\8b38f79ec8ac3ad2f7b39cde9a890cbd.jpg&sort=1&type=1&url=http://192.168.0.251:9090/aicheck-face/ai/b17e4cf032947103982cc82b4f2dae7a.png&297e325a66f62bae0166f631b0b2000215687008554921568700855492
+2019-09-17 14:14:51,450 INFO (AuthorizationInterceptor.java:108)- org.apache.catalina.util.ParameterMap@71ec52bf
+2019-09-17 14:14:51,451 INFO (AuthorizationInterceptor.java:111)- 加密之后的sign=>95B452F29A0D85EC5FC525FCF680E18E
+2019-09-17 14:14:51,475 INFO (AuthorizationInterceptor.java:150)- afterCompletion ----------ex => null
+2019-09-17 14:15:00,003 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Tue Sep 17 14:15:00 CST 2019
+2019-09-17 14:15:10,001 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Tue Sep 17 14:15:10 CST 2019
+2019-09-17 14:15:20,002 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Tue Sep 17 14:15:20 CST 2019
+2019-09-17 14:15:30,002 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Tue Sep 17 14:15:30 CST 2019
+2019-09-17 14:15:40,001 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Tue Sep 17 14:15:40 CST 2019
+2019-09-17 14:15:50,001 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Tue Sep 17 14:15:50 CST 2019
+2019-09-17 14:16:00,001 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Tue Sep 17 14:16:00 CST 2019
+2019-09-17 14:16:10,001 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Tue Sep 17 14:16:10 CST 2019
+2019-09-17 14:16:20,001 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Tue Sep 17 14:16:20 CST 2019
+2019-09-17 14:16:30,001 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Tue Sep 17 14:16:30 CST 2019
+2019-09-17 14:16:40,002 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Tue Sep 17 14:16:40 CST 2019
+2019-09-17 14:16:50,002 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Tue Sep 17 14:16:50 CST 2019
+2019-09-17 14:17:00,002 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Tue Sep 17 14:17:00 CST 2019
+2019-09-17 14:17:10,002 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Tue Sep 17 14:17:10 CST 2019
+2019-09-17 14:17:20,001 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Tue Sep 17 14:17:20 CST 2019
+2019-09-17 14:17:30,002 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Tue Sep 17 14:17:30 CST 2019
+2019-09-17 14:17:40,000 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Tue Sep 17 14:17:40 CST 2019
+2019-09-17 14:17:50,001 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Tue Sep 17 14:17:50 CST 2019
+2019-09-17 14:18:00,002 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Tue Sep 17 14:18:00 CST 2019
+2019-09-17 14:18:10,001 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Tue Sep 17 14:18:10 CST 2019
+2019-09-17 14:18:20,002 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Tue Sep 17 14:18:20 CST 2019
+2019-09-17 14:18:30,000 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Tue Sep 17 14:18:30 CST 2019
+2019-09-17 14:18:40,001 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Tue Sep 17 14:18:40 CST 2019
+2019-09-17 14:18:50,001 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Tue Sep 17 14:18:50 CST 2019
+2019-09-17 14:19:00,002 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Tue Sep 17 14:19:00 CST 2019
+2019-09-17 14:32:48,336 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on 爱新觉罗的Computer with PID 9868 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-09-17 14:32:48,340 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-09-17 14:32:56,007 INFO (NettyInitial.java:69)- 【服务器启动成功========端口：9800】
+2019-09-17 14:32:57,889 INFO (StartupInfoLogger.java:59)- Started FaceApplication in 9.933 seconds (JVM running for 10.582)
+2019-09-17 14:33:00,003 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Tue Sep 17 14:33:00 CST 2019
+2019-09-17 14:33:00,799 INFO (AuthorizationInterceptor.java:106)- 加密之前的currentPage=1&pageSize=10&297e325a66f62bae0166f631b0b2000215687019805721568701980572
+2019-09-17 14:33:00,801 INFO (AuthorizationInterceptor.java:108)- org.apache.catalina.util.ParameterMap@6e6c221
+2019-09-17 14:33:00,805 INFO (AuthorizationInterceptor.java:111)- 加密之后的sign=>16CDC7472944473B1857A97888835CF8
+2019-09-17 14:33:01,529 INFO (AuthorizationInterceptor.java:150)- afterCompletion ----------ex => null
+2019-09-17 14:33:05,259 INFO (AuthorizationInterceptor.java:106)- 加密之前的297e325a66f62bae0166f631b0b2000215687019852301568701985230
+2019-09-17 14:33:05,259 INFO (AuthorizationInterceptor.java:108)- org.apache.catalina.util.ParameterMap@5fe9080
+2019-09-17 14:33:05,260 INFO (AuthorizationInterceptor.java:111)- 加密之后的sign=>A25E3DEC6E8A52101ADB6B87404052E1
+2019-09-17 14:33:05,300 INFO (AuthorizationInterceptor.java:150)- afterCompletion ----------ex => null
+2019-09-17 14:33:07,187 INFO (AuthorizationInterceptor.java:106)- 加密之前的297e325a66f62bae0166f631b0b2000215687019852301568701985230
+2019-09-17 14:33:07,187 INFO (AuthorizationInterceptor.java:108)- org.apache.catalina.util.ParameterMap@5fe9080
+2019-09-17 14:33:07,188 INFO (AuthorizationInterceptor.java:111)- 加密之后的sign=>A25E3DEC6E8A52101ADB6B87404052E1
+2019-09-17 14:33:07,219 INFO (AuthorizationInterceptor.java:150)- afterCompletion ----------ex => null
+2019-09-17 14:33:10,002 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Tue Sep 17 14:33:10 CST 2019
+2019-09-17 14:33:20,002 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Tue Sep 17 14:33:20 CST 2019
+2019-09-17 14:33:22,697 INFO (AuthorizationInterceptor.java:106)- 加密之前的297e325a66f62bae0166f631b0b2000215687019852301568701985230
+2019-09-17 14:33:22,698 INFO (AuthorizationInterceptor.java:108)- {timestamp=[Ljava.lang.String;@320cdd3a, nonce=[Ljava.lang.String;@70f9ddc3, token=[Ljava.lang.String;@56f1ab90, sign=[Ljava.lang.String;@63c2d3cf}
+2019-09-17 14:33:22,699 INFO (AuthorizationInterceptor.java:111)- 加密之后的sign=>A25E3DEC6E8A52101ADB6B87404052E1
+2019-09-17 14:33:22,704 INFO (CustomerController.java:750)- 开始上传图片
+2019-09-17 14:33:22,723 INFO (CustomerController.java:789)- 图片上传成功——————————> http://192.168.0.251:9090/aicheck-face/ai/e46f6936267e88b8ead0d837eb51a416.png
+2019-09-17 14:33:22,724 INFO (AuthorizationInterceptor.java:150)- afterCompletion ----------ex => null
+2019-09-17 14:33:22,764 INFO (AuthorizationInterceptor.java:106)- 加密之前的image=C:\fakepath\103e4c29cba8e5ccf55d1f6a1eea2abc.jpg&sort=1&type=1&url=http://192.168.0.251:9090/aicheck-face/ai/e46f6936267e88b8ead0d837eb51a416.png&297e325a66f62bae0166f631b0b2000215687019852301568701985230
+2019-09-17 14:33:22,765 INFO (AuthorizationInterceptor.java:108)- org.apache.catalina.util.ParameterMap@10cde6a4
+2019-09-17 14:33:22,765 INFO (AuthorizationInterceptor.java:111)- 加密之后的sign=>CF8B26505BA409136359A1FB6BD41E77
+2019-09-17 14:33:22,850 INFO (AuthorizationInterceptor.java:150)- afterCompletion ----------ex => null
+2019-09-17 14:33:30,001 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Tue Sep 17 14:33:30 CST 2019
+2019-09-17 14:33:40,001 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Tue Sep 17 14:33:40 CST 2019
+2019-09-17 14:33:50,002 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Tue Sep 17 14:33:50 CST 2019
+2019-09-17 14:34:00,000 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Tue Sep 17 14:34:00 CST 2019
+2019-09-17 14:50:08,337 INFO (StartupInfoLogger.java:50)- Starting FaceApplication on 爱新觉罗的Computer with PID 1280 (C:\Users\Super\Desktop\aicheck-face-master\target\classes started by Super in C:\Users\Super\Desktop\aicheck-face-master)
+2019-09-17 14:50:08,342 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-09-17 14:50:16,140 INFO (NettyInitial.java:69)- 【服务器启动成功========端口：9800】
+2019-09-17 14:50:18,530 INFO (StartupInfoLogger.java:59)- Started FaceApplication in 10.569 seconds (JVM running for 11.215)
+2019-09-17 14:50:19,370 INFO (AuthorizationInterceptor.java:106)- 加密之前的currentPage=1&pageSize=10&297e325a66f62bae0166f631b0b2000215687030191401568703019140
+2019-09-17 14:50:19,373 INFO (AuthorizationInterceptor.java:108)- org.apache.catalina.util.ParameterMap@79392e1a
+2019-09-17 14:50:19,376 INFO (AuthorizationInterceptor.java:111)- 加密之后的sign=>ED20BB1B5FA0240A5302D5961361443B
+2019-09-17 14:50:20,005 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Tue Sep 17 14:50:20 CST 2019
+2019-09-17 14:50:20,035 INFO (AuthorizationInterceptor.java:150)- afterCompletion ----------ex => null
+2019-09-17 14:50:21,023 INFO (AuthorizationInterceptor.java:106)- 加密之前的297e325a66f62bae0166f631b0b2000215687030210041568703021004
+2019-09-17 14:50:21,023 INFO (AuthorizationInterceptor.java:108)- org.apache.catalina.util.ParameterMap@79392e1a
+2019-09-17 14:50:21,024 INFO (AuthorizationInterceptor.java:111)- 加密之后的sign=>E7E0B3EFCE5F7106557ED2B25359168B
+2019-09-17 14:50:21,117 INFO (AuthorizationInterceptor.java:150)- afterCompletion ----------ex => null
+2019-09-17 14:50:22,538 INFO (AuthorizationInterceptor.java:106)- 加密之前的297e325a66f62bae0166f631b0b2000215687030210041568703021004
+2019-09-17 14:50:22,538 INFO (AuthorizationInterceptor.java:108)- org.apache.catalina.util.ParameterMap@79392e1a
+2019-09-17 14:50:22,539 INFO (AuthorizationInterceptor.java:111)- 加密之后的sign=>E7E0B3EFCE5F7106557ED2B25359168B
+2019-09-17 14:50:22,570 INFO (AuthorizationInterceptor.java:150)- afterCompletion ----------ex => null
+2019-09-17 14:50:25,552 INFO (AuthorizationInterceptor.java:106)- 加密之前的id=105&297e325a66f62bae0166f631b0b2000215687030210041568703021004
+2019-09-17 14:50:25,553 INFO (AuthorizationInterceptor.java:108)- org.apache.catalina.util.ParameterMap@75e96211
+2019-09-17 14:50:25,553 INFO (AuthorizationInterceptor.java:111)- 加密之后的sign=>DBE963396F2F2AC675B6C8B6C3A3FE5E
+2019-09-17 14:50:25,607 INFO (AuthorizationInterceptor.java:150)- afterCompletion ----------ex => null
+2019-09-17 14:50:26,306 INFO (AuthorizationInterceptor.java:106)- 加密之前的297e325a66f62bae0166f631b0b2000215687030210041568703021004
+2019-09-17 14:50:26,306 INFO (AuthorizationInterceptor.java:108)- org.apache.catalina.util.ParameterMap@75e96211
+2019-09-17 14:50:26,306 INFO (AuthorizationInterceptor.java:111)- 加密之后的sign=>E7E0B3EFCE5F7106557ED2B25359168B
+2019-09-17 14:50:26,307 INFO (AuthorizationInterceptor.java:106)- 加密之前的groupid=0&297e325a66f62bae0166f631b0b2000215687030210041568703021004
+2019-09-17 14:50:26,307 INFO (AuthorizationInterceptor.java:108)- org.apache.catalina.util.ParameterMap@58a61e4f
+2019-09-17 14:50:26,307 INFO (AuthorizationInterceptor.java:111)- 加密之后的sign=>C0557B6252BA08EB8BBAB6F57FEBF478
+2019-09-17 14:50:26,319 INFO (AuthorizationInterceptor.java:106)- 加密之前的id=105&297e325a66f62bae0166f631b0b2000215687030210041568703021004
+2019-09-17 14:50:26,320 INFO (AuthorizationInterceptor.java:108)- org.apache.catalina.util.ParameterMap@369c91a8
+2019-09-17 14:50:26,320 INFO (AuthorizationInterceptor.java:111)- 加密之后的sign=>DBE963396F2F2AC675B6C8B6C3A3FE5E
+2019-09-17 14:50:26,327 INFO (AuthorizationInterceptor.java:150)- afterCompletion ----------ex => null
+2019-09-17 14:50:30,002 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Tue Sep 17 14:50:30 CST 2019
+2019-09-17 14:50:31,670 INFO (AuthorizationInterceptor.java:106)- 加密之前的297e325a66f62bae0166f631b0b2000215687030210041568703021004
+2019-09-17 14:50:31,670 INFO (AuthorizationInterceptor.java:108)- {timestamp=[Ljava.lang.String;@1497035c, nonce=[Ljava.lang.String;@55a72213, token=[Ljava.lang.String;@6d490a64, sign=[Ljava.lang.String;@72d97036}
+2019-09-17 14:50:31,671 INFO (AuthorizationInterceptor.java:111)- 加密之后的sign=>E7E0B3EFCE5F7106557ED2B25359168B
+2019-09-17 14:50:31,674 INFO (CustomerController.java:750)- 开始上传图片
+2019-09-17 14:50:31,700 INFO (CustomerController.java:789)- 图片上传成功——————————> http://192.168.0.251:9090/aicheck-face/ai/1ef16275ca92295ac20bedccc027ab66.png
+2019-09-17 14:50:31,701 INFO (AuthorizationInterceptor.java:150)- afterCompletion ----------ex => null
+2019-09-17 14:50:31,720 INFO (AuthorizationInterceptor.java:106)- 加密之前的image=C:\fakepath\2949dd53fc64d409cf55c1d09271cfeb.jpg&sort=1&type=1&url=http://192.168.0.251:9090/aicheck-face/ai/1ef16275ca92295ac20bedccc027ab66.png&297e325a66f62bae0166f631b0b2000215687030210041568703021004
+2019-09-17 14:50:31,720 INFO (AuthorizationInterceptor.java:108)- org.apache.catalina.util.ParameterMap@75e96211
+2019-09-17 14:50:31,721 INFO (AuthorizationInterceptor.java:111)- 加密之后的sign=>9A609D0EC0DABCCBC3275A57147D648C
+2019-09-17 14:50:31,772 INFO (AuthorizationInterceptor.java:150)- afterCompletion ----------ex => null
+2019-09-17 14:50:40,001 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Tue Sep 17 14:50:40 CST 2019
+2019-09-17 14:50:50,002 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Tue Sep 17 14:50:50 CST 2019
+2019-09-17 14:51:00,001 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Tue Sep 17 14:51:00 CST 2019
+2019-09-17 14:51:10,001 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Tue Sep 17 14:51:10 CST 2019
+2019-09-17 14:51:20,001 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Tue Sep 17 14:51:20 CST 2019
+2019-09-17 14:51:30,001 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Tue Sep 17 14:51:30 CST 2019
+2019-09-17 14:51:40,003 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Tue Sep 17 14:51:40 CST 2019
+2019-09-17 14:51:50,001 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Tue Sep 17 14:51:50 CST 2019
+2019-09-17 14:52:00,001 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Tue Sep 17 14:52:00 CST 2019
+2019-09-17 14:52:10,001 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Tue Sep 17 14:52:10 CST 2019
+2019-09-17 14:52:17,301 INFO (AuthorizationInterceptor.java:106)- 加密之前的id=105&297e325a66f62bae0166f631b0b2000215687030210041568703021004
+2019-09-17 14:52:17,302 INFO (AuthorizationInterceptor.java:108)- org.apache.catalina.util.ParameterMap@75e96211
+2019-09-17 14:52:17,302 INFO (AuthorizationInterceptor.java:111)- 加密之后的sign=>DBE963396F2F2AC675B6C8B6C3A3FE5E
+2019-09-17 14:52:17,317 INFO (AuthorizationInterceptor.java:150)- afterCompletion ----------ex => null
+2019-09-17 14:52:20,002 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Tue Sep 17 14:52:20 CST 2019
+2019-09-17 14:52:30,001 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Tue Sep 17 14:52:30 CST 2019
+2019-09-17 14:52:40,001 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Tue Sep 17 14:52:40 CST 2019
+2019-09-17 14:52:50,001 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Tue Sep 17 14:52:50 CST 2019
+2019-09-17 14:53:00,002 INFO (TrafficStatisticsSchedule.java:108)- 调用！！！！！！！！！！！！！！Tue Sep 17 14:53:00 CST 2019

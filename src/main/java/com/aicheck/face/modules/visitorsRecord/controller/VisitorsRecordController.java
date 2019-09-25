@@ -97,14 +97,19 @@ public class VisitorsRecordController {
 	public R save(@RequestBody VisitorsRecordForm visitorsRecordForm) {
 
 		System.out.println("进入同步方法");
+		
 
 		log.info("新客识别 ->{}", JSON.toJSONString(visitorsRecordForm));
 
 		// 声明新的对象
 		VisitorsRecord visitorsRecord = new VisitorsRecord();
+		
+		CustomerVO channelc = new CustomerVO();
 
 		// 将数据同步到visitorsRecord类的对象中
 		BeanUtils.copyProperties(visitorsRecordForm, visitorsRecord);
+		
+		BeanUtils.copyProperties(visitorsRecordForm, channelc);
 
 		/**
 		 * 判断customer_id 存在与否
@@ -114,8 +119,7 @@ public class VisitorsRecordController {
 		Customer customer=customerService.findById(Integer.parseInt(visitorsRecordForm.getCustomerId()));
 		if(customer!=null){
 			//将会员的信息存入到 visitors_record 的表中（提高识别信息的准确性）
-			visitorsRecord.setAge(customer.getAge());
-
+			visitorsRecord.setAge(customer.getAge());      //赋值年龄
 			visitorsRecord.setGender(customer.getGender());
 		}
 		}
@@ -130,33 +134,44 @@ public class VisitorsRecordController {
 
 		List<String> ipList = deviceList.stream().map(Device::getIpAddress).collect(Collectors.toList());
 
+		log.info("哈哈哈1"+deviceList);
+		log.info("哈哈哈2"+ipList);
+		
 		// 中间表中插入数据
-		String ipString = "";
+	/*	String ipString = "";
 		String deviceString = "";
 		sync sy = new sync();
-
+		*/
+/*		if(deviceList!=null || deviceList.size()!=0) {
+		
 		for (int m = 0; m < deviceList.size(); m++) {
 			deviceString += deviceList.get(m) + ",";
 		}
-		String deviceStringnew = deviceString.substring(0, deviceString.length() - 1);
-
-		sy.setFunc(deviceStringnew);
+		
+			String deviceStringnew = deviceString.substring(0, deviceString.length() - 1);
+			sy.setFunc(deviceStringnew);
+		}
 		sy.setCreateTime(new Date());
 
+		if(ipList!=null || ipList.size()!=0) {
+		
 		for (int r = 0; r < ipList.size(); r++) {
 			ipString += ipList.get(r) + ",";
 		}
 		String ipStringnew = ipString.substring(0, ipString.length() - 1);
 
 		sy.setReceiver(ipStringnew);
+		}
+		
 		sy.setStatus(0);
 
 		sync sync = syncservice.save(sy);
 		if(sync!=null) {
 			
-		}
+		}*/
 		// 存入sync 表之后此程序结束 。 调用线程开始同步机器
-		
+		log.info("同步前");
+			
 		  GlobalUser.channels.forEach(channel -> { if
 		  (ipList.contains(channel.remoteAddress().toString())) { //判断ipList是否是
 		 
@@ -164,13 +179,15 @@ public class VisitorsRecordController {
 		  
 		  message.setAction(MessageTypeEnum.NEW_CUSTOMER.getValue());
 		  
-		  message.setObject(new CustomerVO());
-		  
+		  //message.setObject(new CustomerVO());
+		  message.setObject(channelc);
 		  channel.writeAndFlush(new TextWebSocketFrame(JSON.toJSONString(message)));
-		  
 		  }
+		  
 		   });
+		  
 		 
+		  log.info("新客识别方法完成!"+ channelc);
 
 		return R.ok(visitorsRecord);
 	}

@@ -57,9 +57,9 @@ public class CarstatisticsController {
 	@PostMapping("/querycar")
 	public R findAllList(int type,@RequestParam(value = "currentPage", defaultValue = "1") Integer currentPage,
 			@RequestParam(value = "pageSize", defaultValue = "15") Integer pageSize) {
-		
+					
 		if(type==1) {
-			//date:2019-9-9     Page<Carstatistics> visitorsRecords = CarstatisticsService.findAll(currentPage, pageSize);
+			//date:2019-9-9   Page<Carstatistics> visitorsRecords = CarstatisticsService.findAll(currentPage, pageSize);
 			List<Carstatistics> visitorsRecords=CarstatisticsService.querycarallforday(currentPage, pageSize);
 			Map<String,Object> map=new HashMap<String,Object>();
 			map.put("totalElements",CarstatisticsService.querycarallfordaycount());

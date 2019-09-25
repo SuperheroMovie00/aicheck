@@ -11,13 +11,17 @@ import com.aicheck.face.common.utils.FileUtils;
 import com.aicheck.face.common.utils.PropertiesUtils;
 import com.aicheck.face.modules.advertisingImages.entity.AdvertisingImages;
 import com.aicheck.face.modules.advertisingImages.entity.ImageGroup;
+import com.aicheck.face.modules.advertisingImages.entity.ImageStrategy;
 import com.aicheck.face.modules.advertisingImages.service.AdvertisingImagesService;
 import com.aicheck.face.modules.advertisingImages.service.ImageGroupService;
+import com.aicheck.face.modules.advertisingImages.service.ImageStrategyService;
 import com.aicheck.face.modules.advertisingImages.utils.FileSuffixUtils;
 import com.aicheck.face.modules.advertisingImages.vo.AdvertisingImagesInfoVO;
 import com.aicheck.face.modules.advertisingImages.vo.AdvertisingImagesVO;
 import com.aicheck.face.modules.device.entity.Device;
 import com.aicheck.face.modules.device.service.DeviceService;
+import com.aicheck.face.modules.pathseting.entity.pathseting;
+import com.aicheck.face.modules.pathseting.service.pathsetingService;
 import com.aicheck.face.vo.R;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -47,6 +51,11 @@ public class AdvertisingImagesController {
     private DeviceService deviceService;
     @Autowired
     private ImageGroupService imageGroupService;
+    @Autowired
+    private ImageStrategyService imagestrategyservice;
+    @Autowired
+    private pathsetingService pathsetingservice;
+    
 
     @GetMapping
     public R findAll() {
@@ -68,9 +77,7 @@ public class AdvertisingImagesController {
 
         List<AdvertisingImages> advertisingImagesList = advertisingImagesService.findByIds(idList);
 
-        if(advertisingImagesList==null){
-            return R.error("ids=>  advertisingImagesList为空");
-        }
+        
 
         List<AdvertisingImagesVO> advertisingImagesVOList = BeanUtils.batchTransform(AdvertisingImagesVO.class,advertisingImagesList);
         
@@ -79,6 +86,7 @@ public class AdvertisingImagesController {
         	FileUtils file=new FileUtils();
         		
         	advertisingImagesVOList.get(r).setImage(file.getImageBase64Str(advertisingImagesList.get(r).getImage()));
+        	//advertisingImagesVOList.get(r).setImage(file.getImageBase64Str(advertisingImagesList.get(r).getUrl()));
         }
         
         return R.ok(advertisingImagesVOList);
@@ -142,10 +150,7 @@ public class AdvertisingImagesController {
 
         List<AdvertisingImages> advertisingImagesList = advertisingImagesService.findByDeviceIdAi(deviceId);
 
-
-
         if (CollectionUtils.isEmpty(advertisingImagesList)) {
-
             return R.ok(findDefaultAi());
         }
 
@@ -160,10 +165,18 @@ public class AdvertisingImagesController {
             if(imageGroup==null){
                 return R.error("/device-ai/{deviceId}=>  imageGroup为空");
             }
-
+            String Strategy="";
+            List<ImageStrategy> ImageStrategylist=imagestrategyservice.querystrategyforcusid(integer);
+            for (ImageStrategy imageStrategy : ImageStrategylist) {
+            	Strategy+=imageStrategy.getStrategy()+",";
+			}
+            Strategy = Strategy.substring(0,Strategy.length() - 1);
+            
             AdvertisingImagesInfoVO advertisingImagesInfoVO = new AdvertisingImagesInfoVO();
             advertisingImagesInfoVO.setGroupId(integer);
-            advertisingImagesInfoVO.setStrategy(imageGroup.getStrategy());
+            
+            //advertisingImagesInfoVO.setStrategy(imageGroup.getStrategy());
+            advertisingImagesInfoVO.setStrategy(Strategy);
             advertisingImagesInfoVO.setStrategyType(imageGroup.getStrategyType());
 
             List<Integer> idList = new ArrayList<>();
@@ -181,7 +194,9 @@ public class AdvertisingImagesController {
         /**
          * 获取初始默认的分组中的资源
          */
-        List<AdvertisingImages> defaultList = advertisingImagesService.findByGroupId(0);
+        //List<AdvertisingImages> defaultList = advertisingImagesService.findByGroupId(0);
+        ImageGroup imageGroup=imageGroupService.querydefault();
+        List<AdvertisingImages> defaultList = advertisingImagesService.findByGroupId(imageGroup.getId());
 
         if (!CollectionUtils.isEmpty(defaultList)) {
             AdvertisingImagesInfoVO advertisingImagesInfoVO = new AdvertisingImagesInfoVO();
@@ -237,8 +252,11 @@ public class AdvertisingImagesController {
      */
     private List<AdvertisingImagesInfoVO> findDefaultAi() {
 
-        List<AdvertisingImages> advertisingImagesList = advertisingImagesService.findByGroupId(1);
+//        List<AdvertisingImages> advertisingImagesList = advertisingImagesService.findByGroupId(1);
+        ImageGroup imageGroup=imageGroupService.querydefault();
+        List<AdvertisingImages> advertisingImagesList = advertisingImagesService.findByGroupId(imageGroup.getId());
 
+        
         if (CollectionUtils.isEmpty(advertisingImagesList)) {
             return null;
         }
@@ -269,12 +287,22 @@ public class AdvertisingImagesController {
     @PostMapping("/addadvertisingimages")
     public R addadvertisingimages(AdvertisingImages advertisingimages) {
     	advertisingimages.setCreateTime(new Date());
+    	pathseting pathseting=pathsetingservice.findpathfortype("ai");
+    	String aipath="";
+    	if(pathseting==null) {
+    		aipath="C:/ai";
+    	}else {
+    		aipath=pathseting.getPath();
+    	}
+    	//String Image = advertisingimages.getUrl().replace("http://192.168.0.251:9090/aicheck-face/ai/","");
+    	String Image = advertisingimages.getUrl().replace("http://192.168.1.99:9090/aicheck-face/ai/","");
+    	//advertisingimages.setImage(pathseting.getPath()+"/"+Image);
+    	advertisingimages.setImage(aipath+"/"+Image);
     	AdvertisingImages adv=advertisingImagesService.save(advertisingimages);
 
     	if (adv==null){
             return R.error("/addadvertisingimages=> adv为空");
         }
-
     	return R.ok(adv);
     }
     
@@ -282,15 +310,24 @@ public class AdvertisingImagesController {
     @PostMapping("/defaultaddadvertisingimages")
     public R defaultaddadvertisingimages(AdvertisingImages advertisingimages) {
 
+    	pathseting pathseting=pathsetingservice.findpathfortype("ai");
+    	String aipath="";
+    	if(pathseting==null) {
+    		aipath="C:/ai";
+    	}else {
+    		aipath=pathseting.getPath();
+    	}
+    	//String Image = advertisingimages.getUrl().replace("http://192.168.0.251:9090/aicheck-face/ai/","");
+    	String Image = advertisingimages.getUrl().replace("http://192.168.1.99:9090/aicheck-face/ai/","");
         ImageGroup imageGroup=imageGroupService.querydefault();
-
+        //advertisingimages.setImage(pathseting.getPath()+"/"+Image);
+        advertisingimages.setImage(aipath+"/"+Image);
         advertisingimages.setGroupId(imageGroup.getId());
     	advertisingimages.setCreateTime(new Date());
     	AdvertisingImages adv=advertisingImagesService.save(advertisingimages);
         if (adv==null){
             return R.error("/defaultaddadvertisingimages=> adv为空");
         }
-
     	return R.ok(adv);
     }
     
@@ -366,11 +403,12 @@ public class AdvertisingImagesController {
             }
 
             String url = "http://" + localhost + ":9090/aicheck-face/ai/" + file.getOriginalFilename();
-
+            pathseting p=pathsetingservice.findpathfortype("ai");
             AdvertisingImages advertisingImages = new AdvertisingImages();
             advertisingImages.setType(FileSuffixUtils.checkSuffix(file.getOriginalFilename())?1:2);
             advertisingImages.setGroupId(groupId);
             advertisingImages.setUrl(url);
+            advertisingImages.setImage(p.getPath()+file.getOriginalFilename());
             advertisingImagesList.add(advertisingImages);
         });
 

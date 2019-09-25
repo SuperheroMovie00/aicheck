@@ -55,7 +55,6 @@ public class AuthorizationInterceptor extends HandlerInterceptorAdapter {
             timestamp = request.getParameter("timestamp");
             nonce = request.getParameter("nonce");
             sign = request.getParameter("sign");
-
         }
 
         if (true) {

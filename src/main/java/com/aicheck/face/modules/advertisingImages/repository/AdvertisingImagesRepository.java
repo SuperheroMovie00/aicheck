@@ -22,6 +22,7 @@ public interface AdvertisingImagesRepository extends JpaRepository<AdvertisingIm
 
     @Query(value = "select * from advertising_images where group_id = ?1 order by sort asc limit 1",nativeQuery = true)
     AdvertisingImages findByGroupIdOrderBySortAscLimit(Integer groupId);
+    
 
     @Transactional
     void deleteByGroupId(Integer groupId);

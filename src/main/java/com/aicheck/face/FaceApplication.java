@@ -33,9 +33,7 @@ public class FaceApplication {
  		SystemParameter.out.println("结束时间"+date);
  		
     	demo.startFindNumberStatrewrite(calendar.getTime(),date);*/
-
-
-
+    	
     	SpringApplication.run(FaceApplication.class, args);
         
     	

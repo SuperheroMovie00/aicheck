@@ -87,8 +87,8 @@ public class VideoStatistic {
 		}
 		System.out.println("See You...");
 
-		netsdkApi.CLIENT_Cleanup();
-		System.exit(0);
+		//netsdkApi.CLIENT_Cleanup();
+		//System.exit(0);             //将程序停止
 	}
 
 	public void InitTest() {
@@ -111,7 +111,7 @@ public class VideoStatistic {
 					netsdkApi.CLIENT_GetLastError());
 			return;
 		}
-
+		
 		System.out.printf("Login Device [%s:%d] Success. \n", address, port);
 	}
 

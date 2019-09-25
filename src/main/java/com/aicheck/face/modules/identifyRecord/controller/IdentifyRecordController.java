@@ -101,7 +101,7 @@ public class IdentifyRecordController {
 
     @PostMapping("/latest-all")
     public R findLatestIdentifyAll() {
-
+        log.info("方法开始前!");
         Date date = new Date();
         Calendar calendar = Calendar.getInstance();
         calendar.setTime(date);
@@ -116,13 +116,13 @@ public class IdentifyRecordController {
         }
 
         if (identifyRecord == null) {
-            log.info("广告分类播放请求成功  -> {} ",visitorsRecord.getGender());
+            log.info("广告分类播放请求成功1  -> {} ",visitorsRecord.getGender());
             return R.ok(visitorsRecord);
         }
 
         if (visitorsRecord == null) {
             Customer customer = customerService.findById(Integer.parseInt(identifyRecord.getCustomerId()));
-            log.info("广告分类播放请求成功  -> {} ",customer.getGender());
+            log.info("广告分类播放请求成功2  -> {} ",customer.getGender());
             return R.ok(ConverterUtils.converterCustomerVO(customer));
         }
 
@@ -134,11 +134,11 @@ public class IdentifyRecordController {
         long visitorsTimestamp = visitorsRecord.getCreateTime().getTime();
 
         if (visitorsTimestamp > identifyTimestamp) {
-            log.info("广告分类播放请求成功  -> {} ",visitorsRecord.getGender());
+            log.info("广告分类播放请求成功3  -> {} ",visitorsRecord.getGender());
             return R.ok(visitorsRecord);
         }
 
-        log.info("广告分类播放请求成功  -> {} ",customer.getGender());
+        log.info("广告分类播放请求成功4  -> {} ",customer.getGender());
 
         return R.ok(ConverterUtils.converterCustomerVO(customer));
     }

@@ -234,7 +234,7 @@ public class StatisticalController {
         
         if (type == 1) {
             Videostatistic videostatisticday = videostatisticService.findvideostatisicfortype("day");
-            if (videostatisticday != null) {
+            if (videostatisticday != null) {  
             	SimpleDateFormat dfss = new SimpleDateFormat("yyyy-MM-dd");
             	String newtime= dfss.format(new Date());
 	            if(!dates.equals(newtime)) {
@@ -247,12 +247,64 @@ public class StatisticalController {
 	            }else {
 	            	if(videostatisticday.getModificationTime()==null) {
             		SimpleDateFormat dfs = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-                	Date begin=videostatisticday.getCreateTime();
+            		SimpleDateFormat dfshour = new SimpleDateFormat("HH");
+                	Date begin=videostatisticday.getCreateTime();          //创建时间
                 	Date end = new Date();
+                	String beginhour=dfshour.format(begin);
+                	String endhour=dfshour.format(new Date());
                 	long  hour=(((end.getTime()-begin.getTime())/1000)/60)/60;
-                	if(hour<1) {
-                		 Information = videostatisticday.getDateInformation();
-                         json = JSONObject.fromObject(Information);
+                	if(hour<1) {     //小于1 或者  时间是同一个小时
+                		//判断
+                		if(beginhour.equals(endhour)) {
+                			Information = videostatisticday.getDateInformation();
+                            json = JSONObject.fromObject(Information);
+                		}else {
+                			List<String> day = new ArrayList<String>();
+                            List<String> incount = new ArrayList<String>();
+                            List<String> outcount = new ArrayList<String>();
+                            Date date1 = new Date();
+                            Calendar calendar1 = Calendar.getInstance();
+                            calendar1.setTime(date1);
+                            int Number = calendar1.get(Calendar.HOUR_OF_DAY);
+
+                            for (int r = 0; r < Number; r++) {
+                                Date date = new Date();
+                                Calendar calendar = Calendar.getInstance();
+                                calendar.setTime(date);
+                                calendar.set(Calendar.HOUR_OF_DAY, 0);
+                                
+                                Calendar calendar2 = Calendar.getInstance();
+                                calendar2.setTime(date);
+                                calendar2.set(Calendar.HOUR_OF_DAY, 0);
+                                
+                                calendar.set(Calendar.HOUR_OF_DAY, calendar.get(Calendar.HOUR_OF_DAY) + r);
+                                calendar2.set(Calendar.HOUR_OF_DAY, calendar2.get(Calendar.HOUR_OF_DAY) + r + 1);
+                                Map<String, Integer> cMap = VideoStatistic.startFindNumberStatrewrite(calendar.getTime(), calendar2.getTime(), 1);
+                                
+                                Integer innum =  cMap.get("IN");
+                                Integer outnum = cMap.get("OUT");
+                                json = JSONObject.fromObject(cMap);
+                               /* Videostatistic addvideostatistic = new Videostatistic();
+                                addvideostatistic.setDateType("day");
+                                addvideostatistic.setDateInformation(json.toString());
+                                addvideostatistic.setCreateTime(calendar.getTime());
+                                videostatisticService.save(addvideostatistic);*/
+                                
+                                incount.add(String.valueOf(innum));
+                                outcount.add(String.valueOf(outnum));
+                                day.add(String.valueOf(r)+"时");
+                            }
+                            
+                            requestmap.put("day", day);
+                            requestmap.put("incount", incount);
+                            requestmap.put("outcount", outcount);
+                            json = JSONObject.fromObject(requestmap);
+                            videostatisticday.setDateType("day");
+                            videostatisticday.setDateInformation(json.toString());
+                            videostatisticday.setModificationTime(new Date());
+                            videostatisticService.save(videostatisticday);
+                		}
+                			
                 	}else {
                 		List<String> day = new ArrayList<String>();
                         List<String> incount = new ArrayList<String>();
@@ -276,7 +328,7 @@ public class StatisticalController {
                             calendar2.set(Calendar.HOUR_OF_DAY, calendar2.get(Calendar.HOUR_OF_DAY) + r + 1);
                             Map<String, Integer> cMap = VideoStatistic.startFindNumberStatrewrite(calendar.getTime(), calendar2.getTime(), 1);
                             
-                            Integer innum = cMap.get("IN");
+                            Integer innum =  cMap.get("IN");
                             Integer outnum = cMap.get("OUT");
                             json = JSONObject.fromObject(cMap);
                            /* Videostatistic addvideostatistic = new Videostatistic();
@@ -302,15 +354,66 @@ public class StatisticalController {
                 	
             	}else {
             		SimpleDateFormat dfs = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-                	Date begin=videostatisticday.getModificationTime();
+            		SimpleDateFormat dfshour = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+                	Date begin=videostatisticday.getModificationTime();     //修改时间
                 	Date end = new Date();
-                	long  hour=(((end.getTime()-begin.getTime())/1000)/60)/60;
+                	String beginhour=dfshour.format(begin);
+                	String endhour=dfshour.format(new Date());
+                	long hour=(((end.getTime()-begin.getTime())/1000)/60)/60;    //判断相隔时间 
                 	if(hour<1) {
-                		 Information = videostatisticday.getDateInformation();
-                         json = JSONObject.fromObject(Information);
+                		if(beginhour.equals(endhour)) {
+                			Information = videostatisticday.getDateInformation();
+                            json = JSONObject.fromObject(Information);
+                		}else {
+                			List<String> day = 		new ArrayList<String>();
+                            List<String> incount = 	new ArrayList<String>();
+                            List<String> outcount = new ArrayList<String>();
+                            Date date1 = new Date();
+                            Calendar calendar1 = Calendar.getInstance();
+                            calendar1.setTime(date1);
+                            int Number = calendar1.get(Calendar.HOUR_OF_DAY);
+                            
+                            for (int r = 0; r < Number; r++) {
+                                Date date = new Date();
+                                Calendar calendar = Calendar.getInstance();
+                                calendar.setTime(date);
+                                calendar.set(Calendar.HOUR_OF_DAY, 0);
+                                
+                                Calendar calendar2 = Calendar.getInstance();
+                                calendar2.setTime(date);
+                                calendar2.set(Calendar.HOUR_OF_DAY, 0);
+                                
+                                calendar.set(Calendar.HOUR_OF_DAY, calendar.get(Calendar.HOUR_OF_DAY) + r);
+                                calendar2.set(Calendar.HOUR_OF_DAY, calendar2.get(Calendar.HOUR_OF_DAY) + r + 1);
+                                Map<String, Integer> cMap = VideoStatistic.startFindNumberStatrewrite(calendar.getTime(), calendar2.getTime(), 1);
+                                
+                                Integer innum = cMap.get("IN");
+                                Integer outnum = cMap.get("OUT");
+                                json = JSONObject.fromObject(cMap);
+                               /* Videostatistic addvideostatistic = new Videostatistic();
+                                addvideostatistic.setDateType("day");
+                                addvideostatistic.setDateInformation(json.toString());
+                                addvideostatistic.setCreateTime(calendar.getTime());
+                                videostatisticService.save(addvideostatistic);*/
+                                
+                                incount.add(String.valueOf(innum));
+                                outcount.add(String.valueOf(outnum));
+                                day.add(String.valueOf(r)+"时");
+                            }
+                            
+                            requestmap.put("day", day);
+                            requestmap.put("incount", incount);
+                            requestmap.put("outcount", outcount);
+                            json = JSONObject.fromObject(requestmap);
+                            videostatisticday.setDateType("day");
+                            videostatisticday.setDateInformation(json.toString());
+                            videostatisticday.setModificationTime(new Date());
+                            videostatisticService.save(videostatisticday);
+                		}
+                		 
                 	}else {
                 		List<String> day = new ArrayList<String>();
-                        List<String> incount = new ArrayList<String>();
+                        List<String> incount = new ArrayList<String>();	
                         List<String> outcount = new ArrayList<String>();
                         Date date1 = new Date();
                         Calendar calendar1 = Calendar.getInstance();
@@ -465,10 +568,9 @@ public class StatisticalController {
                 addvideostatistic.setDateInformation(json.toString());
                 addvideostatistic.setCreateTime(new Date());
                 videostatisticService.save(addvideostatistic);
-
+                
             }
         }
-
 
         /**
          * 按照年来统计
@@ -480,17 +582,15 @@ public class StatisticalController {
             Videostatistic videostatisticyear = videostatisticService.findvideostatisicfortype("year");
 
             if (videostatisticyear != null) {
-
                 Information = videostatisticyear.getDateInformation();
                 json = JSONObject.fromObject(Information);
             } else {
                 List<String> day = new ArrayList<String>();
                 List<String> incount = new ArrayList<String>();
                 List<String> outcount = new ArrayList<String>();
-
+                
                 SimpleDateFormat simdf = new SimpleDateFormat("yyyy-MM-dd");
-
-
+                
                 int c = 0;
                 for (int r =0; r <= 12; r++) {
 
@@ -532,7 +632,7 @@ public class StatisticalController {
                 videostatisticService.save(addvideostatistic);
             }
         }
-
+        demo.EndTest();   	//解决连接数到限的问题
         return R.ok(json);
 
     }

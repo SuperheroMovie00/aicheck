@@ -148,7 +148,7 @@ public class ImageGroupController {
 		ImageGroup imageGroup = imageGroupService.findById(groupid);
 
 		if(imageGroup==null){
-			return R.error("//updateimagegrouper=> imageGroup为空");
+			return R.error("//updateimagegrouper  => imageGroup为空");
 		}
 		//String[] chars = imageGroup.getDeviceIds().split("\\|"); // |管道符需要转译
 		String[] chars = imageGroup.getDeviceShow().split("\\|"); // |管道符需要转译
@@ -193,7 +193,7 @@ public class ImageGroupController {
 	// 新添加的修改方法
 	@PostMapping("/updateimagegroup")
 	public R updateimagegroup(Integer groupid, String device) {
-		ImageGroup r = null;
+		ImageGroup r = null;	
 		Device devicean=null;
 		ImageGroup imageGroup = imageGroupService.findById(groupid);
 		if(imageGroup==null){
@@ -212,18 +212,28 @@ public class ImageGroupController {
 		}
 		
 		String Macaddress = devicean.getMacAddress();
-		if(imageGroup.getDeviceIds().equals("")) {
+		if(imageGroup.getDeviceIds()==null) {
 			imageGroup.setDeviceIds(Macaddress);
+		}else {
+			imageGroup.setDeviceIds(imageGroup.getDeviceIds() +","+ Macaddress);// 将加入新添加mac地址的新的device的地址重新赋值在此字段	
 		}
-		imageGroup.setDeviceIds(imageGroup.getDeviceIds() +","+ Macaddress);// 将加入新添加mac地址的新的device的地址重新赋值在此字段
 
 		if (deviceIds == null || deviceIds.equals("")) {
 			imageGroup.setDeviceShow(charss);
-			imageGroup.setMachinenum(imageGroup.getMachinenum() + 1);
+			if(imageGroup.getMachinenum()==null) {
+				imageGroup.setMachinenum(1);
+			}else {
+				imageGroup.setMachinenum(imageGroup.getMachinenum() + 1);
+			}
 			r = imageGroupService.update(imageGroup);
 		} else {
 			imageGroup.setDeviceShow(deviceIds + "|" +charss);
-			imageGroup.setMachinenum(imageGroup.getMachinenum() + 1); // 添加机器机器数加1
+			//imageGroup.setMachinenum(imageGroup.getMachinenum() + 1); // 添加机器机器数加1
+			if(imageGroup.getMachinenum()==null) {
+				imageGroup.setMachinenum(1);
+			}else {
+				imageGroup.setMachinenum(imageGroup.getMachinenum() + 1);
+			}
 			r = imageGroupService.update(imageGroup);
 		}
 		return R.ok(r);
@@ -260,7 +270,7 @@ public class ImageGroupController {
 	@PostMapping
 	public R save(@RequestBody ImageGroupForm imageGroupForm) {
 
-		// SystemParameter.out.println("红火火恍恍惚惚"+imageGroupForm);
+		
 		ImageGroup imageGroup = new ImageGroup();
 		if (imageGroupForm.getParentId() != null) {
 			ImageGroup parent = imageGroupService.findById(imageGroupForm.getParentId());

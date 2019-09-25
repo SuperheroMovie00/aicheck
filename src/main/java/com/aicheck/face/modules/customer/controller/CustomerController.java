@@ -752,7 +752,7 @@ public class CustomerController {
 		// String path = "/Users/liaojin/Desktop/opencv/";
 		//String path = PropertiesUtils.getInstance().getProperties("visitors");
 
-		String path="C://ai";
+		String path="C:/ai";
 		pathseting  pathempty=pathsetingService.findpathfortype("ai");
 		if(pathempty!=null){
 			path =pathempty.getPath();

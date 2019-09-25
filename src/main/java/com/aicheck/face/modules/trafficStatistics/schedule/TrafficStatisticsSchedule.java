@@ -598,7 +598,7 @@ public class TrafficStatisticsSchedule {
 	        videostatisticday.setCreateTime(new Date());
 	        videostatisticService.save(videostatisticday);
 		}
-		
+		demo.EndTest();				//解决连接数到限的问题
 	}
 	
 	

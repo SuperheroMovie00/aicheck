@@ -12,6 +12,7 @@ public interface ImageStrategyRepository extends JpaRepository<ImageStrategy,Int
 	
 	 @Query(value = "select * from image_strategy where group_id=?1",nativeQuery = true)
 	 List<ImageStrategy> querystrategyforcusid(Integer groupid);
-	
+	 
+	 
 	
 }
